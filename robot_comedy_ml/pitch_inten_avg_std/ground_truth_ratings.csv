@@ -1,0 +1,638 @@
+PerformanceId,Performance,JokeId,Joke,HumanScore,HumanScorePostJokeOnly,TotalReactionTime,ReactionTimePostJoke
+0,2018-07-08 Yardwork,3,robot_name_joke_2.ogg.wav,-1,-1,0,0
+0,2018-07-08 Yardwork,4,gdpr_joke.ogg.wav,1,1,3.32,3.32
+0,2018-07-08 Yardwork,6,silicon_valley_joke_pt1.wav,1,1,3.41,0.609181757
+0,2018-07-08 Yardwork,7,silicon_valley_joke_pt2.wav,1,-1,0,0
+0,2018-07-08 Yardwork,8,rent_prices.ogg.wav,-1,-1,1.12,1.12
+0,2018-07-08 Yardwork,9,job_joke.ogg.wav,0,0,3.52,1.558865043
+0,2018-07-08 Yardwork,10,inverse_kinematics_equations.ogg.wav,0,0,2.74,2.74
+0,2018-07-08 Yardwork,11,family_joke.ogg.wav,1,1,4.67,4.598247513
+0,2018-07-08 Yardwork,12,too_robotic_joke.ogg.wav,0,0,2.85,1.103963089
+0,2018-07-08 Yardwork,13,c3po_joke.ogg.wav,-1,-1,0.6,0
+0,2018-07-08 Yardwork,14,rosie_joke.ogg.wav,-1,-1,0,0
+0,2018-07-08 Yardwork,15,wall-e_joke.ogg.wav,1,1,1.86,0.789262272
+0,2018-07-08 Yardwork,16,plastic_surgery_joke.ogg.wav,-1,-1,0,0
+0,2018-07-08 Yardwork,17,bender_joke.ogg.wav,1,1,3.15,3.15
+0,2018-07-08 Yardwork,18,for_all_my_robots_joke.ogg.wav,0,0,2.25,2.25
+0,2018-07-08 Yardwork,20,terminator_joke.ogg.wav,0,0,2.9,2.23
+0,2018-07-08 Yardwork,29,closing_take_jobs.ogg.wav,1,0,3.4,0
+1,2018-07-11 Quantum Mic,3,robot_name_joke_2.ogg.wav,-1,-1,0,0
+1,2018-07-11 Quantum Mic,4,gdpr_joke.ogg.wav,1,1,3.18,2.906314744
+1,2018-07-11 Quantum Mic,7,silicon_valley_joke_pt2.wav,-1,-1,0.79,0
+1,2018-07-11 Quantum Mic,8,rent_prices.ogg.wav,-1,-1,0.91,0.91
+1,2018-07-11 Quantum Mic,9,job_joke.ogg.wav,0,0,1.66,1.66
+1,2018-07-11 Quantum Mic,10,inverse_kinematics_equations.ogg.wav,1,1,1.94,1.846544644
+1,2018-07-11 Quantum Mic,11,family_joke.ogg.wav,0,0,1.28,1.28
+1,2018-07-11 Quantum Mic,12,too_robotic_joke.ogg.wav,-1,-1,0,0
+1,2018-07-11 Quantum Mic,13,c3po_joke.ogg.wav,-1,-1,0,0
+1,2018-07-11 Quantum Mic,14,rosie_joke.ogg.wav,-1,-1,0,0
+1,2018-07-11 Quantum Mic,15,wall-e_joke.ogg.wav,-1,-1,0,0
+1,2018-07-11 Quantum Mic,16,plastic_surgery_joke.ogg.wav,0,0,0.69,0.617621742
+1,2018-07-11 Quantum Mic,17,bender_joke.ogg.wav,0,0,2.15,1.31
+1,2018-07-11 Quantum Mic,18,for_all_my_robots_joke.ogg.wav,1,1,2.51,2.51
+1,2018-07-11 Quantum Mic,19,white_people_joke.ogg.wav,-1,-1,0,0
+1,2018-07-11 Quantum Mic,20,terminator_joke.ogg.wav,-1,-1,1.3,1.3
+1,2018-07-11 Quantum Mic,29,closing_take_jobs.ogg.wav,1,1,5.628,2.734984845
+2,2018-07-21 Pasadena Media,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+2,2018-07-21 Pasadena Media,6,silicon_valley_joke_pt1.wav,1,1,1.63,1.63
+2,2018-07-21 Pasadena Media,7,silicon_valley_joke_pt2.wav,1,1,1.4,1.4
+2,2018-07-21 Pasadena Media,8,rent_prices.ogg.wav,-1,-1,0.83,0.83
+2,2018-07-21 Pasadena Media,9,job_joke.ogg.wav,0,-1,1.16,0
+2,2018-07-21 Pasadena Media,10,inverse_kinematics_equations.ogg.wav,1,1,2.49,1.34498756
+2,2018-07-21 Pasadena Media,11,family_joke.ogg.wav,1,1,1.3,1.3
+2,2018-07-21 Pasadena Media,12,too_robotic_joke.ogg.wav,-1,-1,0.85,0.673967152
+2,2018-07-21 Pasadena Media,13,c3po_joke.ogg.wav,-1,-1,1.48,1.48
+2,2018-07-21 Pasadena Media,14,rosie_joke.ogg.wav,-1,-1,0.69,0.69
+2,2018-07-21 Pasadena Media,15,wall-e_joke.ogg.wav,0,0,1.12,1.12
+2,2018-07-21 Pasadena Media,16,plastic_surgery_joke.ogg.wav,0,0,1.81,1.81
+2,2018-07-21 Pasadena Media,21,baha_men_joke.ogg.wav,0,0,3.71,1.34
+2,2018-07-21 Pasadena Media,22,light_bulb_joke.ogg.wav,1,1,2.29,2.014125882
+2,2018-07-21 Pasadena Media,23,robot_tinder.ogg.wav,-1,-1,0.97,0.97
+2,2018-07-21 Pasadena Media,24,big_chips_joke.ogg.wav,0,0,1.11,1.11
+2,2018-07-21 Pasadena Media,25,catfish_joke.ogg.wav,1,1,1.17,1.17
+2,2018-07-21 Pasadena Media,26,ip_address_joke.ogg.wav,0,0,1.11,1.11
+2,2018-07-21 Pasadena Media,27,encryption_joke.ogg.wav,1,1,3.31,2.18
+2,2018-07-21 Pasadena Media,18,for_all_my_robots_joke.ogg.wav,-1,-1,1.11,0.020656494
+2,2018-07-21 Pasadena Media,20,terminator_joke.ogg.wav,-1,-1,1.3,1.3
+2,2018-07-21 Pasadena Media,29,closing_take_jobs.ogg.wav,1,0,3.4,1.97
+3,2018-07-22 Yardwork,3,robot_name_joke_2.ogg.wav,-1,-1,0,0
+3,2018-07-22 Yardwork,4,gdpr_joke.ogg.wav,1,1,3.05,3.05
+3,2018-07-22 Yardwork,5,siri_backpropagate.ogg.wav,-1,-1,1.3,1.3
+3,2018-07-22 Yardwork,6,silicon_valley_joke_pt1.wav,1,1,1.48,1.48
+3,2018-07-22 Yardwork,7,silicon_valley_joke_pt2.wav,0,0,1.18,1.18
+3,2018-07-22 Yardwork,8,rent_prices.ogg.wav,-1,-1,0.82,0.82
+3,2018-07-22 Yardwork,9,job_joke.ogg.wav,-1,-1,0,0
+3,2018-07-22 Yardwork,10,inverse_kinematics_equations.ogg.wav,-1,-1,1.19,1.19
+3,2018-07-22 Yardwork,11,family_joke.ogg.wav,0,0,1.96,1.96
+3,2018-07-22 Yardwork,18,for_all_my_robots_joke.ogg.wav,0,0,1.79,1.192573696
+3,2018-07-22 Yardwork,20,terminator_joke.ogg.wav,-1,-1,0,0
+3,2018-07-22 Yardwork,21,baha_men_joke.ogg.wav,0,-1,2.71,0.72
+3,2018-07-22 Yardwork,22,light_bulb_joke.ogg.wav,-1,-1,0.66,0.66
+3,2018-07-22 Yardwork,23,robot_tinder.ogg.wav,-1,-1,0,0
+3,2018-07-22 Yardwork,24,big_chips_joke.ogg.wav,-1,-1,1.05,0
+3,2018-07-22 Yardwork,25,catfish_joke.ogg.wav,-1,-1,0,0
+3,2018-07-22 Yardwork,26,ip_address_joke.ogg.wav,-1,-1,2.21,2.21
+3,2018-07-22 Yardwork,27,encryption_joke.ogg.wav,1,1,2.04,2.04
+3,2018-07-22 Yardwork,28,robot_sexy_times.ogg.wav,1,1,3.83,2.99
+3,2018-07-22 Yardwork,29,closing_take_jobs.ogg.wav,1,1,7.719,6.099603117
+4,2018-07-25 Quantum Mic,3,robot_name_joke_2.ogg.wav,0,-1,0,0
+4,2018-07-25 Quantum Mic,4,gdpr_joke.ogg.wav,1,1,4.44,4.44
+4,2018-07-25 Quantum Mic,5,siri_backpropagate.ogg.wav,0,0,2.36,1.05
+4,2018-07-25 Quantum Mic,10,inverse_kinematics_equations.ogg.wav,0,0,1.37,1.37
+4,2018-07-25 Quantum Mic,21,baha_men_joke.ogg.wav,0,-1,3.16,0.180513277
+4,2018-07-25 Quantum Mic,22,light_bulb_joke.ogg.wav,0,0,0.97,0.723768252
+4,2018-07-25 Quantum Mic,23,robot_tinder.ogg.wav,-1,-1,0.8,0
+4,2018-07-25 Quantum Mic,24,big_chips_joke.ogg.wav,0,0,4.34,3.412888319
+4,2018-07-25 Quantum Mic,25,catfish_joke.ogg.wav,-1,-1,0.88,0.88
+4,2018-07-25 Quantum Mic,26,ip_address_joke.ogg.wav,-1,-1,1.58,1.518465569
+4,2018-07-25 Quantum Mic,27,encryption_joke.ogg.wav,1,1,3.4,2.47
+4,2018-07-25 Quantum Mic,28,robot_sexy_times.ogg.wav,1,1,2.95,2.95
+4,2018-07-25 Quantum Mic,29,closing_take_jobs.ogg.wav,1,1,9.061,2.827029478
+5,2018-07-26 Flappers,3,robot_name_joke_2.ogg.wav,0,0,0,0
+5,2018-07-26 Flappers,4,gdpr_joke.ogg.wav,1,1,4.21,3.35
+5,2018-07-26 Flappers,5,siri_backpropagate.ogg.wav,1,1,7.7,2.97
+5,2018-07-26 Flappers,10,inverse_kinematics_equations.ogg.wav,1,1,3.16,2.900239729
+5,2018-07-26 Flappers,21,baha_men_joke.ogg.wav,1,1,8.85,4.019777247
+5,2018-07-26 Flappers,22,light_bulb_joke.ogg.wav,1,1,4.76,4.365351474
+5,2018-07-26 Flappers,23,robot_tinder.ogg.wav,1,1,6.82,4.784080355
+5,2018-07-26 Flappers,24,big_chips_joke.ogg.wav,0,-1,1.47,0
+5,2018-07-26 Flappers,29,closing_take_jobs.ogg.wav,1,1,8.52,1.84
+6,2018-07-26 Giggle Bash,3,robot_name_joke_2.ogg.wav,-1,-1,0,0
+6,2018-07-26 Giggle Bash,4,gdpr_joke.ogg.wav,1,1,3.09,3.09
+6,2018-07-26 Giggle Bash,5,siri_backpropagate.ogg.wav,0,0,2.11,0.86
+6,2018-07-26 Giggle Bash,6,silicon_valley_joke_pt1.wav,1,1,1.89,1.888811662
+6,2018-07-26 Giggle Bash,7,silicon_valley_joke_pt2.wav,1,1,1.27,1.27
+6,2018-07-26 Giggle Bash,8,rent_prices.ogg.wav,0,0,1.02,1.02
+6,2018-07-26 Giggle Bash,9,job_joke.ogg.wav,1,1,2.58,2.00216913
+6,2018-07-26 Giggle Bash,10,inverse_kinematics_equations.ogg.wav,0,0,1.92,1.92
+6,2018-07-26 Giggle Bash,11,family_joke.ogg.wav,1,1,2.88,2.742186505
+6,2018-07-26 Giggle Bash,12,too_robotic_joke.ogg.wav,-1,-1,0.31,0.150915344
+6,2018-07-26 Giggle Bash,13,c3po_joke.ogg.wav,-1,-1,0.42,0.42
+6,2018-07-26 Giggle Bash,14,rosie_joke.ogg.wav,0,0,1.26,1.26
+6,2018-07-26 Giggle Bash,15,wall-e_joke.ogg.wav,-1,-1,1.58,1.19
+6,2018-07-26 Giggle Bash,16,plastic_surgery_joke.ogg.wav,-1,-1,0,0
+6,2018-07-26 Giggle Bash,17,bender_joke.ogg.wav,-1,-1,1.29,0.6
+6,2018-07-26 Giggle Bash,18,for_all_my_robots_joke.ogg.wav,1,1,2.2,2.2
+6,2018-07-26 Giggle Bash,19,white_people_joke.ogg.wav,-1,-1,0.41,0
+6,2018-07-26 Giggle Bash,20,terminator_joke.ogg.wav,0,0,2.69,1.7
+6,2018-07-26 Giggle Bash,21,baha_men_joke.ogg.wav,1,1,6.09,4.62
+6,2018-07-26 Giggle Bash,22,light_bulb_joke.ogg.wav,1,1,2.86,2.569231488
+6,2018-07-26 Giggle Bash,23,robot_tinder.ogg.wav,1,1,3.31,2.51
+6,2018-07-26 Giggle Bash,24,big_chips_joke.ogg.wav,1,1,1.91,1.19
+6,2018-07-26 Giggle Bash,25,catfish_joke.ogg.wav,-1,-1,1.31,0.86
+6,2018-07-26 Giggle Bash,26,ip_address_joke.ogg.wav,-1,-1,1.38,1.38
+6,2018-07-26 Giggle Bash,27,encryption_joke.ogg.wav,1,1,2.68,1.89
+6,2018-07-26 Giggle Bash,28,robot_sexy_times.ogg.wav,1,1,5.49,4.77
+6,2018-07-26 Giggle Bash,29,closing_take_jobs.ogg.wav,1,1,2.523,2.422986954
+7,2018-07-26 Surprise Party,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+7,2018-07-26 Surprise Party,4,gdpr_joke.ogg.wav,1,1,3.75,3.692638319
+7,2018-07-26 Surprise Party,5,siri_backpropagate.ogg.wav,1,1,2.69,2.565974249
+7,2018-07-26 Surprise Party,10,inverse_kinematics_equations.ogg.wav,1,1,2.98,2.46326103
+7,2018-07-26 Surprise Party,21,baha_men_joke.ogg.wav,1,1,10.13,4.07
+7,2018-07-26 Surprise Party,22,light_bulb_joke.ogg.wav,1,1,1.76,1.392597169
+7,2018-07-26 Surprise Party,23,robot_tinder.ogg.wav,1,0,3.78,1.38
+7,2018-07-26 Surprise Party,24,big_chips_joke.ogg.wav,1,1,4.39,3.39
+7,2018-07-26 Surprise Party,25,catfish_joke.ogg.wav,-1,-1,0.29,0.29
+7,2018-07-26 Surprise Party,26,ip_address_joke.ogg.wav,0,0,2.68,2.68
+7,2018-07-26 Surprise Party,27,encryption_joke.ogg.wav,1,1,2.14,2.14
+7,2018-07-26 Surprise Party,28,robot_sexy_times.ogg.wav,1,-1,6.67,0.025277975
+7,2018-07-26 Surprise Party,29,closing_take_jobs.ogg.wav,1,1,12.497,4.459521738
+8,2018-08-22 Riverside Getaway Cafe,3,robot_name_joke_2.ogg.wav,0,-1,1.87,0.759410431
+8,2018-08-22 Riverside Getaway Cafe,4,gdpr_joke.ogg.wav,1,1,4.095,4.095
+8,2018-08-22 Riverside Getaway Cafe,115,tags/gdpr_joke_positive.ogg.wav,0,0,1.21,1.21
+8,2018-08-22 Riverside Getaway Cafe,5,siri_backpropagate.ogg.wav,0,0,1.98,0.734058957
+8,2018-08-22 Riverside Getaway Cafe,6,silicon_valley_joke_pt1.wav,-1,-1,1.22,1.22
+8,2018-08-22 Riverside Getaway Cafe,7,silicon_valley_joke_pt2.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,8,rent_prices.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,135,tags/silicon_valley_joke_pt2_positive.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,9,job_joke.ogg.wav,0,0,2.5,2.295272109
+8,2018-08-22 Riverside Getaway Cafe,10,inverse_kinematics_equations.ogg.wav,1,1,1.94,1.94
+8,2018-08-22 Riverside Getaway Cafe,117,tags/inverse_kinematics_equations_positive.ogg.wav,0,0,1.44,0.64
+8,2018-08-22 Riverside Getaway Cafe,11,family_joke.ogg.wav,0,0,1.85,1.34
+8,2018-08-22 Riverside Getaway Cafe,111,tags/family_joke_positive.ogg.wav,1,1,4.13,4.13
+8,2018-08-22 Riverside Getaway Cafe,12,too_robotic_joke.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,137,tags/too_robotic_joke_positive.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,13,c3po_joke.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,14,rosie_joke.ogg.wav,0,0,0.77,0.77
+8,2018-08-22 Riverside Getaway Cafe,15,wall-e_joke.ogg.wav,0,0,1.8,1.11
+8,2018-08-22 Riverside Getaway Cafe,16,plastic_surgery_joke.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,123,tags/plastic_surgery_joke_positive.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,17,bender_joke.ogg.wav,-1,-1,0.91,0
+8,2018-08-22 Riverside Getaway Cafe,18,for_all_my_robots_joke.ogg.wav,0,0,1.39,1.39
+8,2018-08-22 Riverside Getaway Cafe,131,tags/robot_joke_positive.wav,1,1,1.88,1.88
+8,2018-08-22 Riverside Getaway Cafe,19,white_people_joke.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,20,terminator_joke.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,139,tags/white_people_joke_negative.ogg.wav,1,-1,3.2,0
+8,2018-08-22 Riverside Getaway Cafe,21,baha_men_joke.ogg.wav,1,1,2.3,1.615986395
+8,2018-08-22 Riverside Getaway Cafe,102,tags/baha_men_joke_positive.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,22,light_bulb_joke.ogg.wav,1,1,1.23,0.955
+8,2018-08-22 Riverside Getaway Cafe,23,robot_tinder.ogg.wav,-1,-1,0.7,0.7
+8,2018-08-22 Riverside Getaway Cafe,24,big_chips_joke.ogg.wav,0,0,1.74,0.84
+8,2018-08-22 Riverside Getaway Cafe,25,catfish_joke.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,103,tags/catfish_joke_negative.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,26,ip_address_joke.ogg.wav,-1,-1,0.85,0.85
+8,2018-08-22 Riverside Getaway Cafe,27,encryption_joke.ogg.wav,1,1,1.86,1.86
+8,2018-08-22 Riverside Getaway Cafe,108,tags/encryption_joke_positive.ogg.wav,-1,-1,0,0
+8,2018-08-22 Riverside Getaway Cafe,28,robot_sexy_times.ogg.wav,0,0,1.66,1.66
+8,2018-08-22 Riverside Getaway Cafe,29,closing_take_jobs.ogg.wav,1,1,3.69,3.466734694
+9,2018-08-23 Caffeine and Cackles,3,robot_name_joke_2.ogg.wav,1,1,2.77,2.529684975
+9,2018-08-23 Caffeine and Cackles,4,gdpr_joke.ogg.wav,1,1,3.07,3.07
+9,2018-08-23 Caffeine and Cackles,115,tags/gdpr_joke_positive.ogg.wav,1,1,2,2
+9,2018-08-23 Caffeine and Cackles,5,siri_backpropagate.ogg.wav,0,-1,1.73,0
+9,2018-08-23 Caffeine and Cackles,6,silicon_valley_joke_pt1.wav,1,1,1.92,1.92
+9,2018-08-23 Caffeine and Cackles,7,silicon_valley_joke_pt2.wav,-1,-1,0.55,0.55
+9,2018-08-23 Caffeine and Cackles,8,rent_prices.ogg.wav,-1,-1,0,0
+9,2018-08-23 Caffeine and Cackles,135,tags/silicon_valley_joke_pt2_positive.ogg.wav,0,0,1.84,1.780551608
+9,2018-08-23 Caffeine and Cackles,9,job_joke.ogg.wav,-1,-1,1.13,0
+9,2018-08-23 Caffeine and Cackles,10,inverse_kinematics_equations.ogg.wav,0,0,0.54,0.54
+9,2018-08-23 Caffeine and Cackles,117,tags/inverse_kinematics_equations_positive.ogg.wav,-1,-1,0,0
+9,2018-08-23 Caffeine and Cackles,11,family_joke.ogg.wav,1,1,2.23,2.082342349
+9,2018-08-23 Caffeine and Cackles,111,tags/family_joke_positive.ogg.wav,-1,-1,0,0
+9,2018-08-23 Caffeine and Cackles,12,too_robotic_joke.ogg.wav,-1,-1,0.7,0.7
+9,2018-08-23 Caffeine and Cackles,137,tags/too_robotic_joke_positive.ogg.wav,-1,-1,0.43,0.43
+9,2018-08-23 Caffeine and Cackles,13,c3po_joke.ogg.wav,-1,-1,0.44,0.44
+9,2018-08-23 Caffeine and Cackles,14,rosie_joke.ogg.wav,-1,-1,0,0
+9,2018-08-23 Caffeine and Cackles,15,wall-e_joke.ogg.wav,1,1,2.01,2.01
+9,2018-08-23 Caffeine and Cackles,16,plastic_surgery_joke.ogg.wav,-1,-1,0,0
+9,2018-08-23 Caffeine and Cackles,122,tags/plastic_surgery_joke_negative.ogg.wav,0,0,2.03,2.03
+9,2018-08-23 Caffeine and Cackles,17,bender_joke.ogg.wav,0,-1,0.93,0
+9,2018-08-23 Caffeine and Cackles,18,for_all_my_robots_joke.ogg.wav,0,0,3.5,1.32
+9,2018-08-23 Caffeine and Cackles,129,tags/robot_joke_negative.ogg.wav,1,1,1.82,1.665598741
+9,2018-08-23 Caffeine and Cackles,19,white_people_joke.ogg.wav,-1,-1,0,0
+9,2018-08-23 Caffeine and Cackles,20,terminator_joke.ogg.wav,-1,-1,1.46,0.86
+9,2018-08-23 Caffeine and Cackles,140,tags/white_people_joke_positive.ogg.wav,0,0,2.88,2.37649107
+9,2018-08-23 Caffeine and Cackles,21,baha_men_joke.ogg.wav,-1,-1,1.59,0
+9,2018-08-23 Caffeine and Cackles,102,tags/baha_men_joke_positive.ogg.wav,-1,-1,0,0
+9,2018-08-23 Caffeine and Cackles,22,light_bulb_joke.ogg.wav,-1,-1,0,0
+9,2018-08-23 Caffeine and Cackles,23,robot_tinder.ogg.wav,0,0,1.38,1.38
+9,2018-08-23 Caffeine and Cackles,29,closing_take_jobs.ogg.wav,1,1,8.14,3.906698132
+10,2018-08-24 808 House Party,3,robot_name_joke_2.ogg.wav,1,1,3.34,3.34
+10,2018-08-24 808 House Party,4,gdpr_joke.ogg.wav,1,1,4.97,2.84
+10,2018-08-24 808 House Party,114,tags/gdpr_joke_negative.ogg.wav,1,1,1.85,0
+10,2018-08-24 808 House Party,5,siri_backpropagate.ogg.wav,0,1,3.86,1.28
+10,2018-08-24 808 House Party,6,silicon_valley_joke_pt1.wav,1,1,2.71,2.680598093
+10,2018-08-24 808 House Party,7,silicon_valley_joke_pt2.wav,1,1,2.23,2.084484185
+10,2018-08-24 808 House Party,8,rent_prices.ogg.wav,0,-1,1.8,0.039472731
+10,2018-08-24 808 House Party,134,tags/silicon_valley_joke_pt2_negative.ogg.wav,1,1,1.73,1.640583193
+10,2018-08-24 808 House Party,9,job_joke.ogg.wav,1,1,3.93,3.93
+10,2018-08-24 808 House Party,10,inverse_kinematics_equations.ogg.wav,1,1,2.28,2.110714119
+10,2018-08-24 808 House Party,117,tags/inverse_kinematics_equations_positive.ogg.wav,0,0,2.54,1.62
+10,2018-08-24 808 House Party,11,family_joke.ogg.wav,1,1,3.23,3.155179391
+10,2018-08-24 808 House Party,111,tags/family_joke_positive.ogg.wav,1,1,1.34,1.34
+10,2018-08-24 808 House Party,12,too_robotic_joke.ogg.wav,-1,-1,0.76,0
+10,2018-08-24 808 House Party,137,tags/too_robotic_joke_positive.ogg.wav,0,0,1.84,1.426623871
+10,2018-08-24 808 House Party,13,c3po_joke.ogg.wav,1,1,6.91,5.952787501
+10,2018-08-24 808 House Party,14,rosie_joke.ogg.wav,1,1,1.73,1.73
+10,2018-08-24 808 House Party,15,wall-e_joke.ogg.wav,0,0,3.15,3.15
+10,2018-08-24 808 House Party,16,plastic_surgery_joke.ogg.wav,0,0,1.36,1.36
+10,2018-08-24 808 House Party,122,tags/plastic_surgery_joke_negative.ogg.wav,0,0,2.4,2.4
+10,2018-08-24 808 House Party,17,bender_joke.ogg.wav,1,1,3.29,2.366668565
+10,2018-08-24 808 House Party,18,for_all_my_robots_joke.ogg.wav,1,1,2.49,2.49
+10,2018-08-24 808 House Party,131,tags/robot_joke_positive.wav,1,1,3.47,3.314715421
+10,2018-08-24 808 House Party,19,white_people_joke.ogg.wav,-1,-1,0,0
+10,2018-08-24 808 House Party,20,terminator_joke.ogg.wav,0,0,0.84,0.84
+10,2018-08-24 808 House Party,140,tags/white_people_joke_positive.ogg.wav,0,-1,1.64,0.028826289
+10,2018-08-24 808 House Party,21,baha_men_joke.ogg.wav,1,1,6.69,1.51829609
+10,2018-08-24 808 House Party,102,tags/baha_men_joke_positive.ogg.wav,-1,-1,0.87,0.688194282
+10,2018-08-24 808 House Party,22,light_bulb_joke.ogg.wav,-1,-1,0.65,0.554270297
+10,2018-08-24 808 House Party,23,robot_tinder.ogg.wav,1,1,2.57,2.57
+10,2018-08-24 808 House Party,24,big_chips_joke.ogg.wav,1,1,3.64,2.251965397
+10,2018-08-24 808 House Party,25,catfish_joke.ogg.wav,-1,-1,0.94,0.94
+10,2018-08-24 808 House Party,104,tags/catfish_joke_positive.ogg.wav,1,1,5.32,5.281964282
+10,2018-08-24 808 House Party,26,ip_address_joke.ogg.wav,-1,-1,0,0
+10,2018-08-24 808 House Party,27,encryption_joke.ogg.wav,1,1,5.02,5.02
+10,2018-08-24 808 House Party,108,tags/encryption_joke_positive.ogg.wav,0,-1,1.68,0
+10,2018-08-24 808 House Party,28,robot_sexy_times.ogg.wav,1,1,3.85,2.75634308
+10,2018-08-24 808 House Party,29,closing_take_jobs.ogg.wav,1,1,5.95,2.17
+11,2018-08-25 Flappers Showcase,3,robot_name_joke_2.ogg.wav,0,0,1.67,0.634255297
+11,2018-08-25 Flappers Showcase,4,gdpr_joke.ogg.wav,1,1,3.37,3.37
+11,2018-08-25 Flappers Showcase,115,tags/gdpr_joke_positive.ogg.wav,1,1,1.94,1.836139759
+11,2018-08-25 Flappers Showcase,5,siri_backpropagate.ogg.wav,0,0,3.28,2.559243605
+11,2018-08-25 Flappers Showcase,6,silicon_valley_joke_pt1.wav,1,1,2.53,2.53
+11,2018-08-25 Flappers Showcase,7,silicon_valley_joke_pt2.wav,1,1,2.01,2.008346686
+11,2018-08-25 Flappers Showcase,8,rent_prices.ogg.wav,-1,-1,1.03,1.03
+11,2018-08-25 Flappers Showcase,135,tags/silicon_valley_joke_pt2_positive.ogg.wav,-1,-1,0,0
+11,2018-08-25 Flappers Showcase,9,job_joke.ogg.wav,0,0,2.4,1.63
+11,2018-08-25 Flappers Showcase,10,inverse_kinematics_equations.ogg.wav,1,1,2.49,2.438717506
+11,2018-08-25 Flappers Showcase,117,tags/inverse_kinematics_equations_positive.ogg.wav,1,-1,1.86,0
+11,2018-08-25 Flappers Showcase,11,family_joke.ogg.wav,1,1,1.84,1.84
+11,2018-08-25 Flappers Showcase,111,tags/family_joke_positive.ogg.wav,-1,-1,0,0
+11,2018-08-25 Flappers Showcase,12,too_robotic_joke.ogg.wav,0,-1,0.62,0
+11,2018-08-25 Flappers Showcase,137,tags/too_robotic_joke_positive.ogg.wav,1,1,1.71,1.261475247
+11,2018-08-25 Flappers Showcase,13,c3po_joke.ogg.wav,0,0,1.5,1.5
+11,2018-08-25 Flappers Showcase,14,rosie_joke.ogg.wav,-1,-1,0.23,0.23
+11,2018-08-25 Flappers Showcase,15,wall-e_joke.ogg.wav,1,1,1.78,1.78
+11,2018-08-25 Flappers Showcase,16,plastic_surgery_joke.ogg.wav,0,0,1.57,1.57
+11,2018-08-25 Flappers Showcase,123,tags/plastic_surgery_joke_positive.ogg.wav,-1,-1,0,0
+11,2018-08-25 Flappers Showcase,17,bender_joke.ogg.wav,1,1,2.69,1.73
+11,2018-08-25 Flappers Showcase,18,for_all_my_robots_joke.ogg.wav,-1,-1,1.41,0.733140253
+11,2018-08-25 Flappers Showcase,131,tags/robot_joke_positive.wav,1,1,3,2.888162928
+11,2018-08-25 Flappers Showcase,19,white_people_joke.ogg.wav,-1,-1,0,0
+11,2018-08-25 Flappers Showcase,20,terminator_joke.ogg.wav,-1,-1,0.6,0
+11,2018-08-25 Flappers Showcase,140,tags/white_people_joke_positive.ogg.wav,-1,-1,0,0
+11,2018-08-25 Flappers Showcase,21,baha_men_joke.ogg.wav,1,1,4.78,1.39
+11,2018-08-25 Flappers Showcase,102,tags/baha_men_joke_positive.ogg.wav,-1,-1,0,0
+11,2018-08-25 Flappers Showcase,22,light_bulb_joke.ogg.wav,1,1,1.36,0.994133211
+11,2018-08-25 Flappers Showcase,23,robot_tinder.ogg.wav,1,1,1.62,1.62
+11,2018-08-25 Flappers Showcase,29,closing_take_jobs.ogg.wav,1,1,2.832,2.576826056
+12,2018-08-30 Palermo,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+12,2018-08-30 Palermo,4,gdpr_joke.ogg.wav,1,1,3.71,3.71
+12,2018-08-30 Palermo,115,tags/gdpr_joke_positive.ogg.wav,1,1,1.9,1.9
+12,2018-08-30 Palermo,5,siri_backpropagate.ogg.wav,0,0,3.81,1.384637842
+12,2018-08-30 Palermo,6,silicon_valley_joke_pt1.wav,1,1,2.99,2.99
+12,2018-08-30 Palermo,7,silicon_valley_joke_pt2.wav,0,0,0.88,0.88
+12,2018-08-30 Palermo,8,rent_prices.ogg.wav,0,0,0.99,0.99
+12,2018-08-30 Palermo,9,job_joke.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,10,inverse_kinematics_equations.ogg.wav,-1,-1,0.46,0.46
+12,2018-08-30 Palermo,116,tags/inverse_kinematics_equations_negative.ogg.wav,1,1,3.17,2.1
+12,2018-08-30 Palermo,11,family_joke.ogg.wav,-1,-1,1.07,1.07
+12,2018-08-30 Palermo,12,too_robotic_joke.ogg.wav,-1,-1,1.39,0.315277834
+12,2018-08-30 Palermo,136,tags/too_robotic_joke_negative.wav,0,0,0.96,0.858797855
+12,2018-08-30 Palermo,13,c3po_joke.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,14,rosie_joke.ogg.wav,-1,-1,0.71,0.555524931
+12,2018-08-30 Palermo,15,wall-e_joke.ogg.wav,0,0,0.81,0.81
+12,2018-08-30 Palermo,16,plastic_surgery_joke.ogg.wav,-1,-1,1.18,0
+12,2018-08-30 Palermo,122,tags/plastic_surgery_joke_negative.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,17,bender_joke.ogg.wav,-1,-1,1.53,0.606637955
+12,2018-08-30 Palermo,18,for_all_my_robots_joke.ogg.wav,0,-1,1.65,0.042761993
+12,2018-08-30 Palermo,19,white_people_joke.ogg.wav,1,1,3.48,3.139736986
+12,2018-08-30 Palermo,20,terminator_joke.ogg.wav,0,-1,0,0
+12,2018-08-30 Palermo,139,tags/white_people_joke_negative.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,21,baha_men_joke.ogg.wav,-1,-1,4.02,0
+12,2018-08-30 Palermo,101,tags/baha_men_joke_negative.ogg.wav,-1,-1,0.9,0
+12,2018-08-30 Palermo,22,light_bulb_joke.ogg.wav,-1,-1,0.91,0.904949846
+12,2018-08-30 Palermo,23,robot_tinder.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,24,big_chips_joke.ogg.wav,-1,-1,0.75,0
+12,2018-08-30 Palermo,25,catfish_joke.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,103,tags/catfish_joke_negative.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,26,ip_address_joke.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,27,encryption_joke.ogg.wav,1,1,2.06,2.06
+12,2018-08-30 Palermo,108,tags/encryption_joke_positive.ogg.wav,-1,-1,0,0
+12,2018-08-30 Palermo,28,robot_sexy_times.ogg.wav,1,1,7.06,3.58
+12,2018-08-30 Palermo,29,closing_take_jobs.ogg.wav,1,1,10.461,4.319986988
+13,2018-08-30 Toughy the Bear,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+13,2018-08-30 Toughy the Bear,4,gdpr_joke.ogg.wav,1,1,4.37,2.575173159
+13,2018-08-30 Toughy the Bear,115,tags/gdpr_joke_positive.ogg.wav,0,0,1.29,1.29
+13,2018-08-30 Toughy the Bear,5,siri_backpropagate.ogg.wav,-1,-1,1,0.381765823
+13,2018-08-30 Toughy the Bear,6,silicon_valley_joke_pt1.wav,1,1,2.93,1.219316063
+13,2018-08-30 Toughy the Bear,7,silicon_valley_joke_pt2.wav,0,0,1.8,1.696434059
+13,2018-08-30 Toughy the Bear,8,rent_prices.ogg.wav,0,0,2.26,2.26
+13,2018-08-30 Toughy the Bear,135,tags/silicon_valley_joke_pt2_positive.ogg.wav,0,0,2.11,2.11
+13,2018-08-30 Toughy the Bear,9,job_joke.ogg.wav,1,1,3.58,2.995037947
+13,2018-08-30 Toughy the Bear,10,inverse_kinematics_equations.ogg.wav,1,1,2.04,1.90247015
+13,2018-08-30 Toughy the Bear,117,tags/inverse_kinematics_equations_positive.ogg.wav,-1,-1,1.14,1.14
+13,2018-08-30 Toughy the Bear,11,family_joke.ogg.wav,1,1,3.99,3.99
+13,2018-08-30 Toughy the Bear,111,tags/family_joke_positive.ogg.wav,1,1,3.68,2.416456221
+13,2018-08-30 Toughy the Bear,12,too_robotic_joke.ogg.wav,-1,-1,0.24,0.24
+13,2018-08-30 Toughy the Bear,137,tags/too_robotic_joke_positive.ogg.wav,1,0,2.92,0.504303934
+13,2018-08-30 Toughy the Bear,13,c3po_joke.ogg.wav,-1,-1,0,0
+13,2018-08-30 Toughy the Bear,14,rosie_joke.ogg.wav,0,0,1.18,0.880607826
+13,2018-08-30 Toughy the Bear,15,wall-e_joke.ogg.wav,-1,-1,0,0
+13,2018-08-30 Toughy the Bear,16,plastic_surgery_joke.ogg.wav,0,-1,0,0
+13,2018-08-30 Toughy the Bear,122,tags/plastic_surgery_joke_negative.ogg.wav,0,0,4.06,3.32
+13,2018-08-30 Toughy the Bear,17,bender_joke.ogg.wav,-1,-1,0.87,0.87
+13,2018-08-30 Toughy the Bear,18,for_all_my_robots_joke.ogg.wav,1,1,1.9,1.9
+13,2018-08-30 Toughy the Bear,131,tags/robot_joke_positive.wav,1,1,2.37,1.902630213
+13,2018-08-30 Toughy the Bear,19,white_people_joke.ogg.wav,1,1,5.54,5.341079052
+13,2018-08-30 Toughy the Bear,20,terminator_joke.ogg.wav,1,1,3,2.896605143
+13,2018-08-30 Toughy the Bear,140,tags/white_people_joke_positive.ogg.wav,0,0,1.65,1.65
+13,2018-08-30 Toughy the Bear,21,baha_men_joke.ogg.wav,1,0,8.19,2.37
+13,2018-08-30 Toughy the Bear,102,tags/baha_men_joke_positive.ogg.wav,-1,-1,0,0
+13,2018-08-30 Toughy the Bear,22,light_bulb_joke.ogg.wav,1,1,3.29,3.29
+13,2018-08-30 Toughy the Bear,23,robot_tinder.ogg.wav,0,0,3.05,3.05
+13,2018-08-30 Toughy the Bear,24,big_chips_joke.ogg.wav,-1,-1,1.99,1.99
+13,2018-08-30 Toughy the Bear,25,catfish_joke.ogg.wav,-1,-1,0.51,0.51
+13,2018-08-30 Toughy the Bear,104,tags/catfish_joke_positive.ogg.wav,1,1,2.27,1.688792147
+13,2018-08-30 Toughy the Bear,26,ip_address_joke.ogg.wav,-1,-1,0.63,0
+13,2018-08-30 Toughy the Bear,27,encryption_joke.ogg.wav,1,1,1.53,1.53
+13,2018-08-30 Toughy the Bear,28,robot_sexy_times.ogg.wav,1,1,1.49,1.475660223
+13,2018-08-30 Toughy the Bear,29,closing_take_jobs.ogg.wav,1,1,12.361,2.614354969
+14,2018-10-12 Roast of a Robot,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+14,2018-10-12 Roast of a Robot,4,gdpr_joke.ogg.wav,1,1,3.97,3.465707989
+14,2018-10-12 Roast of a Robot,115,tags/gdpr_joke_positive.ogg.wav,1,1,1.8,1.36
+14,2018-10-12 Roast of a Robot,5,siri_backpropagate.ogg.wav,1,1,7.14,2.465080967
+14,2018-10-12 Roast of a Robot,6,silicon_valley_joke_pt1.wav,1,1,2.07,1.27364707
+14,2018-10-12 Roast of a Robot,7,silicon_valley_joke_pt2.wav,0,0,2.88,2.542735977
+14,2018-10-12 Roast of a Robot,8,rent_prices.ogg.wav,1,1,2.77,2.77
+14,2018-10-12 Roast of a Robot,135,tags/silicon_valley_joke_pt2_positive.ogg.wav,0,0,1.3,1.3
+14,2018-10-12 Roast of a Robot,9,job_joke.ogg.wav,0,0,4.27,1.698915977
+14,2018-10-12 Roast of a Robot,10,inverse_kinematics_equations.ogg.wav,1,1,6.45,6.331045036
+14,2018-10-12 Roast of a Robot,117,tags/inverse_kinematics_equations_positive.ogg.wav,1,-1,2.75,0.302905903
+14,2018-10-12 Roast of a Robot,11,family_joke.ogg.wav,1,1,3.73,2.914165039
+14,2018-10-12 Roast of a Robot,111,tags/family_joke_positive.ogg.wav,0,0,2.74,2.74
+14,2018-10-12 Roast of a Robot,12,too_robotic_joke.ogg.wav,-1,-1,1.66,1.416202011
+14,2018-10-12 Roast of a Robot,137,tags/too_robotic_joke_positive.ogg.wav,1,-1,3.14,0.928490896
+14,2018-10-12 Roast of a Robot,13,c3po_joke.ogg.wav,-1,-1,0.58,0.451526012
+14,2018-10-12 Roast of a Robot,14,rosie_joke.ogg.wav,-1,-1,0.82,0.487216024
+14,2018-10-12 Roast of a Robot,15,wall-e_joke.ogg.wav,1,1,1.31,1.31
+14,2018-10-12 Roast of a Robot,16,plastic_surgery_joke.ogg.wav,1,0,3.14,0.77241395
+14,2018-10-12 Roast of a Robot,17,bender_joke.ogg.wav,1,1,4.03,2.453075848
+14,2018-10-12 Roast of a Robot,18,for_all_my_robots_joke.ogg.wav,1,1,3.97,2.481256876
+14,2018-10-12 Roast of a Robot,131,tags/robot_joke_positive.wav,1,1,2.55,2.01390007
+14,2018-10-12 Roast of a Robot,19,white_people_joke.ogg.wav,-1,-1,0,0
+14,2018-10-12 Roast of a Robot,20,terminator_joke.ogg.wav,0,0,3.93,3.18
+14,2018-10-12 Roast of a Robot,140,tags/white_people_joke_positive.ogg.wav,0,-1,1.26,0.247724066
+14,2018-10-12 Roast of a Robot,21,baha_men_joke.ogg.wav,1,1,9.06,3.78581501
+14,2018-10-12 Roast of a Robot,102,tags/baha_men_joke_positive.ogg.wav,0,0,1.43,1.43
+14,2018-10-12 Roast of a Robot,22,light_bulb_joke.ogg.wav,-1,-1,1.22,1.006177044
+14,2018-10-12 Roast of a Robot,23,robot_tinder.ogg.wav,1,0,4.88,2.662883978
+14,2018-10-12 Roast of a Robot,24,big_chips_joke.ogg.wav,1,1,4.13,1.753746042
+14,2018-10-12 Roast of a Robot,25,catfish_joke.ogg.wav,-1,-1,2.29,1.94
+14,2018-10-12 Roast of a Robot,104,tags/catfish_joke_positive.ogg.wav,1,1,2.72,1.952763119
+14,2018-10-12 Roast of a Robot,26,ip_address_joke.ogg.wav,-1,-1,1.17,0
+14,2018-10-12 Roast of a Robot,27,encryption_joke.ogg.wav,1,1,4.68,2.96
+14,2018-10-12 Roast of a Robot,108,tags/encryption_joke_positive.ogg.wav,0,-1,2.24,0
+14,2018-10-12 Roast of a Robot,28,robot_sexy_times.ogg.wav,1,1,12.04,7.003976974
+14,2018-10-12 Roast of a Robot,29,closing_take_jobs.ogg.wav,1,1,12.378,2.995573051
+15,2018-10-13 Cobbler Show,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+15,2018-10-13 Cobbler Show,4,gdpr_joke.ogg.wav,1,1,4.84,3.2
+15,2018-10-13 Cobbler Show,115,tags/gdpr_joke_positive.ogg.wav,1,1,1.84,1.23
+15,2018-10-13 Cobbler Show,5,siri_backpropagate.ogg.wav,1,0,6.64,2.43
+15,2018-10-13 Cobbler Show,6,silicon_valley_joke_pt1.wav,1,1,2.825,1.239990816
+15,2018-10-13 Cobbler Show,7,silicon_valley_joke_pt2.wav,1,0,1.27,0.959036932
+15,2018-10-13 Cobbler Show,8,rent_prices.ogg.wav,0,0,1.19,1.19
+15,2018-10-13 Cobbler Show,135,tags/silicon_valley_joke_pt2_positive.ogg.wav,1,1,2.58,1.433000965
+15,2018-10-13 Cobbler Show,9,job_joke.ogg.wav,1,1,2.29,0.751636171
+15,2018-10-13 Cobbler Show,10,inverse_kinematics_equations.ogg.wav,1,1,4.87,4.87
+15,2018-10-13 Cobbler Show,117,tags/inverse_kinematics_equations_positive.ogg.wav,1,0,3.21,1.79
+15,2018-10-13 Cobbler Show,11,family_joke.ogg.wav,1,1,5.52,3.16101717
+15,2018-10-13 Cobbler Show,111,tags/family_joke_positive.ogg.wav,1,1,2.61,2.55034811
+15,2018-10-13 Cobbler Show,12,too_robotic_joke.ogg.wav,1,-1,2.46,0.393700991
+15,2018-10-13 Cobbler Show,13,c3po_joke.ogg.wav,-1,-1,0,0
+15,2018-10-13 Cobbler Show,14,rosie_joke.ogg.wav,1,1,1.66,1.041818047
+15,2018-10-13 Cobbler Show,15,wall-e_joke.ogg.wav,0,0,0.91,0.91
+15,2018-10-13 Cobbler Show,16,plastic_surgery_joke.ogg.wav,0,0,1.8,0.37662221
+15,2018-10-13 Cobbler Show,17,bender_joke.ogg.wav,1,1,2.38,1.199494209
+15,2018-10-13 Cobbler Show,18,for_all_my_robots_joke.ogg.wav,1,1,7.22,2.310058069
+15,2018-10-13 Cobbler Show,131,tags/robot_joke_positive.wav,1,1,2.56,2.049732952
+15,2018-10-13 Cobbler Show,19,white_people_joke.ogg.wav,1,1,1.41,1.296663809
+15,2018-10-13 Cobbler Show,20,terminator_joke.ogg.wav,1,1,3.21,2.244728966
+15,2018-10-13 Cobbler Show,140,tags/white_people_joke_positive.ogg.wav,1,1,1.73,0.515063887
+15,2018-10-13 Cobbler Show,21,baha_men_joke.ogg.wav,1,1,8.71,1.875582008
+15,2018-10-13 Cobbler Show,22,light_bulb_joke.ogg.wav,1,1,3.77,3.33252306
+15,2018-10-13 Cobbler Show,23,robot_tinder.ogg.wav,1,0,4.11,2.404571877
+15,2018-10-13 Cobbler Show,24,big_chips_joke.ogg.wav,1,0,2.31,1.052716131
+15,2018-10-13 Cobbler Show,25,catfish_joke.ogg.wav,0,0,2.59,2.490324907
+15,2018-10-13 Cobbler Show,104,tags/catfish_joke_positive.ogg.wav,1,1,1.91,1.91
+15,2018-10-13 Cobbler Show,26,ip_address_joke.ogg.wav,0,0,3.56,1.75
+15,2018-10-13 Cobbler Show,27,encryption_joke.ogg.wav,1,1,3.52,3.16
+15,2018-10-13 Cobbler Show,108,tags/encryption_joke_positive.ogg.wav,0,0,5.3,2.905953884
+15,2018-10-13 Cobbler Show,28,robot_sexy_times.ogg.wav,-1,-1,3.3,1.82
+15,2018-10-13 Cobbler Show,29,closing_take_jobs.ogg.wav,1,1,8.821,2.617390152
+16,2018-10-27 Columbo Show,3,robot_name_joke_2.ogg.wav,-1,-1,0,0
+16,2018-10-27 Columbo Show,4,gdpr_joke.ogg.wav,1,1,3.42,3.42
+16,2018-10-27 Columbo Show,115,tags/gdpr_joke_positive.ogg.wav,-1,-1,0.57,0
+16,2018-10-27 Columbo Show,5,siri_backpropagate.ogg.wav,-1,-1,6.43,1.116388111
+16,2018-10-27 Columbo Show,6,silicon_valley_joke_pt1.wav,1,1,1.21,1.004284887
+16,2018-10-27 Columbo Show,7,silicon_valley_joke_pt2.wav,0,0,1.56,1.458738079
+16,2018-10-27 Columbo Show,8,rent_prices.ogg.wav,-1,-1,2.98,2.98
+16,2018-10-27 Columbo Show,135,tags/silicon_valley_joke_pt2_positive.ogg.wav,1,1,1.38,1.38
+16,2018-10-27 Columbo Show,9,job_joke.ogg.wav,1,1,4.08,2.44718091
+16,2018-10-27 Columbo Show,10,inverse_kinematics_equations.ogg.wav,1,1,3.22,3.22
+16,2018-10-27 Columbo Show,117,tags/inverse_kinematics_equations_positive.ogg.wav,1,0,1.78,0.58
+16,2018-10-27 Columbo Show,11,family_joke.ogg.wav,-1,-1,2.21,2.21
+16,2018-10-27 Columbo Show,111,tags/family_joke_positive.ogg.wav,1,1,4,1.622891016
+16,2018-10-27 Columbo Show,12,too_robotic_joke.ogg.wav,-1,-1,0,0
+16,2018-10-27 Columbo Show,136,tags/too_robotic_joke_negative.wav,-1,-1,1,0.923989
+16,2018-10-27 Columbo Show,13,c3po_joke.ogg.wav,1,1,1.64,0.869761944
+16,2018-10-27 Columbo Show,14,rosie_joke.ogg.wav,1,1,4.76,4.269284992
+16,2018-10-27 Columbo Show,15,wall-e_joke.ogg.wav,0,0,0.99,0.99
+16,2018-10-27 Columbo Show,16,plastic_surgery_joke.ogg.wav,-1,-1,0.95,0
+16,2018-10-27 Columbo Show,122,tags/plastic_surgery_joke_negative.ogg.wav,1,-1,1.62,0
+16,2018-10-27 Columbo Show,17,bender_joke.ogg.wav,1,1,2.14,0.96515893
+16,2018-10-27 Columbo Show,18,for_all_my_robots_joke.ogg.wav,0,0,1.71,1.71
+16,2018-10-27 Columbo Show,131,tags/robot_joke_positive.wav,0,0,1.68,1.609575911
+16,2018-10-27 Columbo Show,19,white_people_joke.ogg.wav,0,0,1.41,0.865657034
+16,2018-10-27 Columbo Show,20,terminator_joke.ogg.wav,0,0,2.25,1.46
+16,2018-10-27 Columbo Show,140,tags/white_people_joke_positive.ogg.wav,0,0,1.9,1.32
+16,2018-10-27 Columbo Show,21,baha_men_joke.ogg.wav,1,1,6.38,3.686797857
+16,2018-10-27 Columbo Show,102,tags/baha_men_joke_positive.ogg.wav,1,1,2.69,1.846530027
+16,2018-10-27 Columbo Show,22,light_bulb_joke.ogg.wav,0,0,1.06,0.49226594
+16,2018-10-27 Columbo Show,23,robot_tinder.ogg.wav,-1,-1,0.54,0.456633892
+16,2018-10-27 Columbo Show,24,big_chips_joke.ogg.wav,-1,-1,0.48,0
+16,2018-10-27 Columbo Show,25,catfish_joke.ogg.wav,-1,-1,0.77,0
+16,2018-10-27 Columbo Show,26,ip_address_joke.ogg.wav,-1,-1,0,0
+16,2018-10-27 Columbo Show,27,encryption_joke.ogg.wav,0,0,3.05,1.03
+16,2018-10-27 Columbo Show,108,tags/encryption_joke_positive.ogg.wav,-1,-1,0,0
+16,2018-10-27 Columbo Show,28,robot_sexy_times.ogg.wav,-1,-1,0.31,0
+16,2018-10-27 Columbo Show,29,closing_take_jobs.ogg.wav,1,1,7.435,2.710763922
+18,2018-11-10 Skiptown Playhouse,3,robot_name_joke_2.ogg.wav,0,-1,0,0
+18,2018-11-10 Skiptown Playhouse,4,gdpr_joke.ogg.wav,1,1,3.7,3.7
+18,2018-11-10 Skiptown Playhouse,5,siri_backpropagate.ogg.wav,0,0,2,0
+18,2018-11-10 Skiptown Playhouse,6,silicon_valley_joke_pt1.wav,0,0,0.72,0.596803169
+18,2018-11-10 Skiptown Playhouse,7,silicon_valley_joke_pt2.wav,0,0,0.49,0.416532898
+18,2018-11-10 Skiptown Playhouse,8,rent_prices.ogg.wav,-1,-1,0,0
+18,2018-11-10 Skiptown Playhouse,9,job_joke.ogg.wav,-1,-1,1.35,0.557456207
+18,2018-11-10 Skiptown Playhouse,10,inverse_kinematics_equations.ogg.wav,-1,-1,0.49,0.49
+18,2018-11-10 Skiptown Playhouse,11,family_joke.ogg.wav,-1,-1,1.39,1.116241884
+18,2018-11-10 Skiptown Playhouse,12,too_robotic_joke.ogg.wav,-1,-1,0,0
+18,2018-11-10 Skiptown Playhouse,13,c3po_joke.ogg.wav,-1,-1,0,0
+18,2018-11-10 Skiptown Playhouse,14,rosie_joke.ogg.wav,-1,-1,0,0
+18,2018-11-10 Skiptown Playhouse,15,wall-e_joke.ogg.wav,-1,-1,0,0
+18,2018-11-10 Skiptown Playhouse,16,plastic_surgery_joke.ogg.wav,-1,-1,0.3,0
+18,2018-11-10 Skiptown Playhouse,17,bender_joke.ogg.wav,-1,-1,0.5,0
+18,2018-11-10 Skiptown Playhouse,18,for_all_my_robots_joke.ogg.wav,0,0,1.1,1.1
+18,2018-11-10 Skiptown Playhouse,19,white_people_joke.ogg.wav,-1,-1,0,0
+18,2018-11-10 Skiptown Playhouse,20,terminator_joke.ogg.wav,1,1,0.97,0.97
+18,2018-11-10 Skiptown Playhouse,21,baha_men_joke.ogg.wav,0,-1,2.07,0
+18,2018-11-10 Skiptown Playhouse,22,light_bulb_joke.ogg.wav,0,-1,0.69,0.524351826
+18,2018-11-10 Skiptown Playhouse,23,robot_tinder.ogg.wav,0,0,0.65,0.65
+18,2018-11-10 Skiptown Playhouse,24,big_chips_joke.ogg.wav,1,0,2.35,1.03
+18,2018-11-10 Skiptown Playhouse,25,catfish_joke.ogg.wav,-1,-1,0.59,0.59
+18,2018-11-10 Skiptown Playhouse,26,ip_address_joke.ogg.wav,-1,-1,0,0
+18,2018-11-10 Skiptown Playhouse,27,encryption_joke.ogg.wav,1,1,2.31,2.31
+18,2018-11-10 Skiptown Playhouse,28,robot_sexy_times.ogg.wav,1,1,1.87,1.87
+18,2018-11-10 Skiptown Playhouse,29,closing_take_jobs.ogg.wav,1,1,4.8,3.56
+19,2018-11-13 Avocaduo Toast,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+19,2018-11-13 Avocaduo Toast,4,gdpr_joke.ogg.wav,1,1,3.25,2.52
+19,2018-11-13 Avocaduo Toast,5,siri_backpropagate.ogg.wav,1,1,5.99,0.207484055
+19,2018-11-13 Avocaduo Toast,6,silicon_valley_joke_pt1.wav,1,1,1.54,1.30490406
+19,2018-11-13 Avocaduo Toast,7,silicon_valley_joke_pt2.wav,1,1,1.15,1.15
+19,2018-11-13 Avocaduo Toast,8,rent_prices.ogg.wav,-1,-1,1.8,0.716888924
+19,2018-11-13 Avocaduo Toast,9,job_joke.ogg.wav,1,1,2.69,1.31297492
+19,2018-11-13 Avocaduo Toast,10,inverse_kinematics_equations.ogg.wav,0,0,2.4,2.4
+19,2018-11-13 Avocaduo Toast,11,family_joke.ogg.wav,1,1,1.77,1.385099001
+19,2018-11-13 Avocaduo Toast,12,too_robotic_joke.ogg.wav,0,-1,1.03,0
+19,2018-11-13 Avocaduo Toast,13,c3po_joke.ogg.wav,-1,-1,0,0
+19,2018-11-13 Avocaduo Toast,14,rosie_joke.ogg.wav,1,1,1.18,0.691169043
+19,2018-11-13 Avocaduo Toast,15,wall-e_joke.ogg.wav,1,1,1.97,1.51
+19,2018-11-13 Avocaduo Toast,16,plastic_surgery_joke.ogg.wav,-1,-1,0.7,0.7
+19,2018-11-13 Avocaduo Toast,17,bender_joke.ogg.wav,0,0,2.08,0.757429991
+19,2018-11-13 Avocaduo Toast,18,for_all_my_robots_joke.ogg.wav,1,0,5.19,2.91238596
+19,2018-11-13 Avocaduo Toast,19,white_people_joke.ogg.wav,1,1,1.29,1.29
+19,2018-11-13 Avocaduo Toast,20,terminator_joke.ogg.wav,0,0,2.56,2.56
+19,2018-11-13 Avocaduo Toast,21,baha_men_joke.ogg.wav,1,1,9.3,3.28
+19,2018-11-13 Avocaduo Toast,22,light_bulb_joke.ogg.wav,1,1,2.41,1.909757996
+19,2018-11-13 Avocaduo Toast,23,robot_tinder.ogg.wav,0,0,1.7,0.96
+19,2018-11-13 Avocaduo Toast,24,big_chips_joke.ogg.wav,1,0,1.93,0.852488985
+19,2018-11-13 Avocaduo Toast,25,catfish_joke.ogg.wav,0,0,1.22,1.22
+19,2018-11-13 Avocaduo Toast,26,ip_address_joke.ogg.wav,0,0,1.97,0.39194006
+19,2018-11-13 Avocaduo Toast,27,encryption_joke.ogg.wav,0,0,1.47,1.13
+19,2018-11-13 Avocaduo Toast,28,robot_sexy_times.ogg.wav,1,1,2.75,2.46
+19,2018-11-13 Avocaduo Toast,29,closing_take_jobs.ogg.wav,1,1,6.618,1.358
+20,2018-12-1 Shitpost,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+20,2018-12-1 Shitpost,4,gdpr_joke.ogg.wav,1,1,4.28,4.28
+20,2018-12-1 Shitpost,5,siri_backpropagate.ogg.wav,1,1,5.39,2.715869083
+20,2018-12-1 Shitpost,6,silicon_valley_joke_pt1.wav,1,1,4.1,1.26926795
+20,2018-12-1 Shitpost,7,silicon_valley_joke_pt2.wav,1,1,1.12,1.12
+20,2018-12-1 Shitpost,8,rent_prices.ogg.wav,1,1,2.14,1.583953905
+20,2018-12-1 Shitpost,9,job_joke.ogg.wav,1,1,3.36,1.21
+20,2018-12-1 Shitpost,10,inverse_kinematics_equations.ogg.wav,1,1,4.56,2.221190929
+20,2018-12-1 Shitpost,11,family_joke.ogg.wav,1,1,4.5,3.976949968
+20,2018-12-1 Shitpost,18,for_all_my_robots_joke.ogg.wav,1,1,7.37,2.919268932
+20,2018-12-1 Shitpost,21,baha_men_joke.ogg.wav,1,1,8.41,2.424057961
+20,2018-12-1 Shitpost,22,light_bulb_joke.ogg.wav,1,1,3.42,3.252552032
+20,2018-12-1 Shitpost,23,robot_tinder.ogg.wav,1,0,2.94,1.142202024
+20,2018-12-1 Shitpost,24,big_chips_joke.ogg.wav,0,0,2.05,2.05
+20,2018-12-1 Shitpost,26,ip_address_joke.ogg.wav,0,0,1.96,0
+20,2018-12-1 Shitpost,27,encryption_joke.ogg.wav,1,1,6.62,2.3
+20,2018-12-1 Shitpost,28,robot_sexy_times.ogg.wav,1,1,11.125,1.290387125
+20,2018-12-1 Shitpost,29,closing_take_jobs.ogg.wav,1,1,8.639,2.361350073
+21,2018-12-11 Hashtags with Hattrick,3,robot_name_joke_2.ogg.wav,1,-1,0,0
+21,2018-12-11 Hashtags with Hattrick,4,gdpr_joke.ogg.wav,1,1,4.59,4.59
+21,2018-12-11 Hashtags with Hattrick,5,siri_backpropagate.ogg.wav,1,1,4.46,1.841281071
+21,2018-12-11 Hashtags with Hattrick,6,silicon_valley_joke_pt1.wav,1,1,2.09,1.232121887
+21,2018-12-11 Hashtags with Hattrick,7,silicon_valley_joke_pt2.wav,1,1,3.73,3.508971958
+21,2018-12-11 Hashtags with Hattrick,8,rent_prices.ogg.wav,1,1,3.42,3.42
+21,2018-12-11 Hashtags with Hattrick,9,job_joke.ogg.wav,1,0,2.85,0.702114964
+21,2018-12-11 Hashtags with Hattrick,10,inverse_kinematics_equations.ogg.wav,1,1,3.54,3.54
+21,2018-12-11 Hashtags with Hattrick,11,family_joke.ogg.wav,1,1,4.27,3.661657963
+21,2018-12-11 Hashtags with Hattrick,12,too_robotic_joke.ogg.wav,-1,-1,1.11,1.11
+21,2018-12-11 Hashtags with Hattrick,13,c3po_joke.ogg.wav,1,1,5.68,5.104220848
+21,2018-12-11 Hashtags with Hattrick,14,rosie_joke.ogg.wav,1,1,2.42,1.386839867
+21,2018-12-11 Hashtags with Hattrick,15,wall-e_joke.ogg.wav,-1,-1,1.89,1.89
+21,2018-12-11 Hashtags with Hattrick,16,plastic_surgery_joke.ogg.wav,1,1,1.51,1.167009077
+21,2018-12-11 Hashtags with Hattrick,17,bender_joke.ogg.wav,1,1,2.21,1.327475033
+21,2018-12-11 Hashtags with Hattrick,18,for_all_my_robots_joke.ogg.wav,1,0,2.12,1.006889124
+21,2018-12-11 Hashtags with Hattrick,19,white_people_joke.ogg.wav,-1,-1,0,0
+21,2018-12-11 Hashtags with Hattrick,20,terminator_joke.ogg.wav,1,1,3.64,3.64
+21,2018-12-11 Hashtags with Hattrick,21,baha_men_joke.ogg.wav,1,0,7.07,1.8
+21,2018-12-11 Hashtags with Hattrick,22,light_bulb_joke.ogg.wav,1,1,3.53,3.147219944
+21,2018-12-11 Hashtags with Hattrick,23,robot_tinder.ogg.wav,1,1,3.3,3.3
+21,2018-12-11 Hashtags with Hattrick,24,big_chips_joke.ogg.wav,1,1,4.77,3.514059038
+21,2018-12-11 Hashtags with Hattrick,25,catfish_joke.ogg.wav,0,0,2.36,1.694500866
+21,2018-12-11 Hashtags with Hattrick,26,ip_address_joke.ogg.wav,-1,-1,1.38,1.38
+21,2018-12-11 Hashtags with Hattrick,27,encryption_joke.ogg.wav,1,1,9.29,4.5
+21,2018-12-11 Hashtags with Hattrick,28,robot_sexy_times.ogg.wav,1,1,6.26,3.79
+21,2018-12-11 Hashtags with Hattrick,29,closing_take_jobs.ogg.wav,1,1,5.192,2.538826982
+22,2018-12-13 Gigglebash,3,robot_name_joke_2.ogg.wav,-1,-1,0,0
+22,2018-12-13 Gigglebash,4,gdpr_joke.ogg.wav,1,1,3.58,3.58
+22,2018-12-13 Gigglebash,5,siri_backpropagate.ogg.wav,0,0,2.01,0
+22,2018-12-13 Gigglebash,6,silicon_valley_joke_pt1.wav,1,1,1.75,1.545286131
+22,2018-12-13 Gigglebash,7,silicon_valley_joke_pt2.wav,-1,-1,0.42,0.341534977
+22,2018-12-13 Gigglebash,8,rent_prices.ogg.wav,-1,-1,0,0
+22,2018-12-13 Gigglebash,9,job_joke.ogg.wav,0,0,2.02,1.555282879
+22,2018-12-13 Gigglebash,10,inverse_kinematics_equations.ogg.wav,0,0,1.07,1.07
+22,2018-12-13 Gigglebash,11,family_joke.ogg.wav,1,1,1.55,0.935351019
+22,2018-12-13 Gigglebash,12,too_robotic_joke.ogg.wav,-1,-1,0,0
+22,2018-12-13 Gigglebash,13,c3po_joke.ogg.wav,-1,-1,0.4,0
+22,2018-12-13 Gigglebash,14,rosie_joke.ogg.wav,0,0,0.89,0.678382893
+22,2018-12-13 Gigglebash,15,wall-e_joke.ogg.wav,0,-1,0.46,0
+22,2018-12-13 Gigglebash,16,plastic_surgery_joke.ogg.wav,-1,-1,0,0
+22,2018-12-13 Gigglebash,17,bender_joke.ogg.wav,0,0,2.11,2.11
+22,2018-12-13 Gigglebash,18,for_all_my_robots_joke.ogg.wav,1,1,1.96,1.96
+22,2018-12-13 Gigglebash,19,white_people_joke.ogg.wav,-1,-1,0,0
+22,2018-12-13 Gigglebash,20,terminator_joke.ogg.wav,0,0,1.47,1.47
+22,2018-12-13 Gigglebash,21,baha_men_joke.ogg.wav,0,0,3.65,1.55
+22,2018-12-13 Gigglebash,22,light_bulb_joke.ogg.wav,1,1,2.05,1.712471905
+22,2018-12-13 Gigglebash,23,robot_tinder.ogg.wav,0,0,2.04,2.04
+22,2018-12-13 Gigglebash,24,big_chips_joke.ogg.wav,1,0,3.72,2.272517948
+22,2018-12-13 Gigglebash,25,catfish_joke.ogg.wav,-1,-1,0.93,0.360196075
+22,2018-12-13 Gigglebash,26,ip_address_joke.ogg.wav,-1,-1,2.83,1.165090084
+22,2018-12-13 Gigglebash,27,encryption_joke.ogg.wav,1,1,1.91,1.91
+22,2018-12-13 Gigglebash,28,robot_sexy_times.ogg.wav,1,1,3.61,3.01
+22,2018-12-13 Gigglebash,29,closing_take_jobs.ogg.wav,1,1,9.251,7.067421099
+23,2018-12-6 Hi De Ho Comics,3,robot_name_joke_2.ogg.wav,1,1,0,0
+23,2018-12-6 Hi De Ho Comics,4,gdpr_joke.ogg.wav,1,1,3.92,3.92
+23,2018-12-6 Hi De Ho Comics,5,siri_backpropagate.ogg.wav,-1,-1,2.02,1.57
+23,2018-12-6 Hi De Ho Comics,6,silicon_valley_joke_pt1.wav,1,1,3.94,3.94
+23,2018-12-6 Hi De Ho Comics,7,silicon_valley_joke_pt2.wav,0,0,1.38,1.38
+23,2018-12-6 Hi De Ho Comics,8,rent_prices.ogg.wav,-1,-1,0,0
+23,2018-12-6 Hi De Ho Comics,9,job_joke.ogg.wav,1,1,1.87,0.764850054
+23,2018-12-6 Hi De Ho Comics,10,inverse_kinematics_equations.ogg.wav,0,0,2.25,2.25
+23,2018-12-6 Hi De Ho Comics,11,family_joke.ogg.wav,1,1,1.9,1.359591913
+23,2018-12-6 Hi De Ho Comics,12,too_robotic_joke.ogg.wav,0,-1,1.32,0.46
+23,2018-12-6 Hi De Ho Comics,13,c3po_joke.ogg.wav,1,1,3.48,3.48
+23,2018-12-6 Hi De Ho Comics,14,rosie_joke.ogg.wav,-1,-1,0.6,0
+23,2018-12-6 Hi De Ho Comics,15,wall-e_joke.ogg.wav,0,0,1.77,1.3
+23,2018-12-6 Hi De Ho Comics,16,plastic_surgery_joke.ogg.wav,-1,-1,0,0
+23,2018-12-6 Hi De Ho Comics,17,bender_joke.ogg.wav,0,0,2.2,0.924600983
+23,2018-12-6 Hi De Ho Comics,18,for_all_my_robots_joke.ogg.wav,1,0,2,1.075396919
+23,2018-12-6 Hi De Ho Comics,19,white_people_joke.ogg.wav,-1,-1,0,0
+23,2018-12-6 Hi De Ho Comics,20,terminator_joke.ogg.wav,0,0,2.05,1.43
+23,2018-12-6 Hi De Ho Comics,21,baha_men_joke.ogg.wav,1,1,7.9,1.997820978
+23,2018-12-6 Hi De Ho Comics,22,light_bulb_joke.ogg.wav,0,0,1.23,0.833171864
+23,2018-12-6 Hi De Ho Comics,23,robot_tinder.ogg.wav,0,0,0.84,0.780078993
+23,2018-12-6 Hi De Ho Comics,24,big_chips_joke.ogg.wav,0,0,1.77,1.51
+23,2018-12-6 Hi De Ho Comics,25,catfish_joke.ogg.wav,0,0,1.47,1.47
+23,2018-12-6 Hi De Ho Comics,26,ip_address_joke.ogg.wav,-1,-1,0.27,0
+23,2018-12-6 Hi De Ho Comics,27,encryption_joke.ogg.wav,1,1,1.8,1.8
+23,2018-12-6 Hi De Ho Comics,28,robot_sexy_times.ogg.wav,-1,-1,0.37,0.37
+23,2018-12-6 Hi De Ho Comics,29,closing_take_jobs.ogg.wav,1,1,10.572,6.442
+24,2018-12-8 Columbo Show,3,robot_name_joke_2.ogg.wav,0,-1,0,0
+24,2018-12-8 Columbo Show,4,gdpr_joke.ogg.wav,1,1,4.07,4.07
+24,2018-12-8 Columbo Show,5,siri_backpropagate.ogg.wav,0,0,1.8,1.22
+24,2018-12-8 Columbo Show,6,silicon_valley_joke_pt1.wav,1,1,1.68,1.450299072
+24,2018-12-8 Columbo Show,7,silicon_valley_joke_pt2.wav,-1,-1,0,0
+24,2018-12-8 Columbo Show,8,rent_prices.ogg.wav,-1,-1,0.8,0.8
+24,2018-12-8 Columbo Show,9,job_joke.ogg.wav,1,-1,1.85,0
+24,2018-12-8 Columbo Show,10,inverse_kinematics_equations.ogg.wav,1,1,4.15,2.787360821
+24,2018-12-8 Columbo Show,11,family_joke.ogg.wav,0,0,3.04,1.96162899
+24,2018-12-8 Columbo Show,12,too_robotic_joke.ogg.wav,1,1,1.31,1.31
+24,2018-12-8 Columbo Show,13,c3po_joke.ogg.wav,-1,-1,0,0
+24,2018-12-8 Columbo Show,14,rosie_joke.ogg.wav,0,0,2.21,1.39564188
+24,2018-12-8 Columbo Show,15,wall-e_joke.ogg.wav,1,1,1.62,0.8
+24,2018-12-8 Columbo Show,16,plastic_surgery_joke.ogg.wav,1,1,2.29,2.29
+24,2018-12-8 Columbo Show,17,bender_joke.ogg.wav,1,1,1.72,1.376359911
+24,2018-12-8 Columbo Show,18,for_all_my_robots_joke.ogg.wav,1,0,1.4,0.091110916
+24,2018-12-8 Columbo Show,19,white_people_joke.ogg.wav,-1,-1,0,0
+24,2018-12-8 Columbo Show,20,terminator_joke.ogg.wav,-1,-1,0.56,0
+24,2018-12-8 Columbo Show,21,baha_men_joke.ogg.wav,1,1,4.45,1.584900827
+24,2018-12-8 Columbo Show,22,light_bulb_joke.ogg.wav,0,0,1.2,0.750174818
+24,2018-12-8 Columbo Show,23,robot_tinder.ogg.wav,0,0,2.97,2.927777824
+24,2018-12-8 Columbo Show,24,big_chips_joke.ogg.wav,1,1,1.79,1.693081799
+24,2018-12-8 Columbo Show,25,catfish_joke.ogg.wav,1,1,2.41,2.41
+24,2018-12-8 Columbo Show,26,ip_address_joke.ogg.wav,0,0,2.07,0
+24,2018-12-8 Columbo Show,27,encryption_joke.ogg.wav,1,1,4.14,2.38
+24,2018-12-8 Columbo Show,28,robot_sexy_times.ogg.wav,1,1,1.89,1.89
+24,2018-12-8 Columbo Show,29,closing_take_jobs.ogg.wav,1,1,3.847,2.799037802
