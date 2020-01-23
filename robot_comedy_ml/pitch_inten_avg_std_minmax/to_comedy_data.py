@@ -22,6 +22,27 @@
 #'MinSound', 'MaxSound', 'HumanScore', 'HumanScorePostJokeOnly'
 import re
 import csv
+import json
+import os
+
+#use performanceLog json file to list joke names in order told in the performance
+joke_order = []
+file = open("1.txt", "r", encoding='utf-8')
+path = file.read().splitlines()[0][:-16]
+file.close()
+json_name = [i for i in os.listdir(path) if os.path.isfile(os.path.join(path,i)) and 'performanceLog' in i]
+json_path = path+json_name[0]
+json_file = open(json_path, "r")
+json_data = json.loads(json_file.read().splitlines()[0])
+json_file.close()
+for entry in json_data:
+    keys = entry.keys()
+    if ("audio" in keys) and (entry.get("audio") != "/../sounds/robot_name_joke_1.ogg.wav"):
+	    joke_name = entry.get("audio")[11:]
+	    joke_order.append(joke_name)
+
+print(joke_order)
+
 
 #reading in data from praat files and storing in dictionary called all_data
 num_files = 18
@@ -30,14 +51,12 @@ for fi in range(1, num_files + 1):
     filename = str(fi) + ".txt"
     praat = open(filename, "r", encoding='utf-8')
     raw_praat_data = praat.read().splitlines()
-    print(raw_praat_data)
     praat_data = {}
     to_add = {}
-    to_add["performance"] = raw_praat_data[0].split("\\")[6]
+    to_add["performance"] = raw_praat_data[0].split("\\")[-2]
     to_add["data"] = praat_data
     features_per_pause = 6
     for i in range(0, len(raw_praat_data)):
-        #print(raw_praat_data[i])
         if raw_praat_data[i][0] == 'p':
             row_data = []
             for j in range(0,features_per_pause):
@@ -57,7 +76,6 @@ for fi in range(1, num_files + 1):
             praat_data[index] = row_data
     all_data[fi] = to_add
     praat.close()
-
 
 #reading in data from csv file and storing it 
 csv_data = {}
@@ -82,8 +100,6 @@ with open('ground_truth_ratings.csv') as csv_file:
             else:
                 temp['Jokes'].append([int(row[2]), row[4], row[5]]) 
         count += 1
-
-print(len(csv_data['2019-04-13 Cienna Nerdy Show at The Drake']['Jokes']))
 
 #now output csv file with all appropriate data
 with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as csv_file:
