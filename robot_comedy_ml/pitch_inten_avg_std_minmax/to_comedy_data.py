@@ -40,8 +40,7 @@ for entry in json_data:
     if ("audio" in keys) and (entry.get("audio") != "/../sounds/robot_name_joke_1.ogg.wav"):
 	    joke_name = entry.get("audio")[11:]
 	    joke_order.append(joke_name)
-
-print(joke_order)
+#print(joke_order)
 
 
 #reading in data from praat files and storing in dictionary called all_data
@@ -96,9 +95,9 @@ with open('ground_truth_ratings.csv') as csv_file:
                 temp['PerformanceId'] = int(row[0])
                 temp['Performance'] = row[1]
                 temp['Jokes'] = []
-                temp['Jokes'].append([int(row[2]), row[4], row[5]])
+                temp['Jokes'].append([int(row[2]), row[4], row[5], row[3]])
             else:
-                temp['Jokes'].append([int(row[2]), row[4], row[5]]) 
+                temp['Jokes'].append([int(row[2]), row[4], row[5], row[3]]) 
         count += 1
 
 #now output csv file with all appropriate data
@@ -111,15 +110,17 @@ with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as 
         idx = all_data[elem]['performance']
         if (len(all_data[elem]['data']) == len(csv_data[str(idx)]["Jokes"])):
             for i in range(0, len(all_data[elem]['data'])):
+                cur_joke_name = csv_data[idx]['Jokes'][i][3]
+                txt_file_num = joke_order.index(cur_joke_name)
                 row = {}
                 row["PerformanceId"] = csv_data[idx]['PerformanceId']
                 row['JokeId'] = csv_data[idx]['Jokes'][i][0]
-                row['Pitch'] = all_data[elem]['data'][i][2]
-                row['PitchSd'] = all_data[elem]['data'][i][3]
-                row['Intensity'] = all_data[elem]['data'][i][0]
-                row['IntensitySd'] = all_data[elem]['data'][i][1]
-                row['MinSound'] = all_data[elem]['data'][i][4]
-                row['MaxSound'] = all_data[elem]['data'][i][5]
+                row['Pitch'] = all_data[elem]['data'][txt_file_num][2]
+                row['PitchSd'] = all_data[elem]['data'][txt_file_num][3]
+                row['Intensity'] = all_data[elem]['data'][txt_file_num][0]
+                row['IntensitySd'] = all_data[elem]['data'][txt_file_num][1]
+                row['MinSound'] = all_data[elem]['data'][txt_file_num][4]
+                row['MaxSound'] = all_data[elem]['data'][txt_file_num][5]
                 row['HumanScore'] = csv_data[idx]['Jokes'][i][1]
                 row['HumanScorePostJokeOnly'] = csv_data[idx]['Jokes'][i][2]
                 writer.writerow(row)
