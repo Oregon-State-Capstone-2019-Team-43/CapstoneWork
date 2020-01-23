@@ -1,0 +1,287 @@
+/home/sharer/all_robot_comedy/robot_comedy/2018-11-10 Skiptown Playhouse/
+pause_0.mp3
+0.25 --undefined-- 73.844
+0.50 --undefined-- 71.433
+0.75 --undefined-- 69.251
+1.00 --undefined-- 69.456
+1.25 --undefined-- 74.641
+1.50 --undefined-- 67.001
+1.75 --undefined-- 68.159
+2.00 --undefined-- 67.405
+2.25 --undefined-- 68.107
+pause_1.mp3
+0.25 --undefined-- 67.338
+0.50 --undefined-- 70.579
+0.75 --undefined-- 67.180
+1.00 --undefined-- 67.947
+1.25 --undefined-- 68.623
+1.50 --undefined-- 70.336
+1.75 --undefined-- 71.232
+2.00 --undefined-- 69.987
+2.25 --undefined-- 79.995
+2.50 --undefined-- 86.858
+2.75 --undefined-- 80.523
+3.00 --undefined-- 83.343
+3.25 --undefined-- 76.237
+3.50 --undefined-- 73.784
+3.75 --undefined-- 77.684
+4.00 --undefined-- 70.604
+4.25 --undefined-- 69.257
+4.50 --undefined-- 68.348
+4.75 --undefined-- 69.795
+5.00 --undefined-- 76.950
+5.25 --undefined-- 67.892
+5.50 --undefined-- 68.078
+5.75 --undefined-- 66.907
+pause_10.mp3
+0.25 --undefined-- 67.585
+0.50 --undefined-- 67.313
+0.75 --undefined-- 67.330
+pause_11.mp3
+0.25 --undefined-- 68.145
+0.50 --undefined-- 72.368
+0.75 --undefined-- 68.115
+1.00 --undefined-- 67.923
+1.25 --undefined-- 68.391
+1.50 --undefined-- 67.758
+1.75 --undefined-- 69.393
+2.00 --undefined-- 71.221
+pause_12.mp3
+0.25 --undefined-- 68.321
+0.50 --undefined-- 67.866
+0.75 --undefined-- 67.121
+1.00 --undefined-- 66.647
+pause_13.mp3
+0.25 --undefined-- 67.789
+0.50 --undefined-- 68.871
+0.75 --undefined-- 67.320
+1.00 --undefined-- 67.051
+pause_14.mp3
+0.25 --undefined-- 68.513
+0.50 --undefined-- 68.920
+0.75 --undefined-- 69.816
+1.00 --undefined-- 68.932
+1.25 --undefined-- 67.827
+1.50 --undefined-- 69.252
+1.75 --undefined-- 67.317
+2.00 --undefined-- 68.578
+2.25 --undefined-- --undefined--
+pause_15.mp3
+0.25 --undefined-- 68.839
+0.50 --undefined-- 67.194
+0.75 --undefined-- 73.665
+1.00 --undefined-- 79.147
+1.25 --undefined-- 70.622
+1.50 --undefined-- 71.332
+1.75 --undefined-- 68.507
+2.00 --undefined-- 67.761
+2.25 --undefined-- 67.483
+2.50 --undefined-- 67.041
+2.75 --undefined-- 68.045
+pause_16.mp3
+0.25 --undefined-- 68.172
+0.50 --undefined-- 67.395
+0.75 --undefined-- 67.453
+pause_17.mp3
+0.25 --undefined-- 68.435
+0.50 217.049 70.742
+0.75 291.754 76.166
+1.00 205.195 79.463
+1.25 216.447 79.332
+1.50 --undefined-- 72.107
+1.75 --undefined-- 67.932
+2.00 --undefined-- 69.898
+2.25 --undefined-- 69.306
+2.50 --undefined-- 67.705
+2.75 --undefined-- 75.180
+3.00 --undefined-- 68.235
+pause_18.mp3
+0.25 --undefined-- 70.602
+0.50 --undefined-- 72.906
+0.75 --undefined-- 67.731
+1.00 --undefined-- 67.755
+1.25 --undefined-- 68.060
+1.50 --undefined-- 66.986
+1.75 --undefined-- 67.360
+2.00 --undefined-- 67.151
+2.25 --undefined-- 67.791
+2.50 --undefined-- 67.372
+pause_19.mp3
+0.25 --undefined-- 74.673
+0.50 --undefined-- 68.914
+0.75 --undefined-- 70.509
+1.00 --undefined-- 68.061
+1.25 --undefined-- 67.432
+1.50 --undefined-- 67.760
+1.75 --undefined-- 68.103
+2.00 --undefined-- 67.284
+2.25 --undefined-- --undefined--
+pause_2.mp3
+0.25 --undefined-- 68.610
+0.50 --undefined-- 68.350
+0.75 --undefined-- 66.704
+1.00 --undefined-- 67.996
+1.25 --undefined-- 67.426
+1.50 --undefined-- 67.994
+1.75 --undefined-- 70.807
+2.00 --undefined-- 68.006
+pause_20.mp3
+0.25 --undefined-- 71.701
+0.50 193.830 78.967
+0.75 276.084 75.613
+1.00 --undefined-- 68.412
+1.25 --undefined-- 73.492
+1.50 --undefined-- 67.807
+1.75 --undefined-- 68.536
+2.00 --undefined-- 67.929
+2.25 --undefined-- 66.962
+2.50 --undefined-- 68.037
+2.75 --undefined-- 67.065
+pause_21.mp3
+0.25 --undefined-- 68.712
+0.50 --undefined-- 76.660
+0.75 218.439 78.503
+1.00 --undefined-- 75.975
+1.25 --undefined-- 70.873
+1.50 --undefined-- 67.251
+1.75 --undefined-- 67.651
+2.00 --undefined-- 68.060
+2.25 --undefined-- 67.462
+2.50 --undefined-- 67.160
+2.75 --undefined-- 67.461
+3.00 --undefined-- 67.079
+3.25 --undefined-- 67.300
+pause_22.mp3
+0.25 --undefined-- 67.841
+0.50 177.388 72.750
+0.75 --undefined-- 72.177
+1.00 --undefined-- 69.659
+1.25 --undefined-- 68.061
+1.50 --undefined-- 68.459
+1.75 --undefined-- 68.631
+2.00 --undefined-- 67.706
+2.25 --undefined-- --undefined--
+pause_23.mp3
+0.25 --undefined-- 67.524
+0.50 --undefined-- 67.080
+0.75 --undefined-- 67.533
+1.00 --undefined-- 67.548
+1.25 --undefined-- 68.749
+1.50 --undefined-- 68.472
+1.75 --undefined-- 68.151
+2.00 --undefined-- 68.141
+2.25 --undefined-- 67.070
+2.50 --undefined-- 67.094
+pause_24.mp3
+0.25 --undefined-- 67.786
+0.50 166.297 70.446
+0.75 --undefined-- 73.517
+1.00 --undefined-- 78.423
+1.25 --undefined-- 77.070
+1.50 --undefined-- 79.719
+1.75 257.280 78.892
+2.00 --undefined-- 70.553
+2.25 --undefined-- 68.198
+2.50 168.255 73.763
+2.75 --undefined-- 66.864
+3.00 --undefined-- 67.982
+3.25 --undefined-- 67.468
+3.50 --undefined-- 67.215
+3.75 --undefined-- 67.794
+pause_25.mp3
+0.25 --undefined-- 67.515
+0.50 --undefined-- 67.508
+0.75 --undefined-- 68.447
+1.00 --undefined-- 69.162
+1.25 251.974 85.677
+1.50 196.960 87.699
+1.75 191.978 84.930
+2.00 --undefined-- 75.137
+2.25 247.179 78.923
+2.50 233.858 77.954
+2.75 220.028 71.287
+3.00 --undefined-- 71.490
+3.25 --undefined-- 68.396
+3.50 --undefined-- 70.422
+3.75 --undefined-- 67.018
+4.00 --undefined-- 70.780
+pause_26.mp3
+0.25 --undefined-- 71.195
+0.50 291.219 92.258
+0.75 159.686 91.362
+1.00 107.646 89.262
+1.25 106.240 91.227
+1.50 182.904 88.867
+1.75 160.986 89.248
+2.00 150.103 86.747
+2.25 266.465 83.992
+2.50 212.763 76.283
+2.75 --undefined-- 69.227
+3.00 --undefined-- 67.968
+3.25 --undefined-- 79.584
+3.50 --undefined-- 81.147
+3.75 184.176 90.046
+4.00 282.644 89.039
+4.25 --undefined-- 81.420
+pause_3.mp3
+0.25 --undefined-- 67.299
+0.50 --undefined-- 68.029
+0.75 --undefined-- 67.198
+1.00 --undefined-- 74.596
+pause_4.mp3
+0.25 77.713 75.932
+0.50 --undefined-- 69.024
+0.75 --undefined-- 67.994
+1.00 --undefined-- 67.637
+1.25 --undefined-- 67.180
+1.50 --undefined-- 67.936
+pause_5.mp3
+0.25 --undefined-- 69.392
+0.50 --undefined-- 71.227
+0.75 --undefined-- 67.508
+1.00 --undefined-- 67.865
+1.25 --undefined-- 67.383
+1.50 --undefined-- 68.029
+1.75 --undefined-- 68.532
+2.00 --undefined-- 67.469
+2.25 --undefined-- --undefined--
+pause_6.mp3
+0.25 --undefined-- 67.262
+0.50 --undefined-- 67.399
+0.75 --undefined-- 67.443
+1.00 --undefined-- 73.170
+1.25 --undefined-- 67.552
+1.50 --undefined-- 67.354
+1.75 --undefined-- 67.546
+2.00 --undefined-- 67.573
+2.25 --undefined-- 67.511
+pause_7.mp3
+0.25 --undefined-- 68.278
+0.50 137.805 73.390
+0.75 --undefined-- 74.810
+1.00 --undefined-- 68.311
+1.25 --undefined-- 67.733
+1.50 --undefined-- 68.339
+1.75 --undefined-- 67.696
+2.00 --undefined-- 68.585
+2.25 --undefined-- 66.697
+pause_8.mp3
+0.25 239.835 76.596
+0.50 --undefined-- 69.159
+0.75 296.501 75.771
+1.00 --undefined-- 70.430
+1.25 170.720 71.278
+1.50 --undefined-- 68.913
+1.75 --undefined-- 67.605
+2.00 --undefined-- 67.307
+2.25 --undefined-- 67.908
+2.50 --undefined-- 67.312
+pause_9.mp3
+0.25 --undefined-- 68.054
+0.50 --undefined-- 67.719
+0.75 --undefined-- 66.887
+1.00 --undefined-- 68.920
+1.25 --undefined-- 67.857
+1.50 --undefined-- 66.221
+1.75 --undefined-- 67.568
+2.00 --undefined-- 67.562
