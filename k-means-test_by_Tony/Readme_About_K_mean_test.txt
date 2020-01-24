@@ -9,10 +9,15 @@ Instructions:
 	3.Open K-means-test-ipynb and run the code
 	4.Check the pictures output in output directory
 
+By default, I used loop to generate result of all files at input directory. If you only want to generate result for a certain file,
+please check the commented code.
+
+
 Right now I got all the result from 18 performances of V6 robot recordings.
 Each picture represent one performance.
 
-If you want to test it with new data, please remember to change the variable 'numOfFiles'
+If you want to test it with some new data files, please remember to change the variable 'numOfFiles'
+
 
 Special case:
 	For some reason, there are a few pauses do not have a pitch, which shows '--undefined--',
