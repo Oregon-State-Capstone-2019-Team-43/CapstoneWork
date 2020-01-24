@@ -1,58 +1,64 @@
-#made by: Eloise Bisbee 8/13/19 eloise.bisbee@tufts.edu
-#this program takes in files numbered 1-numfiles with a .txt extension as
-#well as ground_truth_ratings.csv and output clean_comedy_data.csv.
+# made by Eloise Bisbee 8/13/19 eloise.bisbee@tufts.edu
+# revised by Brian Ozarowicz - January 2020
 
-#The numbered files should contain praat output data formatted as follows:
-#first line: full file path of which folder data was extracted from
-#then a series of couplings:
-#pause_#.mp3
-#intensity
-#intensity std
-#pitch
-#pitch std
-#min
-#max
+# This program takes in files numbered 1-numfiles with a .txt extension
+# as well as ground_truth_ratings.csv and outputs clean_comedy_data.csv
 
-#ground_truth_ratings should contain the ground truth ratings for each comedy
-#performance formatted such that the first couple columns are:
-#PerformanceId, Performance, JokeId, Joke, HumanScore, HumanScorePostJokeOnly
+# The numbered files should contain praat output data formatted as follows:
+# first line: full file path of which folder the data was extracted from
+# then a series of couplings:
+# pause_#.mp3
+# intensity
+# intensity std
+# pitch
+# pitch std
+# min
+# max
 
-#the output, clean_comedy_data.csv, will contain columns:
-#'PerformanceId', 'JokeId', 'Pitch', 'PitchStd', Intensity', 'IntensityStd', 
-#'MinSound', 'MaxSound', 'HumanScore', 'HumanScorePostJokeOnly'
+# ground_truth_ratings.csv should contain the ground truth ratings for each comedy
+# performance's jokes formatted such that the first columns are:
+# PerformanceId, Performance, JokeId, Joke, HumanScore, HumanScorePostJokeOnly
+
+# The output, clean_comedy_data.csv, will contain columns:
+# PerformanceId, JokeId, Pitch, PitchStd, Intensity, IntensityStd,
+# MinSound, MaxSound, HumanScore, HumanScorePostJokeOnly
+
+# This program is designed to be run on a Windows computer,
+# differences in file path format on another OS may cause errors.
+# Requires Python 3.5 or later
+
 import re
 import csv
 import json
 import os
 
-#use performanceLog json file to list joke names in order told in the performance
+# use performanceLog json file to list joke names in order they were told in the performance
 joke_order = []
-file = open("1.txt", "r", encoding='utf-8')
-path = file.read().splitlines()[0][:-16]
+file = open("1.txt", "r", encoding='utf_16_le')
+path = file.read().splitlines()[0][:-16] # get path to the performance directory
 file.close()
-json_name = [i for i in os.listdir(path) if os.path.isfile(os.path.join(path,i)) and 'performanceLog' in i]
+json_name = [i for i in os.listdir(path) if os.path.isfile(os.path.join(path,i)) and 'performanceLog' in i] # find name of json file
 json_path = path+json_name[0]
 json_file = open(json_path, "r")
-json_data = json.loads(json_file.read().splitlines()[0])
+json_data = json.loads(json_file.read().splitlines()[0]) # read performanceLog json
 json_file.close()
 for entry in json_data:
     keys = entry.keys()
     if ("audio" in keys) and (entry.get("audio") != "/../sounds/robot_name_joke_1.ogg.wav"):
-	    joke_name = entry.get("audio")[11:]
+	    joke_name = entry.get("audio")[11:] # find all joke names in the json and save them in order
 	    joke_order.append(joke_name)
-#print(joke_order)
+#print(joke_order) # uncomment to verify the resulting list
 
-
-#reading in data from praat files and storing in dictionary called all_data
-num_files = 18
+# reading in data from praat files and storing in dictionary called all_data
+numfiles = len([f for f in os.scandir(os.getcwd()) if f.name.endswith('.txt')]) # check how many txt files the praat script created
 all_data = {}
-for fi in range(1, num_files + 1):
+for fi in range(1, numfiles + 1):
     filename = str(fi) + ".txt"
-    praat = open(filename, "r", encoding='utf-8')
+    praat = open(filename, "r", encoding='utf_16_le')
     raw_praat_data = praat.read().splitlines()
     praat_data = {}
     to_add = {}
-    to_add["performance"] = raw_praat_data[0].split("\\")[-2]
+    to_add["performance"] = raw_praat_data[0].split("\\")[-2] # gets performance name from the directory path
     to_add["data"] = praat_data
     features_per_pause = 6
     for i in range(0, len(raw_praat_data)):
@@ -76,7 +82,7 @@ for fi in range(1, num_files + 1):
     all_data[fi] = to_add
     praat.close()
 
-#reading in data from csv file and storing it 
+# reading in data from csv file and storing in dictionary called csv_data
 csv_data = {}
 with open('ground_truth_ratings.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
@@ -97,10 +103,10 @@ with open('ground_truth_ratings.csv') as csv_file:
                 temp['Jokes'] = []
                 temp['Jokes'].append([int(row[2]), row[4], row[5], row[3]])
             else:
-                temp['Jokes'].append([int(row[2]), row[4], row[5], row[3]]) 
+                temp['Jokes'].append([int(row[2]), row[4], row[5], row[3]])
         count += 1
 
-#now output csv file with all appropriate data
+# output new csv file with all appropriate data
 with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as csv_file:
     fieldnames = ['PerformanceId', 'JokeId', 'Pitch', 'PitchSd', 'Intensity', 
                   'IntensitySd', 'MinSound', 'MaxSound', 'HumanScore', 'HumanScorePostJokeOnly']
@@ -110,8 +116,8 @@ with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as 
         idx = all_data[elem]['performance']
         if (len(all_data[elem]['data']) == len(csv_data[str(idx)]["Jokes"])):
             for i in range(0, len(all_data[elem]['data'])):
-                cur_joke_name = csv_data[idx]['Jokes'][i][3]
-                txt_file_num = joke_order.index(cur_joke_name)
+                cur_joke_name = csv_data[idx]['Jokes'][i][3] # check name of the joke being matched to a praat data txt file
+                txt_file_num = joke_order.index(cur_joke_name) # find that name in the ordered list, its index is its txt file number
                 row = {}
                 row["PerformanceId"] = csv_data[idx]['PerformanceId']
                 row['JokeId'] = csv_data[idx]['Jokes'][i][0]
