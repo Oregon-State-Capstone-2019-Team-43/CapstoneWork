@@ -1,14 +1,16 @@
+# Program for running the extract_ts.praat script on multiple performance directories
 # Requires Python 3.5 or later
-# Assumes this script is run in the V6_robot_recordings directory containing the performance folders
-# with the pause audio files in a jokes_and_pauses subdirectory within each performance folder
-# and praat.exe is located in the directory this script is run from
+
+# This script assumes it is run in the directory containing the various performance folders
+# and the pause audio files are in a "jokes_and_pauses" subdirectory within each performance folder.
+# It is designed to be run on a Windows computer, differences in file path format on another OS may cause errors.
+# Praat.exe should be located in the directory this script is run from.
 
 import os
-import sys
 basedir = str(os.getcwd())
-print("Extracting praat features from files in subdirs of %s" % basedir)
+print("Extracting praat features from pause files in subdirs of %s" % basedir)
 subdirs = [f.name for f in os.scandir(basedir) if f.is_dir()]
-print("Found %s performance subdirectories" % len(subdirs))
+print("Found %s performance directories" % len(subdirs))
 count = 1
 for dir in subdirs:
    fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
@@ -16,8 +18,8 @@ for dir in subdirs:
    filename = str(count)+".txt"
    cmd = 'praat --run extract_ts.praat "'+fullpath+'" > '+filename
    os.system(cmd)
-   mv = 'move '+filename+' ../robot_comedy_ml/pitch_inten_ts'
+   mv = 'move '+filename+' ../robot_comedy_ml/pitch_inten_ts > nul'
    os.system(mv)
-   print("Data saved in ../robot_comedy_ml/pitch_inten_ts/%s" % filename)
+   print("Data saved in %s\\robot_comedy_ml\\pitch_inten_ts\\%s" % (basedir[:-20], filename))
    count = count+1
-print("All performance directories have been processed")
+print("\nAll performance directories have been processed")
