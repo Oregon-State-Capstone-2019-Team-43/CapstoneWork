@@ -37,25 +37,22 @@ joke_order = []
 numfiles = len([f for f in os.scandir(os.getcwd()) if f.name.endswith('.txt')]) # check how many txt files the praat script created
 for i in range(1, numfiles + 1):
     joke_performance = []
-    file = open(str(i) + ".txt", "r", encoding='utf_16_le')
+    file = open(str(i)+".txt", "r", encoding='utf_16_le')
     path = file.read().splitlines()[0][:-16] # get path to the performance directory
-    #print(path)
     file.close()
     json_name = [i for i in os.listdir(path) if os.path.isfile(os.path.join(path,i)) and 'performanceLog' in i] # find name of json file
-    json_path = path+json_name[0]
-    #print(json_path)
+    json_path = path+json_name[0] # form path to json file
     json_file = open(json_path, "r")
     json_data = json.loads(json_file.read().splitlines()[0]) # read performanceLog json
     json_file.close()
+    skips = ["/../sounds/robot_name_joke_1.ogg.wav", "/../sounds/tags/family_joke_negative.ogg.wav"] # skip joke names not found in the ratings csv
     for entry in json_data:
         keys = entry.keys()
-        if ("audio" in keys) and (entry.get("audio") != "/../sounds/robot_name_joke_1.ogg.wav") and (entry.get("audio") != "/../sounds/tags/family_joke_negative.ogg.wav"):
+        if ("audio" in keys) and (entry.get("audio") not in skips):
             joke_name = entry.get("audio")[11:] # find all joke names in the json and save them in order
             joke_performance.append(joke_name)
     joke_order.append(joke_performance)
     #print(joke_order) # uncomment to verify the resulting list
-for elem in joke_order[16]:
-    print(elem)
 
 # reading in data from praat files and storing in dictionary called all_data
 all_data = {}
@@ -123,17 +120,18 @@ with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as 
         idx = all_data[elem]['performance']
         if (len(all_data[elem]['data']) == len(csv_data[str(idx)]["Jokes"])):
             for i in range(0, len(all_data[elem]['data'])):
+                perf_id = csv_data[idx]['PerformanceId']
                 cur_joke_name = csv_data[idx]['Jokes'][i][3] # check name of the joke being matched to a praat data txt file
-                txt_file_num = joke_order[csv_data[idx]['PerformanceId']].index(cur_joke_name) # find that name in the ordered list, its index is its txt file number
+                pause_num = joke_order[perf_id].index(cur_joke_name) # find that name in the ordered list, its index is its pause number
                 row = {}
                 row["PerformanceId"] = csv_data[idx]['PerformanceId']
                 row['JokeId'] = csv_data[idx]['Jokes'][i][0]
-                row['Pitch'] = all_data[elem]['data'][txt_file_num][2]
-                row['PitchSd'] = all_data[elem]['data'][txt_file_num][3]
-                row['Intensity'] = all_data[elem]['data'][txt_file_num][0]
-                row['IntensitySd'] = all_data[elem]['data'][txt_file_num][1]
-                row['MinSound'] = all_data[elem]['data'][txt_file_num][4]
-                row['MaxSound'] = all_data[elem]['data'][txt_file_num][5]
+                row['Pitch'] = all_data[elem]['data'][pause_num][2]
+                row['PitchSd'] = all_data[elem]['data'][pause_num][3]
+                row['Intensity'] = all_data[elem]['data'][pause_num][0]
+                row['IntensitySd'] = all_data[elem]['data'][pause_num][1]
+                row['MinSound'] = all_data[elem]['data'][pause_num][4]
+                row['MaxSound'] = all_data[elem]['data'][pause_num][5]
                 row['HumanScore'] = csv_data[idx]['Jokes'][i][1]
                 row['HumanScorePostJokeOnly'] = csv_data[idx]['Jokes'][i][2]
                 writer.writerow(row)
