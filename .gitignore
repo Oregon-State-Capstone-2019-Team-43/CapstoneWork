@@ -1,8 +1,4 @@
 robot_comedy_ml/pitch_inten_avg/*.txt
-robot_comedy_ml/pitch_inten_avg/clean_comedy_data.csv
 robot_comedy_ml/pitch_inten_avg_std/*.txt
-robot_comedy_ml/pitch_inten_avg_std/clean_comedy_data.csv
 robot_comedy_ml/pitch_inten_avg_std_minmax/*.txt
-robot_comedy_ml/pitch_inten_avg_std_minmax/clean_comedy_data.csv
 robot_comedy_ml/pitch_inten_ts/*.txt
-robot_comedy_ml/pitch_inten_ts/clean_comedy_data_ts.csv
