@@ -1,0 +1,8 @@
+Group0
+performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (77, 112)
+performance Name: 2019-09-06 RoboCom  Data values: (78, 119)
+performance Name: 2019-12-06 Silent Background Recording  Data values: (65, 108)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (75, 111)
+performance Name: 2019-08-15 Bombs Away Cafe  Data values: (76, 112)
+Group1
+performance Name: 2019-12-09 Singu-Hilarity in San Francisco  Data values: (72, 144)
