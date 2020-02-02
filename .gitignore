@@ -6,3 +6,6 @@ mid_joke_praat_data/pitch_inten_avg/*.txt
 mid_joke_praat_data/pitch_inten_avg_std/*.txt
 mid_joke_praat_data/pitch_inten_avg_std_minmax/*.txt
 mid_joke_praat_data/pitch_inten_ts/*.txt
+k-means-test_by_Tony/input/*.txt
+k-means-test_by_Tony/ouput/*.png
+k-means-test_by_Tony/joke_name_matching/*.txt
