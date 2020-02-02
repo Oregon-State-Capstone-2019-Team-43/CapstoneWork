@@ -8,7 +8,7 @@ The script will generate new text files in this directory for each performance w
 The first line of the file is the performance name. The rest of the lines match the names of the jokes that were told during that performance to the joke or pause numbers they were given in the praat text file for that performance, in the order they are listed in the praat text file.
 
 Output format:
-_name of first joke told_**:**joke_0.mp3
-_name of second joke told_**:**joke_1.mp3
-_name of eleventh joke told_**:**joke_10.mp3
-_name of third joke told_**:**joke_2.mp3
+*name of first joke told* **:** joke\_0.mp3\
+*name of second joke told* **:** joke\_1.mp3\
+*name of eleventh joke told* **:** joke\_10.mp3\
+*name of third joke told* **:** joke\_2.mp3
