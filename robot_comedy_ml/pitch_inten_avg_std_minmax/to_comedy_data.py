@@ -132,8 +132,8 @@ with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as 
                 row['IntensitySd'] = all_data[elem]['data'][pause_num][1]
                 row['MinSound'] = all_data[elem]['data'][pause_num][4]
                 row['MaxSound'] = all_data[elem]['data'][pause_num][5]
-                row['HumanScore'] = csv_data[idx]['Jokes'][i][1]
-                row['HumanScorePostJokeOnly'] = csv_data[idx]['Jokes'][i][2]
+                row['HumanScore'] = int(float(csv_data[idx]['Jokes'][i][1]))
+                row['HumanScorePostJokeOnly'] = int(float(csv_data[idx]['Jokes'][i][2]))
                 writer.writerow(row)
         else:
             #this else case is for if the raw praat data lengths and ground
