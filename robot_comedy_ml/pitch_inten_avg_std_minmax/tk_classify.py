@@ -8,9 +8,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
 # 0 = false, 1 = true, use for debugging
-verbose = 0
+verbose = 1
 # 0 = false, 1 = true
 normalize = 0
+# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
+kernel = 'rbf'
 # SVM regularization parameter
 C = 1.0
 # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
@@ -36,7 +38,7 @@ if normalize:
 
 train, test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1, stratify=y)
 
-clf = svm.SVC(gamma='scale')
+clf = svm.SVC(kernel=kernel, degree=10, gamma='scale', C=C)
 clf.fit(train, y_train)
 if verbose:
 	if normalize:
@@ -44,32 +46,11 @@ if verbose:
 	else:
 		print("Normalization not used")
 	prediction = clf.predict(test)
-	prediction2 = []
-	pmin, pmax = min(prediction), max(prediction)
-	for i, val in enumerate(prediction):
-		prediction2.append(2*((val-pmin)/(pmax-pmin))-1)
-	prediction3 = [round(x) for x in prediction2]
-	for x, g, z, t, i in zip(prediction, prediction2, prediction3, y_test, y_test.index):
-		joke = joke_id.iloc[i]
-		print(round(x, 2), '\t', round(g, 2), '\t', z, '\t', t, '\t', joke['PerformanceId'], '\t', joke['JokeId'])
-	# for p, y in zip(prediction, y_test):
-	# 	if p != y:
-	# 		print("Incorrectly classified as " + str(p) + " should be " + str(y))
-	# 	elif p == y:
-	# 		print(str(y.index) + " has been classified as " + str(p) + " should be " + str(y))
-	# 	else:
-	# 		print("Correct")
+	print("Predictions: ", prediction)
+	for q, w, e in zip(prediction, y_test, y_test.index):
+		joke = joke_id.iloc[e]
+		if q != w:
+			print("Incorrectly classified as ", str(q), "\tshould be ", str(w), "\tPerformance: ", joke['PerformanceId'], "\tJoke: ", joke['JokeId'])
+	print("Overall Rating: ", clf.score(test, y_test))
 else:
 	print(clf.score(test, y_test))
-
-# pca = PCA(n_components = 2)
-# train2 = pca.fit_transform(train)
-
-# # Plot Decision Region using mlxtend's awesome plotting function
-# plot_decision_regions(X=train2, y=y_train, clf=clf, legend=2)
-
-# # Update plot object with X/Y axis labels and Figure Title
-# plt.xlabel(X.columns[0], size=14)
-# plt.ylabel(X.columns[1], size=14)
-# plt.title('SVM Decision Region Boundary', size=16)
-# plt.show()
