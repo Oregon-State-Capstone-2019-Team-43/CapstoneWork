@@ -1,0 +1,6 @@
+Data values: (intensity,pitch,std intensity,std pitch)
+Group0
+performance Name: 2019-09-19 Bombs Away Cafe  Data values: (77, 110, 8, 27)
+performance Name: 2019-08-15 Bombs Away Cafe  Data values: (76, 113, 9, 30)
+Group1
+performance Name: 2019-04-18 Bombs Away Cafe  Data values: (76, 118, 10, 42)

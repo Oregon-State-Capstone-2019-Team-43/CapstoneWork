@@ -1,0 +1,16 @@
+Data values: (intensity,pitch)
+Group0
+performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (76, 125)
+performance Name: 2019-09-05 Stand-up Science  Data values: (75, 124)
+performance Name: 2019-09-06 RoboCom  Data values: (75, 122)
+performance Name: 2019-11-29 Comedy the Musical  Data values: (74, 126)
+performance Name: 2019-05-16 Bombs Away Cafe  Data values: (75, 126)
+performance Name: 2019-06-19 Trek Theater  Data values: (74, 119)
+performance Name: 2019-08-15 Bombs Away Cafe  Data values: (74, 126)
+performance Name: 2019-08-23 Spectrum  Data values: (74, 121)
+Group1
+performance Name: 2019-09-21 Laugh Track Town USA  Data values: (73, 116)
+performance Name: 2019-10-11 Singu-hilarity  Data values: (72, 119)
+performance Name: 2019-11-29 Crapshoot  Data values: (71, 115)
+performance Name: 2019-12-06 Silent Background Recording  Data values: (68, 108)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (71, 116)

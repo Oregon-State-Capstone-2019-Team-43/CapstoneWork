@@ -1,0 +1,11 @@
+Data values: (intensity,pitch,std intensity,std pitch)
+Group0
+performance Name: 2019-12-06 Silent Background Recording  Data values: (75, 111, 10, 26)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (75, 111, 9, 22)
+performance Name: 2019-06-19 Trek Theater  Data values: (77, 110, 8, 23)
+Group1
+performance Name: 2019-09-06 RoboCom  Data values: (78, 112, 7, 27)
+performance Name: 2019-09-19 Bombs Away Cafe  Data values: (75, 113, 8, 28)
+performance Name: 2019-04-18 Bombs Away Cafe  Data values: (76, 114, 8, 30)
+performance Name: 2019-06-20 Bombs Away Cafe  Data values: (77, 116, 8, 32)
+performance Name: 2019-08-23 Spectrum  Data values: (77, 114, 7, 28)

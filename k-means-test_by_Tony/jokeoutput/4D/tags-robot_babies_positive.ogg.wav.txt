@@ -1,0 +1,7 @@
+Data values: (intensity,pitch,std intensity,std pitch)
+Group0
+performance Name: 2019-11-29 Comedy the Musical  Data values: (76, 105, 13, 10)
+performance Name: 2019-11-29 Crapshoot  Data values: (75, 106, 13, 14)
+Group1
+performance Name: 2019-09-19 Bombs Away Cafe  Data values: (77, 107, 10, 17)
+performance Name: 2019-10-11 Singu-hilarity  Data values: (76, 107, 11, 14)
