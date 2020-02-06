@@ -1,7 +1,7 @@
 import os
 import json
 basedir = str(os.getcwd())
-pathtoinput = basedir[:-18]+"\\input"
+pathtoinput = basedir[:-18]+"\\jokeinput"
 perfpath = basedir[:-39]+"\\V6_robot_recordings"
 numfiles = len([f for f in os.scandir(pathtoinput) if f.name.endswith('.txt')])
 perfnames = [d.name for d in os.scandir(perfpath) if d.is_dir()]

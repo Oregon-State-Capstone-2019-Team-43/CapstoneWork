@@ -1,0 +1,10 @@
+Group0
+performance Name: 2019-09-19 Bombs Away Cafe  Data values: (73, 104)
+performance Name: 2019-12-06 Silent Background Recording  Data values: (71, 100)
+performance Name: 2019-04-18 Bombs Away Cafe  Data values: (74, 99)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (71, 102)
+performance Name: 2019-06-19 Trek Theater  Data values: (73, 105)
+Group1
+performance Name: 2019-09-06 RoboCom  Data values: (75, 108)
+performance Name: 2019-06-20 Bombs Away Cafe  Data values: (76, 119)
+performance Name: 2019-08-23 Spectrum  Data values: (75, 107)
