@@ -1,29 +1,27 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import random
-from mlxtend.plotting import plot_decision_regions
 from sklearn import svm
 from sklearn import tree
 from sklearn.decomposition import PCA
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
-verbose = 0															# 0 = false, 1 = true, use for debugging
+verbose = 1															# 0 = false, 1 = true, use for debugging
 normalize = 'minmax' 												# 'minmax' or 'gdpr' or 'z-score'
-two_class = 1 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
+two_class = 0 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
 column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 kernel = 'rbf' 														# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
 SVM_C = 10.0 														# SVM regularization parameter
 SVM_Gamma = 0.01 													# SVM regularization parameter
-calibrate = 0														# If calibration else destroy
+calibrate = 1														# If calibration else destroy
 SVM_C_range = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0] 			# SVM regularization parameters for calibration
 SVM_Gamma_range = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0] 		# SVM regularization parameters for calibration
 R_State = 1 														# None or Integer
 features = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 validation = 'HumanScorePostJokeOnly' 								# 'HumanScore' or 'HumanScorePostJokeOnly'
-validation_technique = 'ho20' 										# 'ho20' or 'l1po'
+validation_technique = 'l1po' 										# 'ho20' or 'l1po'
 joke_ids = ['PerformanceId', 'JokeId'] 								# 'PerformanceId', 'JokeId'
-print_false_predictions = 0
+print_false_predictions = 1											#
 remove_zeros = 0
 
 def classify(train, test, y_train, y_test, joke_id):
