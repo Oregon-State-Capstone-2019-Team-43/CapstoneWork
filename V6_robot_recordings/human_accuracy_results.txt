@@ -1,0 +1,3 @@
+Brian_ground_truths.csv     0.7028862478777589     (414 matches, 175 diffs)
+Timothy_ground_truths.csv     0.6893039049235993     (406 matches, 183 diffs)
+Trevor_ground_truths.csv     0.8913412563667232     (525 matches, 64 diffs)
