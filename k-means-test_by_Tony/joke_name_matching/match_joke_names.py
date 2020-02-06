@@ -2,10 +2,15 @@ import os
 import json
 basedir = str(os.getcwd())
 pathtoinput = basedir[:-18]+"\\jokeinput"
+pathtoinput2 = basedir[:-18]+"\\input"
 perfpath = basedir[:-39]+"\\V6_robot_recordings"
-numfiles = len([f for f in os.scandir(pathtoinput) if f.name.endswith('.txt')])
 perfnames = [d.name for d in os.scandir(perfpath) if d.is_dir()]
 type = input("Are you matching jokes (enter 'joke') or pauses (enter 'pause') to joke names? ")
+if type == "joke":
+        numfiles = len([f for f in os.scandir(pathtoinput) if f.name.endswith('.txt')])
+else:
+        numfiles = len([f for f in os.scandir(pathtoinput2) if f.name.endswith('.txt')])
+        
 if type == "joke":
 	for i in range(1, numfiles+1):
 		joke_order = []
@@ -37,6 +42,7 @@ if type == "joke":
 			name_indx = int(name[5:-4])
 			line = joke_order[name_indx]+":"+name
 			output.write(line+"\n")
+		output.close()
 if type == "pause":
 	for i in range(1, numfiles+1):
 		joke_order = []
@@ -68,3 +74,4 @@ if type == "pause":
 			name_indx = int(name[6:-4])
 			line = joke_order[name_indx]+":"+name
 			output.write(line+"\n")
+		output.close()
