@@ -1,0 +1,12 @@
+Data values: (intensity,pitch,std intensity,std pitch,max sound,min sound)
+Group0
+performance Name: 2019-12-06 Silent Background Recording  Data values: (77, 121, 13, 27, 1, -1)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (78, 119, 11, 22, 1, -1)
+performance Name: 2019-04-22 Class Performance  Data values: (77, 119, 12, 23, 1, -1)
+performance Name: 2019-08-23 Spectrum  Data values: (79, 121, 11, 26, 1, -1)
+Group1
+performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (79, 122, 10, 26, 1, -1)
+performance Name: 2019-09-05 Stand-up Science  Data values: (79, 124, 11, 32, 1, -1)
+performance Name: 2019-09-06 RoboCom  Data values: (80, 131, 9, 39, 1, -1)
+performance Name: 2019-06-19 Trek Theater  Data values: (80, 125, 9, 30, 1, -1)
+performance Name: 2019-08-15 Bombs Away Cafe  Data values: (79, 122, 9, 31, 1, -1)

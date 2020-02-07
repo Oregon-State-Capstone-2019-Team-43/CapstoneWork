@@ -1,0 +1,10 @@
+Data values: (intensity,pitch,std intensity,std pitch,max sound,min sound)
+Group0
+performance Name: 2019-09-06 RoboCom  Data values: (74, 112, 11, 33, 1, -1)
+performance Name: 2019-09-19 Bombs Away Cafe  Data values: (75, 107, 11, 24, 1, -1)
+performance Name: 2019-09-21 Laugh Track Town USA  Data values: (74, 115, 11, 38, 1, -1)
+performance Name: 2019-10-11 Singu-hilarity  Data values: (72, 118, 14, 49, 1, -1)
+performance Name: 2019-11-29 Comedy the Musical  Data values: (73, 113, 14, 38, 1, -1)
+performance Name: 2019-11-29 Crapshoot  Data values: (72, 108, 14, 28, 1, -1)
+Group1
+performance Name: 2019-12-06 Silent Background Recording  Data values: (68, 103, 17, 13, 1, -1)
