@@ -1,0 +1,21 @@
+intensity-pitch: 0.15129002024666466
+intensity-stinten: -0.7674592681055147
+intensity-stpit: 0.0606821307247343
+intensity-maxsound: 0.08039346275974596
+intensity-minsound: -0.11786550108943794
+pitch-stinten: -0.2623830446032314
+pitch-stpit: 0.8752179562346368
+pitch-maxsound: 0.15500600491071817
+pitch-minsound: -0.2666751735837458
+stinten-stpit: -0.2713864201773128
+stinten-maxsound: 0.08571721160256393
+stinten-minsound: -0.04501114952679566
+stpit-maxsound: 0.11102734335984486
+stpit-minsound: -0.20759466881549252
+maxsound-minsound: -0.7304517124132854
+
+
+The correlation coefficient are higher than 7:
+intensity-stinten: -0.7674592681055147
+pitch-stpit: 0.8752179562346368
+maxsound-minsound: -0.7304517124132854

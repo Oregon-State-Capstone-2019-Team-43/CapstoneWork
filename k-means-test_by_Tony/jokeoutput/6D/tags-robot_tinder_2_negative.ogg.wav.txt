@@ -1,7 +1,7 @@
 Data values: (intensity,pitch,std intensity,std pitch,max sound,min sound)
 Group0
-performance Name: 2019-12-06 Silent Background Recording  Data values: (72, 109, 13, 24, 1, -1)
-performance Name: 2019-04-19 Singu-hilarity  Data values: (75, 112, 10, 27, 1, -1)
+performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (77.67, 115.85, 9.34, 36.92, 1.16, -1.16)
+performance Name: 2019-09-21 Laugh Track Town USA  Data values: (76.19, 120.04, 9.47, 42.02, 1.14, -1.16)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (74.66, 112.5, 10.12, 27.42, 1.12, -1.15)
 Group1
-performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (78, 116, 9, 37, 1, -1)
-performance Name: 2019-09-21 Laugh Track Town USA  Data values: (76, 120, 9, 42, 1, -1)
+performance Name: 2019-12-06 Silent Background Recording  Data values: (72.48, 109.26, 13.4, 24.13, 1.15, -1.1)

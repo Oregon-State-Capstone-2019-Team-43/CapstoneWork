@@ -1,6 +1,6 @@
 Data values: (intensity,pitch)
 Group0
-performance Name: 2019-04-19 Singu-hilarity  Data values: (76, 117)
+performance Name: 2019-12-06 Silent Background Recording  Data values: (72.76, 105.8)
+performance Name: 2019-04-22 Class Performance  Data values: (74.05, 108.41)
 Group1
-performance Name: 2019-12-06 Silent Background Recording  Data values: (73, 106)
-performance Name: 2019-04-22 Class Performance  Data values: (74, 108)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (75.69, 116.64)

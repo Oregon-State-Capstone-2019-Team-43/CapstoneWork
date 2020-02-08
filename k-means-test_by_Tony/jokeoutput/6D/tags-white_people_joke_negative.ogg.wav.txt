@@ -1,7 +1,7 @@
 Data values: (intensity,pitch,std intensity,std pitch,max sound,min sound)
 Group0
-performance Name: 2019-09-19 Bombs Away Cafe  Data values: (76, 108, 9, 28, 1, -1)
-performance Name: 2019-09-21 Laugh Track Town USA  Data values: (75, 107, 9, 28, 1, -1)
-performance Name: 2019-04-19 Singu-hilarity  Data values: (74, 110, 11, 31, 1, -1)
+performance Name: 2019-09-19 Bombs Away Cafe  Data values: (75.85, 107.73, 8.76, 27.74, 1.15, -1.15)
 Group1
-performance Name: 2019-12-06 Silent Background Recording  Data values: (74, 103, 11, 16, 1, -1)
+performance Name: 2019-09-21 Laugh Track Town USA  Data values: (75.39, 106.94, 9.32, 27.94, 1.12, -1.11)
+performance Name: 2019-12-06 Silent Background Recording  Data values: (73.68, 103.07, 11.2, 15.84, 1.12, -1.12)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (74.18, 109.72, 10.95, 31.43, 1.1, -1.11)

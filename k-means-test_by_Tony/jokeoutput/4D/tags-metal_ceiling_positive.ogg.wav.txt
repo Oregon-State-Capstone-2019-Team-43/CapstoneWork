@@ -1,6 +1,6 @@
 Data values: (intensity,pitch,std intensity,std pitch)
 Group0
-performance Name: 2019-11-29 Comedy the Musical  Data values: (71, 119, 14, 48)
+performance Name: 2019-11-29 Comedy the Musical  Data values: (71.27, 119.46, 13.78, 47.69)
 Group1
-performance Name: 2019-10-11 Singu-hilarity  Data values: (69, 102, 15, 25)
-performance Name: 2019-11-29 Crapshoot  Data values: (70, 99, 15, 16)
+performance Name: 2019-10-11 Singu-hilarity  Data values: (69.5, 102.4, 14.89, 24.67)
+performance Name: 2019-11-29 Crapshoot  Data values: (70.17, 99.26, 14.61, 16.27)

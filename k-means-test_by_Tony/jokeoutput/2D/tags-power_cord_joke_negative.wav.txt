@@ -1,6 +1,6 @@
 Data values: (intensity,pitch)
 Group0
-performance Name: 2019-09-06 RoboCom  Data values: (73, 121)
-performance Name: 2019-04-19 Singu-hilarity  Data values: (71, 122)
+performance Name: 2019-09-06 RoboCom  Data values: (73.09, 121.05)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (70.71, 122.39)
 Group1
-performance Name: 2019-12-06 Silent Background Recording  Data values: (69, 114)
+performance Name: 2019-12-06 Silent Background Recording  Data values: (69.23, 114.39)
