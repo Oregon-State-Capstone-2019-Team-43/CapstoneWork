@@ -30,14 +30,18 @@ for i from 1 to numFiles
 	appendInfoLine: intensity
 	stinten = Get standard deviation... 0 0
 	appendInfoLine: stinten
+	minIntensity = Get minimum... 0 0 Sinc70
+	appendInfoLine: minIntensity
+	maxIntensity = Get maximum... 0 0 Sinc70
+	appendInfoLine: maxIntensity
 	selectObject: "Pitch pitch"
 	pitch = Get mean... 0 0 Hertz
 	appendInfoLine: pitch
 	stpit = Get standard deviation... 0 0 Hertz
 	appendInfoLine: stpit	
-	selectObject: sound
-	min = Get minimum... 0 0 Sinc70
-	appendInfoLine: min
-	max = Get maximum... 0 0 Sinc70
-	appendInfoLine: max
+	max_pitch = Get maximum: 0, 0, "Hertz", "Parabolic"
+	appendInfoLine: max_pitch
+	min_pitch = Get minimum: 0, 0, "Hertz", "Parabolic"
+	appendInfoLine: min_pitch
+
 endfor

@@ -1,5 +1,11 @@
 Data values: (intensity,pitch,std intensity,std pitch,max sound,min sound)
 Group0
+performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (78.17, 119.92, 9.18, 27.87, 1.14, -1.11)
+performance Name: 2019-09-05 Stand-up Science  Data values: (78.42, 122.86, 9.98, 33.38, 1.09, -1.09)
+performance Name: 2019-09-06 RoboCom  Data values: (78.24, 121.77, 9.23, 29.43, 1.11, -1.15)
+performance Name: 2019-10-11 Singu-hilarity  Data values: (77.03, 120.33, 10.66, 31.11, 1.12, -1.11)
+performance Name: 2019-08-23 Spectrum  Data values: (77.71, 120.62, 9.93, 28.24, 1.12, -1.12)
+Group1
 performance Name: 2019-09-21 Laugh Track Town USA  Data values: (77.44, 117.78, 9.87, 24.61, 1.14, -1.11)
 performance Name: 2019-11-29 Comedy the Musical  Data values: (76.51, 117.88, 10.52, 25.14, 1.12, -1.16)
 performance Name: 2019-11-29 Crapshoot  Data values: (76.92, 117.98, 10.54, 24.66, 1.13, -1.12)
@@ -8,9 +14,3 @@ performance Name: 2019-04-19 Singu-hilarity  Data values: (76.13, 116.82, 11.22,
 performance Name: 2019-06-19 Trek Theater  Data values: (77.42, 117.99, 9.91, 26.65, 1.1, -1.12)
 performance Name: 2019-06-20 Bombs Away Cafe  Data values: (77.56, 117.33, 9.31, 25.38, 1.15, -1.14)
 performance Name: 2019-08-15 Bombs Away Cafe  Data values: (77.05, 117.66, 9.36, 25.28, 1.1, -1.15)
-Group1
-performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (78.17, 119.92, 9.18, 27.87, 1.14, -1.11)
-performance Name: 2019-09-05 Stand-up Science  Data values: (78.42, 122.86, 9.98, 33.38, 1.09, -1.09)
-performance Name: 2019-09-06 RoboCom  Data values: (78.24, 121.77, 9.23, 29.43, 1.11, -1.15)
-performance Name: 2019-10-11 Singu-hilarity  Data values: (77.03, 120.33, 10.66, 31.11, 1.12, -1.11)
-performance Name: 2019-08-23 Spectrum  Data values: (77.71, 120.62, 9.93, 28.24, 1.12, -1.12)
