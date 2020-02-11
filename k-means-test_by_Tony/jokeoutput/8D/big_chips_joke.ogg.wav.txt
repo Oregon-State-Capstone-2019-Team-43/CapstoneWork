@@ -1,12 +1,5 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
-performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (73.58, 116.64, 11.12, 38.03, 91.45, 32.43, 292.72, 75.62)
-performance Name: 2019-09-05 Stand-up Science  Data values: (71.46, 119.83, 12.95, 39.04, 91.21, 47.98, 271.78, 75.83)
-performance Name: 2019-11-29 Comedy the Musical  Data values: (69.95, 117.65, 14.4, 39.64, 91.55, 36.54, 299.75, 74.98)
-performance Name: 2019-11-29 Crapshoot  Data values: (70.37, 116.5, 13.96, 35.08, 91.44, 39.0, 262.41, 72.99)
-performance Name: 2019-12-06 Silent Background Recording  Data values: (68.3, 114.83, 15.65, 34.16, 92.12, 26.74, 233.46, 75.82)
-performance Name: 2019-04-19 Singu-hilarity  Data values: (70.53, 124.42, 13.94, 44.87, 91.29, 29.62, 294.28, 75.4)
-Group1
 performance Name: 2019-09-06 RoboCom  Data values: (76.68, 138.37, 8.75, 56.06, 91.45, 38.97, 278.65, 75.69)
 performance Name: 2019-09-19 Bombs Away Cafe  Data values: (73.37, 119.81, 10.83, 42.24, 91.24, 42.58, 299.72, 75.54)
 performance Name: 2019-09-21 Laugh Track Town USA  Data values: (72.68, 123.2, 11.42, 44.61, 91.56, 41.72, 284.16, 75.69)
@@ -16,3 +9,10 @@ performance Name: 2019-06-19 Trek Theater  Data values: (75.05, 121.55, 9.36, 42
 performance Name: 2019-06-20 Bombs Away Cafe  Data values: (73.7, 124.76, 11.27, 46.44, 91.27, 36.64, 282.28, 75.79)
 performance Name: 2019-08-15 Bombs Away Cafe  Data values: (73.03, 126.08, 10.88, 47.31, 91.19, 46.99, 301.64, 75.73)
 performance Name: 2019-08-23 Spectrum  Data values: (73.86, 132.19, 11.04, 51.59, 91.36, 35.01, 291.77, 75.42)
+Group1
+performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (73.58, 116.64, 11.12, 38.03, 91.45, 32.43, 292.72, 75.62)
+performance Name: 2019-09-05 Stand-up Science  Data values: (71.46, 119.83, 12.95, 39.04, 91.21, 47.98, 271.78, 75.83)
+performance Name: 2019-11-29 Comedy the Musical  Data values: (69.95, 117.65, 14.4, 39.64, 91.55, 36.54, 299.75, 74.98)
+performance Name: 2019-11-29 Crapshoot  Data values: (70.37, 116.5, 13.96, 35.08, 91.44, 39.0, 262.41, 72.99)
+performance Name: 2019-12-06 Silent Background Recording  Data values: (68.3, 114.83, 15.65, 34.16, 92.12, 26.74, 233.46, 75.82)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (70.53, 124.42, 13.94, 44.87, 91.29, 29.62, 294.28, 75.4)

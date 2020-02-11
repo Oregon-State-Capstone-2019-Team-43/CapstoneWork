@@ -1,0 +1,36 @@
+intensity-pitch: 0.25877455787562176
+intensity-stdIntensity: -0.9766059297565879
+intensity-stdPitch: 0.21943605276037045
+intensity-maxIntensity: -0.4669826184051413
+intensity-minIntensity: 0.8207601434346439
+intensity-maxPitch: 0.41959179981897854
+intensity-minPitch: 0.07614741047361513
+pitch-stdIntensity: -0.25909873077970735
+pitch-stdPitch: 0.9653175142962431
+pitch-maxIntensity: -0.5995602694771351
+pitch-minIntensity: 0.4629443086516477
+pitch-maxPitch: 0.6979926899398379
+pitch-minPitch: 0.47791213253679593
+stdIntensity-stdPitch: -0.20434190472716268
+stdIntensity-maxIntensity: 0.5295422564416352
+stdIntensity-minIntensity: -0.8109139612707855
+stdIntensity-maxPitch: -0.335555093042376
+stdIntensity-minPitch: 0.017809482874373617
+stdPitch-maxIntensity: -0.516692843946785
+stdPitch-minIntensity: 0.4391878438752874
+stdPitch-maxPitch: 0.817866016604075
+stdPitch-minPitch: 0.5358149684706379
+maxIntensity-minIntensity: -0.611843332443884
+maxIntensity-maxPitch: -0.2607184592708559
+maxIntensity-minPitch: 0.21452135446727996
+minIntensity-maxPitch: 0.5102361033164657
+minIntensity-minPitch: 0.015171784073534693
+maxPitch-minPitch: 0.5350604202737967
+
+
+The correlation coefficient are higher than 7:
+intensity-stdIntensity: -0.9766059297565879
+intensity-minIntensity: 0.8207601434346439
+pitch-stdPitch: 0.9653175142962431
+stdIntensity-minIntensity: -0.8109139612707855
+stdPitch-maxPitch: 0.817866016604075

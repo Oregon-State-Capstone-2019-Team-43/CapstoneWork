@@ -1,5 +1,9 @@
 Data values: (intensity,pitch,std intensity,std pitch)
 Group0
+performance Name: 2019-09-05 Stand-up Science  Data values: (74.88, 122.43, 10.44, 42.54)
+performance Name: 2019-09-06 RoboCom  Data values: (76.04, 120.61, 8.64, 45.33)
+performance Name: 2019-05-16 Bombs Away Cafe  Data values: (75.02, 119.5, 8.85, 46.44)
+Group1
 performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (75.41, 111.19, 8.68, 24.93)
 performance Name: 2019-12-06 Silent Background Recording  Data values: (72.45, 112.1, 11.65, 35.01)
 performance Name: 2019-04-19 Singu-hilarity  Data values: (72.65, 111.63, 11.46, 30.75)
@@ -7,7 +11,3 @@ performance Name: 2019-04-22 Class Performance  Data values: (72.6, 109.36, 11.3
 performance Name: 2019-06-19 Trek Theater  Data values: (74.55, 109.9, 10.1, 24.12)
 performance Name: 2019-08-15 Bombs Away Cafe  Data values: (74.06, 108.59, 9.6, 19.86)
 performance Name: 2019-08-23 Spectrum  Data values: (74.65, 110.58, 9.82, 25.57)
-Group1
-performance Name: 2019-09-05 Stand-up Science  Data values: (74.88, 122.43, 10.44, 42.54)
-performance Name: 2019-09-06 RoboCom  Data values: (76.04, 120.61, 8.64, 45.33)
-performance Name: 2019-05-16 Bombs Away Cafe  Data values: (75.02, 119.5, 8.85, 46.44)

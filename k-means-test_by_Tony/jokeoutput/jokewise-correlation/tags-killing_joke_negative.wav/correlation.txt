@@ -1,0 +1,31 @@
+intensity-pitch: Data set is smaller than 2
+intensity-stdIntensity: Data set is smaller than 2
+intensity-stdPitch: Data set is smaller than 2
+intensity-maxIntensity: Data set is smaller than 2
+intensity-minIntensity: Data set is smaller than 2
+intensity-maxPitch: Data set is smaller than 2
+intensity-minPitch: Data set is smaller than 2
+pitch-stdIntensity: Data set is smaller than 2
+pitch-stdPitch: Data set is smaller than 2
+pitch-maxIntensity: Data set is smaller than 2
+pitch-minIntensity: Data set is smaller than 2
+pitch-maxPitch: Data set is smaller than 2
+pitch-minPitch: Data set is smaller than 2
+stdIntensity-stdPitch: Data set is smaller than 2
+stdIntensity-maxIntensity: Data set is smaller than 2
+stdIntensity-minIntensity: Data set is smaller than 2
+stdIntensity-maxPitch: Data set is smaller than 2
+stdIntensity-minPitch: Data set is smaller than 2
+stdPitch-maxIntensity: Data set is smaller than 2
+stdPitch-minIntensity: Data set is smaller than 2
+stdPitch-maxPitch: Data set is smaller than 2
+stdPitch-minPitch: Data set is smaller than 2
+maxIntensity-minIntensity: Data set is smaller than 2
+maxIntensity-maxPitch: Data set is smaller than 2
+maxIntensity-minPitch: Data set is smaller than 2
+minIntensity-maxPitch: Data set is smaller than 2
+minIntensity-minPitch: Data set is smaller than 2
+maxPitch-minPitch: Data set is smaller than 2
+
+
+The correlation coefficient are higher than 7:
