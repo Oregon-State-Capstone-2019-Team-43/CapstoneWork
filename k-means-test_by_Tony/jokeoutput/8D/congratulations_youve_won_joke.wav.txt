@@ -1,0 +1,11 @@
+Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
+Group0
+performance Name: 2019-12-06 Silent Background Recording  Data values: (70.7, 137.66, 15.47, 48.7, 92.02, 22.32, 252.56, 75.13)
+performance Name: 2019-04-19 Singu-hilarity  Data values: (71.18, 137.47, 14.99, 49.03, 91.85, 26.61, 252.54, 75.16)
+performance Name: 2019-04-22 Class Performance  Data values: (71.44, 137.07, 14.29, 48.59, 91.88, 32.32, 252.72, 75.04)
+Group1
+performance Name: 2019-09-06 RoboCom  Data values: (77.22, 144.98, 9.34, 55.35, 91.41, 44.78, 285.46, 74.95)
+performance Name: 2019-04-18 Bombs Away Cafe  Data values: (75.27, 150.48, 11.58, 61.91, 92.41, 38.42, 296.22, 74.72)
+performance Name: 2019-06-19 Trek Theater  Data values: (75.25, 142.22, 10.46, 50.32, 91.83, 31.42, 276.86, 75.31)
+performance Name: 2019-06-20 Bombs Away Cafe  Data values: (74.54, 143.47, 11.66, 52.38, 91.77, 40.44, 268.06, 75.08)
+performance Name: 2019-08-23 Spectrum  Data values: (77.75, 146.43, 8.89, 52.18, 91.87, 40.83, 296.43, 74.73)
