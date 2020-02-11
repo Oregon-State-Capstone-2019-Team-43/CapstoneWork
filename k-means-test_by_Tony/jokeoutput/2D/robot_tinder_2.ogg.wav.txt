@@ -1,12 +1,5 @@
 Data values: (intensity,pitch)
 Group0
-performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (75.85, 112.67)
-performance Name: 2019-09-05 Stand-up Science  Data values: (75.72, 120.69)
-performance Name: 2019-09-06 RoboCom  Data values: (77.08, 113.5)
-performance Name: 2019-04-18 Bombs Away Cafe  Data values: (76.2, 115.27)
-performance Name: 2019-05-16 Bombs Away Cafe  Data values: (75.61, 118.01)
-performance Name: 2019-06-19 Trek Theater  Data values: (75.08, 115.56)
-Group1
 performance Name: 2019-09-19 Bombs Away Cafe  Data values: (74.78, 107.26)
 performance Name: 2019-09-21 Laugh Track Town USA  Data values: (75.26, 111.7)
 performance Name: 2019-10-11 Singu-hilarity  Data values: (73.92, 108.48)
@@ -15,3 +8,10 @@ performance Name: 2019-04-19 Singu-hilarity  Data values: (73.08, 108.79)
 performance Name: 2019-06-20 Bombs Away Cafe  Data values: (74.93, 109.55)
 performance Name: 2019-08-15 Bombs Away Cafe  Data values: (75.05, 110.46)
 performance Name: 2019-08-23 Spectrum  Data values: (75.6, 109.56)
+Group1
+performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (75.85, 112.67)
+performance Name: 2019-09-05 Stand-up Science  Data values: (75.72, 120.69)
+performance Name: 2019-09-06 RoboCom  Data values: (77.08, 113.5)
+performance Name: 2019-04-18 Bombs Away Cafe  Data values: (76.2, 115.27)
+performance Name: 2019-05-16 Bombs Away Cafe  Data values: (75.61, 118.01)
+performance Name: 2019-06-19 Trek Theater  Data values: (75.08, 115.56)

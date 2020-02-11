@@ -1,5 +1,5 @@
 Data values: (intensity,pitch)
 Group0
-performance Name: 2019-09-21 Laugh Track Town USA  Data values: (75.31, 109.92)
-Group1
 performance Name: 2019-09-19 Bombs Away Cafe  Data values: (76.37, 116.96)
+Group1
+performance Name: 2019-09-21 Laugh Track Town USA  Data values: (75.31, 109.92)

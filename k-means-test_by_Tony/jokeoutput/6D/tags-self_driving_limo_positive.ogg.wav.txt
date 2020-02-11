@@ -1,6 +1,0 @@
-Data values: (intensity,pitch,std intensity,std pitch,max sound,min sound)
-Group0
-performance Name: 2019-09-19 Bombs Away Cafe  Data values: (74.05, 114.2, 10.55, 40.78, 1.1, -1.1)
-performance Name: 2019-10-11 Singu-hilarity  Data values: (74.3, 120.82, 10.6, 47.11, 1.15, -1.12)
-Group1
-performance Name: 2019-09-06 RoboCom  Data values: (75.24, 105.83, 11.59, 26.89, 1.25, -1.11)

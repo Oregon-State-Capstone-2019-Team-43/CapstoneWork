@@ -1,7 +1,0 @@
-Data values: (intensity,pitch,std intensity,std pitch,max sound,min sound)
-Group0
-performance Name: 2019-09-06 RoboCom  Data values: (78.37, 117.77, 8.45, 27.76, 1.09, -1.09)
-Group1
-performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (77.46, 112.12, 9.31, 18.37, 1.07, -1.07)
-performance Name: 2019-04-18 Bombs Away Cafe  Data values: (76.53, 112.04, 9.5, 17.71, 1.07, -1.08)
-performance Name: 2019-08-15 Bombs Away Cafe  Data values: (76.05, 114.17, 8.8, 27.69, 1.06, -1.05)

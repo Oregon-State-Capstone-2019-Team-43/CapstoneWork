@@ -1,0 +1,7 @@
+Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
+Group0
+performance Name: 2019-10-11 Singu-hilarity  Data values: (68.36, 106.75, 14.89, 28.11, 90.21, 35.85, 298.12, 78.24)
+Group1
+performance Name: 2019-09-06 RoboCom  Data values: (72.41, 114.06, 11.79, 34.0, 91.16, 43.11, 275.87, 75.07)
+performance Name: 2019-09-19 Bombs Away Cafe  Data values: (72.29, 113.57, 11.2, 27.78, 91.15, 35.88, 230.51, 83.96)
+performance Name: 2019-09-21 Laugh Track Town USA  Data values: (71.42, 103.58, 12.05, 11.92, 91.04, 40.2, 146.97, 81.02)
