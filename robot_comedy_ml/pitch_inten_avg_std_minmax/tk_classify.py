@@ -8,14 +8,14 @@ from sklearn.preprocessing import MinMaxScaler
 
 verbose = 1															# 0 = false, 1 = true, use for debugging
 normalize = 'minmax' 												# 'minmax' or 'gdpr' or 'z-score'
-two_class = 0 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
+two_class = 1 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
 column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 kernel = 'rbf' 														# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
-SVM_C = 10.0 														# SVM regularization parameter
-SVM_Gamma = 0.01 													# SVM regularization parameter
-calibrate = 1														# If calibration else destroy
-SVM_C_range = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0] 			# SVM regularization parameters for calibration
-SVM_Gamma_range = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0] 		# SVM regularization parameters for calibration
+SVM_C = 15000.0 													# SVM regularization parameter
+SVM_Gamma = 0.00001 												# SVM regularization parameter
+calibrate = 0														# If calibration else destroy
+SVM_C_range = [1.0, 10.0, 100.0, 1000.0, 10000.0] 			# SVM regularization parameters for calibration
+SVM_Gamma_range = [0.0000001, 0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0] 		# SVM regularization parameters for calibration
 R_State = 1 														# None or Integer
 features = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 validation = 'HumanScorePostJokeOnly' 								# 'HumanScore' or 'HumanScorePostJokeOnly'
@@ -74,7 +74,7 @@ def classify(train, test, y_train, y_test, joke_id):
 					joke = joke_id.iloc[e]
 					if q != w:
 						print("\tPredicted: ", str(q), "\tActual: ", str(w), "\tPerformance: ", joke['PerformanceId'], "\tJoke: ", joke['JokeId'])
-			print("Gamma: ", SVM_Gamma, "\tC: ", SVM_C, "\t-:", nega, "\t0: ", zero, "\t+: ", posi, "  \tRating: ", clf.score(test, y_test))
+			print("Gamma: ", SVM_Gamma, "\tC: ", SVM_C, "\t-:", nega, "\t0: ", zero, "\t+: ", posi, "\tTotal: ", posi+nega+zero, "  \tRating: ", clf.score(test, y_test))
 		else:
 			clf = svm.SVC(kernel=kernel, degree=3, gamma=SVM_Gamma, C=SVM_C)
 			clf.fit(train, y_train)
