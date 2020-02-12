@@ -1,8 +1,8 @@
 Data values: (intensity,pitch)
 Group0
-performance Name: 2019-09-06 RoboCom  Data values: (77.68, 133.19)
-Group1
 performance Name: 2019-09-21 Laugh Track Town USA  Data values: (76.08, 129.27)
 performance Name: 2019-10-11 Singu-hilarity  Data values: (74.38, 125.75)
 performance Name: 2019-12-06 Silent Background Recording  Data values: (73.88, 129.78)
 performance Name: 2019-04-22 Class Performance  Data values: (74.5, 127.84)
+Group1
+performance Name: 2019-09-06 RoboCom  Data values: (77.68, 133.19)
