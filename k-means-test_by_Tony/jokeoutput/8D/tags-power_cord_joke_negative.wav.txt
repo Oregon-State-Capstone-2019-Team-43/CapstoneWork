@@ -1,6 +1,6 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
+performance Name and Joke ID: 2019-12-06 Silent Background Recording----Joke ID: 51  Data values: (69.23, 114.39, 13.2, 39.97, 90.77, 29.89, 281.85, 76.84)
+Group1
 performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 48  Data values: (73.09, 121.05, 10.4, 48.53, 89.93, 38.12, 261.44, 73.83)
 performance Name and Joke ID: 2019-04-19 Singu-hilarity----Joke ID: 38  Data values: (70.71, 122.39, 11.54, 49.54, 90.87, 44.74, 297.68, 75.41)
-Group1
-performance Name and Joke ID: 2019-12-06 Silent Background Recording----Joke ID: 51  Data values: (69.23, 114.39, 13.2, 39.97, 90.77, 29.89, 281.85, 76.84)

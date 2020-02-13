@@ -1,5 +1,6 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
+performance Name and Joke ID: 2019-09-05 Stand-up Science----Joke ID: 9  Data values: (75.7, 111.58, 11.25, 24.65, 90.75, 38.71, 279.72, 71.91)
 performance Name and Joke ID: 2019-09-19 Bombs Away Cafe----Joke ID: 7  Data values: (74.55, 111.4, 11.13, 21.83, 91.18, 44.35, 241.94, 76.91)
 performance Name and Joke ID: 2019-09-21 Laugh Track Town USA----Joke ID: 8  Data values: (74.92, 112.83, 11.14, 25.52, 90.49, 37.92, 261.23, 76.2)
 performance Name and Joke ID: 2019-10-11 Singu-hilarity----Joke ID: 10  Data values: (73.59, 110.76, 13.03, 21.19, 90.48, 38.03, 275.75, 76.92)
@@ -12,6 +13,5 @@ performance Name and Joke ID: 2019-06-19 Trek Theater----Joke ID: 9  Data values
 performance Name and Joke ID: 2019-08-15 Bombs Away Cafe----Joke ID: 13  Data values: (75.38, 114.43, 10.36, 26.39, 90.57, 49.54, 227.36, 77.27)
 Group1
 performance Name and Joke ID: 2019-04-13 Cienna Nerdy Show at The Drake----Joke ID: 13  Data values: (76.85, 114.78, 10.31, 31.17, 90.55, 35.52, 286.74, 71.55)
-performance Name and Joke ID: 2019-09-05 Stand-up Science----Joke ID: 9  Data values: (75.7, 111.58, 11.25, 24.65, 90.75, 38.71, 279.72, 71.91)
 performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 16  Data values: (76.98, 118.82, 9.88, 37.17, 90.88, 36.83, 274.85, 76.03)
 performance Name and Joke ID: 2019-08-23 Spectrum----Joke ID: 9  Data values: (76.46, 117.67, 10.5, 36.46, 91.05, 35.23, 296.26, 75.16)

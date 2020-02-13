@@ -1,11 +1,11 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
+performance Name and Joke ID: 2019-12-06 Silent Background Recording----Joke ID: 41  Data values: (62.85, 111.87, 16.7, 45.13, 90.91, 27.41, 283.47, 75.52)
+performance Name and Joke ID: 2019-04-19 Singu-hilarity----Joke ID: 12  Data values: (65.26, 111.82, 14.65, 41.33, 90.66, 35.74, 285.2, 75.59)
+performance Name and Joke ID: 2019-04-22 Class Performance----Joke ID: 8  Data values: (66.44, 111.69, 14.08, 31.94, 91.11, 28.4, 226.17, 75.39)
+Group1
 performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 39  Data values: (71.44, 124.96, 10.84, 48.95, 90.89, 40.74, 290.63, 75.02)
 performance Name and Joke ID: 2019-04-18 Bombs Away Cafe----Joke ID: 6  Data values: (74.56, 147.42, 9.53, 61.14, 91.01, 51.03, 299.16, 70.03)
 performance Name and Joke ID: 2019-06-19 Trek Theater----Joke ID: 27  Data values: (71.64, 138.29, 10.14, 60.28, 91.02, 36.95, 295.55, 75.57)
 performance Name and Joke ID: 2019-06-20 Bombs Away Cafe----Joke ID: 3  Data values: (70.9, 128.05, 10.89, 46.32, 90.6, 39.31, 267.7, 76.08)
 performance Name and Joke ID: 2019-08-23 Spectrum----Joke ID: 27  Data values: (69.73, 117.63, 12.95, 44.92, 90.69, 38.3, 305.77, 74.03)
-Group1
-performance Name and Joke ID: 2019-12-06 Silent Background Recording----Joke ID: 41  Data values: (62.85, 111.87, 16.7, 45.13, 90.91, 27.41, 283.47, 75.52)
-performance Name and Joke ID: 2019-04-19 Singu-hilarity----Joke ID: 12  Data values: (65.26, 111.82, 14.65, 41.33, 90.66, 35.74, 285.2, 75.59)
-performance Name and Joke ID: 2019-04-22 Class Performance----Joke ID: 8  Data values: (66.44, 111.69, 14.08, 31.94, 91.11, 28.4, 226.17, 75.39)

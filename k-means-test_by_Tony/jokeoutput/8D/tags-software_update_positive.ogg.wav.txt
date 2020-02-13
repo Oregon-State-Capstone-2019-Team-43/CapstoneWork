@@ -1,5 +1,5 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
-performance Name and Joke ID: 2019-09-21 Laugh Track Town USA----Joke ID: 29  Data values: (75.31, 109.92, 9.66, 30.99, 91.27, 49.1, 258.38, 73.57)
-Group1
 performance Name and Joke ID: 2019-09-19 Bombs Away Cafe----Joke ID: 26  Data values: (76.37, 116.96, 8.46, 41.33, 92.27, 47.77, 280.39, 73.17)
+Group1
+performance Name and Joke ID: 2019-09-21 Laugh Track Town USA----Joke ID: 29  Data values: (75.31, 109.92, 9.66, 30.99, 91.27, 49.1, 258.38, 73.57)
