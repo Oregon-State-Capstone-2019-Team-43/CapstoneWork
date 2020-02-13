@@ -6,11 +6,14 @@
 import csv
 import operator
 import os
+import numpy
 
 if os.path.exists("human_accuracy_results.txt"):
 	os.remove("human_accuracy_results.txt")
 master_list = []
 master_ratings = []
+perfnames = []
+jokenums = []
 # put csv filenames to be checked in this list
 tocheck = ['Brian_ground_truths.csv', 'Timothy_ground_truths.csv', 'Trevor_ground_truths.csv']
 # specify the csv to check against here
@@ -26,6 +29,17 @@ with open(master_file, 'r') as f:
 	# master_list[i][4] = HumanScorePostJokeOnly
 	for rating in master_list:
 		master_ratings.append(int(float(rating[4]))) # make a list of just the ratings
+		if rating[1] not in perfnames:
+			perfnames.append(rating[1]) # make a list of the performance names
+	for perf in range(len(perfnames)):
+		count = 0
+		for row in master_list:
+			if int(row[0]) == perf:
+				count = count+1
+		jokenums.append(count) # make a list of how many jokes are in each performance
+
+with open('human_accuracy_results.txt', 'a') as o:
+	o.write("Overall results:\n\n")
 
 for rating_file in tocheck:
 	matches = 0
@@ -47,8 +61,47 @@ for rating_file in tocheck:
 			else:
 				diffs = diffs+1
 		result = matches/(matches+diffs)
-		print("%s     (%s matches, %s diffs)\n" % (result, matches, diffs))
+		desc = "("+str(matches)+" maches, "+str(diffs)+" diffs)"
 		with open('human_accuracy_results.txt', 'a') as o:
-			o.write("%s     %s     (%s matches, %s diffs)\n" % (rating_file, result, matches, diffs))
+			o.write('{:<35}{:<22}{:<}\n'.format(rating_file, result, desc))
+
+with open('human_accuracy_results.txt', 'a') as o:
+	o.write("\nIndividual performance results:\n")
+
+print("\nChecking by individual performance")
+masterperfs = []
+for i in range(len(jokenums)):
+	masterperfs.append(master_ratings[0:jokenums[i]]) # divide the ratings by performance
+	master_ratings = master_ratings[jokenums[i]:]
+
+for rating_file in tocheck:
+	ratings = []
+	perflist = []
+	curperf = ""
+	matches = 0
+	diffs = 0
+	result = 0
+	with open('human_accuracy_results.txt', 'a') as o:
+		o.write("\n%s\n" % rating_file)
+	with open(rating_file, 'r') as f:
+		reader = csv.reader(f)
+		data_list = list(reader) # make a list with all the rating data
+		data_list.pop(0) # remove first index (csv headers)
+		data_list.sort(key=operator.itemgetter(0, 1)) # order list by Performance then Joke
+		for rating in data_list:
+			ratings.append(int(float(rating[2]))) # make a list of just the ratings
+		for i in range(len(jokenums)):
+			perflist.append(ratings[0:jokenums[i]]) # divide the ratings by performance
+			ratings = ratings[jokenums[i]:]
+		for j in range(len(perfnames)):
+			curperf = perfnames[j]
+			list1 = numpy.array(perflist[j])
+			list2 = numpy.array(masterperfs[j])
+			matches = len(numpy.where(list1==list2)[0])
+			diffs = jokenums[j]-matches
+			result = matches/(matches+diffs)
+			desc = "("+str(matches)+" maches, "+str(diffs)+" diffs)"
+			with open('human_accuracy_results.txt', 'a') as o:
+				o.write('{:<50}{:<22}{:<}\n'.format(curperf, result, desc))
 
 print("\nResults saved in human_accuracy_results.txt")
