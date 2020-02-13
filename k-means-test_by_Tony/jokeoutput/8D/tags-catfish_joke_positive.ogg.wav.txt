@@ -1,7 +1,7 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
-performance Name: 2019-09-06 RoboCom  Data values: (78.37, 117.77, 8.45, 27.76, 91.22, 35.39, 231.15, 75.77)
-performance Name: 2019-08-15 Bombs Away Cafe  Data values: (76.05, 114.17, 8.8, 27.69, 89.91, 37.65, 214.35, 78.69)
+performance Name and Joke ID: 2019-04-13 Cienna Nerdy Show at The Drake----Joke ID: 32  Data values: (77.46, 112.12, 9.31, 18.37, 90.2, 30.93, 141.55, 76.59)
+performance Name and Joke ID: 2019-04-18 Bombs Away Cafe----Joke ID: 15  Data values: (76.53, 112.04, 9.5, 17.71, 89.91, 33.71, 145.33, 79.55)
 Group1
-performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (77.46, 112.12, 9.31, 18.37, 90.2, 30.93, 141.55, 76.59)
-performance Name: 2019-04-18 Bombs Away Cafe  Data values: (76.53, 112.04, 9.5, 17.71, 89.91, 33.71, 145.33, 79.55)
+performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 33  Data values: (78.37, 117.77, 8.45, 27.76, 91.22, 35.39, 231.15, 75.77)
+performance Name and Joke ID: 2019-08-15 Bombs Away Cafe----Joke ID: 32  Data values: (76.05, 114.17, 8.8, 27.69, 89.91, 37.65, 214.35, 78.69)

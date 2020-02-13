@@ -1,10 +1,10 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
-performance Name: 2019-10-11 Singu-hilarity  Data values: (70.94, 104.99, 14.24, 15.4, 91.46, 39.15, 158.19, 75.46)
-performance Name: 2019-12-06 Silent Background Recording  Data values: (65.43, 106.09, 16.36, 20.99, 91.73, 27.23, 275.64, 75.5)
+performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 15  Data values: (74.43, 111.81, 10.9, 29.39, 91.85, 42.33, 291.29, 75.42)
+performance Name and Joke ID: 2019-09-19 Bombs Away Cafe----Joke ID: 5  Data values: (72.78, 111.16, 11.28, 30.09, 91.47, 38.94, 271.85, 75.38)
+performance Name and Joke ID: 2019-09-21 Laugh Track Town USA----Joke ID: 7  Data values: (73.54, 108.6, 11.16, 24.87, 90.8, 39.68, 270.84, 75.07)
+performance Name and Joke ID: 2019-11-29 Comedy the Musical----Joke ID: 6  Data values: (71.91, 113.82, 13.24, 31.39, 91.66, 39.45, 233.65, 75.3)
+performance Name and Joke ID: 2019-11-29 Crapshoot----Joke ID: 6  Data values: (73.18, 109.2, 12.49, 25.14, 91.05, 43.15, 249.81, 74.04)
 Group1
-performance Name: 2019-09-06 RoboCom  Data values: (74.43, 111.81, 10.9, 29.39, 91.85, 42.33, 291.29, 75.42)
-performance Name: 2019-09-19 Bombs Away Cafe  Data values: (72.78, 111.16, 11.28, 30.09, 91.47, 38.94, 271.85, 75.38)
-performance Name: 2019-09-21 Laugh Track Town USA  Data values: (73.54, 108.6, 11.16, 24.87, 90.8, 39.68, 270.84, 75.07)
-performance Name: 2019-11-29 Comedy the Musical  Data values: (71.91, 113.82, 13.24, 31.39, 91.66, 39.45, 233.65, 75.3)
-performance Name: 2019-11-29 Crapshoot  Data values: (73.18, 109.2, 12.49, 25.14, 91.05, 43.15, 249.81, 74.04)
+performance Name and Joke ID: 2019-10-11 Singu-hilarity----Joke ID: 8  Data values: (70.94, 104.99, 14.24, 15.4, 91.46, 39.15, 158.19, 75.46)
+performance Name and Joke ID: 2019-12-06 Silent Background Recording----Joke ID: 14  Data values: (65.43, 106.09, 16.36, 20.99, 91.73, 27.23, 275.64, 75.5)

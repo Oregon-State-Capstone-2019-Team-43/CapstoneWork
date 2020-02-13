@@ -1,8 +1,8 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
-performance Name: 2019-09-06 RoboCom  Data values: (79.04, 125.3, 7.29, 45.16, 91.31, 52.47, 259.35, 75.08)
-performance Name: 2019-09-19 Bombs Away Cafe  Data values: (78.94, 136.04, 7.12, 58.13, 90.65, 45.18, 293.98, 75.72)
+performance Name and Joke ID: 2019-09-21 Laugh Track Town USA----Joke ID: 25  Data values: (77.18, 110.6, 8.64, 24.62, 91.14, 51.37, 242.38, 74.71)
+performance Name and Joke ID: 2019-10-11 Singu-hilarity----Joke ID: 26  Data values: (75.06, 106.52, 11.54, 15.24, 91.41, 45.06, 221.0, 74.01)
+performance Name and Joke ID: 2019-12-06 Silent Background Recording----Joke ID: 45  Data values: (73.79, 107.03, 12.8, 21.18, 90.56, 25.3, 249.63, 74.39)
 Group1
-performance Name: 2019-09-21 Laugh Track Town USA  Data values: (77.18, 110.6, 8.64, 24.62, 91.14, 51.37, 242.38, 74.71)
-performance Name: 2019-10-11 Singu-hilarity  Data values: (75.06, 106.52, 11.54, 15.24, 91.41, 45.06, 221.0, 74.01)
-performance Name: 2019-12-06 Silent Background Recording  Data values: (73.79, 107.03, 12.8, 21.18, 90.56, 25.3, 249.63, 74.39)
+performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 43  Data values: (79.04, 125.3, 7.29, 45.16, 91.31, 52.47, 259.35, 75.08)
+performance Name and Joke ID: 2019-09-19 Bombs Away Cafe----Joke ID: 22  Data values: (78.94, 136.04, 7.12, 58.13, 90.65, 45.18, 293.98, 75.72)

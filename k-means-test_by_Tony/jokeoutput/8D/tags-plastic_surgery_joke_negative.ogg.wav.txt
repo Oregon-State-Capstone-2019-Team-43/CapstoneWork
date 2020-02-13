@@ -1,9 +1,9 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
-performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (75.47, 113.7, 10.1, 30.57, 90.63, 43.88, 230.09, 75.1)
-performance Name: 2019-09-06 RoboCom  Data values: (77.42, 120.71, 9.3, 42.65, 90.69, 30.47, 298.64, 75.48)
-performance Name: 2019-04-19 Singu-hilarity  Data values: (73.06, 114.35, 12.63, 34.43, 90.25, 30.45, 304.46, 74.76)
-performance Name: 2019-08-15 Bombs Away Cafe  Data values: (75.02, 114.43, 9.86, 35.26, 91.18, 45.3, 280.89, 74.73)
+performance Name and Joke ID: 2019-12-06 Silent Background Recording----Joke ID: 22  Data values: (71.49, 106.39, 14.54, 15.61, 90.9, 26.34, 203.47, 74.96)
+performance Name and Joke ID: 2019-04-22 Class Performance----Joke ID: 17  Data values: (72.64, 108.62, 12.94, 21.13, 90.77, 37.92, 215.0, 72.97)
 Group1
-performance Name: 2019-12-06 Silent Background Recording  Data values: (71.49, 106.39, 14.54, 15.61, 90.9, 26.34, 203.47, 74.96)
-performance Name: 2019-04-22 Class Performance  Data values: (72.64, 108.62, 12.94, 21.13, 90.77, 37.92, 215.0, 72.97)
+performance Name and Joke ID: 2019-04-13 Cienna Nerdy Show at The Drake----Joke ID: 19  Data values: (75.47, 113.7, 10.1, 30.57, 90.63, 43.88, 230.09, 75.1)
+performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 21  Data values: (77.42, 120.71, 9.3, 42.65, 90.69, 30.47, 298.64, 75.48)
+performance Name and Joke ID: 2019-04-19 Singu-hilarity----Joke ID: 21  Data values: (73.06, 114.35, 12.63, 34.43, 90.25, 30.45, 304.46, 74.76)
+performance Name and Joke ID: 2019-08-15 Bombs Away Cafe----Joke ID: 19  Data values: (75.02, 114.43, 9.86, 35.26, 91.18, 45.3, 280.89, 74.73)

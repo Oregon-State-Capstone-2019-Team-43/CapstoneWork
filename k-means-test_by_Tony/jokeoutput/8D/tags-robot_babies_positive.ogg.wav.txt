@@ -1,7 +1,7 @@
 Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
 Group0
-performance Name: 2019-09-19 Bombs Away Cafe  Data values: (76.51, 107.01, 10.08, 16.89, 90.13, 43.49, 218.56, 80.13)
-performance Name: 2019-10-11 Singu-hilarity  Data values: (76.13, 106.55, 11.23, 14.22, 89.83, 38.78, 199.62, 75.45)
+performance Name and Joke ID: 2019-11-29 Comedy the Musical----Joke ID: 7  Data values: (75.59, 104.72, 12.92, 9.94, 90.91, 26.71, 126.01, 75.38)
+performance Name and Joke ID: 2019-11-29 Crapshoot----Joke ID: 7  Data values: (75.42, 106.17, 12.64, 14.38, 90.54, 32.41, 187.42, 75.08)
 Group1
-performance Name: 2019-11-29 Comedy the Musical  Data values: (75.59, 104.72, 12.92, 9.94, 90.91, 26.71, 126.01, 75.38)
-performance Name: 2019-11-29 Crapshoot  Data values: (75.42, 106.17, 12.64, 14.38, 90.54, 32.41, 187.42, 75.08)
+performance Name and Joke ID: 2019-09-19 Bombs Away Cafe----Joke ID: 6  Data values: (76.51, 107.01, 10.08, 16.89, 90.13, 43.49, 218.56, 80.13)
+performance Name and Joke ID: 2019-10-11 Singu-hilarity----Joke ID: 9  Data values: (76.13, 106.55, 11.23, 14.22, 89.83, 38.78, 199.62, 75.45)
