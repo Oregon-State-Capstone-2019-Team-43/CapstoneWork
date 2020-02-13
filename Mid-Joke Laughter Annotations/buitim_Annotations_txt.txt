@@ -1,0 +1,1679 @@
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_0.eaf		
+11.75	12.573	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_1.eaf		
+18.52	20.6	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_10.eaf		
+2.41	3.047	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_11.eaf		
+21.78	22.516	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_13.eaf		
+8.59	9.4	Laughter
+9.46	12.29	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_14.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_16.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_17.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_18.eaf		
+6.08	7.75	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_19.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_2.eaf		
+4.35	5.64	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_20.eaf		
+5.84	7.58	Laughter
+11.465	12.004	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_21.eaf		
+7.58	8.63	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_22.eaf		
+1.94	3.3	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_23.eaf		
+0	1.06	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_24.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_25.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_26.eaf		
+10.363	12.09	Laughter
+17.225	17.902	Laughter
+18.063	18.967	Laughter
+19.08	22.112	Laughter
+22.225	24.225	Laughter
+24.467	26.435	Laughter
+27.693	29.113	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_27.eaf		
+9.47	10.182	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_28.eaf		
+14.59	15.4	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_29.eaf		
+5.74	7.23	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_3.eaf		
+2.07	3.2	Laughter
+6	6.99	Laughter
+9.47	10.7	Laughter
+13.54	14.88	Laughter
+18.24	20.334	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_30.eaf		
+3.29	4.91	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_31.eaf		
+17.97	20.48	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_32.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_33.eaf		
+7.83	9.613	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_34.eaf		
+10.66	12.95	Laughter
+17.85	19.68	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_35.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_36.eaf		
+14.23	16.11	Laughter
+19.435	20.665	Laughter
+25.475	26.835	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_37.eaf		
+3.025	4.65	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_6.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_7.eaf		
+1.98	3.36	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-13 Cienna Nerdy Show at The Drake\joke_9.eaf		
+0	0.72	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_0.eaf		
+3.17	5.23	Laughter
+10.945	12.666	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_10.eaf		
+7.17	8.04	Laughter
+9.45	10.56	Laughter
+14.03	15.28	Laughter
+16.99	17.937	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_12.eaf		
+0	0.41	Laughter
+14.83	15.83	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_13.eaf		
+5.79	6.51	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_14.eaf		
+18.16	19.25	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_16.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_17.eaf		
+0	1.04	Laughter
+6.87	7.367	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_19.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_20.eaf		
+3.322	8.749	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_3.eaf		
+22.27	22.998	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_5.eaf		
+7.75	8.86	Giggle
+12.87	15.16	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_6.eaf		
+2.28	3.97	Laughter
+5.99	8.461	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_7.eaf		
+10.66	12.1	Laughter
+20.995	21.935	Giggling
+23.41	24.93	Laughter
+25.585	26.295	Giggling
+26.515	27.735	Laughter
+28.7	29.97	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_8.eaf		
+2.15	3.61	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-18 Bombs Away Cafe\joke_9.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_0.eaf		
+11.67	13.213	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_10.eaf		
+4	5.5	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_11.eaf		
+13.79	15.63	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_12.eaf		
+6.61	8.54	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_13.eaf		
+24.75	25.158	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_14.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_15.eaf		
+0	0.73	Laughter
+10.79	11.82	Chuckles (?)
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_16.eaf		
+10.04	11.32	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_17.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_19.eaf		
+4.61	5.49	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_20.eaf		
+6.17	7.27	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_21.eaf		
+3.36	3.94	Laughter
+5.385	6.075	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_22.eaf		
+6.43	7.97	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_23.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_24.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_25.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_26.eaf		
+12.3	13.26	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_27.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_28.eaf		
+11.2	12.32	Laughter
+16.525	17.345	Laughter
+19.4	20.64	Laughter
+24.44	25.04	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_29.eaf		
+9.88	10.794	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_3.eaf		
+10.1	11.43	Laughter
+14.65	15.34	Chuckle
+19.61	22.113	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_30.eaf		
+16.53	17.48	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_31.eaf		
+7.24	7.893	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_32.eaf		
+3.17	4.64	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_33.eaf		
+20.36	21.58	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_34.eaf		
+8.01	9.54	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_35.eaf		
+11.19	12.32	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_36.eaf		
+0	0.61	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_37.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_38.eaf		
+0	1.55	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_39.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_40.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_41.eaf		
+3.2	7.242	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_6.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-19 Singu-hilarity\joke_9.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_0.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_13.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_14.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_16.eaf		
+0	0.99	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_17.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_19.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_20.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_3.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_6.eaf		
+4.41	5.5	Chuckles
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_8.eaf		
+7.41	8.908	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-04-22 Class Performance\joke_9.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_0.eaf		
+10.742	12.45	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_1.eaf		
+18.52	19.6	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_2.eaf		
+9.08	10.9	Laughter
+13.945	14.985	Laughter
+17.72	20.03	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_3.eaf		
+0	1.02	Laughter
+11.51	12.2	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_4.eaf		
+21.92	22.559	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_5.eaf		
+8.65	9.995	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_6.eaf		
+9.58	10.01	Chuckle
+15.29	16.85	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_7.eaf		
+2.86	4.58	Laughter
+9.975	10.708	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-05-16 Bombs Away Cafe\joke_8.eaf		
+2.97	7.99	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_0.eaf		
+10.77	11.96	Medium Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_1.eaf		
+6.73	7.34	Quiet Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_12.eaf		
+4.183	5.666	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_13.eaf		
+3	4.125	Laughter
+5.8	7.7	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_14.eaf		
+5.966	8.166	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_15.eaf		
+5.7	6.85	Laughter
+14.3	15.8	Laughter
+17.1	17.65	Laughter (Close to end)
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_16.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_17.eaf		
+9.533	10.733	Laughter
+11.7	12.766	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_18.eaf		
+10.95	12.9	Laughter
+15.45	17.1	Laughter
+18.25	19.65	Laughter
+20.675	22.425	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_19.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_20.eaf		
+15.1	17.5	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_21.eaf		
+2.7	5.442	Laughter
+7.1	8.55	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_22.eaf		
+17.8	19.9	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_23.eaf		
+4.587	5.35	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_24.eaf		
+10.466	12.633	Laughter
+18.657	19.791	Laughter
+26.849	28.132	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_25.eaf		
+13.366	16.182	Laughter
+26.799	27.883	Laughter
+28.233	30.799	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_26.eaf		
+7.21	8.44	Laughter
+12.54	16.99	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_27.eaf		
+2.399	4.377	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_28.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_29.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_3.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_30.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_31.eaf		
+2.65	7.725	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_6.eaf		
+10.153	12.153	Loud Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-19 Trek Theater\Annotations\joke_9.eaf		
+10.099	11.833	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_0.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_10.eaf		
+4.5	5.812	Laughter(?)
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_13.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_2.eaf		
+12.933	13.966	Chuckle
+15.266	18.297	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_3.eaf		
+2.137	3.887	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_4.eaf		
+14.95	16.65	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_5.eaf		
+2.862	4.612	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_6.eaf		
+18.5	20.15	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_8.eaf		
+10.733	12.066	Laughter
+18.066	21.199	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-06-20 Bombs Away Cafe\joke_9.eaf		
+15.5	17.52	Laughter
+20.2	22.44	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_0.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_13.eaf		
+8.2	9.375	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_14.eaf		
+3.94	4.69	Laughter
+7.949	8.383	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_16.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_17.eaf		
+4.44	6.15	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_19.eaf		
+0.02	1.67	Laughter (Exception to readme criteria)
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_20.eaf		
+6.23	8.05	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_21.eaf		
+6.37	8.49	Laughter
+9.66	10.88	Laughter
+16.825	17.805	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_22.eaf		
+7.41	7.893	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_23.eaf		
+4.625	5.462	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_24.eaf		
+0.12	0.85	Laughter (Exception to readme)
+11.45	12.6	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_25.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_26.eaf		
+9.84	12.19	Laughter
+18.25	18.87	Laughter
+20.055	20.935	Laughter
+22.38	23.39	Laughter
+25.41	26.66	Laughter
+27.94	30.04	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_27.eaf		
+7.59	9.12	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_28.eaf		
+15.716	17.149	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_29.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_3.eaf		
+9.01	10.51	Laughter
+13.56	15.26	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_30.eaf		
+2.96	3.86	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_31.eaf		
+18.25	19.86	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_32.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_33.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_34.eaf		
+10.716	12.133	Laughter
+22.284	24.384	Laughter
+26.602	28.018	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_35.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_36.eaf		
+14.423	16.692	Laughter
+23.974	25.169	Laughter
+26.969	30.091	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_37.eaf		
+2.8	8.101	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_6.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-15 Bombs Away Cafe\joke_9.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_0.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_1.eaf		
+6.633	7.766	Laughter
+11.666	13.1	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_10.eaf		
+2.02	3.28	Laughter(?)
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_11.eaf		
+5.13	5.76	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_13.eaf		
+0.14	1	Laughter (exception to readme)
+3.19	4.24	Laughter
+6.01	6.97	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_14.eaf		
+6.08	7.54	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_15.eaf		
+6.31	6.86	Laughter
+8.45	9.48	Laughter
+9.88	10.83	Laughter
+14.33	15.2	Laughter
+16.43	17.67	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_16.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_17.eaf		
+12.01	13.63	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_18.eaf		
+10.63	13.19	Laughter
+15.585	16.445	Laughter
+18.69	19.67	Laughter
+20.445	21.615	Laughter
+23.345	24.455	Laughter
+28.405	29.385	Far laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_19.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_2.eaf		
+6.25	7.475	Laughter
+14.25	15.6	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_20.eaf		
+14.92	17.73	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_21.eaf		
+3.11	4.67	Laughter
+7.645	8.525	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_22.eaf		
+6.17	7.59	Laughter
+18.045	19.595	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_23.eaf		
+4.65	6.34	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_24.eaf		
+17.26	19.54	Laughter
+21.555	22.675	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_25.eaf		
+14.415	16.775	Laughter
+20.09	22.68	Laughter
+27.16	28.69	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_26.eaf		
+7.11	8.88	Laughter
+9.76	10.66	Laughter
+12.575	15.875	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_27.eaf		
+2.385	4.014	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_28.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_29.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_3.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_30.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_31.eaf		
+3.757	7.907	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_6.eaf		
+10.25	12.02	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_8.eaf		
+16.74	18.02	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-08-23 Spectrum\joke_9.eaf		
+10.26	12.33	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_0.eaf		
+11.28	12.781	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_1.eaf		
+6.257	7.128	Chuckle
+18.799	20.269	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_10.eaf		
+3.55	4.58	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_11.eaf		
+5.1	7.24	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_13.eaf		
+2.89	3.95	Laughter
+6.075	6.985	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_14.eaf		
+6.55	8.43	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_15.eaf		
+6.49	8.88	Laughter
+16.68	18.253	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_16.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_17.eaf		
+11.79	13.2	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_18.eaf		
+11.49	12.9	Laughter
+13.19	13.94	Laughter
+15.94	17.92	Laughter
+18.805	19.965	Laughter
+21.23	22.73	Laughter
+23.625	25.645	Laughter
+26.39	27.58	Laughter
+29.1	30.92	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_19.eaf		
+8.68	10.506	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_2.eaf		
+9.533	10.9	Laughter
+12.2	13.333	Laughter
+14.616	15.916	Laughter
+18.416	20.701	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_20.eaf		
+16.38	17.78	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_21.eaf		
+0.18	1.65	Laughter (Exception to readme)
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_22.eaf		
+19.06	20.91	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_23.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_24.eaf		
+10.66	12.67	Laughter
+27.73	28.62	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_25.eaf		
+14.037	16.812	Laughter
+23.643	24.605	Chuckle
+28.956	30.681	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_26.eaf		
+1.442	2.757	Laughter
+3.971	8.591	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_3.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_5.eaf		
+6.98	7.74	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_6.eaf		
+8.02	9.02	Back chuckle
+12.865	13.725	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-05 Stand-up Science\joke_9.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_0.eaf		
+10.94	12.12	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_1.eaf		
+17.46	18.84	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_13.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_14.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_16.eaf		
+8.16	11.38	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_17.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_19.eaf		
+3.79	4.9	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_2.eaf		
+3.912	5.825	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_20.eaf		
+2.89	4.22	Laughter
+5.73	6.72	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_21.eaf		
+3.15	9.592	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_22.eaf		
+5.96	8	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_23.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_24.eaf		
+11.6	13	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_25.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_26.eaf		
+4.4	6.47	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_27.eaf		
+16	17.613	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_28.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_29.eaf		
+10.1	11.875	Laughter
+14.5	15.925	Background laughter
+17.525	18.725	Background laughter
+19.613	21.338	Laughter
+22.338	23.563	Background laughter
+26.813	29.088	Laughter
+30.163	31.563	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_3.eaf		
+9.14	10.52	Laughter
+17.005	17.855	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_30.eaf		
+14.19	15.42	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_31.eaf		
+2.466	5.733	Laughter
+7.366	8.65	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_32.eaf		
+17.47	18.63	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_33.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_34.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_35.eaf		
+4.36	5.12	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_36.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_37.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_38.eaf		
+7.09	7.81	Laughter(?)
+13.132	17.31	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_39.eaf		
+2.65	3.64	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_40.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_41.eaf		
+7.29	9.6	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_42.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_43.eaf		
+4.915	6.635	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_44.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_45.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_46.eaf		
+10.266	11.266	Laughter
+19.599	20.599	Chuckle
+20.616	22.782	Laughter
+23.716	27.016	Laughter
+27.516	28.716	Laughter
+29.766	30.933	Laughter
+31.899	32.699	Chuckle
+35.382	38.482	Laughter
+40.715	42.315	Laughter
+44.432	47.865	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_47.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_48.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_49.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_50.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_51.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_52.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_53.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_54.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_55.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_6.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-06 RoboCom\joke_9.eaf		
+1.53	4.4	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_0.eaf		
+11.01	12.56	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_10.eaf		
+9.67	10.22	Laughter
+11.89	12.56	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_11.eaf		
+4.037	6.562	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_12.eaf		
+4.46	6.14	Laughter
+10.665	11.485	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_13.eaf		
+15.15	16.47	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_14.eaf		
+5.22	6	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_15.eaf		
+2.92	5.4	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_16.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_17.eaf		
+4.77	6.05	Laughter
+7.245	8.105	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_19.eaf		
+4.23	5.29	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_20.eaf		
+2.72	3.31	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_21.eaf		
+12.43	13.3	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_22.eaf		
+4.54	8.23	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_23.eaf		
+8	9.14	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_24.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_25.eaf		
+10.72	11.34	Chuckle
+21.58	23.2	Laughter
+23.695	24.945	Laughter
+25.915	27.395	Laughter
+28.04	29.28	Laughter
+29.855	31.495	Laughter
+33.3	34.87	Laughter
+38.62	40.31	Laughter
+44.35	44.9	Chuckle
+48.07	49.98	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_26.eaf		
+3.22	3.92	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_27.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_28.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_29.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_3.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_30.eaf		
+6.7	7.966	Laughter
+10.4	11.8	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_31.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_32.eaf		
+3.2	8.238	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_5.eaf		
+6.97	7.59	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_6.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_7.eaf		
+8.75	10.56	Laughter
+11.38	12.37	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_8.eaf		
+9.42	10.5	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-19 Bombs Away Cafe\joke_9.eaf		
+4.47	5.47	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_0.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_13.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_14.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_16.eaf		
+12.61	13.66	Laughter
+15.45	16.9	Laughter
+28.15	29.49	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_17.eaf		
+2.85	3.67	Laughter
+15.965	16.795	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_18.eaf		
+5.71	7.05	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_19.eaf		
+2.97	5	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_20.eaf		
+5.02	5.95	Laughter
+6.98	7.57	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_21.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_22.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_23.eaf		
+8.03	9.311	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_24.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_25.eaf		
+3.59	4.16	Laughter
+5.44	6.44	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_26.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_27.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_28.eaf		
+20.82	21.67	Laughter
+22.12	24.18	Laughter
+25.06	27.3	Laughter
+33.06	34.53	Laughter
+38.186	39.496	Laughter
+47.18	49.49	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_29.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_3.eaf		
+14.066	15.133	Laughter
+19.049	20.316	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_30.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_31.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_32.eaf		
+26.73	28.47	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_33.eaf		
+4.45	8.31	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_6.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-09-21 Laugh Track Town USA\joke_9.eaf		
+10.29	10.895	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_0.eaf		
+11.88	13.019	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_11.eaf		
+4.42	5.43	Laughter
+10.47	11.53	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_13.eaf		
+11.87	13.97	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_14.eaf		
+3.99	4.98	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_15.eaf		
+12.92	13.509	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_16.eaf		
+17.04	17.9	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_17.eaf		
+5.82	6.16	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_18.eaf		
+11.14	12.83	Laughter
+16.21	16.91	Laughter
+18.995	19.535	Laughter
+29.6	31.44	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_19.eaf		
+16.12	17.64	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_20.eaf		
+2.66	5.55	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_21.eaf		
+5.275	6.45	Laughter
+7.45	8.325	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_22.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_23.eaf		
+0.15	1.08	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_24.eaf		
+8.98	10.11	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_25.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_26.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_27.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_28.eaf		
+0.19	1.05	Laughter
+5.4	6.021	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_29.eaf		
+22.09	23.909	Laughter
+24.483	25.805	Laughter
+26.644	28.967	Laughter
+30.999	32.515	Laughter
+34.879	36.492	Laughter
+39.702	41.895	Laughter
+46.03	47.579	Laughter
+48.885	52.446	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_3.eaf		
+9.68	10.9	Laughter
+19.175	21.933	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_30.eaf		
+10.727	14.272	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_31.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_32.eaf		
+16.477	17.167	Small chuckle
+28.667	31.687	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_33.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_6.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-10-11 Singu-hilarity\joke_9.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_0.eaf		
+11.566	13.192	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_11.eaf		
+12.28	13.83	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_12.eaf		
+4.17	5.44	Laughter
+6.06	6.877	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_13.eaf		
+4.52	5.54	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_14.eaf		
+10.92	11.82	Laughter
+13.235	13.735	Chuckle
+24.31	26.04	Chuckle
+26.77	28.53	Laughter
+30.45	31.44	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_16.eaf		
+8.68	9.837	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_17.eaf		
+10.51	11.45	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_19.eaf		
+28.516	29.783	Laughter
+30.058	30.708	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_20.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_3.eaf		
+6.74	7.43	Laughter
+10.23	11.99	Laughter
+13.67	14.22	Laughter
+15.083	16.633	Laughter
+19.999	22.667	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_4.eaf		
+24.15	24.582	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_6.eaf		
+0.08	0.63	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_8.eaf		
+12.8	13.681	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Comedy the Musical\joke_9.eaf		
+10.66	11.241	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_0.eaf		
+11.48	12.81	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_1.eaf		
+19.18	21.08	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_11.eaf		
+12.41	14.4	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_13.eaf		
+12.47	12.96	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_14.eaf		
+21.33	22.84	Laughter
+24.06	25.9	Laughter
+28.85	30.61	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_15.eaf		
+2.97	3.87	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_16.eaf		
+9.03	9.837	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_17.eaf		
+10.78	12.31	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_19.eaf		
+14.35	15.84	Laughter
+23.171	24.199	Laughter
+27.399	29.37	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_20.eaf		
+3.516	8.836	Applause
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_3.eaf		
+2.17	3.28	Laughter
+9.24	10.25	Laughter
+18.87	19.9	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_4.eaf		
+0.42	1.32	Laughter
+9.89	10.79	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_6.eaf		
+0.02	1.66	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_8.eaf		
+0	1.3	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-11-29 Crapshoot\joke_9.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_0.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_1.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_13.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_14.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_16.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_17.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_18.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_19.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_2.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_20.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_21.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_22.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_23.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_24.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_25.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_26.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_27.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_28.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_29.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_3.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_30.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_31.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_32.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_33.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_34.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_35.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_36.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_37.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_38.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_39.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_40.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_41.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_42.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_43.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_44.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_45.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_46.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_47.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_48.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_49.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_5.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_50.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_51.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_52.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_53.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_54.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_55.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_56.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_57.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_58.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_59.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_6.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_7.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_8.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-06 Silent Background Recording\joke_9.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_0.eaf		
+11.29	13.041	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_1.eaf		
+0.03	0.56	Chuckle
+6.99	9.01	Laughter
+12.475	13.455	Laughter
+19.32	21.16	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_10.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_11.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_12.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_13.eaf		
+0	0.7	Laughter
+8.99	9.61	Laughter
+10.65	11.58	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_14.eaf		
+10.61	11.392	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_15.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_16.eaf		
+8.71	9.095	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_17.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_18.eaf		
+2.95	4.22	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_19.eaf		
+10.53	11.01	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_2.eaf		
+3.85	4.92	Laughter
+8.13	8.807	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_20.eaf		
+6.7	8.51	Laughter
+12.33	13.307	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_21.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_22.eaf		
+12.39	13.67	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_23.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_24.eaf		
+16.78	18.073	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_25.eaf		
+5.49	6.265	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_26.eaf		
+10.88	12.24	Laughter
+24.485	25.565	Laughter
+29.54	31.07	Laughter
+33.97	34.92	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_27.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_28.eaf		
+0	0.9	Laughter
+6.42	7.525	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_29.eaf		
+2.99	4.15	Laughter
+10.605	11.298	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_3.eaf		
+9.63	12.12	Laughter
+14.17	15.13	Laughter
+18.97	19.92	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_30.eaf		
+11.58	12.49	Laughter
+18.95	21.08	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_31.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_32.eaf		
+0	0.38	Laughter
+8	9.94	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_33.eaf		
+7.6	8.52	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_34.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_35.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_36.eaf		
+15.95	16.63	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_37.eaf		
+2.61	3.22	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_38.eaf		
+8.94	10.247	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_39.eaf		
+7.73	8.41	Chuckle
+9.485	10.643	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_4.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_40.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_41.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_42.eaf		
+11.96	12.616	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_43.eaf		
+0	0.26	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_44.eaf		
+20.615	22.635	Laughter
+23.6	24.6	Laughter
+25.685	27.985	Laughter
+29.82	31.32	Laughter
+34.405	36.225	Laughter
+38.54	40.32	Laughter
+48.13	50.54	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_45.eaf		
+4.83	6.16	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_46.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_47.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_48.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_49.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_5.eaf		
+5.56	6.18	Chuckle(?)
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_50.eaf		
+17.392	18.342	Chuckle
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_51.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_52.eaf		
+10.44	11.89	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_53.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_54.eaf		
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_55.eaf		
+8.81	9.217	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_6.eaf		
+11.18	11.98	Laughter
+13.46	14.43	Laughter
+15.42	16.144	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_7.eaf		
+12.74	13.88	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_8.eaf		
+3.62	5.62	Laughter
+		
+#E:\GitHub\CapstoneWork\Mid-Joke Laughter Annotations\2019-12-09 Singu-Hilarity in San Francisco\joke_9.eaf		
+23.375	24.15	Laughter
