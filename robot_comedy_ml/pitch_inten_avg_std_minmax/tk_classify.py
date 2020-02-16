@@ -5,6 +5,7 @@ from sklearn import tree
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.decomposition import PCA
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
@@ -34,9 +35,8 @@ joke = {"robot_name_joke_2.ogg.wav":1,"gdpr_joke.ogg.wav":2,"siri_backpropagate.
 "tags/robot_babies_positive.ogg.wav":122, "tags/robot_drugs_positive.ogg.wav":123, "tags/robot_tinder_2_positive.ogg.wav":124, "tags/software_update_positive.ogg.wav":125,
 "tags/self_driving_limo_negative.ogg.wav":126, "tags/metal_ceiling_positive.ogg.wav":127, "tags/metal_ceiling_positive.ogg.wav":128, "tags/metal_ceiling_positive.ogg.wav":129,
 "tags/catfish_joke_negative.ogg.wav":130, "tags/encryption_joke_negative_2.ogg.wav":131, "tags/gdpr_joke_negative.ogg.wav":132, "tags/killing_joke_negative.wav":133,
-"tags/megaman_negative.ogg.wav":134, "tags/robot_drugs_negative.ogg.wav":135, "tags/software_update_negative.ogg.wav":136
-}
- 
+"tags/megaman_negative.ogg.wav":134, "tags/robot_drugs_negative.ogg.wav":135, "tags/software_update_negative.ogg.wav":136}
+
 performance = {"2019-04-13 Cienna Nerdy Show at The Drake":0,"2019-04-18 Bombs Away Cafe":1,"2019-04-19 Singu-hilarity":2,"2019-04-22 Class Performance":3,
 "2019-05-16 Bombs Away Cafe":4,"2019-06-19 Trek Theater":5,"2019-06-20 Bombs Away Cafe":6,"2019-08-15 Bombs Away Cafe":7,
 "2019-08-23 Spectrum":8,"2019-09-05 Stand-up Science":9,"2019-09-06 RoboCom":10,"2019-09-19 Bombs Away Cafe":11,"2019-09-21 Laugh Track Town USA":12,
@@ -44,21 +44,22 @@ performance = {"2019-04-13 Cienna Nerdy Show at The Drake":0,"2019-04-18 Bombs A
 
 # How much information to print
 verbose = 1															# 0 = false, 1 = true, use for debugging
-print_false_predictions = 1											# 0 = false, 1 = exactly as it says
+print_false_predictions = 0											# 0 = false, 1 = exactly as it says
 
 # Data Pre-Processing
 features = ['Intensity', 'IntensitySd'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 two_class = 0 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
 remove_zeros = 0
-normalize = 'per_minmax' 														# 'minmax' or 'standard'
+normalize = 0 														# 'minmax' or 'standard'
 column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 validation = 'HumanScorePostJokeOnly' 								# 'HumanScore' or 'HumanScorePostJokeOnly'
 validation_technique = 'l1po' 										# 'ho20' or 'l1po'
-R_State = 1 														# None or Integer, for hold out 20% validation
+R_State = 0 														# None or Integer, for hold out 20% validation
+num_trials = 100
 joke_ids = ['PerformanceId', 'JokeId'] 								# 'PerformanceId', 'JokeId'
 
 # Classifier Types
-classifier_type = 'KNN'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB'
+classifier_type = 'KNN'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or 'RF'
 
 # SVM Classifier Parameters
 kernel = 'rbf' 														# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
@@ -72,17 +73,34 @@ SVM_Gamma = .00001 													# SVM regularization parameter
 #	standard			.001
 
 # Draw Plot only works if only 2 Features are selected. Selecting more features will result in error.
-draw_plt = 0
+draw_plt = 1
 
 calibrate = 0														# If calibration else destroy
 SVM_C_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0] 			# SVM regularization parameters for calibration
 SVM_Gamma_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0] 		# SVM regularization parameters for calibration
 
+def rf_classify(train, test, y_train, y_test, joke_id):
+	clf = RandomForestClassifier(n_estimators=100)
+	clf.fit(train, y_train)
+	if verbose:
+		print('NN Verbose: ', clf.score(test, y_test))
+	else:
+		print(clf.score(test, y_test))
+	if draw_plt:
+			draw_plot(clf, test, y_test)
+	return clf.score(test, y_test)
+
 def nb_classify(train, test, y_train, y_test, joke_id):
 	clf = GaussianNB()
 	clf.fit(train, y_train)
+	prediction = clf.predict(test)
+	if print_false_predictions:
+		for q, w, e in zip(prediction, y_test, y_test.index):
+			jokeid = joke_id.iloc[e]
+			if q != w:
+				print("\tPredicted: ", str(q), "\tActual: ", str(w), "\tPerformance: ", jokeid['PerformanceId'], "\tJoke: ", jokeid['JokeId'], "\t", list(joke.keys())[list(joke.values()).index(jokeid['JokeId'])])
 	if verbose:
-		print('SVC_def Verbose: ', clf.score(test, y_test))
+		print('NB Verbose: ', clf.score(test, y_test))
 	else:
 		print(clf.score(test, y_test))
 	if draw_plt:
@@ -208,7 +226,7 @@ elif two_class == 2:
 
 # Use selected normalization technique
 	# Min-Max Normalization
-print(df)
+
 if normalize == 'minmax':
 	scaler = MinMaxScaler() 
 	x = df[column_names_to_normalize].values
@@ -228,24 +246,28 @@ if normalize == 'per_minmax':
 		x_scaled = pd.DataFrame(x_scaled, columns=column_names_to_normalize, index = df.loc[df['PerformanceId'] == perf].index)
 		for name in column_names_to_normalize:
 			df.loc[df['PerformanceId'] == perf, name] = x_scaled.loc[df['PerformanceId'] == perf, name]
-print(df)
 
 # Use selected validation technique
 	# Hold Out 20%
 if validation_technique == 'ho20':
+	overall = 0.0
 	X = df[features]
 	y = df[validation]
-	train, test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=R_State, stratify=y)
-	if classifier_type == 'SVC':
-		svc_classify(train, test, y_train, y_test, joke_id)
-	elif classifier_type == 'Tree':
-		tree_classify(train, test, y_train, y_test, joke_id)
-	elif classifier_type == 'KNN':
-		knn_classify(train, test, y_train, y_test, joke_id)
-	elif classifier_type == 'NN':
-		nn_classify(train, test, y_train, y_test, joke_id)
-	elif classifier_type == 'NB':
-		nb_classify(train, test, y_train, y_test, joke_id)
+	for trial in range(0, num_trials):
+		train, test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=R_State, stratify=y)
+		if classifier_type == 'SVC':
+			overall += svc_classify(train, test, y_train, y_test, joke_id)
+		elif classifier_type == 'Tree':
+			overall += tree_classify(train, test, y_train, y_test, joke_id)
+		elif classifier_type == 'KNN':
+			overall += knn_classify(train, test, y_train, y_test, joke_id)
+		elif classifier_type == 'NN':
+			overall += nn_classify(train, test, y_train, y_test, joke_id)
+		elif classifier_type == 'NB':
+			overall += nb_classify(train, test, y_train, y_test, joke_id)
+		elif classifier_type == 'RF':
+			overall += rf_classify(train, test, y_train, y_test, joke_id)
+	print ("Overall Rating: ", overall/num_trials)
 	# Leave One Performance Out
 elif validation_technique == 'l1po':
 	overall = 0.0;
@@ -261,5 +283,7 @@ elif validation_technique == 'l1po':
 			overall += nn_classify(train, test, y_train, y_test, joke_id)
 		elif classifier_type == 'NB':
 			overall += nb_classify(train, test, y_train, y_test, joke_id)
+		elif classifier_type == 'RF':
+			overall += rf_classify(train, test, y_train, y_test, joke_id)
 	if calibrate == 0:
 		print ("Overall Rating: ", overall/18)
