@@ -44,22 +44,23 @@ performance = {"2019-04-13 Cienna Nerdy Show at The Drake":0,"2019-04-18 Bombs A
 
 # How much information to print
 verbose = 1															# 0 = false, 1 = true, use for debugging
-print_false_predictions = 0											# 0 = false, 1 = exactly as it says
+print_false_predictions = 1											# 0 = false, 1 = exactly as it says
 
 # Data Pre-Processing
-features = ['Intensity', 'IntensitySd'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
-two_class = 0 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
+features = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
+two_class = 1 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
 remove_zeros = 0
+no_silent = 0
 normalize = 0 														# 'minmax' or 'standard'
 column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 validation = 'HumanScorePostJokeOnly' 								# 'HumanScore' or 'HumanScorePostJokeOnly'
 validation_technique = 'l1po' 										# 'ho20' or 'l1po'
-R_State = 0 														# None or Integer, for hold out 20% validation
+R_State = None 														# None or Integer, for hold out 20% validation
 num_trials = 100
 joke_ids = ['PerformanceId', 'JokeId'] 								# 'PerformanceId', 'JokeId'
 
 # Classifier Types
-classifier_type = 'KNN'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or 'RF'
+classifier_type = 'SVC'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or 'RF'
 
 # SVM Classifier Parameters
 kernel = 'rbf' 														# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
@@ -199,14 +200,18 @@ def leave_one_perf_out_split(df, perf):
 	y_test = test_data[validation]
 	return train, test, y_train, y_test
 
-##
-#
-# Driver Code
-#
-##
+###############
+#             #
+# Driver Code #
+#             #
+###############
 
 # Read in Data
 df = pd.read_csv('clean_comedy_data.csv', error_bad_lines=False, encoding='utf-8', delimiter=',')
+
+#
+if no_silent:
+	df = df.loc[df.PerformanceId != 16]
 
 # If Remove 0's on pitch
 if remove_zeros:
@@ -271,7 +276,7 @@ if validation_technique == 'ho20':
 	# Leave One Performance Out
 elif validation_technique == 'l1po':
 	overall = 0.0;
-	for perf in range(18):
+	for perf in df.PerformanceId.unique():
 		train, test, y_train, y_test = leave_one_perf_out_split(df, perf)
 		if classifier_type == 'SVC':
 			overall += svc_classify(train, test, y_train, y_test, joke_id)
@@ -286,4 +291,4 @@ elif validation_technique == 'l1po':
 		elif classifier_type == 'RF':
 			overall += rf_classify(train, test, y_train, y_test, joke_id)
 	if calibrate == 0:
-		print ("Overall Rating: ", overall/18)
+		print ("Overall Rating: ", overall/len(df.PerformanceId.unique()))
