@@ -59,7 +59,7 @@ num_trials = 100
 joke_ids = ['PerformanceId', 'JokeId'] 								# 'PerformanceId', 'JokeId'
 
 # Classifier Types
-classifier_type = 'KNN'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or 'RF'
+classifier_type = 'SVC'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or 'RF'
 
 # SVM Classifier Parameters
 kernel = 'rbf' 														# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
@@ -141,27 +141,31 @@ def tree_classify(train, test, y_train, y_test, joke_id):
 	return clf.score(test, y_test)
 
 def svc_classify(train, test, y_train, y_test, joke_id):
-	if calibrate:
-		for SVM_C_val in SVM_C_range:
-			for SVM_Gamma_val in SVM_Gamma_range:
-				clf = svm.SVC(kernel=kernel, degree=3, gamma=SVM_Gamma_val, C=SVM_C_val)
-				clf.fit(train, y_train)
-				if verbose:
-					print_predictions(SVM_Gamma_val, SVM_C_val, clf, test, y_test)
-				else:
-					print(clf.score(test, y_test))
-				if draw_plt:
-					draw_plot(clf, test, y_test)
-	else:
-		clf = svm.SVC(kernel=kernel, degree=3, gamma=SVM_Gamma, C=SVM_C)
-		clf.fit(train, y_train)
-		if verbose:
-			print_predictions(SVM_Gamma, SVM_C, clf, test, y_test)
-		else:
-			print(clf.score(test, y_test))
-		if draw_plt:
-			draw_plot(clf, test, y_test)
-	return clf.score(test, y_test)
+	print(train)
+	# print(test)
+	# print()
+	# print(y_test)
+	# if calibrate:
+	# 	for SVM_C_val in SVM_C_range:
+	# 		for SVM_Gamma_val in SVM_Gamma_range:
+	# 			clf = svm.SVC(kernel=kernel, degree=3, gamma=SVM_Gamma_val, C=SVM_C_val)
+	# 			clf.fit(train, y_train)
+	# 			if verbose:
+	# 				print_predictions(SVM_Gamma_val, SVM_C_val, clf, test, y_test)
+	# 			else:
+	# 				print(clf.score(test, y_test))
+	# 			if draw_plt:
+	# 				draw_plot(clf, test, y_test)
+	# else:
+	# 	clf = svm.SVC(kernel=kernel, degree=3, gamma=SVM_Gamma, C=SVM_C)
+	# 	clf.fit(train, y_train)
+	# 	if verbose:
+	# 		print_predictions(SVM_Gamma, SVM_C, clf, test, y_test)
+	# 	else:
+	# 		print(clf.score(test, y_test))
+	# 	if draw_plt:
+	# 		draw_plot(clf, test, y_test)
+	# return clf.score(test, y_test)
 
 def draw_plot(clf, test, y_test):
 	plot_decision_regions(X=test.values, y=y_test.values,clf=clf, legend=2)
