@@ -1,0 +1,12 @@
+Decision Tree        | Accuracy:0.6053, ROC:0.5982, F1:0.6667
+Random Forest       | Accuracy:0.6842, ROC:0.7054, F1:0.7143
+
+KNN        | Accuracy:0.7368, ROC:0.747, F1:0.7727
+
+RBF        | Accuracy:0.7368, ROC:0.7619, F1:0.7619
+Linear        | Accuracy:0.7105, ROC:0.7411, F1:0.7317
+Polynomial        | Accuracy:0.7105, ROC:0.756, F1:0.7179
+
+Combination by avg   | Accuracy:0.7105, ROC:0.7411, F1:0.7317
+Combination by median   | Accuracy:0.7105, ROC:0.7411, F1:0.7317
+Ensemble accuracy: 0.7105263157894737
