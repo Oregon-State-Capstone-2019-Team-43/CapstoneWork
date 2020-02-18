@@ -1,0 +1,2 @@
+RBF accuracy:0.7368421052631579
+Polynomial accuracy:0.7105263157894737
