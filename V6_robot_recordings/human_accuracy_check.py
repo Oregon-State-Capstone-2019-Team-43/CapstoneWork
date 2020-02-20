@@ -61,7 +61,7 @@ for rating_file in tocheck:
 			else:
 				diffs = diffs+1
 		result = matches/(matches+diffs)
-		desc = "("+str(matches)+" maches, "+str(diffs)+" diffs)"
+		desc = "("+str(matches)+" matches, "+str(diffs)+" diffs)"
 		with open('human_accuracy_results.txt', 'a') as o:
 			o.write('{:<35}{:<22}{:<}\n'.format(rating_file, result, desc))
 
@@ -100,7 +100,7 @@ for rating_file in tocheck:
 			matches = len(numpy.where(list1==list2)[0])
 			diffs = jokenums[j]-matches
 			result = matches/(matches+diffs)
-			desc = "("+str(matches)+" maches, "+str(diffs)+" diffs)"
+			desc = "("+str(matches)+" matches, "+str(diffs)+" diffs)"
 			with open('human_accuracy_results.txt', 'a') as o:
 				o.write('{:<50}{:<22}{:<}\n'.format(curperf, result, desc))
 
