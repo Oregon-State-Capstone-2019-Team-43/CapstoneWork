@@ -1,2 +1,0 @@
-Best Neighbor Number: 15
-KNN Accuracy: 0.7368421052631579
