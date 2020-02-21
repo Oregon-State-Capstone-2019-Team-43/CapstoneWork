@@ -1,0 +1,54 @@
+2019-04-13 Cienna Nerdy Show at The Drake
+Polynomial accuracy:0.7105263157894737
+
+2019-09-05 Stand-up Science
+Polynomial accuracy:0.7407407407407407
+
+2019-09-06 RoboCom
+Polynomial accuracy:0.7321428571428571
+
+2019-09-19 Bombs Away Cafe
+Polynomial accuracy:0.6666666666666666
+
+2019-09-21 Laugh Track Town USA
+Polynomial accuracy:0.7058823529411765
+
+2019-10-11 Singu-hilarity
+Polynomial accuracy:0.7352941176470589
+
+2019-11-29 Comedy the Musical
+Polynomial accuracy:0.6666666666666666
+
+2019-11-29 Crapshoot
+Polynomial accuracy:0.7619047619047619
+
+2019-12-06 Silent Background Recording
+Polynomial accuracy:0.7666666666666667
+
+2019-12-09 Singu-Hilarity in San Francisco
+Polynomial accuracy:0.7678571428571429
+
+2019-04-18 Bombs Away Cafe
+Polynomial accuracy:0.8571428571428571
+
+2019-04-19 Singu-hilarity
+Polynomial accuracy:0.5952380952380952
+
+2019-04-22 Class Performance
+Polynomial accuracy:0.6666666666666666
+
+2019-05-16 Bombs Away Cafe
+Polynomial accuracy:0.6666666666666666
+
+2019-06-19 Trek Theater
+Polynomial accuracy:0.78125
+
+2019-06-20 Bombs Away Cafe
+Polynomial accuracy:0.7857142857142857
+
+2019-08-15 Bombs Away Cafe
+Polynomial accuracy:0.7105263157894737
+
+2019-08-23 Spectrum
+Polynomial accuracy:0.84375
+
