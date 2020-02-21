@@ -1,18 +1,18 @@
 robot_name_joke_2.ogg.wav
 Total performnace for this joke :18
-avgTree 0.4444444444444444
-avgForest 0.5555555555555556
+avgTree 0.5
+avgForest 0.5
 avgKNN 0.2777777777777778
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.6111111111111112
+avgEnsemble 0.4444444444444444
 
 
 gdpr_joke.ogg.wav
 Total performnace for this joke :15
 avgTree 0.8666666666666667
-avgForest 0.8
+avgForest 0.8666666666666667
 avgKNN 0.3333333333333333
 avgRBF 0.0
 avgPoly 0.0
@@ -22,13 +22,13 @@ avgEnsemble 0.6
 
 family_joke.ogg.wav
 Total performnace for this joke :17
-avgTree 0.6470588235294118
-avgForest 0.6470588235294118
+avgTree 0.5882352941176471
+avgForest 0.5882352941176471
 avgKNN 0.7647058823529411
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.5294117647058824
+avgEnsemble 0.5882352941176471
 
 
 tags/family_joke_positive_2.ogg.wav
@@ -44,29 +44,29 @@ avgEnsemble 1.0
 
 too_robotic_joke.ogg.wav
 Total performnace for this joke :15
-avgTree 0.6
-avgForest 0.7333333333333333
+avgTree 0.6666666666666666
+avgForest 0.6666666666666666
 avgKNN 0.4666666666666667
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.6666666666666666
+avgEnsemble 0.7333333333333333
 
 
 c3po_joke.ogg.wav
 Total performnace for this joke :10
 avgTree 0.6
-avgForest 0.7
+avgForest 0.8
 avgKNN 0.7
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.6
+avgEnsemble 0.7
 
 
 rosie_joke.ogg.wav
 Total performnace for this joke :10
-avgTree 0.7
+avgTree 0.6
 avgForest 0.5
 avgKNN 0.8
 avgRBF 0.0
@@ -78,18 +78,18 @@ avgEnsemble 0.8
 wall-e_joke.ogg.wav
 Total performnace for this joke :10
 avgTree 0.6
-avgForest 0.5
+avgForest 0.6
 avgKNN 0.6
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.3
+avgEnsemble 0.4
 
 
 plastic_surgery_joke.ogg.wav
 Total performnace for this joke :10
-avgTree 0.6
-avgForest 0.7
+avgTree 0.8
+avgForest 0.8
 avgKNN 0.8
 avgRBF 0.0
 avgPoly 0.0
@@ -99,8 +99,8 @@ avgEnsemble 0.8
 
 tags/gdpr_joke_positive.ogg.wav
 Total performnace for this joke :10
-avgTree 0.7
-avgForest 0.8
+avgTree 0.8
+avgForest 0.7
 avgKNN 0.7
 avgRBF 0.0
 avgPoly 0.0
@@ -116,29 +116,29 @@ avgKNN 0.6153846153846154
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.6923076923076923
+avgEnsemble 0.6153846153846154
 
 
 white_people_joke.ogg.wav
 Total performnace for this joke :14
-avgTree 0.6428571428571429
-avgForest 0.7142857142857143
+avgTree 0.7142857142857143
+avgForest 0.7857142857142857
+avgKNN 0.7857142857142857
+avgRBF 0.0
+avgPoly 0.0
+avglinear 0.0
+avgEnsemble 0.8571428571428571
+
+
+terminator_joke.ogg.wav
+Total performnace for this joke :14
+avgTree 0.5714285714285714
+avgForest 0.7857142857142857
 avgKNN 0.7857142857142857
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
 avgEnsemble 0.7142857142857143
-
-
-terminator_joke.ogg.wav
-Total performnace for this joke :14
-avgTree 0.6428571428571429
-avgForest 0.7142857142857143
-avgKNN 0.7857142857142857
-avgRBF 0.0
-avgPoly 0.0
-avglinear 0.0
-avgEnsemble 0.7857142857142857
 
 
 baha_men_joke_oregon.ogg.wav
@@ -154,29 +154,29 @@ avgEnsemble 0.9230769230769231
 
 light_bulb_joke.ogg.wav
 Total performnace for this joke :11
-avgTree 0.45454545454545453
-avgForest 0.2727272727272727
+avgTree 0.2727272727272727
+avgForest 0.36363636363636365
 avgKNN 0.36363636363636365
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.6363636363636364
+avgEnsemble 0.36363636363636365
 
 
 robot_tinder_2.ogg.wav
 Total performnace for this joke :15
 avgTree 0.7333333333333333
-avgForest 0.8
+avgForest 0.8666666666666667
 avgKNN 0.8
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 1.0
+avgEnsemble 0.9333333333333333
 
 
 siri_backpropagate.ogg.wav
 Total performnace for this joke :14
-avgTree 0.6428571428571429
+avgTree 0.7142857142857143
 avgForest 0.8571428571428571
 avgKNN 0.8571428571428571
 avgRBF 0.0
@@ -209,7 +209,7 @@ avgEnsemble 0.9090909090909091
 
 ip_address_joke_2.ogg.wav
 Total performnace for this joke :11
-avgTree 0.45454545454545453
+avgTree 0.5454545454545454
 avgForest 0.5454545454545454
 avgKNN 0.36363636363636365
 avgRBF 0.0
@@ -220,18 +220,18 @@ avgEnsemble 0.36363636363636365
 
 encryption_joke.ogg.wav
 Total performnace for this joke :14
-avgTree 0.5
-avgForest 0.7857142857142857
+avgTree 0.42857142857142855
+avgForest 0.7142857142857143
 avgKNN 0.6428571428571429
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.7857142857142857
+avgEnsemble 0.6428571428571429
 
 
 robot_sexy_times.ogg.wav
 Total performnace for this joke :13
-avgTree 0.6153846153846154
+avgTree 0.5384615384615384
 avgForest 0.6923076923076923
 avgKNN 0.6923076923076923
 avgRBF 0.0
@@ -281,17 +281,17 @@ avgKNN 0.6363636363636364
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.45454545454545453
+avgEnsemble 0.6363636363636364
 
 
 tags/too_robotic_joke_negative.wav
 Total performnace for this joke :10
 avgTree 0.7
-avgForest 0.7
+avgForest 0.6
 avgKNN 0.6
 avgRBF 0.0
 avgPoly 0.0
 avglinear 0.0
-avgEnsemble 0.7
+avgEnsemble 0.6
 
 
