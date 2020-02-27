@@ -1,72 +1,72 @@
 2019-04-13 Cienna Nerdy Show at The Drake
-Best Neighbor Number: 15
+Best Neighbor Number: 13
 KNN Accuracy: 0.6842105263157895
 
 2019-09-05 Stand-up Science
-Best Neighbor Number: 23
-KNN Accuracy: 0.7777777777777778
+Best Neighbor Number: 25
+KNN Accuracy: 0.7407407407407407
 
 2019-09-06 RoboCom
-Best Neighbor Number: 19
-KNN Accuracy: 0.7142857142857143
+Best Neighbor Number: 31
+KNN Accuracy: 0.75
 
 2019-09-19 Bombs Away Cafe
-Best Neighbor Number: 31
-KNN Accuracy: 0.6666666666666666
+Best Neighbor Number: 3
+KNN Accuracy: 0.5757575757575758
 
 2019-09-21 Laugh Track Town USA
 Best Neighbor Number: 19
-KNN Accuracy: 0.7352941176470589
+KNN Accuracy: 0.7058823529411765
 
 2019-10-11 Singu-hilarity
-Best Neighbor Number: 29
-KNN Accuracy: 0.6764705882352942
+Best Neighbor Number: 7
+KNN Accuracy: 0.6470588235294118
 
 2019-11-29 Comedy the Musical
-Best Neighbor Number: 5
+Best Neighbor Number: 7
 KNN Accuracy: 0.5714285714285714
 
 2019-11-29 Crapshoot
 Best Neighbor Number: 15
-KNN Accuracy: 0.7619047619047619
+KNN Accuracy: 0.6666666666666666
 
 2019-12-06 Silent Background Recording
-Best Neighbor Number: 31
-KNN Accuracy: 0.7
+Best Neighbor Number: 9
+KNN Accuracy: 0.7333333333333333
 
 2019-12-09 Singu-Hilarity in San Francisco
-Best Neighbor Number: 17
-KNN Accuracy: 0.7142857142857143
+Best Neighbor Number: 23
+KNN Accuracy: 0.75
 
 2019-04-18 Bombs Away Cafe
-Best Neighbor Number: 9
+Best Neighbor Number: 5
 KNN Accuracy: 0.7142857142857143
 
 2019-04-19 Singu-hilarity
-Best Neighbor Number: 7
-KNN Accuracy: 0.5476190476190477
+Best Neighbor Number: 11
+KNN Accuracy: 0.5714285714285714
 
 2019-04-22 Class Performance
 Best Neighbor Number: 3
-KNN Accuracy: 0.5714285714285714
+KNN Accuracy: 0.7142857142857143
 
 2019-05-16 Bombs Away Cafe
-Best Neighbor Number: 27
-KNN Accuracy: 0.6666666666666666
+Best Neighbor Number: 9
+KNN Accuracy: 0.8888888888888888
 
 2019-06-19 Trek Theater
-Best Neighbor Number: 33
-KNN Accuracy: 0.75
+Best Neighbor Number: 27
+KNN Accuracy: 0.71875
 
 2019-06-20 Bombs Away Cafe
-Best Neighbor Number: 21
-KNN Accuracy: 0.6428571428571429
+Best Neighbor Number: 17
+KNN Accuracy: 0.7142857142857143
 
 2019-08-15 Bombs Away Cafe
-Best Neighbor Number: 15
+Best Neighbor Number: 9
 KNN Accuracy: 0.6842105263157895
 
 2019-08-23 Spectrum
-Best Neighbor Number: 9
-KNN Accuracy: 0.75
+Best Neighbor Number: 17
+KNN Accuracy: 0.8125
 
