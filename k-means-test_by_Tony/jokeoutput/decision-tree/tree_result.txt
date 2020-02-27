@@ -1,17 +1,17 @@
 2019-04-13 Cienna Nerdy Show at The Drake
-onetree: 0.7105263157894737
+onetree: 0.7631578947368421
 
 2019-09-05 Stand-up Science
-onetree: 0.8148148148148148
+onetree: 0.7037037037037037
 
 2019-09-06 RoboCom
-onetree: 0.6785714285714286
+onetree: 0.7142857142857143
 
 2019-09-19 Bombs Away Cafe
-onetree: 0.5151515151515151
+onetree: 0.48484848484848486
 
 2019-09-21 Laugh Track Town USA
-onetree: 0.7352941176470589
+onetree: 0.7647058823529411
 
 2019-10-11 Singu-hilarity
 onetree: 0.5294117647058824
@@ -23,16 +23,16 @@ onetree: 0.5238095238095238
 onetree: 0.5714285714285714
 
 2019-12-06 Silent Background Recording
-onetree: 0.5333333333333333
+onetree: 0.48333333333333334
 
 2019-12-09 Singu-Hilarity in San Francisco
-onetree: 0.5714285714285714
+onetree: 0.5535714285714286
 
 2019-04-18 Bombs Away Cafe
 onetree: 0.8095238095238095
 
 2019-04-19 Singu-hilarity
-onetree: 0.5238095238095238
+onetree: 0.5
 
 2019-04-22 Class Performance
 onetree: 0.5714285714285714
@@ -41,13 +41,13 @@ onetree: 0.5714285714285714
 onetree: 0.7777777777777778
 
 2019-06-19 Trek Theater
-onetree: 0.46875
+onetree: 0.53125
 
 2019-06-20 Bombs Away Cafe
 onetree: 0.7857142857142857
 
 2019-08-15 Bombs Away Cafe
-onetree: 0.631578947368421
+onetree: 0.5789473684210527
 
 2019-08-23 Spectrum
 onetree: 0.59375

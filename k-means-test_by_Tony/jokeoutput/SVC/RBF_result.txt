@@ -1,54 +1,54 @@
 2019-04-13 Cienna Nerdy Show at The Drake
-RBF accuracy:0.7631578947368421
+RBF accuracy:0.6842105263157895
 
 2019-09-05 Stand-up Science
 RBF accuracy:0.7037037037037037
 
 2019-09-06 RoboCom
-RBF accuracy:0.6785714285714286
+RBF accuracy:0.8214285714285714
 
 2019-09-19 Bombs Away Cafe
-RBF accuracy:0.5757575757575758
+RBF accuracy:0.6060606060606061
 
 2019-09-21 Laugh Track Town USA
-RBF accuracy:0.5588235294117647
+RBF accuracy:0.6176470588235294
 
 2019-10-11 Singu-hilarity
-RBF accuracy:0.47058823529411764
+RBF accuracy:0.7352941176470589
 
 2019-11-29 Comedy the Musical
-RBF accuracy:0.6190476190476191
+RBF accuracy:0.6666666666666666
 
 2019-11-29 Crapshoot
-RBF accuracy:0.7142857142857143
+RBF accuracy:0.8571428571428571
 
 2019-12-06 Silent Background Recording
-RBF accuracy:0.5166666666666667
+RBF accuracy:0.38333333333333336
 
 2019-12-09 Singu-Hilarity in San Francisco
-RBF accuracy:0.6071428571428571
+RBF accuracy:0.75
 
 2019-04-18 Bombs Away Cafe
-RBF accuracy:0.7142857142857143
+RBF accuracy:0.8571428571428571
 
 2019-04-19 Singu-hilarity
-RBF accuracy:0.5952380952380952
+RBF accuracy:0.6190476190476191
 
 2019-04-22 Class Performance
-RBF accuracy:0.7142857142857143
+RBF accuracy:0.5238095238095238
 
 2019-05-16 Bombs Away Cafe
-RBF accuracy:0.7777777777777778
+RBF accuracy:0.6666666666666666
 
 2019-06-19 Trek Theater
-RBF accuracy:0.5
+RBF accuracy:0.78125
 
 2019-06-20 Bombs Away Cafe
-RBF accuracy:0.5714285714285714
+RBF accuracy:0.7142857142857143
 
 2019-08-15 Bombs Away Cafe
-RBF accuracy:0.6052631578947368
+RBF accuracy:0.7368421052631579
 
 2019-08-23 Spectrum
-RBF accuracy:0.6875
+RBF accuracy:0.78125
 
