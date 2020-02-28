@@ -1,5 +1,5 @@
 2019-04-13 Cienna Nerdy Show at The Drake
-Linear accuracy:0.6842105263157895
+Linear accuracy:0.7368421052631579
 
 2019-09-05 Stand-up Science
 Linear accuracy:0.8148148148148148
@@ -17,7 +17,7 @@ Linear accuracy:0.6764705882352942
 Linear accuracy:0.7352941176470589
 
 2019-11-29 Comedy the Musical
-Linear accuracy:0.7142857142857143
+Linear accuracy:0.6190476190476191
 
 2019-11-29 Crapshoot
 Linear accuracy:0.7619047619047619
@@ -26,16 +26,16 @@ Linear accuracy:0.7619047619047619
 Linear accuracy:0.7333333333333333
 
 2019-12-09 Singu-Hilarity in San Francisco
-Linear accuracy:0.7321428571428571
+Linear accuracy:0.7142857142857143
 
 2019-04-18 Bombs Away Cafe
 Linear accuracy:0.8571428571428571
 
 2019-04-19 Singu-hilarity
-Linear accuracy:0.6190476190476191
+Linear accuracy:0.5952380952380952
 
 2019-04-22 Class Performance
-Linear accuracy:0.6190476190476191
+Linear accuracy:0.6666666666666666
 
 2019-05-16 Bombs Away Cafe
 Linear accuracy:0.6666666666666666

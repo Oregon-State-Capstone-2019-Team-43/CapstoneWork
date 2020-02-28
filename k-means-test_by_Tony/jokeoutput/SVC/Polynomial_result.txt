@@ -5,10 +5,10 @@ Polynomial accuracy:0.7105263157894737
 Polynomial accuracy:0.7407407407407407
 
 2019-09-06 RoboCom
-Polynomial accuracy:0.7321428571428571
+Polynomial accuracy:0.6964285714285714
 
 2019-09-19 Bombs Away Cafe
-Polynomial accuracy:0.6666666666666666
+Polynomial accuracy:0.6363636363636364
 
 2019-09-21 Laugh Track Town USA
 Polynomial accuracy:0.7058823529411765
@@ -23,7 +23,7 @@ Polynomial accuracy:0.6666666666666666
 Polynomial accuracy:0.7619047619047619
 
 2019-12-06 Silent Background Recording
-Polynomial accuracy:0.7666666666666667
+Polynomial accuracy:0.7833333333333333
 
 2019-12-09 Singu-Hilarity in San Francisco
 Polynomial accuracy:0.7678571428571429
@@ -32,10 +32,10 @@ Polynomial accuracy:0.7678571428571429
 Polynomial accuracy:0.8571428571428571
 
 2019-04-19 Singu-hilarity
-Polynomial accuracy:0.5952380952380952
+Polynomial accuracy:0.5714285714285714
 
 2019-04-22 Class Performance
-Polynomial accuracy:0.6666666666666666
+Polynomial accuracy:0.6190476190476191
 
 2019-05-16 Bombs Away Cafe
 Polynomial accuracy:0.6666666666666666
@@ -47,7 +47,7 @@ Polynomial accuracy:0.78125
 Polynomial accuracy:0.7857142857142857
 
 2019-08-15 Bombs Away Cafe
-Polynomial accuracy:0.7105263157894737
+Polynomial accuracy:0.6842105263157895
 
 2019-08-23 Spectrum
 Polynomial accuracy:0.84375
