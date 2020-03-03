@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
 from mlxtend.plotting import plot_decision_regions
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 joke = {"robot_name_joke_2.ogg.wav":1,"gdpr_joke.ogg.wav":2,"siri_backpropagate.ogg.wav":3,"silicon_valley_joke_pt1.wav":4,"silicon_valley_joke_pt2.wav":5,"rent_prices_oregon.ogg.wav":28,
@@ -48,15 +49,15 @@ print_false_predictions = 1											# 0 = false, 1 = exactly as it says
 
 # Data Pre-Processing
 features = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
-two_class = 1 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
+two_class = 0 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
 remove_zeros = 0
 no_silent = 0
-normalize = 0 														# 'minmax' or 'standard'
+normalize = 'minmax' 														# 'minmax' or 'standard'
 column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 validation = 'HumanScorePostJokeOnly' 								# 'HumanScore' or 'HumanScorePostJokeOnly'
 validation_technique = 'l1po' 										# 'ho20' or 'l1po'
-R_State = None 														# None or Integer, for hold out 20% validation
-num_trials = 100
+R_State = 1 														# None or Integer, for hold out 20% validation
+num_trials = 1
 joke_ids = ['PerformanceId', 'JokeId'] 								# 'PerformanceId', 'JokeId'
 
 # Classifier Types
@@ -64,11 +65,11 @@ classifier_type = 'SVC'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or
 
 # SVM Classifier Parameters
 kernel = 'rbf' 														# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
-SVM_C = 15000														# SVM regularization parameter
+SVM_C = 100														# SVM regularization parameter
 #	No Normalization	15000
 #	minmax 				100
 #	standard 			1000
-SVM_Gamma = .00001 													# SVM regularization parameter
+SVM_Gamma = .1 													# SVM regularization parameter
 #	No Normalization	.00001
 #	minmax 				.1
 #	standard			.001
@@ -81,7 +82,7 @@ SVM_C_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 1000
 SVM_Gamma_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0] 		# SVM regularization parameters for calibration
 
 def rf_classify(train, test, y_train, y_test, joke_id):
-	clf = RandomForestClassifier(n_estimators=100)
+	clf = RandomForestClassifier(n_estimators=100, max_depth=5)
 	clf.fit(train, y_train)
 	if verbose:
 		print('NN Verbose: ', clf.score(test, y_test))
@@ -131,7 +132,7 @@ def knn_classify(train, test, y_train, y_test, joke_id):
 	return clf.score(test, y_test)
 
 def tree_classify(train, test, y_train, y_test, joke_id):
-	clf = tree.DecisionTreeClassifier()
+	clf = tree.DecisionTreeClassifier(max_depth=5)
 	clf.fit(train, y_train)
 	if verbose:
 		print('Tree Verbose: ', clf.score(test, y_test))
@@ -184,7 +185,7 @@ def print_predictions(SVM_Gamma, SVM_C, clf, test, y_test):
 			zero += 1
 		else:
 			posi += 1
-	print("Gamma: ", SVM_Gamma, "\tC: ", SVM_C, "\t-:", nega, "\t0: ", zero, "\t+: ", posi, "  \tRating: ", clf.score(test, y_test))
+	print("Gamma: ", SVM_Gamma, "\tC: ", SVM_C, "\t-:", nega, "\t0: ", zero, "\t+: ", posi, "\tTotal: ", nega+posi+zero, "\tRating: ", clf.score(test, y_test))
 	if print_false_predictions:
 		for q, w, e in zip(prediction, y_test, y_test.index):
 			jokeid = joke_id.iloc[e]
@@ -209,13 +210,20 @@ def leave_one_perf_out_split(df, perf):
 # Read in Data
 df = pd.read_csv('clean_comedy_data.csv', error_bad_lines=False, encoding='utf-8', delimiter=',')
 
-#
+Total = len(df)
+Removed = 0
+
+# 
 if no_silent:
+	Removed += (Total - len(df.loc[df.PerformanceId != 16]))
 	df = df.loc[df.PerformanceId != 16]
 
 # If Remove 0's on pitch
 if remove_zeros:
+	Removed += (Total - len(df.loc[df.Pitch != 0]))
 	df = df.loc[df.Pitch != 0]
+
+print("Removed ", Removed, " out of ", Total, ", ", (Total - Removed)/Total, " remaining.")
 
 # Keep performane and joke id's
 joke_id = df[joke_ids]
@@ -228,6 +236,19 @@ if two_class == 1:
 	# Combine -1's and 0's
 elif two_class == 2:
 	df[validation] = df[validation].replace(-1, 0)
+
+# dfx = df.loc[df.HumanScorePostJokeOnly == -1]
+# plt.scatter(dfx['Intensity'].values, dfx['IntensitySd'].values, marker='^')
+# dfx = df.loc[df.HumanScorePostJokeOnly == 0]
+# plt.scatter(dfx['Intensity'].values, dfx['IntensitySd'].values, marker='o')
+# dfx = df.loc[df.HumanScorePostJokeOnly == 1]
+# plt.scatter(dfx['Intensity'].values, dfx['IntensitySd'].values, marker='d')
+# plt.xlabel(df[features].columns[0], size=14)
+# plt.ylabel(df[features].columns[1], size=14)
+# Title = 'Human Rated Data'
+# plt.title(Title, size=16)
+# plt.show()
+# plt.show()
 
 # Use selected normalization technique
 	# Min-Max Normalization
