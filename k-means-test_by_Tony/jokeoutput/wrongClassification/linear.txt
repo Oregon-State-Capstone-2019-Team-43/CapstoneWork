@@ -47,7 +47,7 @@ linear
 2019-11-29 Comedy the Musical------tags/family_joke_positive_2.ogg.wav------JokeID: 5
 2019-11-29 Comedy the Musical------big_chips_joke.ogg.wav------JokeID: 15
 2019-11-29 Comedy the Musical------tags/encryption_joke_positive_2.ogg.wav------JokeID: 18
-2019-11-29 Comedy the Musical------closing_take_jobs.ogg.wav------JokeID: 20
+2019-11-29 Crapshoot------tags/family_joke_positive_2.ogg.wav------JokeID: 5
 2019-12-06 Silent Background Recording------robot_name_joke_2.ogg.wav------JokeID: 0
 2019-12-06 Silent Background Recording------gdpr_joke.ogg.wav------JokeID: 1
 2019-12-06 Silent Background Recording------family_joke.ogg.wav------JokeID: 13
@@ -66,13 +66,13 @@ linear
 2019-12-06 Silent Background Recording------tags/power_cord_joke_negative.wav------JokeID: 51
 2019-12-09 Singu-Hilarity in San Francisco------tags/family_joke_positive_2.ogg.wav------JokeID: 10
 2019-12-09 Singu-Hilarity in San Francisco------robot_sexy_times.ogg.wav------JokeID: 54
-2019-12-09 Singu-Hilarity in San Francisco------tags/power_cord_joke_negative.wav------JokeID: 47
 2019-04-18 Bombs Away Cafe------silicon_valley_joke_pt1.wav------JokeID: 1
 2019-04-18 Bombs Away Cafe------silicon_valley_joke_pt2.wav------JokeID: 2
 2019-04-18 Bombs Away Cafe------420_joke.wav------JokeID: 9
 2019-04-19 Singu-hilarity------gdpr_joke.ogg.wav------JokeID: 1
 2019-04-19 Singu-hilarity------for_all_my_robots_joke.ogg.wav------JokeID: 23
 2019-04-19 Singu-hilarity------job_joke.ogg.wav------JokeID: 8
+2019-04-19 Singu-hilarity------inverse_kinematics_equations.ogg.wav------JokeID: 9
 2019-04-22 Class Performance------robot_name_joke_2.ogg.wav------JokeID: 0
 2019-04-22 Class Performance------for_all_my_robots_joke.ogg.wav------JokeID: 18
 2019-04-22 Class Performance------inverse_kinematics_equations.ogg.wav------JokeID: 5
