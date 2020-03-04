@@ -1,38 +1,38 @@
 2019-04-13 Cienna Nerdy Show at The Drake
-Ensemble accuracy: 0.6842105263157895
+Ensemble accuracy: 0.7105263157894737
 
 2019-09-05 Stand-up Science
-Ensemble accuracy: 0.7407407407407407
+Ensemble accuracy: 0.7777777777777778
 
 2019-09-06 RoboCom
-Ensemble accuracy: 0.7142857142857143
+Ensemble accuracy: 0.6607142857142857
 
 2019-09-19 Bombs Away Cafe
-Ensemble accuracy: 0.6060606060606061
+Ensemble accuracy: 0.5757575757575757
 
 2019-09-21 Laugh Track Town USA
-Ensemble accuracy: 0.6470588235294117
+Ensemble accuracy: 0.6764705882352942
 
 2019-10-11 Singu-hilarity
 Ensemble accuracy: 0.6764705882352942
 
 2019-11-29 Comedy the Musical
-Ensemble accuracy: 0.5714285714285714
+Ensemble accuracy: 0.7142857142857143
 
 2019-11-29 Crapshoot
-Ensemble accuracy: 0.7619047619047619
+Ensemble accuracy: 0.6666666666666667
 
 2019-12-06 Silent Background Recording
-Ensemble accuracy: 0.7166666666666667
+Ensemble accuracy: 0.7
 
 2019-12-09 Singu-Hilarity in San Francisco
-Ensemble accuracy: 0.7678571428571428
+Ensemble accuracy: 0.7857142857142857
 
 2019-04-18 Bombs Away Cafe
-Ensemble accuracy: 0.8571428571428572
+Ensemble accuracy: 0.9047619047619048
 
 2019-04-19 Singu-hilarity
-Ensemble accuracy: 0.5476190476190477
+Ensemble accuracy: 0.5952380952380952
 
 2019-04-22 Class Performance
 Ensemble accuracy: 0.7142857142857143
@@ -41,14 +41,14 @@ Ensemble accuracy: 0.7142857142857143
 Ensemble accuracy: 0.7777777777777778
 
 2019-06-19 Trek Theater
-Ensemble accuracy: 0.78125
+Ensemble accuracy: 0.71875
 
 2019-06-20 Bombs Away Cafe
-Ensemble accuracy: 0.8571428571428572
+Ensemble accuracy: 0.7142857142857143
 
 2019-08-15 Bombs Away Cafe
-Ensemble accuracy: 0.6842105263157895
+Ensemble accuracy: 0.736842105263158
 
 2019-08-23 Spectrum
-Ensemble accuracy: 0.875
+Ensemble accuracy: 0.84375
 
