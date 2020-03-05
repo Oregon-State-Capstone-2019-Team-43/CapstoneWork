@@ -1,0 +1,147 @@
+combined Result
+2019-08-23 Spectrum------power_cord_joke.wav : 5
+2019-08-23 Spectrum------light_bulb_joke.ogg.wav : 5
+2019-08-23 Spectrum------robot_name_joke_2.ogg.wav : 5
+2019-08-15 Bombs Away Cafe------tags/robot_tinder_2_positive.ogg.wav : 5
+2019-08-15 Bombs Away Cafe------ip_address_joke_2.ogg.wav : 5
+2019-08-15 Bombs Away Cafe------robot_name_joke_2.ogg.wav : 5
+2019-06-20 Bombs Away Cafe------ip_address_joke_2.ogg.wav : 5
+2019-06-20 Bombs Away Cafe------robot_name_joke_2.ogg.wav : 5
+2019-06-19 Trek Theater------siri_backpropagate.ogg.wav : 5
+2019-06-19 Trek Theater------family_joke.ogg.wav : 5
+2019-04-22 Class Performance------congratulations_youve_won_joke.wav : 5
+2019-04-22 Class Performance------for_all_my_robots_joke.ogg.wav : 5
+2019-04-22 Class Performance------robot_name_joke_2.ogg.wav : 5
+2019-04-19 Singu-hilarity------inverse_kinematics_equations.ogg.wav : 5
+2019-04-19 Singu-hilarity------job_joke.ogg.wav : 5
+2019-04-19 Singu-hilarity------for_all_my_robots_joke.ogg.wav : 5
+2019-04-18 Bombs Away Cafe------420_joke.wav : 5
+2019-12-09 Singu-Hilarity in San Francisco------robot_sexy_times.ogg.wav : 5
+2019-12-06 Silent Background Recording------tags/power_cord_joke_negative.wav : 5
+2019-12-06 Silent Background Recording------congratulations_im_feeling_lucky.wav : 5
+2019-12-06 Silent Background Recording------congratulations_youve_won_joke.wav : 5
+2019-12-06 Silent Background Recording------tags/robot_joke_negative_2.ogg.wav : 5
+2019-12-06 Silent Background Recording------robot_sexy_times.ogg.wav : 5
+2019-12-06 Silent Background Recording------for_all_my_robots_joke.ogg.wav : 5
+2019-12-06 Silent Background Recording------bender_joke.ogg.wav : 5
+2019-12-06 Silent Background Recording------family_joke.ogg.wav : 5
+2019-11-29 Crapshoot------tags/family_joke_positive_2.ogg.wav : 5
+2019-11-29 Comedy the Musical------tags/encryption_joke_positive_2.ogg.wav : 5
+2019-11-29 Comedy the Musical------big_chips_joke.ogg.wav : 5
+2019-11-29 Comedy the Musical------tags/family_joke_positive_2.ogg.wav : 5
+2019-10-11 Singu-hilarity------vibrator.ogg.wav : 5
+2019-10-11 Singu-hilarity------closing_take_jobs.ogg.wav : 5
+2019-10-11 Singu-hilarity------family_joke.ogg.wav : 5
+2019-10-11 Singu-hilarity------gdpr_joke.ogg.wav : 5
+2019-09-21 Laugh Track Town USA------tags/white_people_joke_negative.ogg.wav : 5
+2019-09-21 Laugh Track Town USA------vibrator_pt_2.ogg.wav : 5
+2019-09-21 Laugh Track Town USA------tags/robot_joke_negative_2.ogg.wav : 5
+2019-09-21 Laugh Track Town USA------boogie.ogg.wav : 5
+2019-09-21 Laugh Track Town USA------for_all_my_robots_joke.ogg.wav : 5
+2019-09-21 Laugh Track Town USA------gdpr_joke.ogg.wav : 5
+2019-09-21 Laugh Track Town USA------robot_name_joke_2.ogg.wav : 5
+2019-09-19 Bombs Away Cafe------tags/self_driving_limo_positive.ogg.wav : 5
+2019-09-19 Bombs Away Cafe------ip_address_joke_2.ogg.wav : 5
+2019-09-19 Bombs Away Cafe------tags/family_joke_positive_2.ogg.wav : 5
+2019-09-06 RoboCom------tags/megaman_positive.ogg.wav : 5
+2019-09-06 RoboCom------vibrator.ogg.wav : 5
+2019-09-06 RoboCom------tags/robot_joke_negative_2.ogg.wav : 5
+2019-09-06 RoboCom------inverse_kinematics_equations.ogg.wav : 5
+2019-09-06 RoboCom------job_joke.ogg.wav : 5
+2019-09-06 RoboCom------robot_sexy_times.ogg.wav : 5
+2019-09-06 RoboCom------family_joke.ogg.wav : 5
+2019-09-05 Stand-up Science------inverse_kinematics_equations.ogg.wav : 5
+2019-09-05 Stand-up Science------ip_address_joke_2.ogg.wav : 5
+2019-09-05 Stand-up Science------white_people_joke.ogg.wav : 5
+2019-09-05 Stand-up Science------too_robotic_joke.ogg.wav : 5
+2019-09-05 Stand-up Science------family_joke.ogg.wav : 5
+2019-04-13 Cienna Nerdy Show at The Drake------terminator_joke.ogg.wav : 5
+2019-08-15 Bombs Away Cafe------rent_prices_oregon.ogg.wav : 4
+2019-06-19 Trek Theater------rosie_joke.ogg.wav : 4
+2019-04-19 Singu-hilarity------rosie_joke.ogg.wav : 4
+2019-04-19 Singu-hilarity------gdpr_joke.ogg.wav : 4
+2019-04-18 Bombs Away Cafe------silicon_valley_joke_pt1.wav : 4
+2019-12-09 Singu-Hilarity in San Francisco------tags/family_joke_positive_2.ogg.wav : 4
+2019-12-06 Silent Background Recording------inverse_kinematics_equations.ogg.wav : 4
+2019-12-06 Silent Background Recording------terminator_joke.ogg.wav : 4
+2019-12-06 Silent Background Recording------robot_name_joke_2.ogg.wav : 4
+2019-10-11 Singu-hilarity------tags/family_joke_positive_2.ogg.wav : 4
+2019-09-19 Bombs Away Cafe------power_cord_joke.wav : 4
+2019-09-06 RoboCom------domain_name_dot_com.wav : 4
+2019-09-06 RoboCom------tags/power_cord_joke_negative.wav : 4
+2019-09-06 RoboCom------self_driving_limo.ogg.wav : 4
+2019-09-06 RoboCom------robot_babies.ogg.wav : 4
+2019-09-06 RoboCom------ip_address_joke_2.ogg.wav : 4
+2019-09-06 RoboCom------tags/family_joke_positive_2.ogg.wav : 4
+2019-04-13 Cienna Nerdy Show at The Drake------job_joke.ogg.wav : 4
+2019-04-22 Class Performance------inverse_kinematics_equations.ogg.wav : 3
+2019-04-19 Singu-hilarity------tags/family_joke_positive_2.ogg.wav : 3
+2019-12-09 Singu-Hilarity in San Francisco------tags/power_cord_joke_negative.wav : 3
+2019-12-06 Silent Background Recording------software_update.ogg.wav : 3
+2019-12-06 Silent Background Recording------robot_babies.ogg.wav : 3
+2019-12-06 Silent Background Recording------tags/rent_prices_oregon_negative.ogg.wav : 3
+2019-12-06 Silent Background Recording------robot_tinder_2.ogg.wav : 3
+2019-12-06 Silent Background Recording------baha_men_joke_oregon.ogg.wav : 3
+2019-09-21 Laugh Track Town USA------tags/software_update_positive.ogg.wav : 3
+2019-09-06 RoboCom------rosie_joke.ogg.wav : 3
+2019-09-05 Stand-up Science------silicon_valley_joke_pt2.wav : 3
+2019-08-15 Bombs Away Cafe------silicon_valley_joke_pt2.wav : 2
+2019-08-15 Bombs Away Cafe------tags/inverse_kinematics_equations_positive_2.ogg.wav : 2
+2019-04-22 Class Performance------tags/robot_joke_negative_2.ogg.wav : 2
+2019-04-22 Class Performance------tags/plastic_surgery_joke_negative.ogg.wav : 2
+2019-04-19 Singu-hilarity------domain_name_joke.wav : 2
+2019-12-09 Singu-Hilarity in San Francisco------boogie.ogg.wav : 2
+2019-12-06 Silent Background Recording------tags/killing_joke_negative.wav : 2
+2019-12-06 Silent Background Recording------tags/self_driving_limo_negative.ogg.wav : 2
+2019-12-06 Silent Background Recording------domain_name_dot_com.wav : 2
+2019-12-06 Silent Background Recording------domain_name_joke.wav : 2
+2019-12-06 Silent Background Recording------big_chips_joke.ogg.wav : 2
+2019-12-06 Silent Background Recording------tags/robot_tinder_2_negative.ogg.wav : 2
+2019-12-06 Silent Background Recording------gdpr_joke.ogg.wav : 2
+2019-10-11 Singu-hilarity------stripper_joke.ogg.wav : 2
+2019-09-21 Laugh Track Town USA------encryption_joke.ogg.wav : 2
+2019-09-06 RoboCom------power_cord_joke.wav : 2
+2019-09-06 RoboCom------smoking_joke.ogg.wav : 2
+2019-09-06 RoboCom------silicon_valley_joke_pt2.wav : 2
+2019-09-06 RoboCom------encryption_joke.ogg.wav : 2
+2019-08-23 Spectrum------white_people_joke.ogg.wav : 1
+2019-08-15 Bombs Away Cafe------job_joke.ogg.wav : 1
+2019-08-15 Bombs Away Cafe------tags/encryption_joke_positive_2.ogg.wav : 1
+2019-08-15 Bombs Away Cafe------tags/family_joke_positive_2.ogg.wav : 1
+2019-06-20 Bombs Away Cafe------closing_take_jobs.ogg.wav : 1
+2019-06-19 Trek Theater------rent_prices_oregon.ogg.wav : 1
+2019-06-19 Trek Theater------silicon_valley_joke_pt1.wav : 1
+2019-06-19 Trek Theater------light_bulb_joke.ogg.wav : 1
+2019-06-19 Trek Theater------c3po_joke.ogg.wav : 1
+2019-04-22 Class Performance------tags/family_joke_positive_2.ogg.wav : 1
+2019-04-18 Bombs Away Cafe------domain_name_joke.wav : 1
+2019-04-18 Bombs Away Cafe------silicon_valley_joke_pt2.wav : 1
+2019-12-09 Singu-Hilarity in San Francisco------megaman.ogg.wav : 1
+2019-12-09 Singu-Hilarity in San Francisco------robot_tinder_2.ogg.wav : 1
+2019-12-09 Singu-Hilarity in San Francisco------c3po_joke.ogg.wav : 1
+2019-12-06 Silent Background Recording------tags/software_update_negative.ogg.wav : 1
+2019-12-06 Silent Background Recording------tags/inverse_kinematics_equations_negative.ogg.wav : 1
+2019-12-06 Silent Background Recording------tags/too_robotic_joke_negative.wav : 1
+2019-12-06 Silent Background Recording------vibrator_pt_2.ogg.wav : 1
+2019-12-06 Silent Background Recording------job_joke.ogg.wav : 1
+2019-12-06 Silent Background Recording------ip_address_joke_2.ogg.wav : 1
+2019-12-06 Silent Background Recording------siri_backpropagate.ogg.wav : 1
+2019-12-06 Silent Background Recording------wall-e_joke.ogg.wav : 1
+2019-11-29 Comedy the Musical------closing_take_jobs.ogg.wav : 1
+2019-10-11 Singu-hilarity------tags/megaman_positive.ogg.wav : 1
+2019-10-11 Singu-hilarity------self_driving_limo.ogg.wav : 1
+2019-09-21 Laugh Track Town USA------robot_babies.ogg.wav : 1
+2019-09-21 Laugh Track Town USA------too_robotic_joke.ogg.wav : 1
+2019-09-21 Laugh Track Town USA------family_joke.ogg.wav : 1
+2019-09-19 Bombs Away Cafe------domain_name_joke.wav : 1
+2019-09-19 Bombs Away Cafe------vibrator.ogg.wav : 1
+2019-09-06 RoboCom------robot_drugs.ogg.wav : 1
+2019-09-06 RoboCom------vibrator_pt_2.ogg.wav : 1
+2019-09-06 RoboCom------silicon_valley_joke_pt1.wav : 1
+2019-09-06 RoboCom------tags/catfish_joke_positive.ogg.wav : 1
+2019-09-06 RoboCom------white_people_joke.ogg.wav : 1
+2019-09-06 RoboCom------c3po_joke.ogg.wav : 1
+2019-09-06 RoboCom------tags/inverse_kinematics_equations_positive_2.ogg.wav : 1
+2019-04-13 Cienna Nerdy Show at The Drake------tags/plastic_surgery_joke_negative.ogg.wav : 1
+2019-04-13 Cienna Nerdy Show at The Drake------rosie_joke.ogg.wav : 1
+2019-04-13 Cienna Nerdy Show at The Drake------tags/family_joke_positive_2.ogg.wav : 1
