@@ -1,15 +1,56 @@
 combined Result
 2019-08-23 Spectrum------power_cord_joke.wav : 5
+ID: Joke 28
+Note: Post laughter happened. But it is recoreded in the midjoke audio
+
+
 2019-08-23 Spectrum------light_bulb_joke.ogg.wav : 5
+ID: Joke 19
+Note: In the end, robot was laughing
+
+
 2019-08-15 Bombs Away Cafe------tags/robot_tinder_2_positive.ogg.wav : 5
+ID: Joke 29
+Note: Mid joke barely happened at beginning
+
+
 2019-08-15 Bombs Away Cafe------robot_name_joke_2.ogg.wav : 5
+ID: Joke 0
+Note: classify wrong
+
 2019-06-20 Bombs Away Cafe------ip_address_joke_2.ogg.wav : 5
+ID: Joke 7
+Note: Post laughter happened. But it is recoreded in the midjoke audio
+
+
 2019-06-20 Bombs Away Cafe------robot_name_joke_2.ogg.wav : 5
+ID: Joke 0
+Note: classify wrong
+
+
 2019-06-19 Trek Theater------siri_backpropagate.ogg.wav : 5
+ID: Joke 2
+Note: Mid joke happened, but human labeled not.
+
+
 2019-06-19 Trek Theater------family_joke.ogg.wav : 5
+ID: Joke 11
+Note: classify wrong
+
+
 2019-04-22 Class Performance------congratulations_youve_won_joke.wav : 5
+ID: Joke 7
+Note: classify wrong
+
+
 2019-04-22 Class Performance------for_all_my_robots_joke.ogg.wav : 5
+ID: Joke 18
+Note: In the end, robot was laughing
+
 2019-04-19 Singu-hilarity------inverse_kinematics_equations.ogg.wav : 5
+
+
+
 2019-04-19 Singu-hilarity------job_joke.ogg.wav : 5
 2019-04-19 Singu-hilarity------for_all_my_robots_joke.ogg.wav : 5
 2019-04-19 Singu-hilarity------gdpr_joke.ogg.wav : 5
