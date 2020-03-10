@@ -48,16 +48,46 @@ ID: Joke 18
 Note: In the end, robot was laughing
 
 2019-04-19 Singu-hilarity------inverse_kinematics_equations.ogg.wav : 5
-
+ID: Joke 10
+Note: mid laughter happened
 
 
 2019-04-19 Singu-hilarity------job_joke.ogg.wav : 5
+ID: Joke 8
+Note: Classify wrong
+
+
 2019-04-19 Singu-hilarity------for_all_my_robots_joke.ogg.wav : 5
+ID: Joke 23
+Note: In the end, robot was laughing
+
 2019-04-19 Singu-hilarity------gdpr_joke.ogg.wav : 5
+ID: Joke 1
+Note: Classify wrong
+
+
 2019-04-18 Bombs Away Cafe------420_joke.wav : 5
+ID: Joke 9
+Note: Classify wrong
+
+
 2019-04-18 Bombs Away Cafe------silicon_valley_joke_pt1.wav : 5
+ID: Joke 1
+Note: Classify wrong
+
+
 2019-12-09 Singu-Hilarity in San Francisco------robot_sexy_times.ogg.wav : 5
+ID: Joke 54
+Note: Classify wrong
+
+
+
 2019-12-09 Singu-Hilarity in San Francisco------tags/family_joke_positive_2.ogg.wav : 5
+ID: Joke 10
+Note: Classify wrong
+
+
+
 2019-12-06 Silent Background Recording------tags/power_cord_joke_negative.wav : 5
 2019-12-06 Silent Background Recording------congratulations_im_feeling_lucky.wav : 5
 2019-12-06 Silent Background Recording------congratulations_youve_won_joke.wav : 5
