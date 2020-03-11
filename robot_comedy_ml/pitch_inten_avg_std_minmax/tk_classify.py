@@ -44,19 +44,19 @@ performance = {"2019-04-13 Cienna Nerdy Show at The Drake":0,"2019-04-18 Bombs A
 "2019-10-11 Singu-hilarity":13,"2019-11-29 Comedy the Musical":14,"2019-11-29 Crapshoot":15,"2019-12-06 Silent Background Recording":16,"2019-12-09 Singu-Hilarity in San Francisco":17}
 
 # How much information to print
-verbose = 1															# 0 = false, 1 = true, use for debugging
-print_false_predictions = 1											# 0 = false, 1 = exactly as it says
+verbose = 0															# 0 = false, 1 = true, use for debugging
+print_false_predictions = 0											# 0 = false, 1 = exactly as it says
 
 # Data Pre-Processing
 features = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 two_class = 0 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
 remove_zeros = 0
 no_silent = 0
-normalize = 'minmax' 														# 'minmax' or 'standard'
+normalize = 0														# 'minmax' or 'standard' or 'per_minmax'
 column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 validation = 'HumanScorePostJokeOnly' 								# 'HumanScore' or 'HumanScorePostJokeOnly'
-validation_technique = 'l1po' 										# 'ho20' or 'l1po'
-R_State = 1 														# None or Integer, for hold out 20% validation
+validation_technique = 'ho20' 										# 'ho20' or 'l1po'
+R_State = None 														# None for random or Integer, for hold out 20% validation
 num_trials = 1
 joke_ids = ['PerformanceId', 'JokeId'] 								# 'PerformanceId', 'JokeId'
 
@@ -65,11 +65,11 @@ classifier_type = 'SVC'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or
 
 # SVM Classifier Parameters
 kernel = 'rbf' 														# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
-SVM_C = 100														# SVM regularization parameter
+SVM_C = 15000														# SVM regularization parameter
 #	No Normalization	15000
 #	minmax 				100
 #	standard 			1000
-SVM_Gamma = .1 													# SVM regularization parameter
+SVM_Gamma = .00001 													# SVM regularization parameter
 #	No Normalization	.00001
 #	minmax 				.1
 #	standard			.001
@@ -168,7 +168,7 @@ def svc_classify(train, test, y_train, y_test, joke_id):
 def draw_plot(clf, test, y_test):
 	plot_decision_regions(X=test.values, y=y_test.values,clf=clf, legend=2)
 	plt.xlabel(test.columns[0], size=14)
-	plt.ylabel(test.columns[1], size=14)
+	#plt.ylabel(test.columns[1], size=14)
 	Title = classifier_type + ' Decision Region Boundary'
 	plt.title(Title, size=16)
 	plt.show()
@@ -200,6 +200,12 @@ def leave_one_perf_out_split(df, perf):
 	y_train = train_data[validation]
 	y_test = test_data[validation]
 	return train, test, y_train, y_test
+
+def set_box_color(bp, color):
+    plt.setp(bp['boxes'], color=color)
+    plt.setp(bp['whiskers'], color=color)
+    plt.setp(bp['caps'], color=color)
+    plt.setp(bp['medians'], color=color)
 
 ###############
 #             #
@@ -237,17 +243,23 @@ if two_class == 1:
 elif two_class == 2:
 	df[validation] = df[validation].replace(-1, 0)
 
-# dfx = df.loc[df.HumanScorePostJokeOnly == -1]
-# plt.scatter(dfx['Intensity'].values, dfx['IntensitySd'].values, marker='^')
-# dfx = df.loc[df.HumanScorePostJokeOnly == 0]
-# plt.scatter(dfx['Intensity'].values, dfx['IntensitySd'].values, marker='o')
-# dfx = df.loc[df.HumanScorePostJokeOnly == 1]
-# plt.scatter(dfx['Intensity'].values, dfx['IntensitySd'].values, marker='d')
-# plt.xlabel(df[features].columns[0], size=14)
-# plt.ylabel(df[features].columns[1], size=14)
-# Title = 'Human Rated Data'
+dfx = df.loc[df.HumanScorePostJokeOnly == -1]
+scatter = plt.scatter(dfx[features[0]].values, dfx[features[1]].values)
+dfx = df.loc[df.HumanScorePostJokeOnly == 0]
+scatter = plt.scatter(dfx[features[0]].values, dfx[features[1]].values)
+dfx = df.loc[df.HumanScorePostJokeOnly == 1]
+scatter = plt.scatter(dfx[features[0]].values, dfx[features[1]].values)
+Title = features[0] + " vs " + features[1]
+plt.xlabel(features[0])
+plt.ylabel(features[1])
+plt.title(Title, size=16)
+plt.show()
+
+# bp = plt.boxplot(dfx)
+# set_box_color(bp, '000000')
+# Title = features[0]
+# plt.xticks(range(1, 4), ['-1', '0', '1'])
 # plt.title(Title, size=16)
-# plt.show()
 # plt.show()
 
 # Use selected normalization technique
