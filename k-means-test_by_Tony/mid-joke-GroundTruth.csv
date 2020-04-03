@@ -1,0 +1,590 @@
+Performance,JokeId,Joke,HumanScore,PredictScore
+2019-04-13 Cienna Nerdy Show at The Drake,0,robot_name_joke_2.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,1,gdpr_joke.ogg.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,10,tags/inverse_kinematics_equations_positive_2.ogg.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,11,family_joke.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,12,tags/family_joke_positive_2.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,13,too_robotic_joke.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,14,tags/too_robotic_joke_positive_2.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,15,c3po_joke.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,16,rosie_joke.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,17,wall-e_joke.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,18,plastic_surgery_joke.ogg.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,19,tags/plastic_surgery_joke_negative.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,2,tags/gdpr_joke_positive.ogg.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,20,bender_joke.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,21,for_all_my_robots_joke.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,22,tags/robot_joke_positive.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,23,white_people_joke.ogg.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,24,terminator_joke.ogg.wav,0,1
+2019-04-13 Cienna Nerdy Show at The Drake,25,tags/white_people_joke_positive_2.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,26,baha_men_joke_oregon.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,27,light_bulb_joke.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,28,robot_tinder_2.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,29,tags/robot_tinder_2_negative.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,3,siri_backpropagate.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,30,big_chips_joke.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,31,catfish_joke_2.ogg.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,32,tags/catfish_joke_positive.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,33,ip_address_joke_2.ogg.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,34,encryption_joke.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,35,tags/encryption_joke_positive_2.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,36,robot_sexy_times.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,37,closing_take_jobs.ogg.wav,1,1
+2019-04-13 Cienna Nerdy Show at The Drake,4,silicon_valley_joke_pt1.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,5,silicon_valley_joke_pt2.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,6,rent_prices_oregon.ogg.wav,0,0
+2019-04-13 Cienna Nerdy Show at The Drake,7,tags/rent_prices_oregon_negative.ogg.wav,1,0
+2019-04-13 Cienna Nerdy Show at The Drake,8,job_joke.ogg.wav,0,1
+2019-04-13 Cienna Nerdy Show at The Drake,9,inverse_kinematics_equations.ogg.wav,1,0
+2019-09-05 Stand-up Science,0,robot_name_joke_2.ogg.wav,1,1
+2019-09-05 Stand-up Science,1,gdpr_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,8,family_joke.ogg.wav,0,1
+2019-09-05 Stand-up Science,9,too_robotic_joke.ogg.wav,0,1
+2019-09-05 Stand-up Science,10,c3po_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,11,rosie_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,12,wall-e_joke.ogg.wav,0,0
+2019-09-05 Stand-up Science,13,plastic_surgery_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,14,bender_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,15,for_all_my_robots_joke.ogg.wav,1,0
+2019-09-05 Stand-up Science,16,white_people_joke.ogg.wav,0,1
+2019-09-05 Stand-up Science,17,terminator_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,18,baha_men_joke_oregon.ogg.wav,1,1
+2019-09-05 Stand-up Science,19,light_bulb_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,20,robot_tinder_2.ogg.wav,1,1
+2019-09-05 Stand-up Science,2,siri_backpropagate.ogg.wav,1,1
+2019-09-05 Stand-up Science,21,big_chips_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,22,catfish_joke_2.ogg.wav,1,1
+2019-09-05 Stand-up Science,23,ip_address_joke_2.ogg.wav,0,1
+2019-09-05 Stand-up Science,24,encryption_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,25,robot_sexy_times.ogg.wav,1,1
+2019-09-05 Stand-up Science,26,closing_take_jobs.ogg.wav,1,1
+2019-09-05 Stand-up Science,3,silicon_valley_joke_pt1.wav,0,0
+2019-09-05 Stand-up Science,4,silicon_valley_joke_pt2.wav,0,1
+2019-09-05 Stand-up Science,5,rent_prices_oregon.ogg.wav,1,1
+2019-09-05 Stand-up Science,6,job_joke.ogg.wav,1,1
+2019-09-05 Stand-up Science,7,inverse_kinematics_equations.ogg.wav,0,1
+2019-09-06 RoboCom,0,robot_name_joke_2.ogg.wav,1,1
+2019-09-06 RoboCom,1,gdpr_joke.ogg.wav,1,1
+2019-09-06 RoboCom,12,tags/inverse_kinematics_equations_positive_2.ogg.wav,0,0
+2019-09-06 RoboCom,13,family_joke.ogg.wav,0,1
+2019-09-06 RoboCom,14,tags/family_joke_positive_2.ogg.wav,0,1
+2019-09-06 RoboCom,16,too_robotic_joke.ogg.wav,1,1
+2019-09-06 RoboCom,17,c3po_joke.ogg.wav,0,0
+2019-09-06 RoboCom,18,rosie_joke.ogg.wav,0,1
+2019-09-06 RoboCom,19,wall-e_joke.ogg.wav,1,1
+2019-09-06 RoboCom,20,plastic_surgery_joke.ogg.wav,1,1
+2019-09-06 RoboCom,21,tags/plastic_surgery_joke_negative.ogg.wav,1,1
+2019-09-06 RoboCom,2,tags/gdpr_joke_positive.ogg.wav,1,1
+2019-09-06 RoboCom,22,bender_joke.ogg.wav,1,1
+2019-09-06 RoboCom,27,for_all_my_robots_joke.ogg.wav,1,1
+2019-09-06 RoboCom,23,white_people_joke.ogg.wav,0,0
+2019-09-06 RoboCom,24,terminator_joke.ogg.wav,1,1
+2019-09-06 RoboCom,25,tags/white_people_joke_positive_2.ogg.wav,0,0
+2019-09-06 RoboCom,29,baha_men_joke_oregon.ogg.wav,1,1
+2019-09-06 RoboCom,41,light_bulb_joke.ogg.wav,1,1
+2019-09-06 RoboCom,30,robot_tinder_2.ogg.wav,1,1
+2019-09-06 RoboCom,3,siri_backpropagate.ogg.wav,1,1
+2019-09-06 RoboCom,31,big_chips_joke.ogg.wav,1,1
+2019-09-06 RoboCom,32,catfish_joke_2.ogg.wav,1,1
+2019-09-06 RoboCom,33,tags/catfish_joke_positive.ogg.wav,0,0
+2019-09-06 RoboCom,34,ip_address_joke_2.ogg.wav,0,1
+2019-09-06 RoboCom,52,encryption_joke.ogg.wav,0,0
+2019-09-06 RoboCom,53,tags/encryption_joke_positive_2.ogg.wav,0,0
+2019-09-06 RoboCom,54,robot_sexy_times.ogg.wav,0,1
+2019-09-06 RoboCom,55,closing_take_jobs.ogg.wav,0,0
+2019-09-06 RoboCom,6,silicon_valley_joke_pt1.wav,0,1
+2019-09-06 RoboCom,7,silicon_valley_joke_pt2.wav,0,0
+2019-09-06 RoboCom,8,rent_prices_oregon.ogg.wav,0,0
+2019-09-06 RoboCom,9,tags/rent_prices_oregon_negative.ogg.wav,1,1
+2019-09-06 RoboCom,10,job_joke.ogg.wav,0,1
+2019-09-06 RoboCom,11,inverse_kinematics_equations.ogg.wav,0,1
+2019-09-06 RoboCom,15,robot_babies.ogg.wav,0,1
+2019-09-06 RoboCom,26,boogie.ogg.wav,1,1
+2019-09-06 RoboCom,28,tags/robot_joke_negative_2.ogg.wav,0,1
+2019-09-06 RoboCom,35,selfie_drone.ogg.wav,1,1
+2019-09-06 RoboCom,36,vibrator.ogg.wav,0,1
+2019-09-06 RoboCom,37,vibrator_pt_2.ogg.wav,0,0
+2019-09-06 RoboCom,38,congratulations_youve_won_joke.wav,1,1
+2019-09-06 RoboCom,39,congratulations_im_feeling_lucky.wav,1,1
+2019-09-06 RoboCom,4,megaman.ogg.wav,0,0
+2019-09-06 RoboCom,40,smoking_joke.ogg.wav,0,0
+2019-09-06 RoboCom,42,stripper_joke.ogg.wav,0,0
+2019-09-06 RoboCom,43,stripper_vagina_joke.ogg.wav,1,1
+2019-09-06 RoboCom,44,self_driving_limo.ogg.wav,0,1
+2019-09-06 RoboCom,45,tags/self_driving_limo_positive.ogg.wav,0,0
+2019-09-06 RoboCom,46,software_update.ogg.wav,1,1
+2019-09-06 RoboCom,47,power_cord_joke.wav,0,0
+2019-09-06 RoboCom,48,tags/power_cord_joke_negative.wav,0,1
+2019-09-06 RoboCom,49,domain_name_joke.wav,0,0
+2019-09-06 RoboCom,5,tags/megaman_positive.ogg.wav,0,1
+2019-09-06 RoboCom,50,domain_name_dot_com.wav,0,1
+2019-09-06 RoboCom,51,robot_drugs.ogg.wav,0,0
+2019-09-19 Bombs Away Cafe,0,robot_name_joke_2.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,3,family_joke.ogg.wav,0,0
+2019-09-19 Bombs Away Cafe,4,tags/family_joke_positive_2.ogg.wav,0,1
+2019-09-19 Bombs Away Cafe,7,too_robotic_joke.ogg.wav,1,0
+2019-09-19 Bombs Away Cafe,9,white_people_joke.ogg.wav,1,0
+2019-09-19 Bombs Away Cafe,10,terminator_joke.ogg.wav,1,0
+2019-09-19 Bombs Away Cafe,13,robot_tinder_2.ogg.wav,1,0
+2019-09-19 Bombs Away Cafe,15,big_chips_joke.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,16,ip_address_joke_2.ogg.wav,0,1
+2019-09-19 Bombs Away Cafe,32,closing_take_jobs.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,5,robot_babies.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,12,boogie.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,17,selfie_drone.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,18,vibrator.ogg.wav,0,0
+2019-09-19 Bombs Away Cafe,19,vibrator_pt_2.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,1,megaman.ogg.wav,0,0
+2019-09-19 Bombs Away Cafe,20,smoking_joke.ogg.wav,1,0
+2019-09-19 Bombs Away Cafe,21,stripper_joke.ogg.wav,1,0
+2019-09-19 Bombs Away Cafe,22,stripper_vagina_joke.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,23,self_driving_limo.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,24,tags/self_driving_limo_positive.ogg.wav,0,1
+2019-09-19 Bombs Away Cafe,25,software_update.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,27,power_cord_joke.wav,0,1
+2019-09-19 Bombs Away Cafe,28,domain_name_joke.wav,0,0
+2019-09-19 Bombs Away Cafe,2,tags/megaman_positive.ogg.wav,0,0
+2019-09-19 Bombs Away Cafe,29,domain_name_dot_com.wav,0,0
+2019-09-19 Bombs Away Cafe,30,robot_drugs.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,11,tags/white_people_joke_negative.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,14,tags/robot_tinder_2_positive.ogg.wav,1,0
+2019-09-19 Bombs Away Cafe,26,tags/software_update_positive.ogg.wav,1,1
+2019-09-19 Bombs Away Cafe,31,tags/robot_drugs_positive.ogg.wav,0,0
+2019-09-19 Bombs Away Cafe,6,tags/robot_babies_positive.ogg.wav,0,0
+2019-09-19 Bombs Away Cafe,8,tags/too_robotic_joke_negative.wav,1,0
+2019-09-21 Laugh Track Town USA,0,robot_name_joke_2.ogg.wav,0,1
+2019-09-21 Laugh Track Town USA,1,gdpr_joke.ogg.wav,0,1
+2019-09-21 Laugh Track Town USA,6,family_joke.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,8,too_robotic_joke.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,2,tags/gdpr_joke_positive.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,14,for_all_my_robots_joke.ogg.wav,0,1
+2019-09-21 Laugh Track Town USA,10,white_people_joke.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,11,terminator_joke.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,16,baha_men_joke_oregon.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,17,robot_tinder_2.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,18,tags/robot_tinder_2_negative.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,3,siri_backpropagate.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,19,big_chips_joke.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,30,encryption_joke.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,31,tags/encryption_joke_positive_2.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,32,robot_sexy_times.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,33,closing_take_jobs.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,7,robot_babies.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,13,boogie.ogg.wav,0,1
+2019-09-21 Laugh Track Town USA,15,tags/robot_joke_negative_2.ogg.wav,0,1
+2019-09-21 Laugh Track Town USA,20,selfie_drone.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,21,vibrator.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,22,vibrator_pt_2.ogg.wav,0,1
+2019-09-21 Laugh Track Town USA,4,megaman.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,23,smoking_joke.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,24,stripper_joke.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,25,stripper_vagina_joke.ogg.wav,1,0
+2019-09-21 Laugh Track Town USA,26,self_driving_limo.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,28,software_update.ogg.wav,1,1
+2019-09-21 Laugh Track Town USA,5,tags/megaman_positive.ogg.wav,0,0
+2019-09-21 Laugh Track Town USA,12,tags/white_people_joke_negative.ogg.wav,0,1
+2019-09-21 Laugh Track Town USA,29,tags/software_update_positive.ogg.wav,0,1
+2019-09-21 Laugh Track Town USA,9,tags/too_robotic_joke_negative.wav,1,0
+2019-09-21 Laugh Track Town USA,27,tags/self_driving_limo_negative.ogg.wav,0,0
+2019-10-11 Singu-hilarity,0,robot_name_joke_2.ogg.wav,1,0
+2019-10-11 Singu-hilarity,1,gdpr_joke.ogg.wav,0,1
+2019-10-11 Singu-hilarity,6,family_joke.ogg.wav,0,1
+2019-10-11 Singu-hilarity,7,tags/family_joke_positive_2.ogg.wav,0,1
+2019-10-11 Singu-hilarity,10,too_robotic_joke.ogg.wav,0,0
+2019-10-11 Singu-hilarity,2,tags/gdpr_joke_positive.ogg.wav,0,0
+2019-10-11 Singu-hilarity,16,for_all_my_robots_joke.ogg.wav,1,1
+2019-10-11 Singu-hilarity,12,white_people_joke.ogg.wav,0,0
+2019-10-11 Singu-hilarity,13,terminator_joke.ogg.wav,1,0
+2019-10-11 Singu-hilarity,18,baha_men_joke_oregon.ogg.wav,1,1
+2019-10-11 Singu-hilarity,19,robot_tinder_2.ogg.wav,1,1
+2019-10-11 Singu-hilarity,3,siri_backpropagate.ogg.wav,1,1
+2019-10-11 Singu-hilarity,20,big_chips_joke.ogg.wav,1,1
+2019-10-11 Singu-hilarity,30,encryption_joke.ogg.wav,1,1
+2019-10-11 Singu-hilarity,31,tags/encryption_joke_positive_2.ogg.wav,0,0
+2019-10-11 Singu-hilarity,32,robot_sexy_times.ogg.wav,1,0
+2019-10-11 Singu-hilarity,33,closing_take_jobs.ogg.wav,0,1
+2019-10-11 Singu-hilarity,8,robot_babies.ogg.wav,0,0
+2019-10-11 Singu-hilarity,15,boogie.ogg.wav,1,1
+2019-10-11 Singu-hilarity,17,tags/robot_joke_negative_2.ogg.wav,1,1
+2019-10-11 Singu-hilarity,21,selfie_drone.ogg.wav,1,1
+2019-10-11 Singu-hilarity,22,vibrator.ogg.wav,0,1
+2019-10-11 Singu-hilarity,23,vibrator_pt_2.ogg.wav,1,1
+2019-10-11 Singu-hilarity,4,megaman.ogg.wav,0,0
+2019-10-11 Singu-hilarity,24,smoking_joke.ogg.wav,1,1
+2019-10-11 Singu-hilarity,25,stripper_joke.ogg.wav,0,0
+2019-10-11 Singu-hilarity,26,stripper_vagina_joke.ogg.wav,0,0
+2019-10-11 Singu-hilarity,27,self_driving_limo.ogg.wav,0,0
+2019-10-11 Singu-hilarity,28,tags/self_driving_limo_positive.ogg.wav,1,1
+2019-10-11 Singu-hilarity,29,software_update.ogg.wav,1,1
+2019-10-11 Singu-hilarity,5,tags/megaman_positive.ogg.wav,0,0
+2019-10-11 Singu-hilarity,9,tags/robot_babies_positive.ogg.wav,0,0
+2019-10-11 Singu-hilarity,11,tags/too_robotic_joke_negative.wav,1,1
+2019-10-11 Singu-hilarity,14,tags/metal_ceiling_positive.ogg.wav,1,0
+2019-11-29 Comedy the Musical,0,robot_name_joke_2.ogg.wav,1,1
+2019-11-29 Comedy the Musical,1,gdpr_joke.ogg.wav,0,0
+2019-11-29 Comedy the Musical,4,family_joke.ogg.wav,1,1
+2019-11-29 Comedy the Musical,5,tags/family_joke_positive_2.ogg.wav,0,1
+2019-11-29 Comedy the Musical,8,too_robotic_joke.ogg.wav,1,0
+2019-11-29 Comedy the Musical,2,tags/gdpr_joke_positive.ogg.wav,0,0
+2019-11-29 Comedy the Musical,10,white_people_joke.ogg.wav,0,0
+2019-11-29 Comedy the Musical,11,terminator_joke.ogg.wav,1,1
+2019-11-29 Comedy the Musical,14,baha_men_joke_oregon.ogg.wav,1,1
+2019-11-29 Comedy the Musical,3,siri_backpropagate.ogg.wav,1,1
+2019-11-29 Comedy the Musical,15,big_chips_joke.ogg.wav,0,1
+2019-11-29 Comedy the Musical,17,encryption_joke.ogg.wav,1,0
+2019-11-29 Comedy the Musical,18,tags/encryption_joke_positive_2.ogg.wav,0,1
+2019-11-29 Comedy the Musical,19,robot_sexy_times.ogg.wav,1,1
+2019-11-29 Comedy the Musical,20,closing_take_jobs.ogg.wav,0,0
+2019-11-29 Comedy the Musical,6,robot_babies.ogg.wav,1,0
+2019-11-29 Comedy the Musical,13,boogie.ogg.wav,1,1
+2019-11-29 Comedy the Musical,16,smoking_joke.ogg.wav,1,1
+2019-11-29 Comedy the Musical,7,tags/robot_babies_positive.ogg.wav,0,0
+2019-11-29 Comedy the Musical,9,tags/too_robotic_joke_negative.wav,1,1
+2019-11-29 Comedy the Musical,12,tags/metal_ceiling_positive.ogg.wav,1,1
+2019-11-29 Crapshoot,0,robot_name_joke_2.ogg.wav,1,1
+2019-11-29 Crapshoot,1,gdpr_joke.ogg.wav,1,1
+2019-11-29 Crapshoot,4,family_joke.ogg.wav,1,1
+2019-11-29 Crapshoot,5,tags/family_joke_positive_2.ogg.wav,0,1
+2019-11-29 Crapshoot,8,too_robotic_joke.ogg.wav,1,1
+2019-11-29 Crapshoot,2,tags/gdpr_joke_positive.ogg.wav,0,0
+2019-11-29 Crapshoot,10,white_people_joke.ogg.wav,0,0
+2019-11-29 Crapshoot,11,terminator_joke.ogg.wav,1,0
+2019-11-29 Crapshoot,14,baha_men_joke_oregon.ogg.wav,1,1
+2019-11-29 Crapshoot,3,siri_backpropagate.ogg.wav,1,1
+2019-11-29 Crapshoot,15,big_chips_joke.ogg.wav,1,1
+2019-11-29 Crapshoot,17,encryption_joke.ogg.wav,1,1
+2019-11-29 Crapshoot,18,tags/encryption_joke_positive_2.ogg.wav,0,0
+2019-11-29 Crapshoot,19,robot_sexy_times.ogg.wav,1,1
+2019-11-29 Crapshoot,20,closing_take_jobs.ogg.wav,1,1
+2019-11-29 Crapshoot,6,robot_babies.ogg.wav,1,0
+2019-11-29 Crapshoot,13,boogie.ogg.wav,1,0
+2019-11-29 Crapshoot,16,smoking_joke.ogg.wav,1,0
+2019-11-29 Crapshoot,7,tags/robot_babies_positive.ogg.wav,0,0
+2019-11-29 Crapshoot,9,tags/too_robotic_joke_negative.wav,0,0
+2019-11-29 Crapshoot,12,tags/metal_ceiling_positive.ogg.wav,0,0
+2019-12-06 Silent Background Recording,0,robot_name_joke_2.ogg.wav,0,1
+2019-12-06 Silent Background Recording,1,gdpr_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,13,family_joke.ogg.wav,0,1
+2019-12-06 Silent Background Recording,16,too_robotic_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,18,c3po_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,19,rosie_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,20,wall-e_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,21,plastic_surgery_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,22,tags/plastic_surgery_joke_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,23,bender_joke.ogg.wav,0,1
+2019-12-06 Silent Background Recording,28,for_all_my_robots_joke.ogg.wav,0,1
+2019-12-06 Silent Background Recording,24,white_people_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,25,terminator_joke.ogg.wav,0,1
+2019-12-06 Silent Background Recording,30,baha_men_joke_oregon.ogg.wav,0,0
+2019-12-06 Silent Background Recording,43,light_bulb_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,31,robot_tinder_2.ogg.wav,0,1
+2019-12-06 Silent Background Recording,32,tags/robot_tinder_2_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,3,siri_backpropagate.ogg.wav,0,0
+2019-12-06 Silent Background Recording,33,big_chips_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,34,catfish_joke_2.ogg.wav,0,0
+2019-12-06 Silent Background Recording,36,ip_address_joke_2.ogg.wav,0,0
+2019-12-06 Silent Background Recording,56,encryption_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,58,robot_sexy_times.ogg.wav,0,1
+2019-12-06 Silent Background Recording,59,closing_take_jobs.ogg.wav,0,0
+2019-12-06 Silent Background Recording,6,silicon_valley_joke_pt1.wav,0,0
+2019-12-06 Silent Background Recording,7,silicon_valley_joke_pt2.wav,0,0
+2019-12-06 Silent Background Recording,8,rent_prices_oregon.ogg.wav,0,0
+2019-12-06 Silent Background Recording,9,tags/rent_prices_oregon_negative.ogg.wav,0,1
+2019-12-06 Silent Background Recording,10,job_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,11,inverse_kinematics_equations.ogg.wav,0,1
+2019-12-06 Silent Background Recording,14,robot_babies.ogg.wav,0,0
+2019-12-06 Silent Background Recording,27,boogie.ogg.wav,0,0
+2019-12-06 Silent Background Recording,29,tags/robot_joke_negative_2.ogg.wav,0,1
+2019-12-06 Silent Background Recording,37,selfie_drone.ogg.wav,0,0
+2019-12-06 Silent Background Recording,38,vibrator.ogg.wav,0,0
+2019-12-06 Silent Background Recording,39,vibrator_pt_2.ogg.wav,0,0
+2019-12-06 Silent Background Recording,40,congratulations_youve_won_joke.wav,0,1
+2019-12-06 Silent Background Recording,41,congratulations_im_feeling_lucky.wav,0,1
+2019-12-06 Silent Background Recording,4,megaman.ogg.wav,0,0
+2019-12-06 Silent Background Recording,42,smoking_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,44,stripper_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,45,stripper_vagina_joke.ogg.wav,0,0
+2019-12-06 Silent Background Recording,46,self_driving_limo.ogg.wav,0,0
+2019-12-06 Silent Background Recording,48,software_update.ogg.wav,0,0
+2019-12-06 Silent Background Recording,50,power_cord_joke.wav,0,0
+2019-12-06 Silent Background Recording,51,tags/power_cord_joke_negative.wav,0,1
+2019-12-06 Silent Background Recording,52,domain_name_joke.wav,0,1
+2019-12-06 Silent Background Recording,53,domain_name_dot_com.wav,0,0
+2019-12-06 Silent Background Recording,54,robot_drugs.ogg.wav,0,0
+2019-12-06 Silent Background Recording,26,tags/white_people_joke_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,17,tags/too_robotic_joke_negative.wav,0,0
+2019-12-06 Silent Background Recording,47,tags/self_driving_limo_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,12,tags/inverse_kinematics_equations_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,15,tags/killing_joke_negative.wav,0,0
+2019-12-06 Silent Background Recording,2,tags/gdpr_joke_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,35,tags/catfish_joke_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,49,tags/software_update_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,5,tags/megaman_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,55,tags/robot_drugs_negative.ogg.wav,0,0
+2019-12-06 Silent Background Recording,57,tags/encryption_joke_negative_2.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,0,robot_name_joke_2.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,1,gdpr_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,9,family_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,10,tags/family_joke_positive_2.ogg.wav,0,1
+2019-12-09 Singu-Hilarity in San Francisco,13,too_robotic_joke.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,15,c3po_joke.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,16,rosie_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,17,wall-e_joke.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,18,plastic_surgery_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,19,tags/plastic_surgery_joke_negative.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,2,tags/gdpr_joke_positive.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,20,bender_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,24,for_all_my_robots_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,21,white_people_joke.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,22,terminator_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,39,light_bulb_joke.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,27,robot_tinder_2.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,28,tags/robot_tinder_2_negative.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,3,siri_backpropagate.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,29,big_chips_joke.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,30,catfish_joke_2.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,31,tags/catfish_joke_positive.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,32,ip_address_joke_2.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,52,encryption_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,53,tags/encryption_joke_positive_2.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,54,robot_sexy_times.ogg.wav,0,1
+2019-12-09 Singu-Hilarity in San Francisco,55,closing_take_jobs.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,6,job_joke.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,7,inverse_kinematics_equations.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,11,robot_babies.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,23,boogie.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,25,tags/robot_joke_negative_2.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,33,selfie_drone.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,34,vibrator.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,35,vibrator_pt_2.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,36,congratulations_youve_won_joke.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,37,congratulations_im_feeling_lucky.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,4,megaman.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,38,smoking_joke.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,40,stripper_joke.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,41,stripper_vagina_joke.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,42,self_driving_limo.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,43,tags/self_driving_limo_positive.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,44,software_update.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,46,power_cord_joke.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,47,tags/power_cord_joke_negative.wav,0,1
+2019-12-09 Singu-Hilarity in San Francisco,48,domain_name_joke.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,5,tags/megaman_positive.ogg.wav,1,0
+2019-12-09 Singu-Hilarity in San Francisco,49,domain_name_dot_com.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,50,robot_drugs.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,51,tags/robot_drugs_positive.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,12,tags/robot_babies_positive.ogg.wav,0,0
+2019-12-09 Singu-Hilarity in San Francisco,14,tags/too_robotic_joke_negative.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,8,tags/inverse_kinematics_equations_negative.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,45,tags/software_update_negative.ogg.wav,1,1
+2019-12-09 Singu-Hilarity in San Francisco,26,baha_men_joke_sanfran.wav,1,1
+2019-04-18 Bombs Away Cafe,0,robot_name_joke_2.ogg.wav,1,1
+2019-04-18 Bombs Away Cafe,3,family_joke.ogg.wav,1,1
+2019-04-18 Bombs Away Cafe,4,tags/family_joke_positive_2.ogg.wav,0,0
+2019-04-18 Bombs Away Cafe,10,for_all_my_robots_joke.ogg.wav,1,0
+2019-04-18 Bombs Away Cafe,11,tags/robot_joke_positive.wav,0,0
+2019-04-18 Bombs Away Cafe,7,baha_men_joke_oregon.ogg.wav,1,1
+2019-04-18 Bombs Away Cafe,12,robot_tinder_2.ogg.wav,1,1
+2019-04-18 Bombs Away Cafe,14,catfish_joke_2.ogg.wav,1,1
+2019-04-18 Bombs Away Cafe,15,tags/catfish_joke_positive.ogg.wav,0,0
+2019-04-18 Bombs Away Cafe,20,closing_take_jobs.ogg.wav,1,1
+2019-04-18 Bombs Away Cafe,1,silicon_valley_joke_pt1.wav,0,1
+2019-04-18 Bombs Away Cafe,2,silicon_valley_joke_pt2.wav,0,0
+2019-04-18 Bombs Away Cafe,5,congratulations_youve_won_joke.wav,1,1
+2019-04-18 Bombs Away Cafe,6,congratulations_im_feeling_lucky.wav,1,1
+2019-04-18 Bombs Away Cafe,16,power_cord_joke.wav,0,0
+2019-04-18 Bombs Away Cafe,18,domain_name_joke.wav,0,0
+2019-04-18 Bombs Away Cafe,19,domain_name_dot_com.wav,0,0
+2019-04-18 Bombs Away Cafe,13,tags/robot_tinder_2_positive.ogg.wav,1,1
+2019-04-18 Bombs Away Cafe,17,tags/power_cord_joke_positive.wav,1,1
+2019-04-18 Bombs Away Cafe,8,tags/killing_tag.wav,1,1
+2019-04-18 Bombs Away Cafe,9,420_joke.wav,0,1
+2019-04-19 Singu-hilarity,0,robot_name_joke_2.ogg.wav,1,1
+2019-04-19 Singu-hilarity,1,gdpr_joke.ogg.wav,0,1
+2019-04-19 Singu-hilarity,13,family_joke.ogg.wav,1,1
+2019-04-19 Singu-hilarity,14,tags/family_joke_positive_2.ogg.wav,0,1
+2019-04-19 Singu-hilarity,15,too_robotic_joke.ogg.wav,1,0
+2019-04-19 Singu-hilarity,17,c3po_joke.ogg.wav,0,0
+2019-04-19 Singu-hilarity,18,rosie_joke.ogg.wav,0,1
+2019-04-19 Singu-hilarity,19,wall-e_joke.ogg.wav,1,0
+2019-04-19 Singu-hilarity,20,plastic_surgery_joke.ogg.wav,1,0
+2019-04-19 Singu-hilarity,21,tags/plastic_surgery_joke_negative.ogg.wav,1,1
+2019-04-19 Singu-hilarity,2,tags/gdpr_joke_positive.ogg.wav,0,0
+2019-04-19 Singu-hilarity,22,bender_joke.ogg.wav,1,1
+2019-04-19 Singu-hilarity,23,for_all_my_robots_joke.ogg.wav,0,1
+2019-04-19 Singu-hilarity,24,tags/robot_joke_positive.wav,0,0
+2019-04-19 Singu-hilarity,25,white_people_joke.ogg.wav,0,0
+2019-04-19 Singu-hilarity,26,terminator_joke.ogg.wav,1,0
+2019-04-19 Singu-hilarity,28,baha_men_joke_oregon.ogg.wav,1,1
+2019-04-19 Singu-hilarity,29,light_bulb_joke.ogg.wav,1,0
+2019-04-19 Singu-hilarity,30,robot_tinder_2.ogg.wav,1,1
+2019-04-19 Singu-hilarity,31,tags/robot_tinder_2_negative.ogg.wav,1,0
+2019-04-19 Singu-hilarity,3,siri_backpropagate.ogg.wav,1,1
+2019-04-19 Singu-hilarity,32,big_chips_joke.ogg.wav,1,1
+2019-04-19 Singu-hilarity,33,catfish_joke_2.ogg.wav,1,0
+2019-04-19 Singu-hilarity,34,ip_address_joke_2.ogg.wav,1,0
+2019-04-19 Singu-hilarity,35,encryption_joke.ogg.wav,1,1
+2019-04-19 Singu-hilarity,36,tags/encryption_joke_positive_2.ogg.wav,1,0
+2019-04-19 Singu-hilarity,41,closing_take_jobs.ogg.wav,1,0
+2019-04-19 Singu-hilarity,4,silicon_valley_joke_pt1.wav,0,0
+2019-04-19 Singu-hilarity,5,silicon_valley_joke_pt2.wav,0,0
+2019-04-19 Singu-hilarity,6,rent_prices_oregon.ogg.wav,0,0
+2019-04-19 Singu-hilarity,7,tags/rent_prices_oregon_negative.ogg.wav,0,0
+2019-04-19 Singu-hilarity,8,job_joke.ogg.wav,0,1
+2019-04-19 Singu-hilarity,9,inverse_kinematics_equations.ogg.wav,0,1
+2019-04-19 Singu-hilarity,11,congratulations_youve_won_joke.wav,1,1
+2019-04-19 Singu-hilarity,12,congratulations_im_feeling_lucky.wav,1,1
+2019-04-19 Singu-hilarity,37,power_cord_joke.wav,0,0
+2019-04-19 Singu-hilarity,38,tags/power_cord_joke_negative.wav,1,1
+2019-04-19 Singu-hilarity,39,domain_name_joke.wav,0,1
+2019-04-19 Singu-hilarity,40,domain_name_dot_com.wav,0,0
+2019-04-19 Singu-hilarity,27,tags/white_people_joke_negative.ogg.wav,0,0
+2019-04-19 Singu-hilarity,16,tags/too_robotic_joke_negative.wav,1,0
+2019-04-19 Singu-hilarity,10,tags/inverse_kinematics_equations_negative.ogg.wav,1,1
+2019-04-22 Class Performance,0,robot_name_joke_2.ogg.wav,0,1
+2019-04-22 Class Performance,1,gdpr_joke.ogg.wav,0,0
+2019-04-22 Class Performance,9,family_joke.ogg.wav,0,0
+2019-04-22 Class Performance,10,tags/family_joke_positive_2.ogg.wav,0,1
+2019-04-22 Class Performance,11,too_robotic_joke.ogg.wav,0,0
+2019-04-22 Class Performance,13,c3po_joke.ogg.wav,0,0
+2019-04-22 Class Performance,14,rosie_joke.ogg.wav,0,0
+2019-04-22 Class Performance,15,wall-e_joke.ogg.wav,0,0
+2019-04-22 Class Performance,16,plastic_surgery_joke.ogg.wav,1,0
+2019-04-22 Class Performance,17,tags/plastic_surgery_joke_negative.ogg.wav,0,0
+2019-04-22 Class Performance,2,tags/gdpr_joke_positive.ogg.wav,0,0
+2019-04-22 Class Performance,18,for_all_my_robots_joke.ogg.wav,0,1
+2019-04-22 Class Performance,20,closing_take_jobs.ogg.wav,0,0
+2019-04-22 Class Performance,3,silicon_valley_joke_pt1.wav,0,0
+2019-04-22 Class Performance,4,silicon_valley_joke_pt2.wav,0,0
+2019-04-22 Class Performance,5,inverse_kinematics_equations.ogg.wav,0,1
+2019-04-22 Class Performance,19,tags/robot_joke_negative_2.ogg.wav,0,0
+2019-04-22 Class Performance,7,congratulations_youve_won_joke.wav,0,1
+2019-04-22 Class Performance,8,congratulations_im_feeling_lucky.wav,1,0
+2019-04-22 Class Performance,12,tags/too_robotic_joke_negative.wav,0,0
+2019-04-22 Class Performance,6,tags/inverse_kinematics_equations_negative.ogg.wav,1,0
+2019-05-16 Bombs Away Cafe,0,robot_name_joke_2.ogg.wav,1,1
+2019-05-16 Bombs Away Cafe,1,gdpr_joke.ogg.wav,1,0
+2019-05-16 Bombs Away Cafe,4,family_joke.ogg.wav,1,1
+2019-05-16 Bombs Away Cafe,5,light_bulb_joke.ogg.wav,1,1
+2019-05-16 Bombs Away Cafe,6,robot_tinder_2.ogg.wav,1,1
+2019-05-16 Bombs Away Cafe,2,siri_backpropagate.ogg.wav,1,1
+2019-05-16 Bombs Away Cafe,7,big_chips_joke.ogg.wav,1,1
+2019-05-16 Bombs Away Cafe,8,closing_take_jobs.ogg.wav,1,0
+2019-05-16 Bombs Away Cafe,3,inverse_kinematics_equations.ogg.wav,1,1
+2019-06-19 Trek Theater,0,robot_name_joke_2.ogg.wav,1,1
+2019-06-19 Trek Theater,1,gdpr_joke.ogg.wav,1,0
+2019-06-19 Trek Theater,8,family_joke.ogg.wav,0,1
+2019-06-19 Trek Theater,9,too_robotic_joke.ogg.wav,1,0
+2019-06-19 Trek Theater,10,c3po_joke.ogg.wav,0,0
+2019-06-19 Trek Theater,11,rosie_joke.ogg.wav,0,1
+2019-06-19 Trek Theater,12,wall-e_joke.ogg.wav,1,0
+2019-06-19 Trek Theater,13,plastic_surgery_joke.ogg.wav,1,1
+2019-06-19 Trek Theater,14,bender_joke.ogg.wav,1,1
+2019-06-19 Trek Theater,15,for_all_my_robots_joke.ogg.wav,1,1
+2019-06-19 Trek Theater,16,white_people_joke.ogg.wav,0,0
+2019-06-19 Trek Theater,17,terminator_joke.ogg.wav,1,1
+2019-06-19 Trek Theater,18,baha_men_joke_oregon.ogg.wav,1,1
+2019-06-19 Trek Theater,19,light_bulb_joke.ogg.wav,0,0
+2019-06-19 Trek Theater,20,robot_tinder_2.ogg.wav,1,1
+2019-06-19 Trek Theater,2,siri_backpropagate.ogg.wav,0,1
+2019-06-19 Trek Theater,21,big_chips_joke.ogg.wav,1,1
+2019-06-19 Trek Theater,22,catfish_joke_2.ogg.wav,1,1
+2019-06-19 Trek Theater,23,ip_address_joke_2.ogg.wav,1,0
+2019-06-19 Trek Theater,24,encryption_joke.ogg.wav,1,1
+2019-06-19 Trek Theater,25,robot_sexy_times.ogg.wav,1,1
+2019-06-19 Trek Theater,31,closing_take_jobs.ogg.wav,1,1
+2019-06-19 Trek Theater,3,silicon_valley_joke_pt1.wav,0,0
+2019-06-19 Trek Theater,4,silicon_valley_joke_pt2.wav,0,0
+2019-06-19 Trek Theater,5,rent_prices_oregon.ogg.wav,0,0
+2019-06-19 Trek Theater,6,job_joke.ogg.wav,1,1
+2019-06-19 Trek Theater,7,inverse_kinematics_equations.ogg.wav,0,0
+2019-06-19 Trek Theater,26,congratulations_youve_won_joke.wav,1,1
+2019-06-19 Trek Theater,27,congratulations_im_feeling_lucky.wav,1,1
+2019-06-19 Trek Theater,28,power_cord_joke.wav,0,0
+2019-06-19 Trek Theater,29,domain_name_joke.wav,0,0
+2019-06-19 Trek Theater,30,domain_name_dot_com.wav,0,0
+2019-06-20 Bombs Away Cafe,0,robot_name_joke_2.ogg.wav,0,1
+2019-06-20 Bombs Away Cafe,1,light_bulb_joke.ogg.wav,0,0
+2019-06-20 Bombs Away Cafe,4,robot_tinder_2.ogg.wav,1,0
+2019-06-20 Bombs Away Cafe,5,big_chips_joke.ogg.wav,1,1
+2019-06-20 Bombs Away Cafe,6,catfish_joke_2.ogg.wav,1,1
+2019-06-20 Bombs Away Cafe,7,ip_address_joke_2.ogg.wav,0,1
+2019-06-20 Bombs Away Cafe,8,encryption_joke.ogg.wav,1,1
+2019-06-20 Bombs Away Cafe,9,robot_sexy_times.ogg.wav,1,1
+2019-06-20 Bombs Away Cafe,13,closing_take_jobs.ogg.wav,0,0
+2019-06-20 Bombs Away Cafe,2,congratulations_youve_won_joke.wav,1,1
+2019-06-20 Bombs Away Cafe,3,congratulations_im_feeling_lucky.wav,1,1
+2019-06-20 Bombs Away Cafe,10,power_cord_joke.wav,1,1
+2019-06-20 Bombs Away Cafe,11,domain_name_joke.wav,0,0
+2019-06-20 Bombs Away Cafe,12,domain_name_dot_com.wav,0,0
+2019-08-15 Bombs Away Cafe,0,robot_name_joke_2.ogg.wav,0,1
+2019-08-15 Bombs Away Cafe,1,gdpr_joke.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,10,tags/inverse_kinematics_equations_positive_2.ogg.wav,0,1
+2019-08-15 Bombs Away Cafe,11,family_joke.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,12,tags/family_joke_positive_2.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,13,too_robotic_joke.ogg.wav,1,0
+2019-08-15 Bombs Away Cafe,15,c3po_joke.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,16,rosie_joke.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,17,wall-e_joke.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,18,plastic_surgery_joke.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,19,tags/plastic_surgery_joke_negative.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,2,tags/gdpr_joke_positive.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,20,bender_joke.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,21,for_all_my_robots_joke.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,22,tags/robot_joke_positive.wav,1,0
+2019-08-15 Bombs Away Cafe,23,white_people_joke.ogg.wav,1,0
+2019-08-15 Bombs Away Cafe,24,terminator_joke.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,25,tags/white_people_joke_positive_2.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,26,baha_men_joke_oregon.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,27,light_bulb_joke.ogg.wav,1,0
+2019-08-15 Bombs Away Cafe,28,robot_tinder_2.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,3,siri_backpropagate.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,30,big_chips_joke.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,31,catfish_joke_2.ogg.wav,1,0
+2019-08-15 Bombs Away Cafe,32,tags/catfish_joke_positive.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,33,ip_address_joke_2.ogg.wav,0,1
+2019-08-15 Bombs Away Cafe,34,encryption_joke.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,35,tags/encryption_joke_positive_2.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,36,robot_sexy_times.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,37,closing_take_jobs.ogg.wav,1,1
+2019-08-15 Bombs Away Cafe,4,silicon_valley_joke_pt1.wav,0,0
+2019-08-15 Bombs Away Cafe,5,silicon_valley_joke_pt2.wav,0,1
+2019-08-15 Bombs Away Cafe,6,rent_prices_oregon.ogg.wav,0,1
+2019-08-15 Bombs Away Cafe,7,tags/rent_prices_oregon_negative.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,8,job_joke.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,9,inverse_kinematics_equations.ogg.wav,0,0
+2019-08-15 Bombs Away Cafe,29,tags/robot_tinder_2_positive.ogg.wav,0,1
+2019-08-15 Bombs Away Cafe,14,tags/too_robotic_joke_negative.wav,1,1
+2019-08-23 Spectrum,0,robot_name_joke_2.ogg.wav,0,1
+2019-08-23 Spectrum,1,gdpr_joke.ogg.wav,1,1
+2019-08-23 Spectrum,8,family_joke.ogg.wav,1,1
+2019-08-23 Spectrum,9,too_robotic_joke.ogg.wav,1,1
+2019-08-23 Spectrum,10,c3po_joke.ogg.wav,1,0
+2019-08-23 Spectrum,11,rosie_joke.ogg.wav,1,1
+2019-08-23 Spectrum,12,wall-e_joke.ogg.wav,0,0
+2019-08-23 Spectrum,13,plastic_surgery_joke.ogg.wav,1,1
+2019-08-23 Spectrum,14,bender_joke.ogg.wav,1,1
+2019-08-23 Spectrum,15,for_all_my_robots_joke.ogg.wav,1,1
+2019-08-23 Spectrum,16,white_people_joke.ogg.wav,0,0
+2019-08-23 Spectrum,17,terminator_joke.ogg.wav,1,0
+2019-08-23 Spectrum,18,baha_men_joke_oregon.ogg.wav,1,1
+2019-08-23 Spectrum,19,light_bulb_joke.ogg.wav,0,1
+2019-08-23 Spectrum,20,robot_tinder_2.ogg.wav,1,1
+2019-08-23 Spectrum,2,siri_backpropagate.ogg.wav,1,1
+2019-08-23 Spectrum,21,big_chips_joke.ogg.wav,1,1
+2019-08-23 Spectrum,22,catfish_joke_2.ogg.wav,1,0
+2019-08-23 Spectrum,23,ip_address_joke_2.ogg.wav,1,1
+2019-08-23 Spectrum,24,encryption_joke.ogg.wav,1,1
+2019-08-23 Spectrum,25,robot_sexy_times.ogg.wav,1,1
+2019-08-23 Spectrum,31,closing_take_jobs.ogg.wav,1,1
+2019-08-23 Spectrum,3,silicon_valley_joke_pt1.wav,0,0
+2019-08-23 Spectrum,4,silicon_valley_joke_pt2.wav,0,0
+2019-08-23 Spectrum,5,rent_prices_oregon.ogg.wav,0,0
+2019-08-23 Spectrum,6,job_joke.ogg.wav,1,1
+2019-08-23 Spectrum,7,inverse_kinematics_equations.ogg.wav,0,0
+2019-08-23 Spectrum,26,congratulations_youve_won_joke.wav,1,1
+2019-08-23 Spectrum,27,congratulations_im_feeling_lucky.wav,1,1
+2019-08-23 Spectrum,28,power_cord_joke.wav,0,1
+2019-08-23 Spectrum,29,domain_name_joke.wav,0,0
+2019-08-23 Spectrum,30,domain_name_dot_com.wav,0,0
