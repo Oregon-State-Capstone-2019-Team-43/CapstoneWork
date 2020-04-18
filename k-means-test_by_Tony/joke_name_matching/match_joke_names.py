@@ -23,7 +23,9 @@ if type == "joke":
 		json_file = open(json_path, "r")
 		json_data = json.loads(json_file.read().splitlines()[0]) # read performanceLog json
 		json_file.close()
-		skips = ["/../sounds/robot_name_joke_1.ogg.wav", "/../sounds/tags/family_joke_negative.ogg.wav"] # skip unused joke names
+		skips = ["/../sounds/tags/family_joke_negative.ogg.wav"] # skip unused joke names
+		if "audio" in json_data[2].keys():
+			skips.append("/../sounds/robot_name_joke_1.ogg.wav")
 		for entry in json_data:
 			keys = entry.keys()
 			if ("audio" in keys) and (entry.get("audio") not in skips):
@@ -55,7 +57,9 @@ if type == "pause":
 		json_file = open(json_path, "r")
 		json_data = json.loads(json_file.read().splitlines()[0]) # read performanceLog json
 		json_file.close()
-		skips = ["/../sounds/robot_name_joke_1.ogg.wav", "/../sounds/tags/family_joke_negative.ogg.wav"] # skip unused joke names
+		skips = ["/../sounds/tags/family_joke_negative.ogg.wav"] # skip unused joke names
+		if "audio" in json_data[2].keys():
+			skips.append("/../sounds/robot_name_joke_1.ogg.wav")
 		for entry in json_data:
 			keys = entry.keys()
 			if ("audio" in keys) and (entry.get("audio") not in skips):
