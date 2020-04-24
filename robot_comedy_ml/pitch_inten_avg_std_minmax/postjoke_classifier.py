@@ -43,44 +43,101 @@ performance = {"2019-04-13 Cienna Nerdy Show at The Drake":0,"2019-04-18 Bombs A
 "2019-08-23 Spectrum":8,"2019-09-05 Stand-up Science":9,"2019-09-06 RoboCom":10,"2019-09-19 Bombs Away Cafe":11,"2019-09-21 Laugh Track Town USA":12,
 "2019-10-11 Singu-hilarity":13,"2019-11-29 Comedy the Musical":14,"2019-11-29 Crapshoot":15,"2019-12-06 Silent Background Recording":16,"2019-12-09 Singu-Hilarity in San Francisco":17}
 
-# How much information to print
-verbose = 0															# 0 = false, 1 = true, use for debugging
-print_false_predictions = 0											# 0 = false, 1 = exactly as it says
+##################
+### Parameters ###
+##################
 
-# Data Pre-Processing
-features = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
-two_class = 0 														# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
-remove_zeros = 0
-no_silent = 0
-normalize = 0														# 'minmax' or 'standard' or 'per_minmax'
-column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'] # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
-validation = 'HumanScorePostJokeOnly' 								# 'HumanScore' or 'HumanScorePostJokeOnly'
-validation_technique = 'ho20' 										# 'ho20' or 'l1po'
-R_State = None 														# None for random or Integer, for hold out 20% validation
+## Print Information
+
+# Print additional line information for the classifiers, useful for debugging
+# 0 = false, 1 = true
+verbose = 0
+
+# Print the performance and joke ID's of incorrectly classified jokes
+# 0 = false, 1 = true
+print_false_predictions = 0
+
+# Draw Plot only works if only 2 Features are selected. Selecting more features will result in error.
+# 0 = false, 1 = true
+draw_plt = 0
+
+## Feature Selection
+
+# Current features are as follows:
+# 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
+
+# What features will be used in the classifier
+features = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound']
+
+# What features will be normalized
+column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound']
+
+# Which column to look at for data validation
+# 'HumanScore' or 'HumanScorePostJokeOnly'
+validation = 'HumanScorePostJokeOnly'
+
+# Which columns correspond to the perfomance and joke IDs.
+# 'PerformanceId', 'JokeId'
+joke_ids = ['PerformanceId', 'JokeId']
+
+## Classifier Information
+
+# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or 'RF'
+classifier_type = 'SVC'
+
+# Whether or not to normalize the data. 0 = no
+# 'minmax' or 'standard' or 'per_minmax'
+normalize = 0
+
+# 'ho20' or 'l1po'
+validation_technique = 'ho20'
+
+# for hold out 20% only
+# None for random or Integer
+R_State = None
+# Number of Trials to run, Integer, only useful for R_State = None
 num_trials = 1
-joke_ids = ['PerformanceId', 'JokeId'] 								# 'PerformanceId', 'JokeId'
 
-# Classifier Types
-classifier_type = 'SVC'												# 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or 'RF'
+## Data Pruning
 
-# SVM Classifier Parameters
-kernel = 'rbf' 														# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
-SVM_C = 15000														# SVM regularization parameter
+# 0 = false, 1 = combine 0's and 1's, 2 = combine -1's and 0's
+two_class = 0
+
+# Whether or not to remove undefined pitch values. 1 = yes, 0 = no
+remove_zeros = 0
+
+# Whether or not to remove silent performacne data. 1 = yes, 0 = no
+no_silent = 0
+
+## SVM Classifier Parameters
+
+# 'linear' or 'poly' or 'rbf' or 'sigmoid' or 'precomputed'
+kernel = 'rbf'
+
+# SVM regularization parameter
+SVM_C = 15000
+# Tested Optimal Values (Log10):
 #	No Normalization	15000
 #	minmax 				100
 #	standard 			1000
-SVM_Gamma = .00001 													# SVM regularization parameter
+
+# SVM regularization parameter
+SVM_Gamma = .00001
+# Tested Optimal Values (Log10):
 #	No Normalization	.00001
 #	minmax 				.1
 #	standard			.001
 
-# Draw Plot only works if only 2 Features are selected. Selecting more features will result in error.
-draw_plt = 0
+# For Log10 Calibration
+calibrate = 0
+SVM_C_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
+SVM_Gamma_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
 
-calibrate = 0														# If calibration else destroy
-SVM_C_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0] 			# SVM regularization parameters for calibration
-SVM_Gamma_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0] 		# SVM regularization parameters for calibration
+########################
+### Helper Functions ###
+########################
 
+# Random Forest Classifier
 def rf_classify(train, test, y_train, y_test, joke_id):
 	clf = RandomForestClassifier(n_estimators=100, max_depth=5)
 	clf.fit(train, y_train)
@@ -92,6 +149,7 @@ def rf_classify(train, test, y_train, y_test, joke_id):
 			draw_plot(clf, test, y_test)
 	return clf.score(test, y_test)
 
+# Naive Bayes Classifier
 def nb_classify(train, test, y_train, y_test, joke_id):
 	clf = GaussianNB()
 	clf.fit(train, y_train)
@@ -109,6 +167,7 @@ def nb_classify(train, test, y_train, y_test, joke_id):
 			draw_plot(clf, test, y_test)
 	return clf.score(test, y_test)
 
+# Naive Bayes Classifier
 def nn_classify(train, test, y_train, y_test, joke_id):
 	clf = MLPClassifier()
 	clf.fit(train, y_train)
@@ -120,6 +179,7 @@ def nn_classify(train, test, y_train, y_test, joke_id):
 			draw_plot(clf, test, y_test)
 	return clf.score(test, y_test)
 
+# K Nearest Neighbor Classifier
 def knn_classify(train, test, y_train, y_test, joke_id):
 	clf = KNeighborsClassifier()
 	clf.fit(train, y_train)
@@ -131,6 +191,7 @@ def knn_classify(train, test, y_train, y_test, joke_id):
 			draw_plot(clf, test, y_test)
 	return clf.score(test, y_test)
 
+# Decision Tree Classifier
 def tree_classify(train, test, y_train, y_test, joke_id):
 	clf = tree.DecisionTreeClassifier(max_depth=5)
 	clf.fit(train, y_train)
@@ -142,6 +203,7 @@ def tree_classify(train, test, y_train, y_test, joke_id):
 			draw_plot(clf, test, y_test)
 	return clf.score(test, y_test)
 
+# Support Vector Machine Classifier
 def svc_classify(train, test, y_train, y_test, joke_id):
 	if calibrate:
 		for SVM_C_val in SVM_C_range:
@@ -165,14 +227,16 @@ def svc_classify(train, test, y_train, y_test, joke_id):
 			draw_plot(clf, test, y_test)
 	return clf.score(test, y_test)
 
+# Draws the plot
 def draw_plot(clf, test, y_test):
 	plot_decision_regions(X=test.values, y=y_test.values,clf=clf, legend=2)
 	plt.xlabel(test.columns[0], size=14)
-	#plt.ylabel(test.columns[1], size=14)
+	plt.ylabel(test.columns[1], size=14)
 	Title = classifier_type + ' Decision Region Boundary'
 	plt.title(Title, size=16)
 	plt.show()
 
+# Prints more detailed information about the classifier
 def print_predictions(SVM_Gamma, SVM_C, clf, test, y_test):
 	prediction = clf.predict(test)
 	nega= 0
@@ -192,6 +256,7 @@ def print_predictions(SVM_Gamma, SVM_C, clf, test, y_test):
 			if q != w:
 				print("\tPredicted: ", str(q), "\tActual: ", str(w), "\tPerformance: ", jokeid['PerformanceId'], "\tJoke: ", jokeid['JokeId'], "\t", list(joke.keys())[list(joke.values()).index(jokeid['JokeId'])])
 
+# Helper function to hold out 1 performance as test data
 def leave_one_perf_out_split(df, perf):
 	train_data = df.loc[df.PerformanceId != perf]
 	test_data = df.loc[df.PerformanceId == perf]
@@ -201,6 +266,7 @@ def leave_one_perf_out_split(df, perf):
 	y_test = test_data[validation]
 	return train, test, y_train, y_test
 
+# Helper function for graphing
 def set_box_color(bp, color):
     plt.setp(bp['boxes'], color=color)
     plt.setp(bp['whiskers'], color=color)
@@ -208,9 +274,7 @@ def set_box_color(bp, color):
     plt.setp(bp['medians'], color=color)
 
 ###############
-#             #
 # Driver Code #
-#             #
 ###############
 
 # Read in Data
@@ -219,7 +283,7 @@ df = pd.read_csv('clean_comedy_data.csv', error_bad_lines=False, encoding='utf-8
 Total = len(df)
 Removed = 0
 
-# 
+# Remove Silent Performance
 if no_silent:
 	Removed += (Total - len(df.loc[df.PerformanceId != 16]))
 	df = df.loc[df.PerformanceId != 16]
@@ -229,9 +293,11 @@ if remove_zeros:
 	Removed += (Total - len(df.loc[df.Pitch != 0]))
 	df = df.loc[df.Pitch != 0]
 
-print("Removed ", Removed, " out of ", Total, ", ", (Total - Removed)/Total, " remaining.")
+# Show how much data was pruned
+if verbose:
+	print("Removed ", Removed, " out of ", Total, ", ", (Total - Removed)/Total, " remaining.")
 
-# Keep performane and joke id's
+# Keep performance and joke id's
 joke_id = df[joke_ids]
 
 # If doing a two class validation, replace validation data
@@ -243,28 +309,7 @@ if two_class == 1:
 elif two_class == 2:
 	df[validation] = df[validation].replace(-1, 0)
 
-dfx = df.loc[df.HumanScorePostJokeOnly == -1]
-scatter = plt.scatter(dfx[features[0]].values, dfx[features[1]].values)
-dfx = df.loc[df.HumanScorePostJokeOnly == 0]
-scatter = plt.scatter(dfx[features[0]].values, dfx[features[1]].values)
-dfx = df.loc[df.HumanScorePostJokeOnly == 1]
-scatter = plt.scatter(dfx[features[0]].values, dfx[features[1]].values)
-Title = features[0] + " vs " + features[1]
-plt.xlabel(features[0])
-plt.ylabel(features[1])
-plt.title(Title, size=16)
-plt.show()
-
-# bp = plt.boxplot(dfx)
-# set_box_color(bp, '000000')
-# Title = features[0]
-# plt.xticks(range(1, 4), ['-1', '0', '1'])
-# plt.title(Title, size=16)
-# plt.show()
-
 # Use selected normalization technique
-	# Min-Max Normalization
-
 if normalize == 'minmax':
 	scaler = MinMaxScaler() 
 	x = df[column_names_to_normalize].values
@@ -275,6 +320,7 @@ if normalize == 'standard':
 	x = df[column_names_to_normalize].values
 	x_scaled = scaler.fit_transform(x)
 	df[column_names_to_normalize] = pd.DataFrame(x_scaled, columns=column_names_to_normalize, index = df.index)
+# Per-performance normalization, worth a try but poor results
 if normalize == 'per_minmax':
 	for perf in range(18):
 		scaler = MinMaxScaler()
