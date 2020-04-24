@@ -24,7 +24,7 @@ if type == "mid":
       filename = str(count)+".txt"
       cmd = 'praat --run extract_pitch_inten_std_minmax_mid_joke.praat "'+fullpath+'" > '+filename
       os.system(cmd)
-      mv = 'move '+filename+' ../mid_joke_praat_data/pitch_inten_avg_std_minmax > nul'
+      mv = 'move '+filename+' ../ > nul'
       os.system(mv)
       print("Data saved in %s\\mid_joke_praat_data\\pitch_inten_avg_std_minmax\\%s" % (basedir[:-20], filename))
       count = count+1

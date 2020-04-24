@@ -14,7 +14,7 @@ from mlxtend.plotting import plot_decision_regions
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from perf_and_joke_dict.py import joke, performance
+from perf_and_joke_dict import joke, performance
 
 ##################
 ### Parameters ###
@@ -24,7 +24,7 @@ from perf_and_joke_dict.py import joke, performance
 
 # Print additional line information for the classifiers, useful for debugging
 # 0 = false, 1 = true
-verbose = 0
+verbose = 1
 
 # Print the performance and joke ID's of incorrectly classified jokes
 # 0 = false, 1 = true
@@ -60,7 +60,7 @@ classifier_type = 'SVC'
 
 # Whether or not to normalize the data. 0 = no
 # 'minmax' or 'standard' or 'per_minmax'
-normalize = 0
+normalize = 'minmax'
 
 # 'ho20' or 'l1po'
 validation_technique = 'ho20'
@@ -88,21 +88,21 @@ no_silent = 0
 kernel = 'rbf'
 
 # SVM regularization parameter
-SVM_C = 15000
+SVM_C = 100
 # Tested Optimal Values (Log10):
 #	No Normalization	15000
 #	minmax 				100
 #	standard 			1000
 
 # SVM regularization parameter
-SVM_Gamma = .00001
+SVM_Gamma = .1
 # Tested Optimal Values (Log10):
 #	No Normalization	.00001
 #	minmax 				.1
 #	standard			.001
 
 # For Log10 Calibration
-calibrate = 0
+calibrate = 1
 SVM_C_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
 SVM_Gamma_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
 
@@ -252,6 +252,8 @@ def set_box_color(bp, color):
 
 # Read in Data
 df = pd.read_csv('clean_comedy_data.csv', error_bad_lines=False, encoding='utf-8', delimiter=',')
+
+df = df.replace('--undefined-',0)
 
 Total = len(df)
 Removed = 0
