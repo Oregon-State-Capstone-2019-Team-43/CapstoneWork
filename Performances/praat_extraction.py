@@ -22,11 +22,11 @@ if type == "mid":
       fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
       print("\nWorking on files in %s" % fullpath)
       filename = str(count)+".txt"
-      cmd = 'praat --run extract_pitch_inten_std_minmax_mid_joke.praat "'+fullpath+'" > '+filename
+      cmd = 'praat --run extract_mid_joke.praat "'+fullpath+'" > '+filename
       os.system(cmd)
       mv = 'move '+filename+' ../ > nul'
       os.system(mv)
-      print("Data saved in %s\\mid_joke_praat_data\\pitch_inten_avg_std_minmax\\%s" % (basedir[:-20], filename))
+      print("Data saved in %s\\%s" % (basedir[:-13], filename))
       count = count+1
 if type == "post":
    count = 1
@@ -34,10 +34,10 @@ if type == "post":
       fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
       print("\nWorking on files in %s" % fullpath)
       filename = str(count)+".txt"
-      cmd = 'praat --run extract_pitch_inten_std_minmax_post_joke.praat "'+fullpath+'" > '+filename
+      cmd = 'praat --run extract_post_joke.praat "'+fullpath+'" > '+filename
       os.system(cmd)
       mv = 'move '+filename+' ../ > nul'
       os.system(mv)
-      print("Data saved in %s\\robot_comedy_ml\\pitch_inten_avg_std_minmax\\%s" % (basedir[:-20], filename))
+      print("Data saved in %s\\%s" % (basedir[:-13], filename))
       count = count+1
 print("\nAll performance directories have been processed")
