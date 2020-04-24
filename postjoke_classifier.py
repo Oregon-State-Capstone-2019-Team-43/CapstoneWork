@@ -24,7 +24,7 @@ from perf_and_joke_dict import joke, performance
 
 # Print additional line information for the classifiers, useful for debugging
 # 0 = false, 1 = true
-verbose = 1
+verbose = 0
 
 # Print the performance and joke ID's of incorrectly classified jokes
 # 0 = false, 1 = true
@@ -58,8 +58,8 @@ joke_ids = ['PerformanceId', 'JokeId']
 # 'SVC' or 'Tree' or 'KNN' or 'NN' or 'NB' or 'RF'
 classifier_type = 'SVC'
 
-# Whether or not to normalize the data. 0 = no
-# 'minmax' or 'standard' or 'per_minmax'
+# Whether or not to normalize the data.
+# 0 = none, 'minmax' or 'standard' or 'per_minmax'
 normalize = 'minmax'
 
 # 'ho20' or 'l1po'
@@ -69,7 +69,7 @@ validation_technique = 'ho20'
 # None for random or Integer
 R_State = None
 # Number of Trials to run, Integer, only useful for R_State = None
-num_trials = 1
+num_trials = 1000
 
 ## Data Pruning
 
@@ -102,7 +102,7 @@ SVM_Gamma = .1
 #	standard			.001
 
 # For Log10 Calibration
-calibrate = 1
+calibrate = 0
 SVM_C_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
 SVM_Gamma_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
 
@@ -260,8 +260,12 @@ Removed = 0
 
 # Remove Silent Performance
 if no_silent:
-	Removed += (Total - len(df.loc[df.PerformanceId != 16]))
-	df = df.loc[df.PerformanceId != 16]
+	Removed += (Total - len(df.loc[df.PerformanceId != 21]))
+	df = df.loc[df.PerformanceId != 21]
+
+# # Remove problem data
+# df = df.loc[df.PerformanceId != 10]
+# df = df.loc[df.PerformanceId != 13]
 
 # If Remove 0's on pitch
 if remove_zeros:
