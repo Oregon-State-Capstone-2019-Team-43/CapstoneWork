@@ -1,6 +1,0 @@
-Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
-Group0
-performance Name and Joke ID: 2019-09-19 Bombs Away Cafe----Joke ID: 24  Data values: (74.05, 114.2, 10.55, 40.78, 90.82, 39.49, 270.59, 75.16)
-performance Name and Joke ID: 2019-10-11 Singu-hilarity----Joke ID: 28  Data values: (74.3, 120.82, 10.6, 47.11, 90.59, 50.38, 282.17, 75.2)
-Group1
-performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 45  Data values: (75.24, 105.83, 11.59, 26.89, 90.82, 32.02, 246.98, 71.78)

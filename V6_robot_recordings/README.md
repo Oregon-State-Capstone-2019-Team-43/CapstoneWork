@@ -1,1 +1,0 @@
-The .praat files in this v6 folder are copies of the scripts in the v5 folder which have been modified to run on Windows. The .py files are scripts for running the Praat extractions in the same way as described in the repo's root Readme but using Python instead of bash. They do the same thing the v5 bash scripts do.
