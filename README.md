@@ -1,12 +1,14 @@
 # Robot Comedy Machine Learning Pipeline
 
-## Written By: 2019-2020 Senior Capstone Team — April 2020
+## Written By: Trevor Webster — April 2020
 
+2019-2020 Senior Capstone Team
 * Timothy Bui
-* Yuhang (Tony) Chen
+* Yuhang (Tony)
 * Brian Ozarowicz
 * Trevor Webster
-* Original Work: Ella Bisbee (eloise.bisbee@tufts.edu) — August 2019
+Previous Work
+* Ella Bisbee: (eloise.bisbee@tufts.edu) — August 2019
 
 ### Directory Layout
 
