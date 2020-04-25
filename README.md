@@ -2,12 +2,11 @@
 
 ## Written By: 2019-2020 Senior Capstone Team — April 2020
 
-* TIMOTHY BUI
-* YUHANG (TONY) CHEN
-* BRIAN OZAROWICZ
-* TREVOR WEBSTER
-
-## Original Work: Ella Bisbee (eloise.bisbee@tufts.edu) — August 2019
+* Timothy Bui
+* Yuhang (Tony) Chen
+* Brian Ozarowicz
+* Trevor Webster
+* Original Work: Ella Bisbee (eloise.bisbee@tufts.edu) — August 2019
 
 ### Directory Layout
 
@@ -35,32 +34,32 @@ WIP
 
 ### Dependencies
 
-pandas
-sklearn
-matplot
-seaborn
+* pandas
+* sklearn
+* matplot
+* seaborn
 
 WIP
 
 ### Control Flow
 
-First, ensure all files are aligned according to the above assumptions.
+* First, ensure all files are aligned according to the above assumptions.
 
-Second, run praat_extraction.py and choose to extract the post-joke data. As of today (2020-04-25) the mid-joke pipeline is incomplete.
+* Second, run praat_extraction.py and choose to extract the post-joke data. As of today (2020-04-25) the mid-joke pipeline is incomplete.
 
 This should produce a number of .txt files in the MachineLearning directory equal to the number of performances in the Performances folder.
 
-Third, run combine_human_ratings.py
+* Third, run combine_human_ratings.py
 
 This will produce a file called ground_truth_ratings.csv in the MachineLearning directory by combining all of the human ratings in the HumanRatings folder
 
-Fourth, run to_comedy_data.py
+* Fourth, run to_comedy_data.py
 
 This will produce a file called clean_comedy_data.csv which contains the ground truth ratings and the data from the praat extraction.
 
-Fifth, optionally edit the parameters in postjoke_classifier to get hte desired output.
+* Fifth, optionally edit the parameters in postjoke_classifier to get hte desired output.
 
-Sixth, run postjoke_classifier.py
+* Sixth, run postjoke_classifier.py
 
 This will produce an output in the console giving you the accuracy of the classifier based on the parameters.
 
