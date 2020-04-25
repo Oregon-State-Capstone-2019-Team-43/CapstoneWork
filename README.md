@@ -2,20 +2,20 @@
 
 ## Written By: 2019-2020 Senior Capstone Team — April 2020
 
-TIMOTHY BUI
-YUHANG (TONY) CHEN
-BRIAN OZAROWICZ
-TREVOR WEBSTER
+* TIMOTHY BUI
+* YUHANG (TONY) CHEN
+* BRIAN OZAROWICZ
+* TREVOR WEBSTER
 
 ## Original Work: Ella Bisbee (eloise.bisbee@tufts.edu) — August 2019
 
 ### Directory Layout
 
 There are four subdirectories
--HumanRatings
--libs
--MachineLearning
--Performances
+* HumanRatings
+* libs
+* MachineLearning
+* Performances
 
 HumanRatings contains the human ratings as CSV files as well as combine_human_ratings.py
 
@@ -39,6 +39,8 @@ pandas
 sklearn
 matplot
 seaborn
+
+WIP
 
 ### Control Flow
 
