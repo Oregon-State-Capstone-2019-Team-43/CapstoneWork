@@ -7,6 +7,7 @@
 * Yuhang (Tony)
 * Brian Ozarowicz
 * Trevor Webster
+
 Previous Work
 * Ella Bisbee: (eloise.bisbee@tufts.edu) — August 2019
 
