@@ -112,7 +112,6 @@ with open('ground_truth_ratings.csv') as csv_file:
                 temp['Jokes'].append([int(row[2]), row[4], row[5], row[3]])
         count += 1
 
-os.chdir("~/MachineLearning")
 # output new csv file with all appropriate data
 with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as csv_file:
     fieldnames = ['PerformanceId', 'JokeId', 'Pitch', 'PitchSd', 'Intensity', 
