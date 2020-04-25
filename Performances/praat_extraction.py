@@ -36,7 +36,7 @@ if type == "post":
       filename = str(count)+".txt"
       cmd = 'praat --run extract_post_joke.praat "'+fullpath+'" > '+filename
       os.system(cmd)
-      mv = 'move '+filename+' ../ > nul'
+      mv = 'move '+filename+' ../MachineLearning > nul'
       os.system(mv)
       print("Data saved in %s\\%s" % (basedir[:-13], filename))
       count = count+1
