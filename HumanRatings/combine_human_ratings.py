@@ -12,6 +12,8 @@ import os
 import glob
 import pandas as pd
 
+import sys
+sys.path.append('../libs')
 from perf_and_joke_dict import joke, performance
 
 # Look in subdir HumanRatings
@@ -33,4 +35,5 @@ combined_csv.insert(0, 'PerformanceID', combined_csv['Performance'].map(performa
 combined_csv.insert(2, 'JokeID', combined_csv['Joke'].map(joke))
 combined_csv.insert(4, 'HumanScore', combined_csv['HumanScorePostJokeOnly'])
 # print to csv
+os.chdir("../MachineLearning")
 combined_csv.to_csv("ground_truth_ratings.csv", index=False)

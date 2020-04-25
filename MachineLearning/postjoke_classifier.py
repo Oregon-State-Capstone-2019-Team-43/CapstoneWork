@@ -14,6 +14,8 @@ from mlxtend.plotting import plot_decision_regions
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+import sys
+sys.path.append('../libs')
 from perf_and_joke_dict import joke, performance
 
 ##################
