@@ -23,9 +23,9 @@ if type == "mid":
       filename = str(count)+".txt"
       cmd = 'praat --run extract_mid_joke.praat "'+fullpath+'" > '+filename
       os.system(cmd)
-      mv = 'move '+filename+' ../ > nul'
+      mv = 'move '+filename+' ../MidJokeMachineLearning > nul'
       os.system(mv)
-      print("Data saved in %s\\%s" % (basedir[:-13], filename))
+      print("Data saved in %s\\MidJokeMachineLearning\\%s" % (basedir[:-13], filename))
       count = count+1
 if type == "post":
    count = 1
