@@ -36,10 +36,13 @@ print_false_predictions = 0
 # 0 = false, 1 = true
 draw_plt = 0
 
+# 0 = false, 1 = true
+draw_heat = 0
+
 ## Feature Selection
 
 # Current features are as follows:
-# 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
+# 'Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', 'MaxFormant', 'MinFormant', 'MeanFormant', 'FormantSd', 'MaxHarmony', 'MinHarmony', 'MeanHarmony', 'HarmonySd'
 
 # What features will be used in the classifier
 features = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', 'MaxFormant', 'MinFormant', 'MeanFormant', 'FormantSd', 'MaxHarmony', 'MinHarmony', 'MeanHarmony', 'HarmonySd']
@@ -310,6 +313,12 @@ if normalize == 'per_minmax':
 		x_scaled = pd.DataFrame(x_scaled, columns=column_names_to_normalize, index = df.loc[df['PerformanceId'] == perf].index)
 		for name in column_names_to_normalize:
 			df.loc[df['PerformanceId'] == perf, name] = x_scaled.loc[df['PerformanceId'] == perf, name]
+
+if draw_heat:
+	values = features + [validation]
+	X = df[values]
+	s=sns.heatmap(X.corr(),annot=True,cmap="RdYlGn")
+	plt.show()
 
 # Use selected validation technique
 	# Hold Out 20%
