@@ -16,6 +16,9 @@ if type == "post":
 subdirs = [f.name for f in os.scandir(basedir) if f.is_dir()]
 print("Found %s performance directories" % len(subdirs))
 if type == "mid":
+   path = '../MidJokeMachineLearning/jokeinput'
+   if os.path.isdir(path) == False:
+         os.mkdir(path)
    count = 1
    for dir in subdirs:
       fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
