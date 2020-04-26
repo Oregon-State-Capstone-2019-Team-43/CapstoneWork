@@ -65,7 +65,7 @@ classifier_type = 'SVC'
 normalize = 'minmax'
 
 # 'ho20' or 'l1po'
-validation_technique = 'l1po'
+validation_technique = 'ho20'
 
 # for hold out 20% only
 # None for random or Integer
@@ -90,14 +90,14 @@ no_silent = 0
 kernel = 'rbf'
 
 # SVM regularization parameter
-SVM_C = 1000000.0
+SVM_C = 1000.0
 # Tested Optimal Values (Log10):
 #	No Normalization	15000
 #	minmax 				100
 #	standard 			1000
 
 # SVM regularization parameter
-SVM_Gamma = 0.000001
+SVM_Gamma = 0.01
 # Tested Optimal Values (Log10):
 #	No Normalization	.00001
 #	minmax 				.1
