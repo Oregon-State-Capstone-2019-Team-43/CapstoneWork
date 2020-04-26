@@ -1,5 +1,4 @@
-# Program for running the extract_pitch_inten_std_minmax_post_joke.praat script or
-# the extract_pitch_inten_std_minmax_mid_joke.praat script on multiple performance directories
+# Program for running the extract_mid_joke.praat or extract_post_joke.praat scripts on multiple performance directories
 # Requires Python 3.5 or later
 
 # This script assumes it is run in the directory containing the various performance folders
@@ -38,6 +37,6 @@ if type == "post":
       os.system(cmd)
       mv = 'move '+filename+' ../MachineLearning > nul'
       os.system(mv)
-      print("Data saved in %s\\%s" % (basedir[:-13], filename))
+      print("Data saved in %s\\MachineLearning\\%s" % (basedir[:-13], filename))
       count = count+1
 print("\nAll performance directories have been processed")
