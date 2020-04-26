@@ -66,7 +66,7 @@ for fi in range(1, numfiles + 1):
     to_add = {}
     to_add["performance"] = raw_praat_data[0].split("\\")[-2] # gets performance name from the directory path
     to_add["data"] = praat_data
-    features_per_pause = 7
+    features_per_pause = 15
     for i in range(0, len(raw_praat_data)):
         if raw_praat_data[i][0] == 'p':
             row_data = []
@@ -115,7 +115,9 @@ with open('ground_truth_ratings.csv') as csv_file:
 # output new csv file with all appropriate data
 with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as csv_file:
     fieldnames = ['PerformanceId', 'JokeId', 'Pitch', 'PitchSd', 'PitchMax', 'Intensity', 
-                  'IntensitySd', 'MinSound', 'MaxSound', 'HumanScore', 'HumanScorePostJokeOnly']
+                  'IntensitySd', 'MinSound', 'MaxSound', 'MaxFormant', 'MinFormant', 
+                  'MeanFormant', 'FormantSd', 'MaxHarmony', 'MinHarmony', 'MeanHarmony',
+                  'HarmonySd', 'HumanScore', 'HumanScorePostJokeOnly']
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     writer.writeheader()
     for elem in all_data:
@@ -135,6 +137,14 @@ with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as 
                 row['IntensitySd'] = all_data[elem]['data'][pause_num][1]
                 row['MinSound'] = all_data[elem]['data'][pause_num][2]
                 row['MaxSound'] = all_data[elem]['data'][pause_num][3]
+                row['MaxFormant'] = all_data[elem]['data'][pause_num][7]
+                row['MinFormant'] = all_data[elem]['data'][pause_num][8]
+                row['MeanFormant'] = all_data[elem]['data'][pause_num][9]
+                row['FormantSd'] = all_data[elem]['data'][pause_num][10]
+                row['MaxHarmony'] = all_data[elem]['data'][pause_num][11]
+                row['MinHarmony'] = all_data[elem]['data'][pause_num][12]
+                row['MeanHarmony'] = all_data[elem]['data'][pause_num][13]
+                row['HarmonySd'] = all_data[elem]['data'][pause_num][14]
                 row['HumanScore'] = int(float(csv_data[idx]['Jokes'][i][1]))
                 row['HumanScorePostJokeOnly'] = int(float(csv_data[idx]['Jokes'][i][2]))
                 writer.writerow(row)

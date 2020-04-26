@@ -26,7 +26,7 @@ from perf_and_joke_dict import joke, performance
 
 # Print additional line information for the classifiers, useful for debugging
 # 0 = false, 1 = true
-verbose = 0
+verbose = 1
 
 # Print the performance and joke ID's of incorrectly classified jokes
 # 0 = false, 1 = true
@@ -42,10 +42,10 @@ draw_plt = 0
 # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 
 # What features will be used in the classifier
-features = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound']
+features = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', 'MaxFormant', 'MinFormant', 'MeanFormant', 'FormantSd', 'MaxHarmony', 'MinHarmony', 'MeanHarmony', 'HarmonySd']
 
 # What features will be normalized
-column_names_to_normalize = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound']
+column_names_to_normalize = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', 'MaxFormant', 'MinFormant', 'MeanFormant', 'FormantSd', 'MaxHarmony', 'MinHarmony', 'MeanHarmony', 'HarmonySd']
 
 # Which column to look at for data validation
 # 'HumanScore' or 'HumanScorePostJokeOnly'
@@ -65,13 +65,13 @@ classifier_type = 'SVC'
 normalize = 'minmax'
 
 # 'ho20' or 'l1po'
-validation_technique = 'ho20'
+validation_technique = 'l1po'
 
 # for hold out 20% only
 # None for random or Integer
 R_State = None
 # Number of Trials to run, Integer, only useful for R_State = None
-num_trials = 1000
+num_trials = 100
 
 ## Data Pruning
 
@@ -90,14 +90,14 @@ no_silent = 0
 kernel = 'rbf'
 
 # SVM regularization parameter
-SVM_C = 100
+SVM_C = 1000000.0
 # Tested Optimal Values (Log10):
 #	No Normalization	15000
 #	minmax 				100
 #	standard 			1000
 
 # SVM regularization parameter
-SVM_Gamma = .1
+SVM_Gamma = 0.000001
 # Tested Optimal Values (Log10):
 #	No Normalization	.00001
 #	minmax 				.1
@@ -105,8 +105,8 @@ SVM_Gamma = .1
 
 # For Log10 Calibration
 calibrate = 0
-SVM_C_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
-SVM_Gamma_range = [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
+SVM_C_range = [0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0, 1000000.0, 10000000.0, 100000000.0, 1000000000.0]
+SVM_Gamma_range = [0.000000001, 0.00000001, 0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
 
 ########################
 ### Helper Functions ###
@@ -144,7 +144,7 @@ def nb_classify(train, test, y_train, y_test, joke_id):
 
 # Naive Bayes Classifier
 def nn_classify(train, test, y_train, y_test, joke_id):
-	clf = MLPClassifier()
+	clf = MLPClassifier(max_iter=1500)
 	clf.fit(train, y_train)
 	if verbose:
 		print('NN Verbose: ', clf.score(test, y_test))
@@ -265,9 +265,8 @@ if no_silent:
 	Removed += (Total - len(df.loc[df.PerformanceId != 21]))
 	df = df.loc[df.PerformanceId != 21]
 
-# # Remove problem data
-# df = df.loc[df.PerformanceId != 10]
-# df = df.loc[df.PerformanceId != 13]
+# Remove problem data
+df = df.loc[df.PerformanceId != 10]
 
 # If Remove 0's on pitch
 if remove_zeros:

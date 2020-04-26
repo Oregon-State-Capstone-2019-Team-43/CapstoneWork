@@ -41,4 +41,28 @@ for i from 1 to numFiles
 	appendInfoLine: stpit
 	maxpit = Get maximum: 0, 0, "Hertz", "Parabolic"
 	appendInfoLine: maxpit
+	selectObject: sound
+	To Formant (burg)... 0.01 5 5500 0.025 50
+	Rename: "formant"
+	selectObject: "Formant formant"
+	maxformant = Get maximum... 1 0 0 Bark Parabolic
+	appendInfoLine: maxformant
+	minformant = Get minimum... 1 0 0 Bark Parabolic
+	appendInfoLine: minformant
+	meanformant = Get mean... 1 0 0 Bark
+	appendInfoLine: meanformant
+	sdformant = Get standard deviation... 1 0 0 Bark
+	appendInfoLine: sdformant
+	selectObject: sound
+	To Harmonicity (cc)... 0.01 50 0.1 4.5
+	Rename: "harmony"
+	selectObject: "Harmonicity harmony"
+	maxharmony = Get maximum... 0 0 Parabolic
+	appendInfoLine: maxharmony
+	minharmony = Get minimum... 0 0 Parabolic
+	appendInfoLine: minharmony
+	meanharmony = Get mean... 0 0
+	appendInfoLine: meanharmony
+	harmonysd = Get standard deviation... 0 0
+	appendInfoLine: harmonysd
 endfor
