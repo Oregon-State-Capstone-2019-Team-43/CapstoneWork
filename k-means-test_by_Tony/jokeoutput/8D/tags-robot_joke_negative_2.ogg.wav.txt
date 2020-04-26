@@ -1,8 +1,0 @@
-Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
-Group0
-performance Name and Joke ID: 2019-09-21 Laugh Track Town USA----Joke ID: 15  Data values: (76.08, 129.27, 8.77, 40.15, 90.8, 33.7, 313.91, 82.13)
-performance Name and Joke ID: 2019-10-11 Singu-hilarity----Joke ID: 17  Data values: (74.38, 125.75, 10.51, 37.13, 90.49, 29.93, 310.37, 76.84)
-performance Name and Joke ID: 2019-12-06 Silent Background Recording----Joke ID: 29  Data values: (73.88, 129.78, 10.97, 42.65, 90.69, 25.23, 315.97, 75.23)
-performance Name and Joke ID: 2019-04-22 Class Performance----Joke ID: 19  Data values: (74.5, 127.84, 10.02, 39.2, 90.12, 32.4, 314.93, 84.8)
-Group1
-performance Name and Joke ID: 2019-09-06 RoboCom----Joke ID: 28  Data values: (77.68, 133.19, 7.54, 51.07, 90.6, 33.73, 316.66, 69.75)

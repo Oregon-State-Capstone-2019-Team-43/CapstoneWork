@@ -1,6 +1,0 @@
-Data values: (intensity,pitch,std intensity,std pitch,max inten,min inten,max pitch,min pitch)
-Group0
-performance Name and Joke ID: 2019-11-29 Comedy the Musical----Joke ID: 12  Data values: (71.27, 119.46, 13.78, 47.69, 91.49, 32.61, 248.41, 75.57)
-Group1
-performance Name and Joke ID: 2019-10-11 Singu-hilarity----Joke ID: 14  Data values: (69.5, 102.4, 14.89, 24.67, 90.26, 27.85, 233.96, 75.75)
-performance Name and Joke ID: 2019-11-29 Crapshoot----Joke ID: 12  Data values: (70.17, 99.26, 14.61, 16.27, 90.5, 29.78, 200.37, 74.0)

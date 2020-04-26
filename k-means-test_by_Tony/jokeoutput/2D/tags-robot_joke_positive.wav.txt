@@ -1,7 +1,0 @@
-Data values: (intensity,pitch)
-Group0
-performance Name: 2019-04-13 Cienna Nerdy Show at The Drake  Data values: (75.42, 137.33)
-Group1
-performance Name: 2019-04-18 Bombs Away Cafe  Data values: (73.05, 134.46)
-performance Name: 2019-04-19 Singu-hilarity  Data values: (71.56, 132.75)
-performance Name: 2019-08-15 Bombs Away Cafe  Data values: (72.99, 131.07)
