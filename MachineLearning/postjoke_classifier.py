@@ -42,10 +42,10 @@ draw_plt = 0
 # 'Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound'
 
 # What features will be used in the classifier
-features = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound']
+features = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound']
 
 # What features will be normalized
-column_names_to_normalize = ['Pitch', 'PitchSd', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound']
+column_names_to_normalize = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound']
 
 # Which column to look at for data validation
 # 'HumanScore' or 'HumanScorePostJokeOnly'
