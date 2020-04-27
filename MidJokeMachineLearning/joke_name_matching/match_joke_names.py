@@ -3,7 +3,7 @@ import json
 basedir = str(os.getcwd())
 pathtoinput = basedir[:-18]+"\\jokeinput"
 pathtoinput2 = basedir[:-18]+"\\input"
-perfpath = basedir[:-39]+"\\V6_robot_recordings"
+perfpath = basedir[:-41]+"\\Performances"
 perfnames = [d.name for d in os.scandir(perfpath) if d.is_dir()]
 type = input("Are you matching jokes (enter 'joke') or pauses (enter 'pause') to joke names? ")
 if type == "joke":
