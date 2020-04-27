@@ -17,8 +17,7 @@ sys.path.append('../libs')
 from perf_and_joke_dict import joke, performance
 
 # Get all csv files
-extension = 'csv'
-all_files = [i for i in glob.glob('*.{}'.format(extension))]
+all_files = [i for i in glob.glob('[!ground_truths_template]*.csv')]
 # Combine all files in the list
 combined_csv = pd.concat([pd.read_csv(f) for f in all_files ], sort=False)
 # Remove notes
