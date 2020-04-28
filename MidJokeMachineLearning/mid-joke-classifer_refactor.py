@@ -157,28 +157,18 @@ def split_Normal_Werid(jokeDict):
         else:
             normalJokeDict[perName]=jokeDict[perName]
     return normalJokeDict,weridJokeDict
-
+#This function will split X,Y for you. X will be all the features, you wan to include
 def split_XY(joke_arr):
     Xarr=[]
     Yarr=[]
     for joke in joke_arr:
-        x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,joke.min_pitch]
+        x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,joke.min_pitch,joke.intensityRange,joke.pitchRange]
         y=joke.midjokeHappen
         Xarr.append(x)
         Yarr.append(y)
     return Xarr,Yarr
 
-# def getTrainJokeArr(TestDict,performanceName):
-#     Xarr=[]
-#     Yarr=[]
-#     for perName in TestDict:
-#         if(perName!=performanceName):
-#             Train_Joke_Arr=TestDict[perName]
-#             Single_TrainX,Single_TrainY=split_XY(Train_Joke_Arr)
-#             Xarr+=Single_TrainX
-#             Yarr+=Single_TrainY
-#     return Xarr,Yarr
-
+#This is the SVM training, it will generate 3 models for you. 
 def SVM_train(trainX,trainY,gamma_val,c_val):
     rbfclf = SVC(kernel='rbf',C=c_val,gamma=gamma_val)
     rbfclf.fit(trainX, trainY)
@@ -186,11 +176,12 @@ def SVM_train(trainX,trainY,gamma_val,c_val):
     linearclf = SVC(kernel='linear')
     linearclf.fit(trainX, trainY)
     
-    polyclf = SVC(kernel='poly',degree=2)
+    polyclf = SVC(kernel='poly',degree=3)
     polyclf.fit(trainX, trainY)
     
     return rbfclf,linearclf,polyclf
 
+#This function would predict the Y base on the model you provide and return the accuracy 
 def predict_And_calAccuracy(clf,validX,validY):
     predictY = clf.predict(validX)
     error=0
@@ -199,6 +190,7 @@ def predict_And_calAccuracy(clf,validX,validY):
             error+=1
     return round(1-error/len(validY),3)
 
+#This would take one performance out as a validation dataset
 def takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName):
     validX,validY,trainX,trainY=[],[],[],[]
     index=0
@@ -216,9 +208,10 @@ def takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName):
                 index+=1
     return validX,validY,trainX,trainY
 
+#This is the main function for train model and valid model
 def runTest(TestDict,normalize):
     c_val=1
-    gamma_val=0.1
+    gamma_val=10
     
     CSV_arr=[]
     rbfAccuracy=0
@@ -274,15 +267,10 @@ def runTest(TestDict,normalize):
     outputpath=currentpath+'\\MidJokeMachineLearning\\jokeoutput\\SVC_Accuracy_Result.csv'
     df.to_csv(outputpath,index=False)
     print("we output the human rating to jokeoutput\SVC_Accuracy_Result.csv\n")
- 
+
+#This function is derived from main function, the goal is testing different c and gamma for SVM RBF
 def tuneBoth(TestDict,normalize,c_val,gamma_val):
-    c_val=1
-    gamma_val=0.1
-    
-    CSV_arr=[]
     rbfAccuracy=0
-    linearAccuracy=0
-    polyAccuracy=0
     total_number_of_jokes=0
     
     X_ALL_ARR=[]
@@ -311,73 +299,64 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val):
         rbfclf,linearclf,polyclf=SVM_train(trainX,trainY,gamma_val,c_val)
 
         Accuracy1=predict_And_calAccuracy(rbfclf,validX,validY)
-        Accuracy2=predict_And_calAccuracy(linearclf,validX,validY)
-        Accuracy3=predict_And_calAccuracy(polyclf,validX,validY)
         rbfAccuracy+=Accuracy1
-        linearAccuracy+=Accuracy2
-        polyAccuracy+=Accuracy3
-        # print('RBF Accuracy:',Accuracy1,'\tLinear Accuracy:',Accuracy2,'\tPolynomial Accuracy:',Accuracy3,'\n')
-        CSV_arr.append([performanceName,len(valid_Joke_Arr),Accuracy1,Accuracy2,Accuracy3])
-        
+
     avgRBF=round(rbfAccuracy/len(TestDict),3)
-    avgLinear=round(linearAccuracy/len(TestDict),3)
-    avgPoly=round(polyAccuracy/len(TestDict),3)
-    print('RBF average Accuracy:',avgRBF,'\tLinear average Accuracy:',avgLinear,'\tPolynomial average Accuracy:',avgPoly,'\n')
+    print('RBF average Accuracy:',avgRBF,"(C,Gamma): ",c_val,gamma_val)
     
-    CSV_arr.append(['',''+'','','',''])
-    CSV_arr.append(['Overall Accuracy','#of Jokes','avgRBF','avgLinear','avgPoly'])
-    
-    CSV_arr.append(['final',total_number_of_jokes,avgRBF,avgLinear,avgPoly])
-    
-    # df = pd.DataFrame(CSV_arr, columns = ['Performance', '# of jokes','RBF','Linear','Poly'])
-    # outputpath=currentpath+'\\MidJokeMachineLearning\\jokeoutput\\SVC_Accuracy_Result.csv'
-    # df.to_csv(outputpath,index=False)
-    # print("we output the human rating to jokeoutput\SVC_Accuracy_Result.csv\n")
     return avgRBF
     
-
+#Find the current path and import the joke-id, perfomance-id dictionary
 currentpath=os.getcwd()
 endindex=currentpath.index('CapstoneWork')+len('CapstoneWork')
 currentpath=currentpath[:endindex]
 libspath=currentpath+'\\libs'
 sys.path.append(libspath)
-
 from perf_and_joke_dict import joke, performance
 jokeIDs=joke
 performanceIDs=performance
 inputFolder=currentpath+'\\MidJokeMachineLearning\\jokeinput\\'
 
+#Go through and read all the files in the input folder
 files = os.listdir(inputFolder)
 jokeDict=readJokeTxT(inputFolder,files)
 
+#Match the joke and joke id
 nameMatchFolder=currentpath+'\\MidJokeMachineLearning\\joke_name_matching\\'
 jokeDict=updateJoke_ID_Name(jokeDict,nameMatchFolder)
 
+#Read the human annotation
 annotattionPath=currentpath+'\\MidJokeMachineLearning\\Mid_Joke_Annotations.txt'
 jokeDict=readHummanAnnotation(annotattionPath,jokeDict)
 generaetGroundTruthCSV(jokeDict)
 
+#Split the normal joke and werid joke
 normalJokeDict,weridJokeDict=split_Normal_Werid(jokeDict)
 
-runTest(normalJokeDict,'minmax')
+#Train the model and print test
+
+#You can train all the joke(Both normal and werid) or you can train all normal joke
+
+# runTest(normalJokeDict,'minmax')
+
+runTest(jokeDict,'minmax')
 
 
 
-# pool = mp.Pool(mp.cpu_count())
 
-# Cs = [0.001, 0.01, 0.1, 1, 10]
-# gammas = [0.001, 0.01, 0.1, 1]
+##This is the code for you to test the best combo of C and gamma for svm
+# Cs = [00.1,0.1, 1, 10,100,1000]
+# gammas = [0.01, 0.1, 1,10,100,1000]
+# bothtasks=[(x,y) for x in Cs for y in gammas]
+# result=[]
 
-# bothtasks=[(normalJokeDict,x,y,'minmax') for x in Cs for y in gammas]
-# result=pool.starmap(tuneBoth,bothtasks)
-
-
+# for task in bothtasks:
+#     result.append(tuneBoth(jokeDict,'minmax',task[0],task[1]))
+# print(result)
 # bestAccuracy=max(result)
 # bestcombo=bothtasks[result.index(bestAccuracy)]
 
-# print("The best combo of (Features,alpha) is:")
+# print("The best combo of (C,gamma) is:")
 # print(bestcombo)
 # print(bestAccuracy)
-
-
-# pool.close()    
+  
