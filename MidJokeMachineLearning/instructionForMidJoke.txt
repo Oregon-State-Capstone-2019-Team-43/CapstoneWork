@@ -1,0 +1,16 @@
+1.Go to \CapstoneWork\Performances. Run praat_extraction and select mid. 
+This would generate all the raw data of the mid joke by using praat and it will
+dump them into \CapstoneWork\MidJokeMachineLearning\jokeinput
+
+2.Go to \CapstoneWork\MidJokeMachineLearning\joke_name_matching, 
+copy all the txt file from the jokeinput folder and paste here.
+run match_joke_names.py, Select joke. This would generate files base on the txt files
+and it will help us to match joke id and joke index.
+
+3.Go to \CapstoneWork\MidJokeMachineLearning, and put your human annotation in to this folder.
+Name it 'Mid_Joke_Annotations.txt'
+
+4.read 'mid-joke-classifer_refactor.py' and run it. In this code,you can decide what kind of normalization
+you want use and which performance to test. 
+
+5.check \CapstoneWork\MidJokeMachineLearning\jokeoutput\SVC_Accuracy_Result.csv for the final result
