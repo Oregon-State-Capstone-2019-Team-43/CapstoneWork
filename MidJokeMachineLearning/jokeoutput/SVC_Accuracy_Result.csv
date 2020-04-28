@@ -1,0 +1,28 @@
+Performance,# of jokes,RBF,Linear,Poly
+2019-08-15 Bombs Away Cafe,38,0.632,0.711,0.763
+2019-08-23 Spectrum,32,0.625,0.656,0.75
+2019-09-05 Stand-up Science,27,0.667,0.667,0.704
+2019-09-06 RoboCom,56,0.786,0.786,0.714
+2019-09-19 Bombs Away Cafe,33,0.576,0.606,0.636
+2019-09-21 Laugh Track Town USA,34,0.588,0.618,0.676
+2019-10-11 Singu-hilarity,34,0.588,0.706,0.765
+2019-04-13 Cienna Nerdy Show at The Drake,38,0.447,0.526,0.605
+2019-11-29 Comedy the Musical,21,0.429,0.476,0.524
+2019-11-29 Crapshoot,21,0.381,0.429,0.524
+2019-12-06 Silent Background Recording,60,0.933,0.933,0.933
+2019-12-09 Singu-Hilarity in San Francisco,56,0.518,0.571,0.625
+2020-01-12 Singu-Hilarity in Corvallis,64,0.766,0.781,0.797
+2020-01-25 Sam Bond_s Bleeping Funny,35,0.743,0.743,0.714
+2020-01-29 Class Performance,23,0.826,0.826,0.783
+2020-01-31 Mt Caz,76,0.658,0.697,0.724
+2020-02-19 Soundbox,76,0.947,0.908,0.934
+2020-03-04 Bombs Away,36,0.389,0.389,0.528
+2019-04-18 Bombs Away Cafe,21,0.81,0.81,0.762
+2019-04-19 Singu-hilarity,42,0.476,0.524,0.595
+2019-04-22 Class Performance,21,0.762,0.81,0.81
+2019-05-16 Bombs Away Cafe,9,0.667,0.778,0.778
+2019-06-19 Trek Theater,32,0.719,0.594,0.531
+2019-06-20 Bombs Away Cafe,14,0.643,0.714,0.643
+,,,,
+Overall Accuracy,#of Jokes,avgRBF,avgLinear,avgPoly
+final,899,0.649,0.677,0.701
