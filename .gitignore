@@ -1,3 +1,5 @@
 libs/__pycache__
 MachineLearning/*.csv
-*.txt
+MachineLearning/*.txt
+MidJokeMachineLearning/jokeinput/*.txt
+MidJokeMachineLearning/joke_name_matching/*.txt
