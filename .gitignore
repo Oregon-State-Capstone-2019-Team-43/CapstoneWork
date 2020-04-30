@@ -3,3 +3,4 @@ MachineLearning/*.csv
 MachineLearning/*.txt
 MidJokeMachineLearning/jokeinput/*.txt
 MidJokeMachineLearning/joke_name_matching/*.txt
+MidJokeMachineLearning/mid-joke-GroundTruth.csv
