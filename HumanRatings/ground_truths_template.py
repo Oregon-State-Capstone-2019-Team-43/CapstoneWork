@@ -1,12 +1,21 @@
-# This script creates a CSV that can be used for recording human-rated post-joke ground truths
+# This script creates a CSV used for recording human-rated post-joke ground truths
 # Requires Python 3.5 or later
 # Assumes each performance folder contains a performanceLog json file
 
+# If creating an entirely new set of human ratings:
 # After running, rename the resulting "ground_truths_template.csv" to "<RaterName>_ground_truths.csv"
 # To enter your ratings, open the CSV in a spreadsheet editor
 # Find the section for the performance you are rating, the jokes told are listed in order
 # Open the "jokes_and_pauses" folder for that performance
-# Play the pause mp3 files in order and enter your ratings in the "HumanScorePostJokeOnly" column
+# Play the "pause" mp3 files in order and enter your ratings in the "HumanScorePostJokeOnly" column
+
+# If you have already rated previous performances and a new one is being added:
+# After running, open "ground_truths_template.csv" in a spreadsheet editor and find the section for the new performance
+# Copy the "Performance" and "Joke" cells for the new performance you need to rate
+# Open the CSV containing your previous ratings in a spreadsheet editor
+# Scroll to the bottom and paste the copied cells to add the new performance to this file
+# Open the "jokes_and_pauses" folder for the new performance
+# Play the "pause" mp3 files in order and enter your ratings in the "HumanScorePostJokeOnly" column
 
 import os
 import json
