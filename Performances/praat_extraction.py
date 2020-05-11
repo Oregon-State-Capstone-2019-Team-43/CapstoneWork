@@ -7,7 +7,7 @@
 # Praat.exe should be located in the directory this script is run from.
 
 import os
-type = input("Do you want mid-joke (enter 'mid') or post-joke (enter 'post') praat data? ")
+type = input("Do you want 'mid' or 'post' or 'post_mfcc' praat data? ")
 basedir = str(os.getcwd())
 if type == "mid":
    print("Extracting praat features from joke files in subdirs of %s" % basedir)

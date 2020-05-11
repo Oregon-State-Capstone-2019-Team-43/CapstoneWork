@@ -22,6 +22,7 @@ for i from 1 to numFiles
     rows = Get number of rows
 	columns = Get number of columns
 	for x from 1 to rows
+		appendInfoLine: "Row ", x
 		for y from 1 to columns
 			value = Get value in cell... x y
 			appendInfoLine: value
