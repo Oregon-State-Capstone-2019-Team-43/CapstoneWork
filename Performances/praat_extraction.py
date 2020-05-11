@@ -7,7 +7,7 @@
 # Praat.exe should be located in the directory this script is run from.
 
 import os
-type = input("Do you want 'mid' or 'post' or 'post_mfcc' praat data? ")
+type = input("Do you want 'mid' or 'mid_mfcc' or 'post' or 'post_mfcc' praat data? ")
 basedir = str(os.getcwd())
 if type == "mid":
    print("Extracting praat features from joke files in subdirs of %s" % basedir)
@@ -25,6 +25,21 @@ if type == "mid":
       print("\nWorking on files in %s" % fullpath)
       filename = str(count)+".txt"
       cmd = 'praat --run extract_mid_joke.praat "'+fullpath+'" > '+filename
+      os.system(cmd)
+      mv = 'move '+filename+' ../MidJokeMachineLearning/jokeinput > nul'
+      os.system(mv)
+      print("Data saved in %s\\MidJokeMachineLearning\\jokeinput\\%s" % (basedir[:-13], filename))
+      count = count+1
+if type == "mid_mfcc":
+   path = '../MidJokeMachineLearning/jokeinput'
+   if os.path.isdir(path) == False:
+         os.mkdir(path)
+   count = 1
+   for dir in subdirs:
+      fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
+      print("\nWorking on files in %s" % fullpath)
+      filename = str(count)+".txt"
+      cmd = 'praat --run extract_MFCC_mid_joke.praat "'+fullpath+'" > '+filename
       os.system(cmd)
       mv = 'move '+filename+' ../MidJokeMachineLearning/jokeinput > nul'
       os.system(mv)
