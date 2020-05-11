@@ -42,4 +42,16 @@ if type == "post":
       os.system(mv)
       print("Data saved in %s\\MachineLearning\\%s" % (basedir[:-13], filename))
       count = count+1
+if type == "post_mfcc":
+   count = 1
+   for dir in subdirs:
+      fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
+      print("\nWorking on files in %s" % fullpath)
+      filename = str(count)+".txt"
+      cmd = 'praat --run extract_MFCC_post_joke.praat "'+fullpath+'" > '+filename
+      os.system(cmd)
+      mv = 'move '+filename+' ../MachineLearning > nul'
+      os.system(mv)
+      print("Data saved in %s\\MachineLearning\\%s" % (basedir[:-13], filename))
+      count = count+1
 print("\nAll performance directories have been processed")
