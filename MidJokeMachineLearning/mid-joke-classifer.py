@@ -8,11 +8,12 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import NearestNeighbors
 import multiprocessing as mp
 
 #This is the class that store a single joke info
 class Joke_Info:
-    def __init__(self,intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,min_pitch,performanceName,jokeindex):
+    def __init__(self,intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,min_pitch,performanceName,jokeindex,performanceID):
         self.intensity = intensity
         self.stinten= stinten
         self.pitch = pitch
@@ -29,6 +30,7 @@ class Joke_Info:
         self.intensityRange=round(max_inten-min_inten,3)
         self.pitchRange=round(max_pitch-min_pitch,3)
         self.predictY=-1
+        self.performanceID=performanceID
 
 #There are some werid space and ecoding issue, so i use this function to remove spaces and newlines
 def fixLines(lines):
@@ -55,6 +57,7 @@ def readJokeTxT(folder,files):
         lines=f.readlines()
         infos=fixLines(lines)
         performanceName=infos.pop(0).split('\\')[-2]
+        performanceID=performanceIDs[performanceName]
         jokes=[]
         for i in range(0,len(infos)):
             element=infos[i]
@@ -76,7 +79,7 @@ def readJokeTxT(folder,files):
                 max_pitch=round(float(element),3)
             elif(i%9==8):
                 min_pitch=round(float(element),3)
-                joke=Joke_Info(intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,min_pitch,performanceName,jokeindex)
+                joke=Joke_Info(intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,min_pitch,performanceName,jokeindex,performanceID)
                 jokes.append(joke)
         jokeDict[performanceName]=jokes
     return jokeDict
@@ -161,12 +164,16 @@ def split_Normal_Werid(jokeDict):
 def split_XY(joke_arr):
     Xarr=[]
     Yarr=[]
+    J_id=[]
+    P_id=[]
     for joke in joke_arr:
-        x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,joke.min_pitch,joke.intensityRange,joke.pitchRange]
+        x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,joke.min_pitch]
         y=joke.midjokeHappen
         Xarr.append(x)
         Yarr.append(y)
-    return Xarr,Yarr
+        J_id.append(joke.jokeid)
+        P_id.append(joke.performanceID)
+    return Xarr,Yarr,J_id,P_id
 
 #This is the SVM training, it will generate 3 models for you. 
 def SVM_train(trainX,trainY,gamma_val,c_val):
@@ -193,6 +200,7 @@ def predict_And_calAccuracy(clf,validX,validY):
 #This would take one performance out as a validation dataset
 def takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName):
     validX,validY,trainX,trainY=[],[],[],[]
+    Pids,Jids=[],[]
     index=0
     for name in TestDict:
         arr=TestDict[name]
@@ -200,16 +208,66 @@ def takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName):
             for joke in arr:
                 validX.append(X_ALL_ARR[index])
                 validY.append(Y_ALL_ARR[index])
+                Jids.append(joke.jokeid)
+                Pids.append(joke.performanceID)
                 index+=1
         else:
             for joke in arr:
                 trainX.append(X_ALL_ARR[index])
                 trainY.append(Y_ALL_ARR[index])
                 index+=1
-    return validX,validY,trainX,trainY
+    return validX,validY,trainX,trainY,Pids,Jids
+
+
+def generateRandomSample(sample,goalNum):
+    extraSample=[]
+    X = np.array(sample)
+    nbrs = NearestNeighbors(n_neighbors=3, algorithm='auto').fit(X)
+    distances, indices = nbrs.kneighbors(X)
+    
+    for indice in indices:
+        p1_index=indice[0]
+        p2s=indice[1:]
+        for p2_index in p2s:
+            p1=np.array([sample[p1_index]])
+            p2=np.array([sample[p2_index]])
+            newP=(p1+p2)/2
+            extraSample.append(newP[0])
+            if(len(sample)+len(extraSample)==goalNum):
+                return extraSample
+
+def overSample(trainX,trainY):
+    posSample=[]
+    negSample=[]
+    for x,y in zip(trainX,trainY):
+        if y==1:
+            posSample.append(x)
+        else:
+            negSample.append(x)
+    
+    pos=len(posSample)
+    neg=len(negSample)
+    moreY=[]
+    if(neg<pos):
+        extraSample=generateRandomSample(negSample,pos)
+        moreY=(pos-neg)*[0]
+    elif(pos<neg):
+        extraSample=generateRandomSample(posSample,neg)
+        moreY=(neg-pos)*[1]
+    
+    trainX+=extraSample
+    trainY+=moreY
+    return trainX,trainY
 
 #This is the main function for train model and valid model
 def runTest(TestDict,normalize):
+    
+    totalX=[]
+    totalY=[]
+    totalPredictY=[]
+    jokeId=[]
+    performanceId=[]
+    
     c_val=1
     gamma_val=10
     
@@ -221,9 +279,11 @@ def runTest(TestDict,normalize):
     
     X_ALL_ARR=[]
     Y_ALL_ARR=[]
+    estimators=[]
+    
     for performanceName in TestDict:
         Joke_Arr=TestDict[performanceName]
-        singleX,singelY=split_XY(Joke_Arr)
+        singleX,singelY,_,_=split_XY(Joke_Arr)
         X_ALL_ARR+=singleX
         Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
@@ -237,13 +297,21 @@ def runTest(TestDict,normalize):
     for performanceName in TestDict:
         valid_performanceName=performanceName
         valid_Joke_Arr=TestDict[performanceName]  
-        validX,validY,trainX,trainY=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName)   
+        validX,validY,trainX,trainY,Pids,Jids=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName)   
         total_number_of_jokes=len(validX)+len(trainX)
+        # trainX,trainY=overSample(trainX,trainY)
         
             
         print("There are "+str(len(valid_Joke_Arr))+" jokes.\tIn the valid performance: "+valid_performanceName)
         rbfclf,linearclf,polyclf=SVM_train(trainX,trainY,gamma_val,c_val)
-
+   
+        totalX+=validX
+        totalY+=validY
+        totalPredictY+=rbfclf.predict(validX).tolist()
+        jokeId+=Jids
+        performanceId+=Pids
+        
+   
         Accuracy1=predict_And_calAccuracy(rbfclf,validX,validY)
         Accuracy2=predict_And_calAccuracy(linearclf,validX,validY)
         Accuracy3=predict_And_calAccuracy(polyclf,validX,validY)
@@ -252,7 +320,8 @@ def runTest(TestDict,normalize):
         polyAccuracy+=Accuracy3
         print('RBF Accuracy:',Accuracy1,'\tLinear Accuracy:',Accuracy2,'\tPolynomial Accuracy:',Accuracy3,'\n')
         CSV_arr.append([performanceName,len(valid_Joke_Arr),Accuracy1,Accuracy2,Accuracy3])
-        
+    
+    
     avgRBF=round(rbfAccuracy/len(TestDict),3)
     avgLinear=round(linearAccuracy/len(TestDict),3)
     avgPoly=round(polyAccuracy/len(TestDict),3)
@@ -267,6 +336,9 @@ def runTest(TestDict,normalize):
     outputpath=currentpath+'\\MidJokeMachineLearning\\jokeoutput\\SVC_Accuracy_Result.csv'
     df.to_csv(outputpath,index=False)
     print("we output the human rating to jokeoutput\SVC_Accuracy_Result.csv\n")
+    
+    outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId)
+
 
 #This function is derived from main function, the goal is testing different c and gamma for SVM RBF
 def tuneBoth(TestDict,normalize,c_val,gamma_val):
@@ -277,7 +349,7 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val):
     Y_ALL_ARR=[]
     for performanceName in TestDict:
         Joke_Arr=TestDict[performanceName]
-        singleX,singelY=split_XY(Joke_Arr)
+        singleX,singelY,_,_=split_XY(Joke_Arr)
         X_ALL_ARR+=singleX
         Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
@@ -291,9 +363,9 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val):
     for performanceName in TestDict:
         valid_performanceName=performanceName
         valid_Joke_Arr=TestDict[performanceName]  
-        validX,validY,trainX,trainY=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName)   
+        validX,validY,trainX,trainY,_,_=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName)   
         total_number_of_jokes=len(validX)+len(trainX)
-        
+        # trainX,trainY=overSample(trainX,trainY)
             
         # print("There are "+str(len(valid_Joke_Arr))+" jokes.\tIn the valid performance: "+valid_performanceName)
         rbfclf,linearclf,polyclf=SVM_train(trainX,trainY,gamma_val,c_val)
@@ -305,6 +377,16 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val):
     print('RBF average Accuracy:',avgRBF,"(C,Gamma): ",c_val,gamma_val)
     
     return avgRBF
+
+def outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId):    
+    df=pd.DataFrame({'Classifier_Rating':totalPredictY,
+                  'Joke':jokeId,
+                  'Human_Rating':totalY,
+                  'Performance':performanceId})
+    
+    outputpath=currentpath+'\\MidJokeMachineLearning\\jokeoutput\\mid_joke_results.csv'
+    df.to_csv(outputpath,index=False)
+    print("The mid_joke_results is at: ",outputpath)
     
 #Find the current path and import the joke-id, perfomance-id dictionary
 currentpath=os.getcwd()
@@ -336,17 +418,13 @@ normalJokeDict,weridJokeDict=split_Normal_Werid(jokeDict)
 #Train the model and print test
 
 #You can train all the joke(Both normal and werid) or you can train all normal joke
-
-# runTest(normalJokeDict,'minmax')
-
+    
 runTest(jokeDict,'minmax')
 
 
-
-
-##This is the code for you to test the best combo of C and gamma for svm
-# Cs = [00.1,0.1, 1, 10,100,1000]
-# gammas = [0.01, 0.1, 1,10,100,1000]
+#This is the code for you to test the best combo of C and gamma for svm
+# Cs = [0.1, 1, 10,100,1000]
+# gammas = [ 0.1, 1,10,100,1000]
 # bothtasks=[(x,y) for x in Cs for y in gammas]
 # result=[]
 
@@ -359,4 +437,5 @@ runTest(jokeDict,'minmax')
 # print("The best combo of (C,gamma) is:")
 # print(bestcombo)
 # print(bestAccuracy)
-  
+
+
