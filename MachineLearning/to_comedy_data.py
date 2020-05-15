@@ -152,4 +152,4 @@ with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as 
             #this else case is for if the raw praat data lengths and ground
             #truth lengths which should correspond to the same performance 
             #are not the same length. This means something went wrong
-            print("uhhoh")
+            print("Praat data and Ground Truths for performance don't match")
