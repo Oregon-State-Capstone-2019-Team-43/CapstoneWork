@@ -27,11 +27,8 @@ Previous Work
 
 ### Dependencies
 
-* matplot
-* mlxtend
-* pandas
-* seaborn
-* sklearn
+* [Praat phonetics software](http://www.fon.hum.uva.nl/praat/)
+* Python modules: matplot, mlxtend, pandas, seaborn, sklearn
 
 ### Control Flow
 
