@@ -7,66 +7,55 @@
 # Praat.exe should be located in the directory this script is run from.
 
 import os
+
+## Calls the appropriate praat extraction script and moves extracted data to correct path
+
+def call_extract(basedir, subdirs, out_path, program):
+   if os.path.isdir(out_path) == False:
+      os.mkdir(out_path)
+   count = 1
+   for dir in subdirs:
+      fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
+      print("\nWorking on files in %s" % fullpath)
+      filename = str(count)+".txt"
+      cmd = program+fullpath+'" > '+filename
+      os.system(cmd)
+      mv = 'move '+filename+' '+out_path+' > nul'
+      os.system(mv)
+      print("Data saved in " + str(basedir[:-13]) + out_path + filename)
+      count = count+1
+
+## Driver Program
+
 type = input("Do you want 'mid' or 'mid_mfcc' or 'post' or 'post_mfcc' praat data? ")
+
 basedir = str(os.getcwd())
-if type == "mid":
-   print("Extracting praat features from joke files in subdirs of %s" % basedir)
-if type == "post":
-   print("Extracting praat features from pause files in subdirs of %s" % basedir)
 subdirs = [f.name for f in os.scandir(basedir) if f.is_dir()]
 print("Found %s performance directories" % len(subdirs))
+
 if type == "mid":
-   path = '../MidJokeMachineLearning/jokeinput'
-   if os.path.isdir(path) == False:
-         os.mkdir(path)
-   count = 1
-   for dir in subdirs:
-      fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
-      print("\nWorking on files in %s" % fullpath)
-      filename = str(count)+".txt"
-      cmd = 'praat --run extract_mid_joke.praat "'+fullpath+'" > '+filename
-      os.system(cmd)
-      mv = 'move '+filename+' ../MidJokeMachineLearning/jokeinput > nul'
-      os.system(mv)
-      print("Data saved in %s\\MidJokeMachineLearning\\jokeinput\\%s" % (basedir[:-13], filename))
-      count = count+1
-if type == "mid_mfcc":
-   path = '../MidJokeMachineLearning/jokeinput'
-   if os.path.isdir(path) == False:
-         os.mkdir(path)
-   count = 1
-   for dir in subdirs:
-      fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
-      print("\nWorking on files in %s" % fullpath)
-      filename = str(count)+".txt"
-      cmd = 'praat --run extract_MFCC_mid_joke.praat "'+fullpath+'" > '+filename
-      os.system(cmd)
-      mv = 'move '+filename+' ../MidJokeMachineLearning/jokeinput > nul'
-      os.system(mv)
-      print("Data saved in %s\\MidJokeMachineLearning\\jokeinput\\%s" % (basedir[:-13], filename))
-      count = count+1
-if type == "post":
-   count = 1
-   for dir in subdirs:
-      fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
-      print("\nWorking on files in %s" % fullpath)
-      filename = str(count)+".txt"
-      cmd = 'praat --run extract_post_joke.praat "'+fullpath+'" > '+filename
-      os.system(cmd)
-      mv = 'move '+filename+' ../MachineLearning > nul'
-      os.system(mv)
-      print("Data saved in %s\\MachineLearning\\%s" % (basedir[:-13], filename))
-      count = count+1
-if type == "post_mfcc":
-   count = 1
-   for dir in subdirs:
-      fullpath = basedir+"\\"+dir+"\\jokes_and_pauses"
-      print("\nWorking on files in %s" % fullpath)
-      filename = str(count)+".txt"
-      cmd = 'praat --run extract_MFCC_post_joke.praat "'+fullpath+'" > '+filename
-      os.system(cmd)
-      mv = 'move '+filename+' ../MachineLearning > nul'
-      os.system(mv)
-      print("Data saved in %s\\MachineLearning\\%s" % (basedir[:-13], filename))
-      count = count+1
+   print("Extracting praat features from joke files in subdirs of %s" % basedir)
+   out_path = '../MidJokeMachineLearning/jokeinput'
+   program = 'praat --run extract_mid_joke.praat "'
+
+elif type == "mid_mfcc":
+   print("Extracting praat features from joke files in subdirs of %s" % basedir)
+   out_path = '../MidJokeMachineLearning/jokeinput'
+   program = 'praat --run extract_MFCC_mid_joke.praat "'
+
+elif type == "post":
+   print("Extracting praat features from pause files in subdirs of %s" % basedir)
+   out_path = '../MachineLearning'
+   program = 'praat --run extract_post_joke.praat "'
+
+elif type == "post_mfcc":
+   print("Extracting praat features from pause files in subdirs of %s" % basedir)
+   out_path = '../MachineLearning'
+   program = 'praat --run extract_MFCC_post_joke.praat "'
+
+else:
+   print("Command not recognized")
+
+call_extract(basedir, subdirs, out_path, program)
+
 print("\nAll performance directories have been processed")

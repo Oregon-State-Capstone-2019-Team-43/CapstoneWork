@@ -13,6 +13,7 @@ from sklearn.preprocessing import StandardScaler
 from mlxtend.plotting import plot_decision_regions
 import seaborn as sns
 import matplotlib.pyplot as plt
+import csv
 
 import sys
 sys.path.append('../libs')
@@ -74,7 +75,7 @@ validation_technique = 'ho20'
 # None for random or Integer
 R_State = None
 # Number of Trials to run, Integer, only useful for R_State = None
-num_trials = 100
+num_trials = 1
 
 ## Data Pruning
 
@@ -203,6 +204,7 @@ def svc_classify(train, test, y_train, y_test, joke_id):
 			print(clf.score(test, y_test))
 		if draw_plt:
 			draw_plot(clf, test, y_test)
+	record_all_predictions(clf, train, test, y_train, y_test)
 	return clf.score(test, y_test)
 
 # Draws the plot
@@ -213,6 +215,25 @@ def draw_plot(clf, test, y_test):
 	Title = classifier_type + ' Decision Region Boundary'
 	plt.title(Title, size=16)
 	plt.show()
+
+def record_all_predictions(clf, train, test, y_train, y_test):
+	frames = [train, test]
+	data = pd.concat(frames)
+	y_frames = [y_train, y_test]
+	y_data = pd.concat(y_frames)
+	with open('post_joke_results.csv', mode='w', newline='\n') as csv_file:
+		fieldnames = {"Joke", "Performance", "Classifier_Rating", "Human_Rating"}
+		writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+		writer.writeheader()
+		prediction = clf.predict(data)
+		for q, w, e in zip(prediction, y_data, y_data.index):
+			jokeid = joke_id.iloc[e]
+			row = {}
+			row["Joke"] = jokeid['JokeId']
+			row["Performance"] = jokeid['PerformanceId']
+			row["Classifier_Rating"] = q
+			row["Human_Rating"] = w
+			writer.writerow(row)
 
 # Prints more detailed information about the classifier
 def print_predictions(SVM_Gamma, SVM_C, clf, test, y_test):
@@ -269,7 +290,7 @@ if no_silent:
 	df = df.loc[df.PerformanceId != 21]
 
 # Remove problem data
-df = df.loc[df.PerformanceId != 10]
+# df = df.loc[df.PerformanceId != 10]
 
 # If Remove 0's on pitch
 if remove_zeros:
