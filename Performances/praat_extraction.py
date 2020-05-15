@@ -22,7 +22,7 @@ def call_extract(basedir, subdirs, out_path, program):
       os.system(cmd)
       mv = 'move '+filename+' '+out_path+' > nul'
       os.system(mv)
-      print("Data saved in " + str(basedir[:-13]) + out_path + filename)
+      print("Data saved in " + out_path + "/" + filename)
       count = count+1
 
 ## Driver Program
