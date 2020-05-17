@@ -44,12 +44,13 @@ draw_heat = 0
 
 # Current features are as follows:
 # 'Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', 'MaxFormant', 'MinFormant', 'MeanFormant', 'FormantSd', 'MaxHarmony', 'MinHarmony', 'MeanHarmony', 'HarmonySd'
+# '1_mean', '1_max', '1_min', '2_mean', '2_max', '2_min', '3_mean', '3_max', '3_min', '4_mean', '4_max', '4_min', '5_mean', '5_max', '5_min', '6_mean', '6_max', '6_min', '7_mean', '7_max', '7_min', '8_mean', '8_max', '8_min', '9_mean', '9_max', '9_min', '10_mean', '10_max', '10_min', '11_mean', '11_max', '11_min', '12_mean', '12_max', '12_min'
 
 # What features will be used in the classifier
-features = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', 'MaxFormant', 'MinFormant', 'MeanFormant', 'FormantSd', 'MaxHarmony', 'MinHarmony', 'MeanHarmony', 'HarmonySd']
+features = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', '1_mean', '1_max', '1_min', '2_mean', '2_max', '2_min', '3_mean', '3_max', '3_min', '4_mean', '4_max', '4_min', '5_mean', '5_max', '5_min', '6_mean', '6_max', '6_min', '7_mean', '7_max', '7_min', '8_mean', '8_max', '8_min', '9_mean', '9_max', '9_min', '10_mean', '10_max', '10_min', '11_mean', '11_max', '11_min', '12_mean', '12_max', '12_min']
 
 # What features will be normalized
-column_names_to_normalize = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', 'MaxFormant', 'MinFormant', 'MeanFormant', 'FormantSd', 'MaxHarmony', 'MinHarmony', 'MeanHarmony', 'HarmonySd']
+column_names_to_normalize = ['Pitch', 'PitchSd', 'PitchMax', 'Intensity', 'IntensitySd', 'MinSound', 'MaxSound', '1_mean', '1_max', '1_min', '2_mean', '2_max', '2_min', '3_mean', '3_max', '3_min', '4_mean', '4_max', '4_min', '5_mean', '5_max', '5_min', '6_mean', '6_max', '6_min', '7_mean', '7_max', '7_min', '8_mean', '8_max', '8_min', '9_mean', '9_max', '9_min', '10_mean', '10_max', '10_min', '11_mean', '11_max', '11_min', '12_mean', '12_max', '12_min']
 
 # Which column to look at for data validation
 # 'HumanScore' or 'HumanScorePostJokeOnly'
@@ -69,7 +70,7 @@ classifier_type = 'SVC'
 normalize = 'minmax'
 
 # 'ho20' or 'l1po'
-validation_technique = 'ho20'
+validation_technique = 'l1po'
 
 # for hold out 20% only
 # None for random or Integer
