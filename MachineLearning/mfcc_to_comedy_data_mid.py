@@ -68,7 +68,7 @@ for fi in range(1, numfiles + 1):
     to_add["data"] = praat_data
     features_per_pause = 43
     for i in range(0, len(raw_praat_data)):
-        if raw_praat_data[i][0] == 'p' or raw_praat_data[i][0] == 'j':
+        if raw_praat_data[i][0] == 'j':
             row_data = []
             for j in range(0,features_per_pause):
                 neg = re.findall(r'-', raw_praat_data[i + j + 1])
@@ -76,7 +76,7 @@ for fi in range(1, numfiles + 1):
                 if len(raw) != 0:
                     if len(neg) != 0:
                         if float(raw_praat_data[i + j + 1]) > 0:
-                            print(raw_praat_data[i + j + 1])
+                            print("uh oh")
                         row_data.append(-1 * float(raw[0]))
                     else:
                         row_data.append(float(raw[0]))
@@ -190,4 +190,4 @@ with open('clean_comedy_data.csv', mode='w', newline='\n', encoding='utf-8') as 
             #this else case is for if the raw praat data lengths and ground
             #truth lengths which should correspond to the same performance 
             #are not the same length. This means something went wrong
-            print(len(all_data[elem]['data']), len(csv_data[str(idx)]["Jokes"]))
+            print("uhhoh")

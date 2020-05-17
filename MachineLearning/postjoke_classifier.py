@@ -38,7 +38,7 @@ print_false_predictions = 0
 draw_plt = 0
 
 # 0 = false, 1 = true
-draw_heat = 0
+draw_heat = 1
 
 ## Feature Selection
 

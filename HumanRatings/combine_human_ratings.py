@@ -28,9 +28,10 @@ for f in all_files:
 # Combine all files in the list
 combined_csv = pd.concat([pd.read_csv(f) for f in all_files ], sort=False)
 # Remove notes
-combined_csv = combined_csv.iloc[:, :-1]
+#combined_csv = combined_csv.iloc[:, :-1]
 # Combine human ratings based on performance and joke
 combined_csv = combined_csv.groupby(['Performance', 'Joke']).mean()
+print(combined_csv)
 # Round number
 combined_csv['HumanScorePostJokeOnly'] = combined_csv['HumanScorePostJokeOnly'].round(0)
 combined_csv = combined_csv.reset_index()[['Performance', 'Joke', 'HumanScorePostJokeOnly']]
