@@ -146,7 +146,7 @@ def generaetGroundTruthCSV(jokeDict):
             jokeArr=[perName,joke.jokeid,joke.jokeName,joke.midjokeHappen]
             CSV_arr.append(jokeArr)
     df = pd.DataFrame(CSV_arr, columns = ['Performance', 'JokeId','Joke','HumanScore'])
-    outputpath=currentpath+'\\MidJokeMachineLearning\\mid-joke-GroundTruth.csv'
+    outputpath=os.path.join(currentpath,'MidJokeMachineLearning/mid-joke-GroundTruth.csv')
     df.to_csv(outputpath,index=False)
     print("we output the human rating to mid-joke-GroundTruth.csv\n")
     
@@ -161,18 +161,30 @@ def split_Normal_Werid(jokeDict):
             normalJokeDict[perName]=jokeDict[perName]
     return normalJokeDict,weridJokeDict
 #This function will split X,Y for you. X will be all the features, you wan to include
-def split_XY(joke_arr):
+def split_XY(joke_arr,backgroundDict=None):
     Xarr=[]
     Yarr=[]
     J_id=[]
     P_id=[]
-    for joke in joke_arr:
-        x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,joke.min_pitch]
-        y=joke.midjokeHappen
-        Xarr.append(x)
-        Yarr.append(y)
-        J_id.append(joke.jokeid)
-        P_id.append(joke.performanceID)
+    if(backgroundDict==None):
+        for joke in joke_arr:
+            x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,joke.min_pitch]
+            y=joke.midjokeHappen
+            Xarr.append(x)
+            Yarr.append(y)
+            J_id.append(joke.jokeid)
+            P_id.append(joke.performanceID)
+    else:
+        for joke in joke_arr:
+            if(joke.jokeid in backgroundDict):
+                background=backgroundDict[joke.jokeid]
+                x=[joke.stinten,joke.stpit,joke.min_inten,joke.max_pitch,joke.min_pitch,
+                   background.max_pitch,background.min_pitch]
+                y=joke.midjokeHappen
+                Xarr.append(x)
+                Yarr.append(y)
+                J_id.append(joke.jokeid)
+                P_id.append(joke.performanceID)
     return Xarr,Yarr,J_id,P_id
 
 #This is the SVM training, it will generate 3 models for you. 
@@ -198,24 +210,43 @@ def predict_And_calAccuracy(clf,validX,validY):
     return round(1-error/len(validY),3)
 
 #This would take one performance out as a validation dataset
-def takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName):
+def takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName,backgroundDict=None):
     validX,validY,trainX,trainY=[],[],[],[]
     Pids,Jids=[],[]
     index=0
-    for name in TestDict:
-        arr=TestDict[name]
-        if(name==performanceName):
-            for joke in arr:
-                validX.append(X_ALL_ARR[index])
-                validY.append(Y_ALL_ARR[index])
-                Jids.append(joke.jokeid)
-                Pids.append(joke.performanceID)
-                index+=1
-        else:
-            for joke in arr:
-                trainX.append(X_ALL_ARR[index])
-                trainY.append(Y_ALL_ARR[index])
-                index+=1
+    if(backgroundDict==None):
+        for name in TestDict:
+            arr=TestDict[name]
+            if(name==performanceName):
+                for joke in arr:
+                    validX.append(X_ALL_ARR[index])
+                    validY.append(Y_ALL_ARR[index])
+                    Jids.append(joke.jokeid)
+                    Pids.append(joke.performanceID)
+                    index+=1
+            else:
+                for joke in arr:
+                    trainX.append(X_ALL_ARR[index])
+                    trainY.append(Y_ALL_ARR[index])
+                    index+=1
+    else:
+        for name in TestDict:
+            arr=TestDict[name]
+            if(name==performanceName):
+                for joke in arr:
+                    if(joke.jokeid in backgroundDict):
+                        validX.append(X_ALL_ARR[index])
+                        validY.append(Y_ALL_ARR[index])
+                        Jids.append(joke.jokeid)
+                        Pids.append(joke.performanceID)
+                        index+=1
+            else:
+                for joke in arr:
+                    if(joke.jokeid in backgroundDict):
+                        trainX.append(X_ALL_ARR[index])
+                        trainY.append(Y_ALL_ARR[index])
+                        index+=1       
+                
     return validX,validY,trainX,trainY,Pids,Jids
 
 
@@ -260,8 +291,8 @@ def overSample(trainX,trainY):
     return trainX,trainY
 
 #This is the main function for train model and valid model
-def runTest(TestDict,normalize):
-    
+def runTest(TestDict,normalize,reference=False):
+    backgroundDict=None
     totalX=[]
     totalY=[]
     totalPredictY=[]
@@ -279,13 +310,33 @@ def runTest(TestDict,normalize):
     
     X_ALL_ARR=[]
     Y_ALL_ARR=[]
-    estimators=[]
     
-    for performanceName in TestDict:
-        Joke_Arr=TestDict[performanceName]
-        singleX,singelY,_,_=split_XY(Joke_Arr)
-        X_ALL_ARR+=singleX
-        Y_ALL_ARR+=singelY
+    jokeids=[]
+    name='2020-01-31 Mt Caz'
+    Joke_Arr=TestDict[name]
+    for joke in Joke_Arr:
+        jokeids.append(joke.jokeid)
+
+
+    if(reference==False):
+        for performanceName in TestDict:
+            Joke_Arr=TestDict[performanceName]
+            singleX,singelY,_,_=split_XY(Joke_Arr)
+            X_ALL_ARR+=singleX
+            Y_ALL_ARR+=singelY
+    else:
+        backgroundName='2019-12-06 Silent Background Recording'
+        backgroundArr=TestDict[backgroundName]
+        backgroundDict={}
+        jokeids2=[]
+        for joke in backgroundArr:
+            backgroundDict[joke.jokeid]=joke
+            jokeids2.append(joke.jokeid)
+        for performanceName in TestDict:
+            Joke_Arr=TestDict[performanceName]
+            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict)
+            X_ALL_ARR+=singleX
+            Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
         scaler = MinMaxScaler()
         X_ALL_ARR = scaler.fit_transform(X_ALL_ARR).tolist()
@@ -297,12 +348,11 @@ def runTest(TestDict,normalize):
     for performanceName in TestDict:
         valid_performanceName=performanceName
         valid_Joke_Arr=TestDict[performanceName]  
-        validX,validY,trainX,trainY,Pids,Jids=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName)   
+        validX,validY,trainX,trainY,Pids,Jids=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName,backgroundDict)   
         total_number_of_jokes=len(validX)+len(trainX)
         # trainX,trainY=overSample(trainX,trainY)
-        
             
-        print("There are "+str(len(valid_Joke_Arr))+" jokes.\tIn the valid performance: "+valid_performanceName)
+        print("There are "+str(len(validX))+" jokes.\tIn the valid performance: "+valid_performanceName)
         rbfclf,linearclf,polyclf=SVM_train(trainX,trainY,gamma_val,c_val)
    
         totalX+=validX
@@ -333,7 +383,7 @@ def runTest(TestDict,normalize):
     CSV_arr.append(['final',total_number_of_jokes,avgRBF,avgLinear,avgPoly])
     
     df = pd.DataFrame(CSV_arr, columns = ['Performance', '# of jokes','RBF','Linear','Poly'])
-    outputpath=currentpath+'\\MidJokeMachineLearning\\jokeoutput\\SVC_Accuracy_Result.csv'
+    outputpath=os.path.join(currentpath,'MidJokeMachineLearning/jokeoutput/SVC_Accuracy_Result.csv')
     df.to_csv(outputpath,index=False)
     print("we output the human rating to jokeoutput\SVC_Accuracy_Result.csv\n")
     
@@ -341,17 +391,32 @@ def runTest(TestDict,normalize):
 
 
 #This function is derived from main function, the goal is testing different c and gamma for SVM RBF
-def tuneBoth(TestDict,normalize,c_val,gamma_val):
+def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
+    backgroundDict=None
     rbfAccuracy=0
     total_number_of_jokes=0
     
     X_ALL_ARR=[]
     Y_ALL_ARR=[]
-    for performanceName in TestDict:
-        Joke_Arr=TestDict[performanceName]
-        singleX,singelY,_,_=split_XY(Joke_Arr)
-        X_ALL_ARR+=singleX
-        Y_ALL_ARR+=singelY
+    if(reference==False):
+        for performanceName in TestDict:
+            Joke_Arr=TestDict[performanceName]
+            singleX,singelY,_,_=split_XY(Joke_Arr)
+            X_ALL_ARR+=singleX
+            Y_ALL_ARR+=singelY
+    else:
+        backgroundName='2019-12-06 Silent Background Recording'
+        backgroundArr=TestDict[backgroundName]
+        backgroundDict={}
+        jokeids2=[]
+        for joke in backgroundArr:
+            backgroundDict[joke.jokeid]=joke
+            jokeids2.append(joke.jokeid)
+        for performanceName in TestDict:
+            Joke_Arr=TestDict[performanceName]
+            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict)
+            X_ALL_ARR+=singleX
+            Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
         scaler = MinMaxScaler()
         X_ALL_ARR = scaler.fit_transform(X_ALL_ARR).tolist()
@@ -363,7 +428,7 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val):
     for performanceName in TestDict:
         valid_performanceName=performanceName
         valid_Joke_Arr=TestDict[performanceName]  
-        validX,validY,trainX,trainY,_,_=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName)   
+        validX,validY,trainX,trainY,Pids,Jids=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName,backgroundDict)  
         total_number_of_jokes=len(validX)+len(trainX)
         # trainX,trainY=overSample(trainX,trainY)
             
@@ -384,7 +449,7 @@ def outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId):
                   'Human_Rating':totalY,
                   'Performance':performanceId})
     
-    outputpath=currentpath+'\\MidJokeMachineLearning\\jokeoutput\\mid_joke_results.csv'
+    outputpath=os.path.join(currentpath,'MidJokeMachineLearning/jokeoutput/mid_joke_results.csv')
     df.to_csv(outputpath,index=False)
     print("The mid_joke_results is at: ",outputpath)
     
@@ -392,23 +457,23 @@ def outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId):
 currentpath=os.getcwd()
 endindex=currentpath.index('CapstoneWork')+len('CapstoneWork')
 currentpath=currentpath[:endindex]
-libspath=currentpath+'\\libs'
+libspath=os.path.join(currentpath,'libs')
 sys.path.append(libspath)
 from perf_and_joke_dict import joke, performance
 jokeIDs=joke
 performanceIDs=performance
-inputFolder=currentpath+'\\MidJokeMachineLearning\\jokeinput\\'
-
+inputFolder=os.path.join(currentpath,'MidJokeMachineLearning/jokeinput/')
+print(inputFolder)
 #Go through and read all the files in the input folder
 files = os.listdir(inputFolder)
 jokeDict=readJokeTxT(inputFolder,files)
 
 #Match the joke and joke id
-nameMatchFolder=currentpath+'\\MidJokeMachineLearning\\joke_name_matching\\'
+nameMatchFolder=os.path.join(currentpath,'MidJokeMachineLearning/joke_name_matching/')
 jokeDict=updateJoke_ID_Name(jokeDict,nameMatchFolder)
 
 #Read the human annotation
-annotattionPath=currentpath+'\\MidJokeMachineLearning\\Mid_Joke_Annotations.txt'
+annotattionPath=os.path.join(currentpath,'MidJokeMachineLearning/Mid_Joke_Annotations.txt')
 jokeDict=readHummanAnnotation(annotattionPath,jokeDict)
 generaetGroundTruthCSV(jokeDict)
 
@@ -419,17 +484,17 @@ normalJokeDict,weridJokeDict=split_Normal_Werid(jokeDict)
 
 #You can train all the joke(Both normal and werid) or you can train all normal joke
     
-runTest(jokeDict,'minmax')
+# runTest(jokeDict,'minmax',False)
+runTest(jokeDict,'minmax',True)
 
-
-#This is the code for you to test the best combo of C and gamma for svm
+# # This is the code for you to test the best combo of C and gamma for svm
 # Cs = [0.1, 1, 10,100,1000]
 # gammas = [ 0.1, 1,10,100,1000]
 # bothtasks=[(x,y) for x in Cs for y in gammas]
 # result=[]
 
 # for task in bothtasks:
-#     result.append(tuneBoth(jokeDict,'minmax',task[0],task[1]))
+#     result.append(tuneBoth(jokeDict,'minmax',task[0],task[1],True))
 # print(result)
 # bestAccuracy=max(result)
 # bestcombo=bothtasks[result.index(bestAccuracy)]
