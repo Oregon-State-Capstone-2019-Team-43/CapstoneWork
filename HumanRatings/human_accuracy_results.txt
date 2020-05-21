@@ -1,8 +1,8 @@
 Overall results:
 
-Brian_ground_truths.csv            0.8933962264150943    (947 matches, 113 diffs)
-John_ground_truths.csv             0.7528301886792453    (798 matches, 262 diffs)
-Naomi_ground_truths.csv            0.879245283018868     (932 matches, 128 diffs)
+Brian_ground_truths.csv            0.8982898289828983    (998 matches, 113 diffs)
+John_ground_truths.csv             0.7641764176417641    (849 matches, 262 diffs)
+Naomi_ground_truths.csv            0.8847884788478848    (983 matches, 128 diffs)
 
 Individual performance results:
 
@@ -36,6 +36,7 @@ Brian_ground_truths.csv
 2020-01-31 Mt Caz                                           0.618421052631579     (47 matches, 29 diffs)
 2020-02-19 Soundbox                                         0.8289473684210527    (63 matches, 13 diffs)
 2020-03-04 Bombs Away                                       0.8333333333333334    (30 matches, 6 diffs)
+2020-05-21 Silent Recording 2                               1.0                   (51 matches, 0 diffs)
 
 John_ground_truths.csv
 2019-01-30 Class Performance (Weird)                        0.9411764705882353    (16 matches, 1 diffs)
@@ -67,6 +68,7 @@ John_ground_truths.csv
 2020-01-31 Mt Caz                                           0.7763157894736842    (59 matches, 17 diffs)
 2020-02-19 Soundbox                                         0.8157894736842105    (62 matches, 14 diffs)
 2020-03-04 Bombs Away                                       0.6111111111111112    (22 matches, 14 diffs)
+2020-05-21 Silent Recording 2                               1.0                   (51 matches, 0 diffs)
 
 Naomi_ground_truths.csv
 2019-01-30 Class Performance (Weird)                        1.0                   (17 matches, 0 diffs)
@@ -98,3 +100,4 @@ Naomi_ground_truths.csv
 2020-01-31 Mt Caz                                           0.9605263157894737    (73 matches, 3 diffs)
 2020-02-19 Soundbox                                         0.9736842105263158    (74 matches, 2 diffs)
 2020-03-04 Bombs Away                                       0.9444444444444444    (34 matches, 2 diffs)
+2020-05-21 Silent Recording 2                               1.0                   (51 matches, 0 diffs)
