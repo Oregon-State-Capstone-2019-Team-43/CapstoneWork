@@ -11,6 +11,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
 import multiprocessing as mp
 
+
+missingFiles=[]
 #This is the class that store a single joke info
 class Joke_Info:
     def __init__(self,intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,min_pitch,performanceName,jokeindex,performanceID):
@@ -161,7 +163,8 @@ def split_Normal_Werid(jokeDict):
             normalJokeDict[perName]=jokeDict[perName]
     return normalJokeDict,weridJokeDict
 #This function will split X,Y for you. X will be all the features, you wan to include
-def split_XY(joke_arr,backgroundDict=None):
+def split_XY(joke_arr,backgroundDict=None,performanceName=None):
+    global missingFiles
     Xarr=[]
     Yarr=[]
     J_id=[]
@@ -185,6 +188,10 @@ def split_XY(joke_arr,backgroundDict=None):
                 Yarr.append(y)
                 J_id.append(joke.jokeid)
                 P_id.append(joke.performanceID)
+            else:
+                missfile=joke.jokeid
+                if(missfile not in missingFiles):
+                    missingFiles.append(missfile)
     return Xarr,Yarr,J_id,P_id
 
 #This is the SVM training, it will generate 3 models for you. 
@@ -290,6 +297,25 @@ def overSample(trainX,trainY):
     trainY+=moreY
     return trainX,trainY
 
+
+def precision_Recall_F1(totalY,totalPredictY):
+    TP,FP,FN=0,0,0
+    for index in range(len(totalY)):
+        a=totalY[index]
+        b=totalPredictY[index]
+        if(b==1 and a==1):
+            TP+=1
+        elif(b==1 and a==0):
+            FP+=1
+        elif(b==0 and a==1):
+            FN+=1
+    if(TP+FP==0 or TP+FN==0):
+        return 0,0,0
+    precision=round(TP/(TP+FP),3)
+    recall=round(TP/(TP+FN),3)
+    F1=round(2*precision*recall/(precision+recall),3)
+    print('Precision',precision,'recall',recall,'F1',F1)
+    return precision,recall,F1
 #This is the main function for train model and valid model
 def runTest(TestDict,normalize,reference=False):
     backgroundDict=None
@@ -311,13 +337,6 @@ def runTest(TestDict,normalize,reference=False):
     X_ALL_ARR=[]
     Y_ALL_ARR=[]
     
-    jokeids=[]
-    name='2020-01-31 Mt Caz'
-    Joke_Arr=TestDict[name]
-    for joke in Joke_Arr:
-        jokeids.append(joke.jokeid)
-
-
     if(reference==False):
         for performanceName in TestDict:
             Joke_Arr=TestDict[performanceName]
@@ -334,7 +353,7 @@ def runTest(TestDict,normalize,reference=False):
             jokeids2.append(joke.jokeid)
         for performanceName in TestDict:
             Joke_Arr=TestDict[performanceName]
-            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict)
+            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict,performanceName)
             X_ALL_ARR+=singleX
             Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
@@ -388,7 +407,7 @@ def runTest(TestDict,normalize,reference=False):
     print("we output the human rating to jokeoutput\SVC_Accuracy_Result.csv\n")
     
     outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId)
-
+    precision_Recall_F1(totalY,totalPredictY)
 
 #This function is derived from main function, the goal is testing different c and gamma for SVM RBF
 def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
@@ -396,6 +415,9 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
     rbfAccuracy=0
     total_number_of_jokes=0
     
+    totalX=[]
+    totalY=[]
+    totalPredictY=[]
     X_ALL_ARR=[]
     Y_ALL_ARR=[]
     if(reference==False):
@@ -437,11 +459,19 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
 
         Accuracy1=predict_And_calAccuracy(rbfclf,validX,validY)
         rbfAccuracy+=Accuracy1
+        
+        totalX+=validX
+        totalY+=validY
+        totalPredictY+=rbfclf.predict(validX).tolist()
 
     avgRBF=round(rbfAccuracy/len(TestDict),3)
-    print('RBF average Accuracy:',avgRBF,"(C,Gamma): ",c_val,gamma_val)
     
-    return avgRBF
+    precision,recall,F1=precision_Recall_F1(totalY,totalPredictY)
+    
+    print('RBF average Accuracy:',avgRBF,"F1 score:",F1,"(C,Gamma): ",c_val,gamma_val)
+    
+    
+    return F1
 
 def outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId):    
     df=pd.DataFrame({'Classifier_Rating':totalPredictY,
@@ -484,9 +514,16 @@ normalJokeDict,weridJokeDict=split_Normal_Werid(jokeDict)
 
 #You can train all the joke(Both normal and werid) or you can train all normal joke
     
-# runTest(jokeDict,'minmax',False)
+runTest(jokeDict,'minmax',False)
 runTest(jokeDict,'minmax',True)
 
+# print(missingFiles)
+# for id in missingFiles:
+#     for name in jokeIDs:
+#         if(jokeIDs[name]==id):
+#             print(id,name)
+#             break
+        
 # # This is the code for you to test the best combo of C and gamma for svm
 # Cs = [0.1, 1, 10,100,1000]
 # gammas = [ 0.1, 1,10,100,1000]
