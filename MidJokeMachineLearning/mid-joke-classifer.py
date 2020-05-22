@@ -9,7 +9,7 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
-import multiprocessing as mp
+
 
 
 missingFiles=[]
@@ -181,8 +181,12 @@ def split_XY(joke_arr,backgroundDict=None,performanceName=None):
         for joke in joke_arr:
             if(joke.jokeid in backgroundDict):
                 background=backgroundDict[joke.jokeid]
-                x=[joke.stinten,joke.stpit,joke.min_inten,joke.max_pitch,joke.min_pitch,
-                   background.max_pitch,background.min_pitch]
+                # x=[joke.stinten,joke.stpit,joke.min_inten,joke.max_pitch,joke.min_pitch,
+                #    background.max_pitch,background.min_pitch]
+                x=[joke.intensity,joke.stinten,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,
+                   background.max_inten,background.stinten,background.max_pitch]
+                # x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.max_pitch,joke.min_pitch,
+                #    background.intensity,background.max_inten,background.stinten]
                 y=joke.midjokeHappen
                 Xarr.append(x)
                 Yarr.append(y)
@@ -325,7 +329,7 @@ def runTest(TestDict,normalize,reference=False):
     jokeId=[]
     performanceId=[]
     
-    c_val=1
+    c_val=10
     gamma_val=10
     
     CSV_arr=[]
@@ -345,7 +349,8 @@ def runTest(TestDict,normalize,reference=False):
             Y_ALL_ARR+=singelY
     else:
         backgroundName='2019-12-06 Silent Background Recording'
-        backgroundArr=TestDict[backgroundName]
+        backgroundName2='2020-05-21 Silent Recording 2'
+        backgroundArr=TestDict[backgroundName]+TestDict[backgroundName2]
         backgroundDict={}
         jokeids2=[]
         for joke in backgroundArr:
@@ -428,7 +433,8 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
             Y_ALL_ARR+=singelY
     else:
         backgroundName='2019-12-06 Silent Background Recording'
-        backgroundArr=TestDict[backgroundName]
+        backgroundName2='2020-05-21 Silent Recording 2'
+        backgroundArr=TestDict[backgroundName]+TestDict[backgroundName2]
         backgroundDict={}
         jokeids2=[]
         for joke in backgroundArr:
@@ -515,6 +521,9 @@ normalJokeDict,weridJokeDict=split_Normal_Werid(jokeDict)
 #You can train all the joke(Both normal and werid) or you can train all normal joke
     
 runTest(jokeDict,'minmax',False)
+
+print("-"*100)
+
 runTest(jokeDict,'minmax',True)
 
 # print(missingFiles)
