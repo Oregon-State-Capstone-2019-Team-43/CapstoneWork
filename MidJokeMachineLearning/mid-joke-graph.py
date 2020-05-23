@@ -3,7 +3,8 @@ import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
+import matplotlib.patches as mpatches
+from scipy.stats import pearsonr
 
 missingFiles = []
 # This is the class that store a single joke info
@@ -211,7 +212,80 @@ def generate_Singel_BoxPlot(positive_joke_arr, negative_joke_arr, feature,title,
     # print(outputPath)
     plt.savefig(outputPath)
     plt.close()
+    
+def generate_Singel_Correlation(positive_joke_arr, negative_joke_arr, feature1,feature2,outputPath):
+    pos_val_arr, neg_val_arr = [], []
+    allX,allY=[],[]
+    for joke in positive_joke_arr:
+        x=getattr(joke, feature1)
+        y=getattr(joke, feature2)
+        allX.append(x)
+        allY.append(y)
+        point=(x,y)
+        pos_val_arr.append(point)
+    for joke in negative_joke_arr:
+        x=getattr(joke, feature1)
+        y=getattr(joke, feature2)
+        allX.append(x)
+        allY.append(y)
+        point=(x,y)
+        neg_val_arr.append(point)
+    corr, _ = pearsonr(allX, allY)
+    corr=round(corr,3)
+    # print(corr)
+        
+    fig=plt.figure(figsize=(10,6))
+    title=feature1+"-"+feature2
+    plt.title(title)
+    plt.xlabel(feature1)
+    plt.ylabel(feature2)
+    for point in pos_val_arr:
+        plt.scatter(point[0],point[1],marker="^",color='r',label='Blue stars')
+    for point in neg_val_arr:
+        plt.scatter(point[0],point[1],marker="x",color='b',label='Red stars')
+    red_patch = mpatches.Patch(color='red', label='mid joke happened')
+    blue_patch = mpatches.Patch(color='blue', label='mid joke did not happen')
+    corr_patch=mpatches.Patch(color='black', label='Pearsons correlation: '+str(corr))
+    plt.legend(handles=[red_patch,blue_patch,corr_patch],prop={"size":7})
+    outputPath=os.path.join(outputPath,title+'.png')
+    plt.savefig(outputPath)
+    # print(outputPath)
+    plt.close()
 
+def generate_ALL_OverALL_Correlations(currentpath,positive_joke_arr, negative_joke_arr):
+    
+    features=['intensity','pitch','stinten','stpit','max_inten','min_inten','max_pitch','min_pitch']
+    outputPath=os.path.join(currentpath,"MidJokeMachineLearning/jokeoutput/overall-correlation-update/")
+    for i in range(len(features)):      
+        for j in range(i+1,len(features)):
+            generate_Singel_Correlation(positive_joke_arr, negative_joke_arr, features[i],features[j],outputPath)
+    print("Please check ",outputPath)
+
+def generate_ALL_JokeWise_Correlations(currentpath,joke_wise_dict):
+    features=['intensity','pitch','stinten','stpit','max_inten','min_inten','max_pitch','min_pitch']
+    
+    for jokeName in joke_wise_dict:
+        jokeName_path=jokeName.replace('.','_')
+        jokeName_path=jokeName_path.replace('/','_')
+        outputPath=os.path.join(currentpath,"MidJokeMachineLearning/jokeoutput/jokewise-correlation-update/",jokeName_path)
+      
+        joke_arr=joke_wise_dict[jokeName]
+        if(len(joke_arr)<10):
+            print(jokeName,' dataset= ',len(joke_arr),' Skip')
+            continue
+        if not os.path.exists(outputPath):
+            os.mkdir(outputPath)
+        
+        positive_joke_arr, negative_joke_arr=[],[]
+        for joke in joke_arr:
+            if(joke.midjokeHappen == 1):
+                positive_joke_arr.append(joke)
+            else:
+                negative_joke_arr.append(joke)
+        for i in range(len(features)):      
+            for j in range(i+1,len(features)):
+                generate_Singel_Correlation(positive_joke_arr, negative_joke_arr, features[i],features[j],outputPath)
+        print("Please check ",outputPath)
 
 def generate_ALL_OverALL_BoxPlots(currentpath,positive_joke_arr, negative_joke_arr):
     
@@ -272,5 +346,8 @@ jokeDict = readHummanAnnotation(annotattionPath, jokeDict)
 positive_joke_arr, negative_joke_arr = split_positive_negative(jokeDict)
 joke_wise_dict=split_jokewise_data(jokeDict)
 
-# generate_ALL_OverALL_BoxPlots(currentpath,positive_joke_arr, negative_joke_arr)
+generate_ALL_OverALL_BoxPlots(currentpath,positive_joke_arr, negative_joke_arr)
 generate_ALL_JokeWise_BoxPlots(currentpath,joke_wise_dict)
+
+generate_ALL_OverALL_Correlations(currentpath,positive_joke_arr, negative_joke_arr)
+generate_ALL_JokeWise_Correlations(currentpath,joke_wise_dict)
