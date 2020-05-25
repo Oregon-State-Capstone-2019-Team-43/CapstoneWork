@@ -36,9 +36,9 @@ for i from 1 to numFiles
 	appendInfoLine: maxpit
 	selectObject: sound
 	To MelFilter... 0.015 0.005 100 100 0
-    To MFCC... 12
-    matrix## = To Matrix
-    rows = Get number of rows
+	To MFCC... 12
+	matrix## = To Matrix
+	rows = Get number of rows
 	columns = Get number of columns
 	for x from 1 to rows
 		mean = 0
