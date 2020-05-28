@@ -16,16 +16,47 @@ for i from 1 to numFiles
 	fullPath$ = dir$ + "\" + fileName$
 	Read from file: fullPath$
 	sound = selected("Sound")
+	selectObject: sound
+	To Intensity: 75, 0
+	intensity = Get mean... 0 0 dB
+	appendInfoLine: intensity
+	stinten = Get standard deviation... 0 0
+	appendInfoLine: stinten
+	min = Get minimum... 0 0 Sinc70
+	appendInfoLine: min
+	max = Get maximum... 0 0 Sinc70
+	appendInfoLine: max
+	selectObject: sound
+	To Pitch: 0, 75, 300
+	pitch = Get mean... 0 0 Hertz
+	appendInfoLine: pitch
+	stpit = Get standard deviation... 0 0 Hertz
+	appendInfoLine: stpit
+	maxpit = Get maximum: 0, 0, "Hertz", "Parabolic"
+	appendInfoLine: maxpit
+	selectObject: sound
 	To MelFilter... 0.015 0.005 100 100 0
-    To MFCC... 12
-    matrix## = To Matrix
-    rows = Get number of rows
+	To MFCC... 12
+	matrix## = To Matrix
+	rows = Get number of rows
 	columns = Get number of columns
 	for x from 1 to rows
-		appendInfoLine: "Row ", x
+		mean = 0
+		max = 0
+		min = 1000
 		for y from 1 to columns
 			value = Get value in cell... x y
-			appendInfoLine: value
+			mean += value
+			if value > max
+				max = value
+			endif
+			if value < min
+				min = value
+			endif
 		endfor
+		mean = mean / columns
+		appendInfoLine: mean
+		appendInfoLine: max
+		appendInfoLine: min
 	endfor
 endfor
