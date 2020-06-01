@@ -13,9 +13,10 @@ from sklearn.neighbors import NearestNeighbors
 
 
 missingFiles=[]
+features_Correlation=None
 #This is the class that store a single joke info
 class Joke_Info:
-    def __init__(self,intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,min_pitch,performanceName,jokeindex,performanceID):
+    def __init__(self,intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,min_pitch,performanceName,jokeindex,performanceID,MFCC_arr=None):
         self.intensity = intensity
         self.stinten= stinten
         self.pitch = pitch
@@ -29,10 +30,9 @@ class Joke_Info:
         self.jokeid=0
         self.jokeName=''
         self.midjokeHappen=0
-        self.intensityRange=round(max_inten-min_inten,3)
-        self.pitchRange=round(max_pitch-min_pitch,3)
         self.predictY=-1
         self.performanceID=performanceID
+        self.MFCC_arr=MFCC_arr
 
 #There are some werid space and ecoding issue, so i use this function to remove spaces and newlines
 def fixLines(lines):
@@ -83,6 +83,65 @@ def readJokeTxT(folder,files):
                 min_pitch=round(float(element),3)
                 joke=Joke_Info(intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,min_pitch,performanceName,jokeindex,performanceID)
                 jokes.append(joke)
+        jokeDict[performanceName]=jokes
+    return jokeDict
+
+
+def readCorrelations(path):
+    f=open(path,'r')
+    lines=f.readlines()
+    arr=[]
+    for line in lines:
+        arr.append(abs(float(line)))
+    return arr
+
+def readJokeTxTForMFCC(folder,files):
+    jokeDict={}
+    global features_Correlation
+
+    for file in files:
+        filePath=folder+file
+        f=open(filePath,'r',encoding='UTF-8')
+        lines=f.readlines()
+        infos=fixLines(lines)
+        performanceName=infos.pop(0).split('\\')[-2]
+        performanceID=performanceIDs[performanceName]
+        jokes=[]
+        MFCC_arr=[]
+        for i in range(0,len(infos)):
+            element=infos[i]
+            if(i%44==0):
+                jokeindex=int(element.split('_')[-1].split('.')[0])
+            elif(i%44==1):
+                intensity=round(float(element),3)
+            elif(i%44==2):
+                stinten=round(float(element),3)
+            elif(i%44==3):
+                min_inten=round(float(element),3)
+            elif(i%44==4):
+                max_inten=round(float(element),3)
+            elif(i%44==5):
+                pitch=round(float(element),3)
+            elif(i%44==6):
+                stpit=round(float(element),3)
+            elif(i%44==7):
+                max_pitch=round(float(element),3)
+            elif(i%44==43):
+                MFCC_arr.append(round(float(element),3))
+                if(features_Correlation !=None):
+                    newArr=[]
+                    for index in range(len(MFCC_arr)):
+                        val=features_Correlation[index]
+                        if(val>=0.2):
+                            newArr.append(MFCC_arr[index])
+                    MFCC_arr=newArr
+                    # print(len(MFCC_arr))
+                joke=Joke_Info(intensity,stinten,pitch,stpit,max_inten,min_inten,max_pitch,None,performanceName,jokeindex,performanceID,MFCC_arr)
+                jokes.append(joke)
+                MFCC_arr=[]
+            else:
+                MFCC_arr.append(round(float(element),3))
+                
         jokeDict[performanceName]=jokes
     return jokeDict
 
@@ -163,8 +222,9 @@ def split_Normal_Werid(jokeDict):
             normalJokeDict[perName]=jokeDict[perName]
     return normalJokeDict,weridJokeDict
 #This function will split X,Y for you. X will be all the features, you wan to include
-def split_XY(joke_arr,backgroundDict=None,performanceName=None):
+def split_XY(joke_arr,backgroundDict=None,performanceName=None,MFCC=False):
     global missingFiles
+    
     Xarr=[]
     Yarr=[]
     J_id=[]
@@ -172,6 +232,11 @@ def split_XY(joke_arr,backgroundDict=None,performanceName=None):
     if(backgroundDict==None):
         for joke in joke_arr:
             x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,joke.min_pitch]
+            if(MFCC==True):
+                x.pop(-1)
+                x=x+joke.MFCC_arr
+                
+                
             y=joke.midjokeHappen
             Xarr.append(x)
             Yarr.append(y)
@@ -181,12 +246,12 @@ def split_XY(joke_arr,backgroundDict=None,performanceName=None):
         for joke in joke_arr:
             if(joke.jokeid in backgroundDict):
                 background=backgroundDict[joke.jokeid]
-                # x=[joke.stinten,joke.stpit,joke.min_inten,joke.max_pitch,joke.min_pitch,
-                #    background.max_pitch,background.min_pitch]
+
                 x=[joke.intensity,joke.stinten,joke.stpit,joke.max_inten,joke.min_inten,joke.max_pitch,
                    background.max_inten,background.stinten,background.max_pitch]
-                # x=[joke.intensity,joke.stinten,joke.pitch,joke.stpit,joke.max_inten,joke.max_pitch,joke.min_pitch,
-                #    background.intensity,background.max_inten,background.stinten]
+                if(MFCC==True):
+                    x=x+joke.MFCC_arr
+                    x=x+background.MFCC_arr
                 y=joke.midjokeHappen
                 Xarr.append(x)
                 Yarr.append(y)
@@ -314,6 +379,9 @@ def precision_Recall_F1(totalY,totalPredictY):
         elif(b==0 and a==1):
             FN+=1
     if(TP+FP==0 or TP+FN==0):
+        print('TP+FP=: ',TP+FP)
+        print('TP+FN=: ',TP+FN)
+        print("We cannot get F1")
         return 0,0,0
     precision=round(TP/(TP+FP),3)
     recall=round(TP/(TP+FN),3)
@@ -321,7 +389,7 @@ def precision_Recall_F1(totalY,totalPredictY):
     print('Precision',precision,'recall',recall,'F1',F1)
     return precision,recall,F1
 #This is the main function for train model and valid model
-def runTest(TestDict,normalize,reference=False):
+def runTest(TestDict,normalize,reference=False,MFCC=False):
     backgroundDict=None
     totalX=[]
     totalY=[]
@@ -330,7 +398,7 @@ def runTest(TestDict,normalize,reference=False):
     performanceId=[]
     
     c_val=10
-    gamma_val=10
+    gamma_val=1
     
     CSV_arr=[]
     rbfAccuracy=0
@@ -344,7 +412,7 @@ def runTest(TestDict,normalize,reference=False):
     if(reference==False):
         for performanceName in TestDict:
             Joke_Arr=TestDict[performanceName]
-            singleX,singelY,_,_=split_XY(Joke_Arr)
+            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict,performanceName,MFCC)
             X_ALL_ARR+=singleX
             Y_ALL_ARR+=singelY
     else:
@@ -358,7 +426,7 @@ def runTest(TestDict,normalize,reference=False):
             jokeids2.append(joke.jokeid)
         for performanceName in TestDict:
             Joke_Arr=TestDict[performanceName]
-            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict,performanceName)
+            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict,performanceName,MFCC)
             X_ALL_ARR+=singleX
             Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
@@ -375,7 +443,6 @@ def runTest(TestDict,normalize,reference=False):
         validX,validY,trainX,trainY,Pids,Jids=takeOnePerfomanceOut(X_ALL_ARR,Y_ALL_ARR,TestDict,performanceName,backgroundDict)   
         total_number_of_jokes=len(validX)+len(trainX)
         # trainX,trainY=overSample(trainX,trainY)
-            
         print("There are "+str(len(validX))+" jokes.\tIn the valid performance: "+valid_performanceName)
         rbfclf,linearclf,polyclf=SVM_train(trainX,trainY,gamma_val,c_val)
    
@@ -409,13 +476,14 @@ def runTest(TestDict,normalize,reference=False):
     df = pd.DataFrame(CSV_arr, columns = ['Performance', '# of jokes','RBF','Linear','Poly'])
     outputpath=os.path.join(currentpath,'MidJokeMachineLearning/jokeoutput/SVC_Accuracy_Result.csv')
     df.to_csv(outputpath,index=False)
+    precision_Recall_F1(totalY,totalPredictY)
+    
     print("we output the human rating to jokeoutput\SVC_Accuracy_Result.csv\n")
     
     outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId)
-    precision_Recall_F1(totalY,totalPredictY)
 
 #This function is derived from main function, the goal is testing different c and gamma for SVM RBF
-def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
+def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False,MFCC=False):
     backgroundDict=None
     rbfAccuracy=0
     total_number_of_jokes=0
@@ -428,7 +496,7 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
     if(reference==False):
         for performanceName in TestDict:
             Joke_Arr=TestDict[performanceName]
-            singleX,singelY,_,_=split_XY(Joke_Arr)
+            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict,performanceName,MFCC)
             X_ALL_ARR+=singleX
             Y_ALL_ARR+=singelY
     else:
@@ -442,7 +510,7 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
             jokeids2.append(joke.jokeid)
         for performanceName in TestDict:
             Joke_Arr=TestDict[performanceName]
-            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict)
+            singleX,singelY,_,_=split_XY(Joke_Arr,backgroundDict,performanceName,MFCC)
             X_ALL_ARR+=singleX
             Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
@@ -477,7 +545,7 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False):
     print('RBF average Accuracy:',avgRBF,"F1 score:",F1,"(C,Gamma): ",c_val,gamma_val)
     
     
-    return F1
+    return avgRBF
 
 def outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId):    
     df=pd.DataFrame({'Classifier_Rating':totalPredictY,
@@ -500,9 +568,15 @@ jokeIDs=joke
 performanceIDs=performance
 inputFolder=os.path.join(currentpath,'MidJokeMachineLearning/jokeinput/')
 print(inputFolder)
+
+
+features_Correlation_Path=os.path.join(currentpath,'MidJokeMachineLearning/Mid_joke_correlation.txt')
+features_Correlation=readCorrelations(features_Correlation_Path)
+
 #Go through and read all the files in the input folder
 files = os.listdir(inputFolder)
-jokeDict=readJokeTxT(inputFolder,files)
+# jokeDict=readJokeTxT(inputFolder,files)
+jokeDict=readJokeTxTForMFCC(inputFolder,files)
 
 #Match the joke and joke id
 nameMatchFolder=os.path.join(currentpath,'MidJokeMachineLearning/joke_name_matching/')
@@ -513,20 +587,26 @@ annotattionPath=os.path.join(currentpath,'MidJokeMachineLearning/Mid_Joke_Annota
 jokeDict=readHummanAnnotation(annotattionPath,jokeDict)
 generaetGroundTruthCSV(jokeDict)
 
-#Split the normal joke and werid joke
-normalJokeDict,weridJokeDict=split_Normal_Werid(jokeDict)
+# #Split the normal joke and werid joke
+# normalJokeDict,weridJokeDict=split_Normal_Werid(jokeDict)
 
 #Train the model and print test
 
 #You can train all the joke(Both normal and werid) or you can train all normal joke
     
-runTest(jokeDict,'minmax',False)
+# runTest(jokeDict,'minmax',False)
 
-print("-"*100)
+# print("-"*100)
 
-runTest(jokeDict,'minmax',True)
+# runTest(jokeDict,'minmax',True)
+
+
+# runTest(jokeDict,'minmax',False,True)
+
+runTest(jokeDict,'minmax',True,True)
 
 # print(missingFiles)
+
 # for id in missingFiles:
 #     for name in jokeIDs:
 #         if(jokeIDs[name]==id):
@@ -540,7 +620,7 @@ runTest(jokeDict,'minmax',True)
 # result=[]
 
 # for task in bothtasks:
-#     result.append(tuneBoth(jokeDict,'minmax',task[0],task[1],True))
+#     result.append(tuneBoth(jokeDict,'minmax',task[0],task[1],True,True))
 # print(result)
 # bestAccuracy=max(result)
 # bestcombo=bothtasks[result.index(bestAccuracy)]
