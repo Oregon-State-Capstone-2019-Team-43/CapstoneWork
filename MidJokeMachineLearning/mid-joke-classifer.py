@@ -416,9 +416,11 @@ def runTest(TestDict,normalize,reference=False,MFCC=False):
             X_ALL_ARR+=singleX
             Y_ALL_ARR+=singelY
     else:
-        backgroundName='2019-12-06 Silent Background Recording'
-        backgroundName2='2020-05-21 Silent Recording 2'
-        backgroundArr=TestDict[backgroundName]+TestDict[backgroundName2]
+        # backgroundName='2019-12-06 Silent Background Recording'
+        # backgroundName2='2020-05-21 Silent Recording 2'
+        # backgroundArr=TestDict[backgroundName]+TestDict[backgroundName2]
+        backgroundName='Sliencet Mid Joke Audio'
+        backgroundArr=TestDict[backgroundName]
         backgroundDict={}
         jokeids2=[]
         for joke in backgroundArr:
@@ -603,9 +605,11 @@ generaetGroundTruthCSV(jokeDict)
 
 # runTest(jokeDict,'minmax',False,True)
 
+print("-"*100)
+
 runTest(jokeDict,'minmax',True,True)
 
-# print(missingFiles)
+# print('miss',missingFiles)
 
 # for id in missingFiles:
 #     for name in jokeIDs:
