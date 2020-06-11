@@ -9,7 +9,7 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
-
+import copy
 
 
 missingFiles=[]
@@ -390,6 +390,7 @@ def precision_Recall_F1(totalY,totalPredictY):
     return precision,recall,F1
 #This is the main function for train model and valid model
 def runTest(TestDict,normalize,reference=False,MFCC=False):
+    CopyDict = copy.deepcopy(TestDict)
     backgroundDict=None
     totalX=[]
     totalY=[]
@@ -421,6 +422,9 @@ def runTest(TestDict,normalize,reference=False,MFCC=False):
         # backgroundArr=TestDict[backgroundName]+TestDict[backgroundName2]
         backgroundName='Sliencet Mid Joke Audio'
         backgroundArr=TestDict[backgroundName]
+        CopyDict.pop(backgroundName,None)
+        TestDict=CopyDict
+        
         backgroundDict={}
         jokeids2=[]
         for joke in backgroundArr:
@@ -486,6 +490,7 @@ def runTest(TestDict,normalize,reference=False,MFCC=False):
 
 #This function is derived from main function, the goal is testing different c and gamma for SVM RBF
 def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False,MFCC=False):
+    CopyDict = copy.deepcopy(TestDict)
     backgroundDict=None
     rbfAccuracy=0
     total_number_of_jokes=0
@@ -502,9 +507,13 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False,MFCC=False):
             X_ALL_ARR+=singleX
             Y_ALL_ARR+=singelY
     else:
-        backgroundName='2019-12-06 Silent Background Recording'
-        backgroundName2='2020-05-21 Silent Recording 2'
-        backgroundArr=TestDict[backgroundName]+TestDict[backgroundName2]
+        # backgroundName='2019-12-06 Silent Background Recording'
+        # backgroundName2='2020-05-21 Silent Recording 2'
+        # backgroundArr=TestDict[backgroundName]+TestDict[backgroundName2]
+        backgroundName='Sliencet Mid Joke Audio'
+        backgroundArr=TestDict[backgroundName]
+        CopyDict.pop(backgroundName,None)
+        TestDict=CopyDict
         backgroundDict={}
         jokeids2=[]
         for joke in backgroundArr:
@@ -605,17 +614,17 @@ generaetGroundTruthCSV(jokeDict)
 
 # runTest(jokeDict,'minmax',False,True)
 
-print("-"*100)
+# print("-"*100)
 
 runTest(jokeDict,'minmax',True,True)
 
-# print('miss',missingFiles)
+print('miss',missingFiles)
 
-# for id in missingFiles:
-#     for name in jokeIDs:
-#         if(jokeIDs[name]==id):
-#             print(id,name)
-#             break
+for id in missingFiles:
+    for name in jokeIDs:
+        if(jokeIDs[name]==id):
+            print(id,name)
+            break
         
 # # This is the code for you to test the best combo of C and gamma for svm
 # Cs = [0.1, 1, 10,100,1000]
