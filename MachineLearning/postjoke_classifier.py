@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import sklearn
 from sklearn import svm
 from sklearn import tree
 from sklearn.neighbors import KNeighborsClassifier
@@ -14,10 +15,13 @@ from mlxtend.plotting import plot_decision_regions
 import seaborn as sns
 import matplotlib.pyplot as plt
 import csv
+import pickle
 
 import sys
 sys.path.append('../libs')
 from perf_and_joke_dict import joke, performance
+
+print('The scikit-learn version is {}.'.format(sklearn.__version__))
 
 ##################
 ### Parameters ###
@@ -70,7 +74,7 @@ classifier_type = 'SVC'
 normalize = 'minmax'
 
 # 'ho20' or 'l1po'
-validation_technique = 'l1po'
+validation_technique = 'ho20'
 
 # for hold out 20% only
 # None for random or Integer
@@ -206,6 +210,7 @@ def svc_classify(train, test, y_train, y_test, joke_id):
 		if draw_plt:
 			draw_plot(clf, test, y_test)
 	record_all_predictions(clf, train, test, y_train, y_test)
+	pickle.dump(clf, open( "clf.p", "wb" ) )
 	return clf.score(test, y_test)
 
 # Draws the plot
@@ -239,6 +244,8 @@ def record_all_predictions(clf, train, test, y_train, y_test):
 # Prints more detailed information about the classifier
 def print_predictions(SVM_Gamma, SVM_C, clf, test, y_test):
 	prediction = clf.predict(test)
+	print(prediction)
+	print(test)
 	nega= 0
 	zero= 0
 	posi= 0
