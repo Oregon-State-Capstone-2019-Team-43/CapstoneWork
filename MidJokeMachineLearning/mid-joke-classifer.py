@@ -10,6 +10,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
 import copy
+import pickle
 
 
 missingFiles=[]
@@ -437,11 +438,15 @@ def runTest(TestDict,normalize,reference=False,MFCC=False):
             Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
         scaler = MinMaxScaler()
+        pickle.dump(scaler, open( "mid_scaler.p", "wb" ), protocol=2)
         X_ALL_ARR = scaler.fit_transform(X_ALL_ARR).tolist()
     if(normalize=='standard'):
         scaler = StandardScaler()
+        pickle.dump(scaler, open( "mid_scaler.p", "wb" ), protocol=2)
         X_ALL_ARR = scaler.fit_transform(X_ALL_ARR).tolist()    
-      
+    
+    bestCLF=None
+    bestAccuracy=0
     
     for performanceName in TestDict:
         valid_performanceName=performanceName
@@ -467,6 +472,10 @@ def runTest(TestDict,normalize,reference=False,MFCC=False):
         polyAccuracy+=Accuracy3
         print('RBF Accuracy:',Accuracy1,'\tLinear Accuracy:',Accuracy2,'\tPolynomial Accuracy:',Accuracy3,'\n')
         CSV_arr.append([performanceName,len(valid_Joke_Arr),Accuracy1,Accuracy2,Accuracy3])
+        
+        if(Accuracy3>bestAccuracy):
+            bestAccuracy=Accuracy3
+            bestCLF=rbfclf
     
     
     avgRBF=round(rbfAccuracy/len(TestDict),3)
@@ -487,6 +496,9 @@ def runTest(TestDict,normalize,reference=False,MFCC=False):
     print("we output the human rating to jokeoutput\SVC_Accuracy_Result.csv\n")
     
     outputPrediction(totalX,totalY,totalPredictY,jokeId,performanceId)
+    
+    pickle.dump(bestCLF, open( "mid_clf.p", "wb" ), protocol=2)
+    
 
 #This function is derived from main function, the goal is testing different c and gamma for SVM RBF
 def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False,MFCC=False):
