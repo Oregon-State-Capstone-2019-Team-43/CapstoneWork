@@ -325,8 +325,11 @@ elif two_class == 2:
 if normalize == 'minmax':
 	scaler = MinMaxScaler() 
 	x = df[column_names_to_normalize].values
-	x_scaled = scaler.fit_transform(x)
+	scaler = scaler.fit(x)
+	pickle.dump(scaler, open( "scaler.p", "wb" ), protocol=2)
+	x_scaled = scaler.transform(x)
 	df[column_names_to_normalize] = pd.DataFrame(x_scaled, columns=column_names_to_normalize, index = df.index)
+	print(df[column_names_to_normalize])
 if normalize == 'standard':
 	scaler = StandardScaler()
 	x = df[column_names_to_normalize].values

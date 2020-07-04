@@ -99,6 +99,7 @@ def readCorrelations(path):
 def readJokeTxTForMFCC(folder,files):
     jokeDict={}
     global features_Correlation
+    print(features_Correlation)
 
     for file in files:
         filePath=folder+file
@@ -418,10 +419,10 @@ def runTest(TestDict,normalize,reference=False,MFCC=False):
             X_ALL_ARR+=singleX
             Y_ALL_ARR+=singelY
     else:
-        # backgroundName='2019-12-06 Silent Background Recording'
+        backgroundName='2019-12-06 Silent Background Recording'
         # backgroundName2='2020-05-21 Silent Recording 2'
         # backgroundArr=TestDict[backgroundName]+TestDict[backgroundName2]
-        backgroundName='Sliencet Mid Joke Audio'
+        # backgroundName='Sliencet Mid Joke Audio'
         backgroundArr=TestDict[backgroundName]
         CopyDict.pop(backgroundName,None)
         TestDict=CopyDict
@@ -438,8 +439,11 @@ def runTest(TestDict,normalize,reference=False,MFCC=False):
             Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
         scaler = MinMaxScaler()
+        scaler = scaler.fit(X_ALL_ARR)
         pickle.dump(scaler, open( "mid_scaler.p", "wb" ), protocol=2)
-        X_ALL_ARR = scaler.fit_transform(X_ALL_ARR).tolist()
+        print("====\n\nAmount: ", len(X_ALL_ARR[0]), "\nValues: ", X_ALL_ARR[0], "\n\n====")
+        X_ALL_ARR = scaler.transform(X_ALL_ARR).tolist()
+        print("\nAmount: ", len(X_ALL_ARR[0]), "\nValues: ", X_ALL_ARR[0], "\n\n====")
     if(normalize=='standard'):
         scaler = StandardScaler()
         pickle.dump(scaler, open( "mid_scaler.p", "wb" ), protocol=2)
@@ -538,6 +542,7 @@ def tuneBoth(TestDict,normalize,c_val,gamma_val,reference=False,MFCC=False):
             Y_ALL_ARR+=singelY
     if(normalize=='minmax'):
         scaler = MinMaxScaler()
+        print(len(X_ALL_ARR))
         X_ALL_ARR = scaler.fit_transform(X_ALL_ARR).tolist()
     if(normalize=='standard'):
         scaler = StandardScaler()
@@ -624,11 +629,11 @@ generaetGroundTruthCSV(jokeDict)
 # runTest(jokeDict,'minmax',True)
 
 
-# runTest(jokeDict,'minmax',False,True)
+runTest(jokeDict,'minmax',False,True)
 
 # print("-"*100)
 
-runTest(jokeDict,'minmax',True,True)
+# runTest(jokeDict,'minmax',True,True)
 
 print('miss',missingFiles)
 
